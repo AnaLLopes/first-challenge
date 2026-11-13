@@ -1,95 +1,52 @@
-# first-challenge
+# TokenWise (MVP)
 
-🌿 TokenWise — Otimização de Prompts para Eficiência e Sustentabilidade em IA
+Ferramenta para otimizar prompts de IA com foco em **eficiência de tokens, redução de custo e sustentabilidade**.
 
-O TokenWise é uma solução voltada para a otimização inteligente de prompts antes do envio para Grandes Modelos de Linguagem (LLMs). Ao remover redundâncias e instruções prolixas mantendo a qualidade e os requisitos da tarefa, o projeto visa:
+Este MVP gera o dataset que alimentará um futuro modelo de Machine Learning. Para cada par de prompts (original ineficiente × otimizado), o script:
 
-Reduzir custos com consumo de tokens (API Billing).
+1. envia os dois ao Google Gemini;
+2. mede latência e tokens de entrada/saída;
+3. estima energia (kWh), água (L) e carbono (kg CO₂eq) com o [EcoLogits](https://ecologits.ai);
+4. calcula % de redução de tokens e a economia de recursos;
+5. salva tudo em CSV, linha a linha.
 
-Diminuir a latência das respostas.
+## Configuração
 
-Mitigar o impacto ambiental da inferência (consumo energético, pegada hídrica e emissão de carbono).
+```bash
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
 
-Em vez de usar uma LLM para reescrever prompts em tempo real (o que consumiria ainda mais energia), o TokenWise utiliza Machine Learning Tradicional (como Random Forest ou XGBoost) para prever o nível seguro de compressão de um prompt e estimar a economia de recursos gerada.
+### Chave gratuita do Gemini
 
-📁 Estrutura do Repositório
+1. Acesse [Google AI Studio](https://aistudio.google.com/apikey) e faça login com uma conta Google.
+2. Clique em **Create API key** e copie a chave.
+3. Copie `.env.example` para `.env` e cole a chave:
 
-.
-├── gerar_dataset_tokenwise.py   # Script automatizado para execução em lote e medição
-├── prompts_entrada_exemplo.csv  # Template para preenchimento manual dos prompts pelo grupo
-├── .env.example                 # Exemplo de configuração das variáveis de ambiente
-├── .gitignore                   # Arquivo para ignorar .env e dados sensíveis
-└── README.md                    # Documentação do projeto
+```bash
+cp .env.example .env
+# edite o .env: GEMINI_API_KEY=sua_chave
+```
 
+O `.env` já está no `.gitignore`. Nunca versione a chave.
 
-🚀 Como Começar
+## Execução
 
-1. Pré-requisitos
-
-Python 3.10+ instalado.
-
-Conta ativa e chave de API cadastrada em pelo menos um dos provedores:
-
-OpenAI (OPENAI_API_KEY)
-
-Anthropic / Claude (ANTHROPIC_API_KEY)
-
-Google Gemini (GEMINI_API_KEY)
-
-2. Instalação das Dependências
-
-Clone o repositório e instale as bibliotecas necessárias:
-
-git clone https://github.com/seu-usuario/tokenwise.git
-cd tokenwise
-
-pip install pandas openai anthropic google-genai ecologits python-dotenv
-
-
-3. Configuração de Variáveis de Ambiente
-
-Crie um arquivo .env na raiz do projeto (baseado no .env.example) e adicione suas chaves de API:
-
-OPENAI_API_KEY=sk-...
-ANTHROPIC_API_KEY=sk-ant-...
-GEMINI_API_KEY=AIzaSy...
-
-
-⚠️ Atenção: Nunca faça commit do seu arquivo .env no Git.
-
-📊 Coleta e Geração de Dados
-
-Para gerar a base de treinamento do modelo de ML:
-
-Preencha o arquivo prompts_entrada_exemplo.csv com as duplas de prompts originais e otimizados.
-
-Execute o script principal:
-
+```bash
 python gerar_dataset_tokenwise.py
+# ou, com arquivos e modelo específicos:
+python gerar_dataset_tokenwise.py --entrada meus_prompts.csv --saida dataset_tokenwise.csv --modelo gemini-2.5-flash
+```
 
+- **Entrada**: CSV com as colunas `id, tarefa, prompt_original, prompt_otimizado` (veja `prompts_entrada_exemplo.csv`).
+- **Saída**: `dataset_tokenwise.csv`, com métricas de cada versão (`*_original`, `*_otimizado`) e as colunas calculadas `pct_reducao_tokens_*`, `economia_*` e `pct_economia_*`.
+- **Retomada**: cada linha é gravada assim que o par é concluído. Se o processo cair (ou você apertar Ctrl+C), rode o mesmo comando e os `id` já salvos são pulados. Pares que falharam não são gravados e são tentados de novo.
+- **Limites do plano gratuito**: há uma pausa entre chamadas (`--pausa` ou `SLEEP_ENTRE_CHAMADAS`, padrão 4,5 s) e retry com backoff em caso de erro/limite de taxa.
 
-O script testará automaticamente as duas versões do prompt na API configurada, capturando:
+## Observações
 
-Tokens de entrada e saída
-
-Latência (segundos)
-
-Consumo de energia (kWh) (via EcoLogits)
-
-Consumo de água estimado (Litros) (via EcoLogits)
-
-Emissão de carbono (kg CO₂e) (via EcoLogits)
-
-Os dados consolidados serão salvos incrementalmente no arquivo dataset_tokenwise_gerado.csv.
-
-📈 Métricas do Projeto
-
-Redução de Tokens de Entrada (%): Economia direta no tamanho do contexto enviado.
-
-Taxa de Compressão Segura: Proporção de casos onde a resposta enxuta manteve a qualidade aceitável.
-
-Pegada Ambiental Estimada: Faixas de economia energética e hídrica decorrentes da redução da carga computacional.
-
-👥 Integrantes do Projeto
-
-Projeto desenvolvido como parte da disciplina/desafio de Inteligência Artificial e Machine Learning.
+- Os valores do EcoLogits são **estimativas** (podem vir como intervalo; o script usa o ponto médio). Se alguma coluna ambiental vier vazia, o modelo escolhido pode não ter dados no EcoLogits ou a sua versão pode expor campos diferentes: atualize com `pip install -U ecologits`.
+- Em modelos com "thinking" (ex.: Gemini 2.5), os tokens de raciocínio são somados aos tokens de saída.
+- A mesma resposta pode variar entre execuções; para análises robustas, considere repetir as medições.
+- `openai` está no `requirements.txt` por pedido, mas ainda não é usado pelo script.

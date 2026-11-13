@@ -1,0 +1,5 @@
+openai
+google-genai
+ecologits
+pandas
+python-dotenv
