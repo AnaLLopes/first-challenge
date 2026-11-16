@@ -1,21 +1,134 @@
 # TokenWise (MVP)
 
-Ferramenta para identificar e reduzir o desperdício de tokens em prompts de IA, com foco em **eficiência, redução de custo e sustentabilidade**.
+Sistema de recomendação de configurações de IA com foco em eficiência, redução de custos e sustentabilidade.
 
-O sistema compara pares de prompts — original verboso e versão otimizada — enviados ao Google Gemini. Para cada par, o script mede tokens de entrada e saída, latência e custo, e estima energia, água e emissões de carbono com o EcoLogits.
+**Objetivo**
+O TokenWise analisa uma demanda antes de sua execução e recomenda, entre configurações previamente avaliadas, uma alternativa econômica com probabilidade suficiente de atender aos critérios de qualidade definidos pelo projeto.
 
-O dataset resultante alimenta um modelo de ML que estima o potencial de economia de tokens e o risco de perda de qualidade ao otimizar um prompt. A economia de tokens reduz proporcionalmente a carga computacional e, por consequência, o impacto ambiental estimado da inferência.
+O componente de recomendação utiliza Machine Learning tradicional, sem LLM. LLMs podem ser utilizados na coleta experimental, em tarefas auxiliares e, opcionalmente, na execução da configuração escolhida pelo usuário.
 
-Importante: os valores ambientais são estimativas baseadas em premissas públicas e não representam uma medição direta do consumo de água ou energia dos servidores do provedor.
+**Escopo do MVP**
+A primeira versão comparará duas configurações:
 
-**Resumo**:
-Este MVP coleta o dataset próprio e treina uma primeira versão de um modelo de ML que estima o potencial de economia de tokens e o risco de perda de qualidade ao otimizar um prompt. A redução de tokens reduz proporcionalmente o custo, a latência e a pegada ambiental estimada da inferência:
+Configuração A: alternativa econômica.
 
-1. envia os dois ao Google Gemini;
-2. mede latência e tokens de entrada/saída;
-3. estima energia (kWh), água (L) e carbono (kg CO₂eq) com o [EcoLogits](https://ecologits.ai);
-4. calcula % de redução de tokens e a economia de recursos;
-5. salva tudo em CSV, linha a linha.
+Configuração B: alternativa de referência.
+
+Cada configuração será identificada pelo modelo, provedor e parâmetros utilizados. Essas definições serão registradas na documentação dos experimentos.
+
+O problema inicial de ML será:
+
+Dada uma demanda, prever se a configuração econômica será suficiente para produzir uma resposta aceitável.
+
+A recomendação considerará qualidade e custo. Uma resposta mais curta ou com menos tokens não será considerada melhor se deixar de cumprir a tarefa.
+
+**Funcionamento previsto**
+O usuário informa uma demanda.
+
+O sistema extrai características do texto.
+
+Um classificador de ML estima a probabilidade de a configuração econômica ser suficiente.
+
+Uma política de decisão utiliza essa previsão para recomendar uma configuração.
+
+A interface apresenta a recomendação e suas limitações.
+
+Opcionalmente, o usuário pode executar a demanda pela API disponível.
+
+Quando a confiança for insuficiente, o sistema poderá recomendar a configuração de referência por precaução. Essa indicação não representa garantia de correção.
+
+**Construção do dataset**
+O dataset será produzido a partir de demandas próprias e/ou fontes públicas submetidas a refinamento da equipe.
+
+O refinamento incluirá:
+
+Seleção e documentação das fontes e licenças.
+
+Limpeza, deduplicação e agrupamento de demandas semelhantes.
+
+Padronização dos registros.
+
+Coleta ou aproveitamento documentado de respostas das configurações avaliadas.
+
+Avaliação da qualidade por critérios explícitos.
+
+Construção dos rótulos utilizados no treinamento.
+
+Separação dos conjuntos de treino, validação e teste.
+
+Cada demanda será associada aos resultados das configurações avaliadas. Registros sem informação suficiente para estabelecer qualidade ou custo serão identificados e tratados separadamente.
+
+**Definição do alvo**
+Resultado experimental	Tratamento
+A atende aos critérios e tem menor custo	Econômica suficiente
+A não atende e B atende	Referência necessária
+Nenhuma atende	Caso não atendido
+Avaliação inconclusiva	Revisão antes do treinamento
+O treinamento inicial utilizará os casos com rótulos definidos. Casos não atendidos e inconclusivos serão preservados para documentação e análise das limitações.
+
+**Modelo de Machine Learning**
+A abordagem inicial será:
+
+Representação textual com TF-IDF.
+
+Classificador de regressão logística.
+
+Comparação com baselines sem aprendizado.
+
+Somente informações disponíveis antes da execução poderão ser utilizadas como características de entrada. Respostas, consumo real de saída e avaliações de qualidade serão utilizados na construção dos rótulos e na avaliação, não como entrada da recomendação antecipada.
+
+**Avaliação**
+O modelo será comparado com:
+
+Sempre escolher a configuração econômica.
+
+Sempre escolher a configuração de referência.
+
+Uma regra simples previamente definida.
+
+As métricas incluirão:
+
+Precisão, recall, F1 e matriz de confusão.
+
+Taxa de recomendações econômicas inadequadas.
+
+Taxa de respostas aceitáveis da política de recomendação.
+
+Economia de custo em relação à configuração de referência.
+
+Consumo de tokens observado no experimento.
+
+Os resultados serão apresentados para o domínio, idioma e configurações efetivamente avaliados.
+
+**Sustentabilidade**
+O projeto investiga o uso mais eficiente de recursos computacionais associados à IA.
+
+Tokens e custos serão analisados diretamente a partir dos registros disponíveis. Energia, água e emissões poderão ser estimadas com metodologia documentada, quando houver suporte para as configurações utilizadas.
+
+Esses indicadores ambientais não representam medições diretas dos servidores. Não será assumida uma relação proporcional universal entre redução de tokens e redução de impacto ambiental.
+
+**Estado atual da implementação**
+O repositório contém um coletor experimental para comparar prompts originais e otimizados enviados ao Gemini.
+
+Esse coletor será adaptado para executar a mesma demanda nas configurações candidatas e registrar os resultados necessários ao treinamento do recomendador.
+
+O treinamento do classificador, a política de recomendação e a interface fazem parte das próximas entregas.
+
+**Fora do escopo obrigatório**
+Reescrita automática de prompts.
+
+Tradução automática.
+
+Comparação de todos os modelos disponíveis.
+
+Aprendizado contínuo automático.
+
+Gateway empresarial.
+
+Medição direta de água ou energia dos provedores.
+
+**Entrega**
+Apresentação do MVP em 18 de dezembro de 2026, incluindo dataset refinado, pipeline de treinamento, modelo avaliado, interface demonstrativa e documentação das limitações.
 
 ## Configuração
 
