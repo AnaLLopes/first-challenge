@@ -1,7 +1,14 @@
 # TokenWise (MVP)
 
-Ferramenta para otimizar prompts de IA com foco em **eficiência de tokens, redução de custo e sustentabilidade**.
+Ferramenta para identificar e reduzir o desperdício de tokens em prompts de IA, com foco em **eficiência, redução de custo e sustentabilidade**.
 
+O sistema compara pares de prompts — original verboso e versão otimizada — enviados ao Google Gemini. Para cada par, o script mede tokens de entrada e saída, latência e custo, e estima energia, água e emissões de carbono com o EcoLogits.
+
+O dataset resultante alimenta um modelo de ML que estima o potencial de economia de tokens e o risco de perda de qualidade ao otimizar um prompt. A economia de tokens reduz proporcionalmente a carga computacional e, por consequência, o impacto ambiental estimado da inferência.
+
+Importante: os valores ambientais são estimativas baseadas em premissas públicas e não representam uma medição direta do consumo de água ou energia dos servidores do provedor.
+
+**Resumo**:
 Este MVP coleta o dataset próprio e treina uma primeira versão de um modelo de ML que estima o potencial de economia de tokens e o risco de perda de qualidade ao otimizar um prompt. A redução de tokens reduz proporcionalmente o custo, a latência e a pegada ambiental estimada da inferência:
 
 1. envia os dois ao Google Gemini;
