@@ -2,7 +2,7 @@
 
 Ferramenta para otimizar prompts de IA com foco em **eficiência de tokens, redução de custo e sustentabilidade**.
 
-Este MVP gera o dataset que alimentará um futuro modelo de Machine Learning. Para cada par de prompts (original ineficiente × otimizado), o script:
+Este MVP coleta o dataset próprio e treina uma primeira versão de um modelo de ML que estima o potencial de economia de tokens e o risco de perda de qualidade ao otimizar um prompt. A redução de tokens reduz proporcionalmente o custo, a latência e a pegada ambiental estimada da inferência:
 
 1. envia os dois ao Google Gemini;
 2. mede latência e tokens de entrada/saída;
