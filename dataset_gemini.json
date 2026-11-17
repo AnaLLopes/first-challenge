@@ -3477,5 +3477,2698 @@
       },
       "status_analise": "sucesso"
     }
+  },
+  {
+    "registro_id": "ada7089b-38ff-4f39-8825-309c1a4888c3",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P001",
+    "coletado_em_utc": "2026-11-17T14:26:15.517617+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "pergunta_informativa",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "O que é inteligência artificial e cite três aplicações práticas no cotidiano.",
+    "analise_prompt": {
+      "quantidade_palavras": 12,
+      "quantidade_caracteres": 77,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 1,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 12,
+        "quantidade_caracteres": 77,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "sucesso",
+    "duracao_segundos": 10.76866,
+    "tokens": {
+      "entrada": 16,
+      "saida": 375,
+      "total": 391
+    },
+    "resposta_llm": "A **Inteligência Artificial (IA)** é um ramo da ciência da computação que se dedica a criar sistemas e máquinas capazes de simular a inteligência humana. Isso inclui a capacidade de aprender, raciocinar, tomar decisões, perceber o ambiente (como visão computacional e reconhecimento de voz) e resolver problemas complexos. \n\nDiferente dos programas tradicionais, que apenas seguem ordens rígidas dadas pelos programadores, as IAs conseguem analisar grandes volumes de dados, identificar padrões e melhorar seu desempenho com o tempo através do aprendizado de máquina (*machine learning*).\n\n---\n\n### Três aplicações práticas no cotidiano:\n\n1. **Assistentes Virtuais (como Siri, Alexa e Google Assistant):**\n   Eles estão presentes nos nossos smartphones e em caixas de som inteligentes. Utilizam processamento de linguagem natural (PLN) para entender comandos de voz, responder perguntas, tocar músicas, controlar dispositivos da casa inteligente (como lâmpadas e TVs) e organizar a nossa agenda.\n\n2. **Algoritmos de Recomendação (Streaming e Redes Sociais):**\n   Plataformas como Netflix, YouTube, Spotify, TikTok e Instagram usam IA para analisar o seu histórico de consumo, curtidas e tempo de exibição. Com base nisso, elas preveem o que você tem mais probabilidade de gostar e personalizam o seu feed ou sugerem novos filmes, músicas e vídeos.\n\n3. **Aplicativos de Navegação (Google Maps e Waze):**\n   Esses aplicativos usam IA em tempo real para calcular a melhor rota para o seu destino. Eles analisam milhões de dados de tráfego enviados por outros usuários, acidentes, obras e até condições climáticas para prever engarrafamentos e sugerir desvios mais rápidos.",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.6236331487366972e-05,
+            "mean": 0.000100503017669606,
+            "max": 0.00017476970385184502
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.0701656350659921e-05,
+            "mean": 4.017438630948669e-05,
+            "max": 6.964711626831346e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.711208573521997e-11,
+            "mean": 9.622081055918955e-11,
+            "max": 1.5532953538315912e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0002619884348966356,
+            "mean": 0.0009932143386762841,
+            "max": 0.0017244402424559328
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00010622077271018721,
+            "mean": 0.0004068979004062173,
+            "max": 0.0007075750281022473
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.6236331487366972e-05,
+            "mean": 0.000100503017669606,
+            "max": 0.00017476970385184502
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.0085245823743864e-05,
+            "mean": 3.863335999219654e-05,
+            "max": 6.718147416064923e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 2.5855904680800154e-12,
+            "mean": 9.904572391339672e-12,
+            "max": 1.7223554314599327e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0002541880739822062,
+            "mean": 0.0009737134363902107,
+            "max": 0.0016932387987982152
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00010622077271018721,
+            "mean": 0.0004068979004062173,
+            "max": 0.0007075750281022473
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 6.164105269160583e-07,
+            "mean": 1.5410263172901459e-06,
+            "max": 2.465642107664233e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.452649526713995e-11,
+            "mean": 8.631623816784988e-11,
+            "max": 1.381059810685598e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 7.80036091442939e-06,
+            "mean": 1.9500902286073476e-05,
+            "max": 3.120144365771756e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "a8f6b973-cd39-4cc0-ac72-a225b65b955d",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P002",
+    "coletado_em_utc": "2026-11-17T14:26:28.299292+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "geracao_codigo",
+      "categorias_secundarias": [],
+      "pontuacoes": {
+        "geracao_codigo": 1
+      }
+    },
+    "prompt": "Crie uma função em Python que receba uma lista de números e retorne apenas os números pares.",
+    "analise_prompt": {
+      "quantidade_palavras": 17,
+      "quantidade_caracteres": 92,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 35,
+      "nivel": "moderada",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 17,
+        "quantidade_caracteres": 92,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 2,
+        "quantidade_requisitos": 1,
+        "quantidade_etapas": 2,
+        "quantidade_objetivos": 2
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": true,
+        "regras_e_restricoes": true,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "sucesso",
+    "duracao_segundos": 9.682071,
+    "tokens": {
+      "entrada": 22,
+      "saida": 356,
+      "total": 378
+    },
+    "resposta_llm": "Aqui estão duas maneiras de fazer isso em Python. \n\n### Opção 1: Usando List Comprehension (Mais Pythonica e recomendada)\nEsta é a forma mais limpa e eficiente em Python para filtrar listas.\n\n```python\ndef retorna_pares(lista):\n    return [numero for numero in lista if numero % 2 == 0]\n\n\n# Exemplo de uso:\nnumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nresultado = retorna_pares(numeros)\nprint(resultado)  # Saída: [2, 4, 6, 8, 10]\n```\n\n---\n\n### Opção 2: Usando a função `filter()`\nOutra abordagem funcional é usar a função `filter` em conjunto com uma função anônima (`lambda`).\n\n```python\ndef retorna_pares(lista):\n    return list(filter(lambda x: x % 2 == 0, lista))\n\n\n# Exemplo de uso:\nnumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nresultado = retorna_pares(numeros)\nprint(resultado)  # Saída: [2, 4, 6, 8, 10]\n```\n\n### Explicação:\n* `numero % 2 == 0`: O operador `%` calcula o resto da divisão. Se o resto da divisão de um número por 2 for igual a `0`, significa que ele é **par**.",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.4944776629507046e-05,
+            "mean": 9.550524628476265e-05,
+            "max": 0.00016606571594001825
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.0182610050768153e-05,
+            "mean": 3.8196811457826875e-05,
+            "max": 6.62110128648856e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.5720461845501127e-11,
+            "mean": 9.256742729302137e-11,
+            "max": 1.4941439274054162e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.00024918968990980043,
+            "mean": 0.0009440798181365054,
+            "max": 0.0016389699463632103
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00010099176593896482,
+            "mean": 0.0003866638544008701,
+            "max": 0.0006723359428627753
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.4944776629507046e-05,
+            "mean": 9.550524628476265e-05,
+            "max": 0.00016606571594001825
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 9.588772136382508e-06,
+            "mean": 3.671221667186276e-05,
+            "max": 6.383566120734302e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 2.4583077368379196e-12,
+            "mean": 9.41204202136336e-12,
+            "max": 1.63657763058888e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.00024167497389731605,
+            "mean": 0.0009252930281052943,
+            "max": 0.0016089110823132727
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00010099176593896482,
+            "mean": 0.0003866638544008701,
+            "max": 0.0006723359428627753
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 5.938379143856447e-07,
+            "mean": 1.4845947859641117e-06,
+            "max": 2.375351657542579e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.326215410866321e-11,
+            "mean": 8.315538527165802e-11,
+            "max": 1.3304861643465283e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 7.514716012484399e-06,
+            "mean": 1.8786790031210996e-05,
+            "max": 3.0058864049937596e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "b24868be-5c11-46b7-99ef-bf91925167a7",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P003",
+    "coletado_em_utc": "2026-11-17T14:26:39.995314+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "calculo_matematico",
+      "categorias_secundarias": [],
+      "pontuacoes": {
+        "calculo_matematico": 1
+      }
+    },
+    "prompt": "Quanto é 125 × 48? Mostre o cálculo.",
+    "analise_prompt": {
+      "quantidade_palavras": 7,
+      "quantidade_caracteres": 36,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 17,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 7,
+        "quantidade_caracteres": 36,
+        "quantidade_frases": 2,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": true,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "sucesso",
+    "duracao_segundos": 8.071357,
+    "tokens": {
+      "entrada": 17,
+      "saida": 341,
+      "total": 358
+    },
+    "resposta_llm": "Para calcular $125 \\times 48$ de forma mais fácil, podemos decompor o número $48$ em $8 \\times 6$ ou $40 + 8$. \n\nVamos usar o método da decomposição ($40 + 8$), que facilita muito o cálculo mental:\n\n1. **Multiplicar 125 por 40:**\n   $$125 \\times 40 = 5.000$$\n   *(Dica: $125 \\times 4 = 500$, e adicionamos o zero do 40).*\n\n2. **Multiplicar 125 por 8:**\n   $$125 \\times 8 = 1.000$$\n   *(Dica: Sabemos que $125 \\times 2 = 250$, e $250 \\times 4 = 1.000$).*\n\n3. **Somar os dois resultados:**\n   $$5.000 + 1.000 = 6.000$$\n\n---\n\n**Método tradicional (algoritmo):**\n\n```text\n  1 2 5\n×   4 8\n-------\n  1 0 0 0  (125 × 8)\n+ 5 0 0 0  (125 × 40)\n-------\n  6 0 0 0\n```\n\nPortanto, **$125 \\times 48 = 6.000$**.",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.3925128057512367e-05,
+            "mean": 9.15596372967284e-05,
+            "max": 0.00015919414653594444
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 9.772836656116757e-06,
+            "mean": 3.6635568153884905e-05,
+            "max": 6.349829965165305e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.462181140624941e-11,
+            "mean": 8.96831773460465e-11,
+            "max": 1.4474454328584358e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.00023908541755177275,
+            "mean": 0.0009052894071840482,
+            "max": 0.0015714933968163237
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 9.686360269852608e-05,
+            "mean": 0.0003706896075545432,
+            "max": 0.0006445156124105603
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.3925128057512367e-05,
+            "mean": 9.15596372967284e-05,
+            "max": 0.00015919414653594444
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 9.196819225307754e-06,
+            "mean": 3.5195524576862394e-05,
+            "max": 6.119422992841704e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 2.357821370067844e-12,
+            "mean": 9.023202255592585e-12,
+            "max": 1.5688583141117325e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.00023179621067240282,
+            "mean": 0.0008870663899856234,
+            "max": 0.001542336569298844
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 9.686360269852608e-05,
+            "mean": 0.0003706896075545432,
+            "max": 0.0006445156124105603
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 5.760174308090024e-07,
+            "mean": 1.440043577022506e-06,
+            "max": 2.3040697232360097e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.226399003618157e-11,
+            "mean": 8.065997509045392e-11,
+            "max": 1.2905596014472627e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 7.289206879369934e-06,
+            "mean": 1.8223017198424835e-05,
+            "max": 2.9156827517479735e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "5e951794-7d15-4ff8-a460-a48037e2055f",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P004",
+    "coletado_em_utc": "2026-11-17T14:26:50.079463+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "resumo",
+      "categorias_secundarias": [],
+      "pontuacoes": {
+        "resumo": 1
+      }
+    },
+    "prompt": "Resuma em cinco tópicos os principais impactos ambientais da computação em nuvem.",
+    "analise_prompt": {
+      "quantidade_palavras": 12,
+      "quantidade_caracteres": 81,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 8,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 12,
+        "quantidade_caracteres": 81,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "erro",
+    "duracao_segundos": 10.683817,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  },
+  {
+    "registro_id": "11c656bd-f61e-4666-b158-62bb0fb5762f",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P005",
+    "coletado_em_utc": "2026-11-17T14:27:02.777065+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "traducao",
+      "categorias_secundarias": [],
+      "pontuacoes": {
+        "traducao": 2
+      }
+    },
+    "prompt": "Traduza para inglês, em tom profissional: Gostaria de agendar uma reunião para discutirmos o andamento do projeto na próxima semana.",
+    "analise_prompt": {
+      "quantidade_palavras": 20,
+      "quantidade_caracteres": 132,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 9,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 20,
+        "quantidade_caracteres": 132,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "erro",
+    "duracao_segundos": 16.830347,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  },
+  {
+    "registro_id": "53f26d53-1363-40a3-ae05-bf5ab24cefa2",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P006",
+    "coletado_em_utc": "2026-11-17T14:27:21.623073+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Consider removing the redundant regex after pre-validation checks, as they already ensure that the input contains only uppercase letters and digits. This will optimize the function's performance.",
+    "analise_prompt": {
+      "quantidade_palavras": 27,
+      "quantidade_caracteres": 195,
+      "idioma": {
+        "codigo": "en",
+        "nome": "Inglês",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "en",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 10,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 27,
+        "quantidade_caracteres": 195,
+        "quantidade_frases": 2,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "sucesso",
+    "duracao_segundos": 18.935356,
+    "tokens": {
+      "entrada": 35,
+      "saida": 328,
+      "total": 363
+    },
+    "resposta_llm": "Here is a quick way to rewrite or approach the code based on your recommendation. \n\nAssuming your code currently looks something like this (where a pre-validation check or a previous guard clause already guarantees the format):\n\n### **Before (Redundant Check):**\n```python\nimport re\n\n\ndef process_code(code: str):\n  # Pre-validation already guarantees `code` is alphanumeric and uppercase\n  if not code or not code.isalnum() or not code.isupper():\n    raise ValueError(\"Invalid code\")\n\n  # REDUNDANT: This regex is checked again even though pre-validation passed\n  if not re.match(r\"^[A-Z0-9]+$\", code):\n    raise ValueError(\"Invalid code\")\n\n  # Proceed with processing...\n  return f\"Processing {code}\"\n```\n\n---\n\n### **After (Optimized):**\nRemoving the redundant `re.match` avoids unnecessary regex compilation and matching overhead, improving performance.\n\n```python\ndef process_code(code: str):\n  # Pre-validation ensures the input contains only uppercase letters and digits\n  if not code or not code.isalnum() or not code.isupper():\n    raise ValueError(\"Invalid code\")\n\n  # Proceed directly with processing\n  return f\"Processing {code}\"\n```\n\n*(Note: If you were using `re.match` to capture groups or do complex parsing alongside the validation, you can replace it with standard string slicing or built-in methods now that you are certain of the input format.)*",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.3041432628450312e-05,
+            "mean": 8.814010950709871e-05,
+            "max": 0.00015323878638574711
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 9.417699714085546e-06,
+            "mean": 3.5282490623801865e-05,
+            "max": 6.114728153351818e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.3669647692231254e-11,
+            "mean": 8.718349405866827e-11,
+            "max": 1.4069734042510529e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.00023032838150814872,
+            "mean": 0.000871671051025252,
+            "max": 0.0015130137205423553
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 9.328586122347917e-05,
+            "mean": 0.0003568452602877266,
+            "max": 0.000620404659351974
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.3041432628450312e-05,
+            "mean": 8.814010950709871e-05,
+            "max": 0.00015323878638574711
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 8.857126702376301e-06,
+            "mean": 3.388105809452875e-05,
+            "max": 5.8904989486681194e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 2.2707331855337785e-12,
+            "mean": 8.68620779192458e-12,
+            "max": 1.510168239831538e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.000223234615877478,
+            "mean": 0.0008539366369485752,
+            "max": 0.0014846386580196723
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 9.328586122347917e-05,
+            "mean": 0.0003568452602877266,
+            "max": 0.000620404659351974
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 5.605730117092457e-07,
+            "mean": 1.4014325292731143e-06,
+            "max": 2.2422920468369827e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.1398914506697474e-11,
+            "mean": 7.849728626674368e-11,
+            "max": 1.255956580267899e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 7.093765630670728e-06,
+            "mean": 1.773441407667682e-05,
+            "max": 2.837506252268291e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "76976f03-5081-4927-87ab-2216ef687ac5",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P007",
+    "coletado_em_utc": "2026-11-17T14:27:42.572354+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "pergunta_informativa",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Explique o conceito de aprendizado de máquina e como ele difere da programação tradicional.",
+    "analise_prompt": {
+      "quantidade_palavras": 14,
+      "quantidade_caracteres": 91,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 9,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 14,
+        "quantidade_caracteres": 91,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "erro",
+    "duracao_segundos": 217.3559,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  },
+  {
+    "registro_id": "ee84be21-db23-4ba2-ac9d-812a89b2431b",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P008",
+    "coletado_em_utc": "2026-11-17T14:31:34.649556+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Liste cinco medidas que podem ser adotadas para tornar a inteligência artificial mais sustentável e ambientalmente responsável.",
+    "analise_prompt": {
+      "quantidade_palavras": 17,
+      "quantidade_caracteres": 127,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 9,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 17,
+        "quantidade_caracteres": 127,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "sucesso",
+    "duracao_segundos": 25.772342,
+    "tokens": {
+      "entrada": 23,
+      "saida": 563,
+      "total": 586
+    },
+    "resposta_llm": "Para tornar a inteligência artificial (IA) mais sustentável e ambientalmente responsável, é necessário atuar em várias frentes, desde o desenvolvimento de hardware até a utilização do software. Aqui estão cinco medidas fundamentais:\n\n1. **Desenvolvimento de Hardware e Chips Eficientes**\n   O treinamento de grandes modelos de IA exige um poder computacional massivo, consumindo muita energia. Investir no desenvolvimento de semicondutores especializados (como TPUs, NPUs e chips neuromórficos) que sejam energeticamente mais eficientes é crucial. Além disso, a computação neuromórfica — que imita o cérebro humano — promete reduzir drasticamente o consumo de energia em tarefas cognitivas.\n\n2. **Otimização de Algoritmos (Green AI)**\n   Muitas vezes, a busca por precisão absoluta em modelos de IA resulta em um desperdício desproporcional de energia (abordagem conhecida como \"Red AI\"). A adoção de práticas de **\"Green AI\"** prioriza algoritmos mais leves, técnicas de poda (*pruning*) de redes neurais, quantização e a criação de modelos menores e mais direcionados que entregam resultados excelentes com uma fração do custo computacional.\n\n3. **Uso de Centros de Dados Verdes e Energia Renovável**\n   Os data centers que sustentam a nuvem e a IA geram calor intenso e consomem eletricidade ininterruptamente. Operadoras de IA devem migrar suas cargas de trabalho para centros de dados alimentados exclusivamente por **energias renováveis** (solar, eólica, hidrelétrica). Além disso, melhorar os sistemas de refrigeração (utilizando inteligência artificial para gerenciar o fluxo de ar ou adotando a imersão em líquidos) reduz drasticamente a pegada de carbono.\n\n4. **Computação Geográfica e Temporal Inteligente**\n   A demanda por energia varia conforme a hora do dia e a região geográfica. As empresas de tecnologia podem programar o treinamento de modelos pesados para horários e locais onde a rede elétrica possui maior oferta de energia limpa e renovável (por exemplo, rodar processamentos pesados à noite em regiões com muita energia eólica). \n\n5. **Regulamentação, Métricas Padronizadas e Transparência**\n   Atualmente, muitas empresas não divulgam o custo ambiental (em carbono e água) de treinar seus modelos de IA. É essencial estabelecer padrões da indústria para **rastrear e reportar a pegada de carbono** do ciclo de vida da IA. Governos e órgãos reguladores podem exigir relatórios de sustentabilidade para o desenvolvimento de modelos de grande escala, incentivando a responsabilidade corporativa.",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 3.9015926923033613e-05,
+            "mean": 0.00014995465031963513,
+            "max": 0.00026089337371623667
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.583748289695743e-05,
+            "mean": 5.974196905222602e-05,
+            "max": 0.00010364645520749461
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 5.0881837907174804e-11,
+            "mean": 1.3237007656127464e-10,
+            "max": 2.1385831521537448e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0003886286484505829,
+            "mean": 0.001479387489280413,
+            "max": 0.002570146330110243
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.0001579604186570194,
+            "mean": 0.00060710846088018,
+            "max": 0.0010562565031033407
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 3.9015926923033613e-05,
+            "mean": 0.00014995465031963513,
+            "max": 0.00026089337371623667
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.4997722309214121e-05,
+            "mean": 5.764256758286775e-05,
+            "max": 0.00010028741285652137
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.845019598264963e-12,
+            "mean": 1.4778030789000043e-11,
+            "max": 2.5711041979735123e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.00037800190640111886,
+            "mean": 0.001452820634156753,
+            "max": 0.002527639361912387
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.0001579604186570194,
+            "mean": 0.00060710846088018,
+            "max": 0.0010562565031033407
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 8.397605877433088e-07,
+            "mean": 2.099401469358272e-06,
+            "max": 3.3590423509732354e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 4.703681830890984e-11,
+            "mean": 1.175920457722746e-10,
+            "max": 1.8814727323563937e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 1.0626742049464033e-05,
+            "mean": 2.6566855123660083e-05,
+            "max": 4.250696819785613e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "eedaf922-380c-4d0f-89df-213af0a32503",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P009",
+    "coletado_em_utc": "2026-11-17T14:32:55.432453+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Crie um prompt para um modelo de linguagem que explique a importância da ética na inteligência artificial e forneça exemplos de dilemas éticos que podem surgir no desenvolvimento de IA.",
+    "analise_prompt": {
+      "quantidade_palavras": 30,
+      "quantidade_caracteres": 185,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 36,
+      "nivel": "moderada",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 30,
+        "quantidade_caracteres": 185,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 3,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 3,
+        "quantidade_objetivos": 3
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": true,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "sucesso",
+    "duracao_segundos": 19.708279,
+    "tokens": {
+      "entrada": 37,
+      "saida": 361,
+      "total": 398
+    },
+    "resposta_llm": "Aqui está um prompt completo e estruturado que você pode copiar e colar em qualquer modelo de linguagem (como ChatGPT, Claude, Gemini, etc.):\n\n***\n\n**Copy/Paste o prompt abaixo:**\n\n```text\nAtue como um especialista em Ética em Inteligência Artificial e Direitos Digitais. Escreva um artigo/explicação detalhada sobre a importância da ética no desenvolvimento e na implementação de sistemas de Inteligência Artificial. \n\nSua resposta deve seguir a seguinte estrutura:\n\n1. **Introdução:** Defina o que é ética em IA e explique por que ela se tornou um tema crítico na atualidade, considerando o impacto da tecnologia na sociedade.\n2. **Pilares Fundamentais:** Quais são os princípios centrais que devem nortear uma IA ética (ex: transparência, justiça, responsabilidade, privacidade e segurança)?\n3. **Dilemas Éticos Práticos:** Forneça pelo menos 3 exemplos claros e reais de dilemas éticos que surgem no desenvolvimento de IA. Para cada exemplo, inclua:\n   - O contexto do problema.\n   - O conflito ético envolvido (quais valores estão em colisão).\n   - As possíveis consequências negativas.\n4. **Conclusão:** Resuma o papel dos desenvolvedores, reguladores e da sociedade na garantia de um futuro onde a IA beneficie a humanidade como um todo.\n\nMantenha um tom profissional, acessível, crítico e equilibrado.\n```\n\n***\n\n### Dica de uso:\nSe quiser focar em um público específico (por exemplo: *\"Explique isso para estudantes do ensino médio\"* ou *\"Foque no mercado corporativo\"*), basta adicionar essa instrução no final do texto acima.",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.5284659486838603e-05,
+            "mean": 9.682044928077405e-05,
+            "max": 0.0001683562390747095
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.0319201182318618e-05,
+            "mean": 3.8717225892474196e-05,
+            "max": 6.711525060262978e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.608667865858503e-11,
+            "mean": 9.3528843942013e-11,
+            "max": 1.5097100922544097e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.00025255778069580964,
+            "mean": 0.0009570099551206577,
+            "max": 0.0016614621295455057
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00010236782035244439,
+            "mean": 0.00039198860334964565,
+            "max": 0.0006816093863468469
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.5284659486838603e-05,
+            "mean": 9.682044928077405e-05,
+            "max": 0.0001683562390747095
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 9.71942310674076e-06,
+            "mean": 3.721778070352955e-05,
+            "max": 6.471613830031834e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 2.4918031924279444e-12,
+            "mean": 9.541655276620284e-12,
+            "max": 1.6591507360812624e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0002449678949722871,
+            "mean": 0.0009380352408118513,
+            "max": 0.0016311025866514155
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00010236782035244439,
+            "mean": 0.00039198860334964565,
+            "max": 0.0006816093863468469
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 5.997780755778588e-07,
+            "mean": 1.4994451889446472e-06,
+            "max": 2.3991123023114354e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.3594875466157085e-11,
+            "mean": 8.398718866539271e-11,
+            "max": 1.3437950186462834e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 7.589885723522555e-06,
+            "mean": 1.8974714308806388e-05,
+            "max": 3.035954289409022e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "5338a712-abc1-4eff-9d63-9795e94bb549",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P010",
+    "coletado_em_utc": "2026-11-17T14:33:17.156716+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "The code could be optimized for better performance. Currently, it has a time complexity of O(n^2) due to the nested stream operations.",
+    "analise_prompt": {
+      "quantidade_palavras": 24,
+      "quantidade_caracteres": 134,
+      "idioma": {
+        "codigo": "en",
+        "nome": "Inglês",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "en",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 3,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 24,
+        "quantidade_caracteres": 134,
+        "quantidade_frases": 2,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "sucesso",
+    "duracao_segundos": 1.259793,
+    "tokens": {
+      "entrada": 31,
+      "saida": 94,
+      "total": 125
+    },
+    "resposta_llm": "It looks like you forgot to include the code! \n\nPlease paste the Java (or other language) code snippet you are referring to, and I will gladly help you refactor it to eliminate the $O(n^2)$ time complexity (usually caused by operations like `.flatMap()`, `.filter()`, or `.anyMatch()` nested inside another stream or loop) and bring it down to $O(n)$ or $O(n \\log n)$.",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 6.7929188223923885e-06,
+            "mean": 2.573361908641224e-05,
+            "max": 4.467431935043209e-05
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 2.8153319946768253e-06,
+            "mean": 1.0402338175189845e-05,
+            "max": 1.7989344355702864e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 1.210343176341745e-11,
+            "mean": 3.112102219464263e-11,
+            "max": 5.0138612625867807e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 6.83957263940402e-05,
+            "mean": 0.0002557756243447308,
+            "max": 0.00044315552229542136
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 2.750190462487207e-05,
+            "mean": 0.00010418548436562132,
+            "max": 0.00018086906410637058
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 6.7929188223923885e-06,
+            "mean": 2.573361908641224e-05,
+            "max": 4.467431935043209e-05
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 2.611197995327634e-06,
+            "mean": 9.892003176816867e-06,
+            "max": 1.71728083583061e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 6.694421499467699e-13,
+            "mean": 2.5360481609659265e-12,
+            "max": 4.402654171985083e-12
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 6.581251471886642e-05,
+            "mean": 0.00024931759515679633,
+            "max": 0.00043282267559472624
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 2.750190462487207e-05,
+            "mean": 0.00010418548436562132,
+            "max": 0.00018086906410637058
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 2.0413399934919123e-07,
+            "mean": 5.103349983729781e-07,
+            "max": 8.165359973967649e-07
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 1.143398961347068e-11,
+            "mean": 2.8584974033676702e-11,
+            "max": 4.573595845388272e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 2.5832116751737834e-06,
+            "mean": 6.4580291879344585e-06,
+            "max": 1.0332846700695134e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "a8b7881d-a591-40d2-8b2d-382ba5f9cb5d",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P011",
+    "coletado_em_utc": "2026-11-17T14:33:20.432485+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Why is the sky blue during the day and red/orange during sunset? Explain the scientific principles behind this phenomenon.",
+    "analise_prompt": {
+      "quantidade_palavras": 20,
+      "quantidade_caracteres": 122,
+      "idioma": {
+        "codigo": "en",
+        "nome": "Inglês",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "en",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 4,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 20,
+        "quantidade_caracteres": 122,
+        "quantidade_frases": 2,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "erro",
+    "duracao_segundos": 10.272761,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  },
+  {
+    "registro_id": "bdff1884-b1d3-4edf-897b-5cde0a448f38",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P012",
+    "coletado_em_utc": "2026-11-17T14:33:32.719146+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Desenvolva um algoritmo em Python que receba uma lista de strings e retorne apenas aquelas que contêm a letra 'a' ou 'A'.",
+    "analise_prompt": {
+      "quantidade_palavras": 22,
+      "quantidade_caracteres": 121,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 36,
+      "nivel": "moderada",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 22,
+        "quantidade_caracteres": 121,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 2,
+        "quantidade_requisitos": 1,
+        "quantidade_etapas": 2,
+        "quantidade_objetivos": 2
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": true,
+        "regras_e_restricoes": true,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "sucesso",
+    "duracao_segundos": 7.713699,
+    "tokens": {
+      "entrada": 32,
+      "saida": 521,
+      "total": 553
+    },
+    "resposta_llm": "Aqui está um algoritmo em Python que realiza essa tarefa. Você pode usar uma abordagem simples com um loop ou uma forma mais elegante e \"pythonica\" usando **List Comprehension** (Compreensão de Lista).\n\n### Opção 1: Usando List Comprehension (Recomendado)\n\nEsta é a forma mais idiomática e concisa em Python:\n\n```python\ndef filtrar_palavras_com_a(lista_strings):\n    # Retorna apenas as strings que contêm 'a' ou 'A'\n    return [\n        s for s in lista_strings if 'a' in s or 'A' in s\n    ]\n\n\n# --- Exemplo de uso ---\nminha_lista = [\"Python\", \"Carro\", \"Computador\", \"livro\", \"Avião\", \"PYTHON\"]\n\nresultado = filtrar_palavras_com_a(minha_lista)\nprint(resultado)\n# Saída esperada: ['Carro', 'Computador', 'Avião']\n```\n\n---\n\n### Opção 2: Tornando a busca case-insensitive (Mais robusta)\n\nSe você quiser simplificar a verificação para não precisar checar o `'a'` e o `'A'` separadamente, pode converter temporariamente cada string para minúscula (ou maiúscula) apenas durante a validação:\n\n```python\ndef filtrar_palavras_com_a_simples(lista_strings):\n    # 'in' verifica se a letra 'a' minúscula está na versão minúscula da string\n    return [s for s in lista_strings if 'a' in s.lower()]\n\n\n# --- Exemplo de uso ---\nminha_lista = [\"Python\", \"Carro\", \"COMPUTADOR\", \"livro\", \"AVIÃO\"]\n\nresultado = filtrar_palavras_com_a_simples(minha_lista)\nprint(resultado)\n# Saída esperada: ['Carro', 'COMPUTADOR', 'AVIÃO']\n```\n\n### Explicação do código:\n1. `for s in lista_strings`: Percorre cada item (string) da lista recebida.\n2. `if 'a' in s.lower()`: Transforma a string atual em letras minúsculas (`.lower()`) e verifica se a letra `'a'` está presente nela.\n3. `[...]`: Cria e retorna uma nova lista apenas com os elementos que passaram na condição.",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 3.6160910921448514e-05,
+            "mean": 0.00013890694515313927,
+            "max": 0.00024165297938483004
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.469011739193352e-05,
+            "mean": 5.5370487801188514e-05,
+            "max": 9.605085821044351e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 4.780561667727e-11,
+            "mean": 1.24294176709745e-10,
+            "max": 2.0078273674222e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0003603366858481053,
+            "mean": 0.0013707743386135334,
+            "max": 0.0023812119913789614
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00014640156158379094,
+            "mean": 0.000562380569710465,
+            "max": 0.000978359577837139
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 3.6160910921448514e-05,
+            "mean": 0.00013890694515313927,
+            "max": 0.00024165297938483004
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.390025415820481e-05,
+            "mean": 5.3395829716866745e-05,
+            "max": 9.289140527552867e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.563657771308751e-12,
+            "mean": 1.3689279444841875e-11,
+            "max": 2.3814901118375e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0003503413693713618,
+            "mean": 0.0013457860474216745,
+            "max": 0.0023412307254719873
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00014640156158379094,
+            "mean": 0.000562380569710465,
+            "max": 0.000978359577837139
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 7.898632337287105e-07,
+            "mean": 1.9746580843217763e-06,
+            "max": 3.159452934914842e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 4.424195890596125e-11,
+            "mean": 1.1060489726490312e-10,
+            "max": 1.76967835623845e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 9.995316476743529e-06,
+            "mean": 2.4988291191858822e-05,
+            "max": 3.9981265906974115e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "020bf000-b7b5-47bd-aab7-1036ef5ca636",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P013",
+    "coletado_em_utc": "2026-11-17T14:33:42.448882+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Please provide a brief overview of the main differences between supervised, unsupervised, and reinforcement learning in machine learning.",
+    "analise_prompt": {
+      "quantidade_palavras": 18,
+      "quantidade_caracteres": 137,
+      "idioma": {
+        "codigo": "en",
+        "nome": "Inglês",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "en",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 9,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 18,
+        "quantidade_caracteres": 137,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "sucesso",
+    "duracao_segundos": 10.06692,
+    "tokens": {
+      "entrada": 22,
+      "saida": 514,
+      "total": 536
+    },
+    "resposta_llm": "Here is a brief overview of the three main types of machine learning:\n\n**1. Supervised Learning**\n*   **Concept:** The algorithm is trained on labeled data. This means that for every input, the correct output (the \"ground truth\") is provided to the model during training.\n*   **Goal:** To learn a mapping function from inputs to outputs so that the model can predict outcomes for unseen, future data.\n*   **Common Tasks:** Classification (e.g., spam detection, image recognition) and Regression (e.g., house price prediction, temperature forecasting).\n*   **Analogy:** A student learning with a teacher who provides an answer key for every practice problem.\n\n**2. Unsupervised Learning**\n*   **Concept:** The algorithm is trained on unlabeled data. The system has to figure out the structure, patterns, or groupings within the data on its own without any human guidance.\n*   **Goal:** To explore data and discover hidden structures, similarities, or anomalies.\n*   **Common Tasks:** Clustering (e.g., customer segmentation), Dimensionality Reduction (e.g., simplifying data while retaining key features), and Association Rule Learning (e.g., market basket analysis).\n*   **Analogy:** A student sorting a massive box of mixed LEGO bricks by color and shape without having any instructions on what to build.\n\n**3. Reinforcement Learning (RL)**\n*   **Concept:** An agent learns to make decisions by performing actions in an environment to achieve a goal. It operates on a system of rewards and punishments based on its actions.\n*   **Goal:** To maximize the cumulative reward over time through trial and error. \n*   **Common Tasks:** Robotics (e.g., teaching a robot to walk), autonomous driving, game playing (e.g., AlphaGo), and resource management.\n*   **Analogy:** Training a dog with treats (rewards) and scolding (penalties) to perform a trick. \n\n---\n\n### Summary Table\n\n| Feature | Supervised Learning | Unsupervised Learning | Reinforcement Learning |\n| :--- | :--- | :--- | :--- |\n| **Data** | Labeled | Unlabeled | Dynamic environment (states/actions) |\n| **Feedback** | Direct (correct answers provided) | None | Delayed (rewards and punishments) |\n| **Primary Goal** | Prediction and classification | Finding patterns and structures | Decision-making and optimization |",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 3.5685074921184336e-05,
+            "mean": 0.00013706566095872332,
+            "max": 0.0002384462469962623
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.4498889807762871e-05,
+            "mean": 5.464190759268227e-05,
+            "max": 9.478492537760167e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 4.729291313895254e-11,
+            "mean": 1.2294819340115676e-10,
+            "max": 1.9860347366336096e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0003556213587476924,
+            "mean": 0.0013526721468357203,
+            "max": 0.002349722934923748
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00014447508540491955,
+            "mean": 0.0005549259211821792,
+            "max": 0.0009653767569594389
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 3.5685074921184336e-05,
+            "mean": 0.00013706566095872332,
+            "max": 0.0002384462469962623
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.371734279970326e-05,
+            "mean": 5.2688040072533244e-05,
+            "max": 9.165873734536323e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.5167641334827166e-12,
+            "mean": 1.3507820887482185e-11,
+            "max": 2.3498877641481652e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0003457312798664023,
+            "mean": 0.001327946949632495,
+            "max": 0.0023101626193985877
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00014447508540491955,
+            "mean": 0.0005549259211821792,
+            "max": 0.0009653767569594389
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 7.815470080596108e-07,
+            "mean": 1.953867520149027e-06,
+            "max": 3.126188032238443e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 4.3776149005469825e-11,
+            "mean": 1.0944037251367457e-10,
+            "max": 1.751045960218793e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 9.890078881290113e-06,
+            "mean": 2.472519720322528e-05,
+            "max": 3.956031552516045e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "f281579d-6687-43c3-bc59-27e4efc96755",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P014",
+    "coletado_em_utc": "2026-11-17T14:33:54.528200+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Could you explain the concept of overfitting in machine learning and how it can be mitigated?",
+    "analise_prompt": {
+      "quantidade_palavras": 16,
+      "quantidade_caracteres": 93,
+      "idioma": {
+        "codigo": "en",
+        "nome": "Inglês",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "en",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 10,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 16,
+        "quantidade_caracteres": 93,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "sucesso",
+    "duracao_segundos": 13.348161,
+    "tokens": {
+      "entrada": 18,
+      "saida": 981,
+      "total": 999
+    },
+    "resposta_llm": "**Overfitting** is one of the most common and fundamental problems in machine learning. It occurs when a model learns the training data *too well*, capturing not just the underlying patterns, but also the random noise, specific quirks, and outliers unique to that specific dataset. \n\nAs a result, the model performs exceptionally well on the data it was trained on, but fails to generalize to new, unseen data (like real-world data).\n\n---\n\n### An Analogy to Understand Overfitting\nImagine a student preparing for a history exam by simply **memorizing the exact practice questions and answers word-for-word**, rather than trying to understand the historical concepts. \n* On the practice test (training data), the student gets 100%. \n* On the actual exam (testing data), the teacher phrases the questions slightly differently. Because the student only memorized and didn't learn the underlying concepts, they fail. The model is that student.\n\n---\n\n### Why Does Overfitting Happen?\n1. **The model is too complex:** Using a high-capacity model (like a deep neural network or a high-degree polynomial) for a relatively simple problem.\n2. **The training data is too small:** A small dataset doesn't represent the broader real world, making it easy for the model to memorize specifics rather than general rules.\n3. **Training for too long:** Allowing the model to iterate over the training data too many times (excessive epochs in deep learning).\n4. **Too much noise:** The data contains random errors or irrelevant information that the model treats as important rules.\n\n---\n\n### How to Detect Overfitting\nYou can usually spot overfitting by monitoring the model's performance on two different datasets: **Training Data** and **Validation/Test Data**.\n* **Underfitting:** Low accuracy on training data, low accuracy on validation data. (The model is too simple).\n* **Good Fit:** High accuracy on training data, high accuracy on validation data.\n* **Overfitting:** **Extremely high accuracy on training data**, but **poor accuracy on validation data**.\n\n---\n\n### How to Mitigate Overfitting\n\nData scientists use several techniques to prevent or reduce overfitting:\n\n#### 1. Use More Data\nThe easiest way to prevent a model from memorizing quirks is to give it more data. With a larger, more diverse dataset, the model is forced to learn the broad, general patterns rather than specific anomalies. *(If you can't get more data, you can use **Data Augmentation**—artificially creating modified copies of existing data, like rotating images).*\n\n#### 2. Simplify the Model\nReduce the complexity of the model. For example, if you are using a polynomial regression, lower the degree of the polynomial. If you are using a neural network, use fewer layers and fewer neurons.\n\n#### 3. Regularization (L1 and L2)\nRegularization adds a \"penalty\" to the loss function for having overly complex models (specifically, for having large weights). \n* **L2 Regularization (Ridge):** Encourages the model to use smaller weights, spreading the importance across many features rather than relying heavily on just one or two.\n* **L1 Regularization (Lasso):** Can shrink the weights of irrelevant features all the way to zero, effectively performing feature selection.\n\n#### 4. Dropout (for Neural Networks)\nDropout is a clever technique used in deep learning. During training, randomly selected neurons are \"dropped out\" (ignored) for that batch. This prevents neurons from co-adapting too much and forces the network to learn robust features across different pathways.\n\n#### 5. Early Stopping\nWhen training an iterative model (like a neural network), monitor its performance on the validation set after every epoch. As training continues, the training error will keep decreasing, but eventually, the validation error will start to go back up (this is when overfitting begins). **Early stopping** halts the training process right at the moment the validation error reaches its minimum.\n\n#### 6. Cross-Validation\nInstead of using a single train/test split, use **K-Fold Cross-Validation**. The dataset is split into $K$ parts. The model is trained on $K-1$ parts and tested on the remaining part, repeating this process $K$ times. This ensures that the model's performance is consistent and not dependent on a lucky or unlucky train/test split.\n\n### Summary\nOverfitting is the machine learning equivalent of \"missing the forest for the trees.\" It is successfully mitigated by finding the right balance between model complexity and data size, and by using techniques like regularization, dropout, and early stopping to keep the model honest and generalized.",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 6.7430133795952e-05,
+            "mean": 0.00025990562078618927,
+            "max": 0.0004523811077764266
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 2.725650149457636e-05,
+            "mean": 0.0001032486157887422,
+            "max": 0.00017924073008290803
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 8.149756348098932e-11,
+            "mean": 2.1274450841697458e-10,
+            "max": 3.4399145335295983e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0006702010381609552,
+            "mean": 0.002560346941155551,
+            "max": 0.004450492844150147
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.0002729985676239123,
+            "mean": 0.0010522574729978206,
+            "max": 0.0018315163783717292
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 6.7430133795952e-05,
+            "mean": 0.00025990562078618927,
+            "max": 0.0004523811077764266
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 2.592014343116395e-05,
+            "mean": 9.990772063021116e-05,
+            "max": 0.00017389529782925838
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 6.6452396855910706e-12,
+            "mean": 2.5613698928478955e-11,
+            "max": 4.458215817136684e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0006532901082687014,
+            "mean": 0.0025180696164249163,
+            "max": 0.004382849124581131
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.0002729985676239123,
+            "mean": 0.0010522574729978206,
+            "max": 0.0018315163783717292
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.336358063412409e-06,
+            "mean": 3.3408951585310224e-06,
+            "max": 5.345432253649636e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 7.485232379539825e-11,
+            "mean": 1.8713080948849562e-10,
+            "max": 2.99409295181593e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 1.691092989225383e-05,
+            "mean": 4.2277324730634576e-05,
+            "max": 6.764371956901532e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "d231edd3-4c74-49ad-92e4-4bcb4bbc2737",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P015",
+    "coletado_em_utc": "2026-11-17T14:34:09.893099+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Is there a way to improve the accuracy of a machine learning model without increasing the size of the training dataset? If so, what techniques can be used?",
+    "analise_prompt": {
+      "quantidade_palavras": 28,
+      "quantidade_caracteres": 155,
+      "idioma": {
+        "codigo": "en",
+        "nome": "Inglês",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "en",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 17,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 28,
+        "quantidade_caracteres": 155,
+        "quantidade_frases": 2,
+        "quantidade_perguntas": 2,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": true
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "sucesso",
+    "duracao_segundos": 20.921001,
+    "tokens": {
+      "entrada": 32,
+      "saida": 867,
+      "total": 899
+    },
+    "resposta_llm": "**Yes, absolutely.** While having more data is often the most straightforward way to improve a model, it is far from the only way. In many cases, squeezing more value out of your existing dataset yields better results than simply adding more (potentially noisy) data. \n\nHere are the primary techniques used to improve model accuracy without increasing the size of the training dataset:\n\n---\n\n### 1. Data-Centric Techniques (Improving Data Quality)\nOften, the limitation isn't the *amount* of data, but the *quality* of the data. \n\n*   **Feature Engineering:** This is often the highest-leverage activity in machine learning. By creating new features based on domain knowledge, you give the model better signals. (e.g., instead of just giving a model \"Date of Birth,\" calculate and provide \"Age\" or \"Generation\").\n*   **Feature Selection and Dimensionality Reduction:** Irrelevant or redundant features introduce noise, leading to overfitting. Techniques like **Principal Component Analysis (PCA)**, Recursive Feature Elimination (RFE), or L1 regularization (Lasso) help the model focus on the most predictive signals.\n*   **Data Cleaning:** Remove outliers, fix mislabeled data, and handle missing values properly. Garbage in equals garbage out; cleaning your dataset can instantly boost performance.\n*   **Data Augmentation (Without adding new base data):** For certain domains like computer vision or audio, you can apply transformations (flipping, cropping, adding noise) to your existing samples to teach the model invariance (e.g., recognizing a cat whether it's upside down or right side up). *Note: While this creates more training samples, it doesn't require collecting new data.*\n\n### 2. Algorithmic and Modeling Techniques\nChoosing the right architecture and training process can drastically change accuracy.\n\n*   **Hyperparameter Tuning:** Finding the optimal learning rate, tree depth, batch size, or regularization strength using tools like Optuna, Ray Tune, or Grid Search can unlock hidden performance.\n*   **Ensemble Methods:** Instead of relying on one model, combine several. Techniques like **Bagging** (Random Forests), **Boosting** (XGBoost, LightGBM, CatBoost), or simple Voting/Stacking classifiers consistently outperform single models by reducing variance and bias.\n*   **Transfer Learning:** If you are training a model from scratch, switch to a pretrained model (e.g., using BERT for text or ResNet/ViT for images) and **fine-tune** it on your dataset. The model has already learned general patterns from massive datasets, allowing it to perform well on your small dataset.\n*   **Pseudo-Labeling (Semi-Supervised Learning):** If you have a large pool of *unlabeled* data alongside your small labeled dataset, you can train a model on the labeled data, use it to predict labels for the unlabeled data with high confidence, and then retrain the model on the combined dataset.\n\n### 3. Optimization and Training Improvements\nHow the model learns from the data matters just as much as the data itself.\n\n*   **Better Loss Functions:** Standard loss functions (like Mean Squared Error or Cross-Entropy) aren't always aligned with your actual goal (e.g., F1-score or business metrics). Using custom loss functions or focal loss (which focuses the model on hard-to-classify examples) can improve accuracy.\n*   **Learning Rate Schedulers:** Using techniques like Cosine Annealing with Warm Restarts helps the model escape local minima and find a better global minimum.\n*   **Regularization:** Techniques like Dropout, Weight Decay (L2), and Early Stopping prevent the model from memorizing the training data (overfitting), ensuring it generalizes better to unseen data.\n\n### Summary Strategy\nIf you want to improve accuracy today without collecting more data, follow this priority order:\n1.  **Clean your data** and fix mislabeled instances.\n2.  **Engineer better features** using domain expertise.\n3.  **Try an ensemble method** (like XGBoost) or **Transfer Learning**.\n4.  **Tune your hyperparameters** rigorously.",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 5.968080464879244e-05,
+            "mean": 0.00022991899247712906,
+            "max": 0.0004001571803054657
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 2.414222369522574e-05,
+            "mean": 9.138316667878325e-05,
+            "max": 0.00015862410966234074
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 7.314782014267626e-11,
+            "mean": 1.9082420881996547e-10,
+            "max": 3.085005974972547e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0005934085682399445,
+            "mean": 0.002265539817916877,
+            "max": 0.003937671067593809
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00024162452699657785,
+            "mean": 0.0009308531969657368,
+            "max": 0.0016200818669348958
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 5.968080464879244e-05,
+            "mean": 0.00022991899247712906,
+            "max": 0.0004001571803054657
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 2.2941301306995815e-05,
+            "mean": 8.838086070820842e-05,
+            "max": 0.00015382042010942103
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 5.881543298138495e-12,
+            "mean": 2.265851670862107e-11,
+            "max": 3.9435490119103645e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0005782115077593606,
+            "mean": 0.0022275471667154174,
+            "max": 0.003876882825671474
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00024162452699657785,
+            "mean": 0.0009308531969657368,
+            "max": 0.0016200818669348958
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 1.200922388229927e-06,
+            "mean": 3.0023059705748176e-06,
+            "max": 4.803689552919708e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 6.726627684453776e-11,
+            "mean": 1.681656921113444e-10,
+            "max": 2.6906510737815103e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 1.5197060480583885e-05,
+            "mean": 3.799265120145971e-05,
+            "max": 6.078824192233554e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "558d2b3e-0f36-4c4d-8c88-235e76a02d48",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P016",
+    "coletado_em_utc": "2026-11-17T14:34:32.829292+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "What are the ethical considerations that should be taken into account when developing AI systems, particularly in sensitive areas such as healthcare and finance?",
+    "analise_prompt": {
+      "quantidade_palavras": 24,
+      "quantidade_caracteres": 161,
+      "idioma": {
+        "codigo": "en",
+        "nome": "Inglês",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "en",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 3,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 24,
+        "quantidade_caracteres": 161,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "erro",
+    "duracao_segundos": 12.216016,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  },
+  {
+    "registro_id": "f3827db7-f3bf-455d-ba67-d1c5fdcc1065",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P017",
+    "coletado_em_utc": "2026-11-17T14:34:47.063895+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "How can transfer learning be applied to improve the performance of a machine learning model when there is limited labeled data available?",
+    "analise_prompt": {
+      "quantidade_palavras": 22,
+      "quantidade_caracteres": 137,
+      "idioma": {
+        "codigo": "en",
+        "nome": "Inglês",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "en",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 10,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 22,
+        "quantidade_caracteres": 137,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "erro",
+    "duracao_segundos": 67.818823,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  },
+  {
+    "registro_id": "b4c918b5-7198-47d9-8f19-e726f0c5d31a",
+    "run_id": "2bce842e-ad82-4e38-a5d9-e7f8dbf5c6ca",
+    "prompt_id": "P018",
+    "coletado_em_utc": "2026-11-17T14:35:56.900580+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "calculo_matematico",
+      "categorias_secundarias": [],
+      "pontuacoes": {
+        "calculo_matematico": 1
+      }
+    },
+    "prompt": "What are some common pitfalls to avoid when deploying machine learning models in production environments, and how can they be mitigated?",
+    "analise_prompt": {
+      "quantidade_palavras": 21,
+      "quantidade_caracteres": 136,
+      "idioma": {
+        "codigo": "en",
+        "nome": "Inglês",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "en",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 21,
+      "nivel": "moderada",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 21,
+        "quantidade_caracteres": 136,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": true,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "status": "erro",
+    "duracao_segundos": 21.329299,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
   }
 ]
