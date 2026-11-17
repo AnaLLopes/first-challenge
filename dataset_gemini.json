@@ -173,7 +173,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 1,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 12,
+        "quantidade_caracteres": 77,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "86c472a6-96ec-45ce-b46e-0983deaf02de",
@@ -351,7 +375,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 35,
+      "nivel": "moderada",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 17,
+        "quantidade_caracteres": 92,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 2,
+        "quantidade_requisitos": 1,
+        "quantidade_etapas": 2,
+        "quantidade_objetivos": 2
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": true,
+        "regras_e_restricoes": true,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "fa02e52a-9761-4ffa-9e09-1f53c12f0b2e",
@@ -529,7 +577,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 17,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 7,
+        "quantidade_caracteres": 36,
+        "quantidade_frases": 2,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": true,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "1e068cd3-3c0f-48b6-a2b7-03f7fe7da38b",
@@ -576,6 +648,30 @@
     "erro_execucao": {
       "tipo": "ServerError",
       "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    "complexidade_prompt": {
+      "pontuacao": 8,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 12,
+        "quantidade_caracteres": 81,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
     }
   },
   {
@@ -754,7 +850,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 9,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 20,
+        "quantidade_caracteres": 132,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "1d63bf25-cce9-43b6-872b-caf79b25a7a1",
@@ -930,7 +1050,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 10,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 27,
+        "quantidade_caracteres": 195,
+        "quantidade_frases": 2,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "1b5aca9e-b0b2-478b-adc7-ad0af6bc4fb0",
@@ -1106,7 +1250,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 9,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 14,
+        "quantidade_caracteres": 91,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "8c48312a-8325-4625-abae-a0c3ab3aa5d6",
@@ -1282,7 +1450,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 9,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 17,
+        "quantidade_caracteres": 127,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "b25a04fe-0a26-4947-96ae-1df204a23f1c",
@@ -1458,7 +1650,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 36,
+      "nivel": "moderada",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 30,
+        "quantidade_caracteres": 185,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 3,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 3,
+        "quantidade_objetivos": 3
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": true,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "1b482e99-1492-4cfa-b5eb-f7eb8a386a1b",
@@ -1634,7 +1850,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 3,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 24,
+        "quantidade_caracteres": 134,
+        "quantidade_frases": 2,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "25814f13-760f-4c06-9ab6-37b57451796e",
@@ -1810,7 +2050,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 4,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 20,
+        "quantidade_caracteres": 122,
+        "quantidade_frases": 2,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "904f7f12-fd3c-4732-9284-801e32539fb7",
@@ -1986,7 +2250,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 36,
+      "nivel": "moderada",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 22,
+        "quantidade_caracteres": 121,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 2,
+        "quantidade_requisitos": 1,
+        "quantidade_etapas": 2,
+        "quantidade_objetivos": 2
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": true,
+        "regras_e_restricoes": true,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "a312c98b-09cc-4d9e-aeb3-699547333545",
@@ -2162,7 +2450,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 9,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 18,
+        "quantidade_caracteres": 137,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "463d5d3a-54ca-40f8-8b5a-f91d3c8cf287",
@@ -2338,7 +2650,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 10,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 16,
+        "quantidade_caracteres": 93,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "d5faf605-1c99-41cc-ba01-7fa408a238e2",
@@ -2514,7 +2850,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 17,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 28,
+        "quantidade_caracteres": 155,
+        "quantidade_frases": 2,
+        "quantidade_perguntas": 2,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": true
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "1ecb0a8b-b84f-4882-a101-e5b598d449a7",
@@ -2690,7 +3050,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 3,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 24,
+        "quantidade_caracteres": 161,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "42a747dd-4987-4b94-9dc1-add531e95918",
@@ -2866,7 +3250,31 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 10,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 22,
+        "quantidade_caracteres": 137,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   },
   {
     "registro_id": "54628771-f572-4e6e-9487-4fff0f8f7db1",
@@ -3044,6 +3452,30 @@
       "erros": [],
       "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
     },
-    "erro_execucao": null
+    "erro_execucao": null,
+    "complexidade_prompt": {
+      "pontuacao": 21,
+      "nivel": "moderada",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 21,
+        "quantidade_caracteres": 136,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": true,
+        "conhecimento_tecnico": true,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    }
   }
 ]

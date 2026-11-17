@@ -149,6 +149,42 @@ cp .env.example .env
 # edite o .env: GEMINI_API_KEY=sua_chave
 ```
 
+### Complexidade heurística de prompts
+
+O coletor calcula `complexidade_prompt` localmente antes de enviar cada
+solicitação ao Gemini; essa análise não faz chamadas adicionais à API. Cada
+registro inclui pontuação de 0 a 100, nível, métricas estruturais, indicadores
+de tarefa e `metodo: "heuristico"`. A classificação é uma estimativa textual,
+não uma avaliação semântica definitiva.
+
+Os pesos padrão ficam em `PESOS_COMPLEXIDADE` e as escalas das métricas em
+`ESCALAS_CONTAGEM`, no módulo `prompt_complexity.py`. Os pesos totalizam 100:
+
+| Critério | Peso |
+|---|---:|
+| Quantidade de palavras | 6 |
+| Quantidade de caracteres | 2 |
+| Quantidade de frases | 3 |
+| Quantidade de perguntas | 3 |
+| Instruções identificadas | 12 |
+| Requisitos/restrições identificados | 14 |
+| Etapas identificadas | 12 |
+| Objetivos diferentes identificados | 10 |
+| Raciocínio lógico | 8 |
+| Cálculo matemático | 8 |
+| Conhecimento técnico | 7 |
+| Múltiplas etapas | 5 |
+| Regras/restrições | 5 |
+| Análise/transformação de dados | 5 |
+
+Cada contagem contribui proporcionalmente ao seu peso, com limite definido por
+sua escala (100 palavras, 600 caracteres, 6 frases, 3 perguntas, 6 instruções,
+5 requisitos, 5 etapas e 4 objetivos). Indicadores booleanos adicionam o peso
+completo quando detectados. O score é limitado a 100 e arredondado. Os limites
+configuráveis em `LIMITES_NIVEIS` são: baixa até 20, moderada até 39, alta até
+69 e muito alta acima de 69. Comprimento tem peso combinado de apenas 8 pontos,
+para que o conteúdo e as exigências também influenciem a estimativa.
+
 O `.env` já está no `.gitignore`. Nunca versione a chave.
 
 ## Execução

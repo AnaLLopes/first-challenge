@@ -14,6 +14,7 @@ from dotenv import load_dotenv
 from ecologits import EcoLogits
 from google import genai
 from langdetect import DetectorFactory, LangDetectException, detect_langs
+from prompt_complexity import analisar_complexidade_prompt
 
 
 PASTA = Path(__file__).resolve().parent
@@ -301,6 +302,22 @@ def processar_prompt(
     run_id: str,
 ) -> dict[str, Any]:
     inicio = time.perf_counter()
+    try:
+        complexidade_prompt = analisar_complexidade_prompt(item["prompt"])
+    except Exception as erro:
+        complexidade_prompt = {
+            "pontuacao": None,
+            "nivel": None,
+            "metodo": "heuristico",
+            "metricas": {},
+            "indicadores": {},
+            "status_analise": "erro",
+            "erro": {
+                "tipo": type(erro).__name__,
+                "mensagem": str(erro),
+            },
+        }
+
     registro: dict[str, Any] = {
         "registro_id": str(uuid.uuid4()),
         "run_id": run_id,
@@ -311,6 +328,7 @@ def processar_prompt(
         "classificacao": classificar_prompt(item["prompt"]),
         "prompt": item["prompt"],
         "analise_prompt": analisar_prompt(item["prompt"]),
+        "complexidade_prompt": complexidade_prompt,
         "status": "iniciado",
         "duracao_segundos": None,
         "tokens": {"entrada": None, "saida": None, "total": None},
