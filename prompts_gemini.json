@@ -1,3 +1,20 @@
 [
-"What are some common pitfalls to avoid when deploying machine learning models in production environments, and how can they be mitigated?"
+  "O que é inteligência artificial e cite três aplicações práticas no cotidiano.",
+  "Crie uma função em Python que receba uma lista de números e retorne apenas os números pares.",
+  "Quanto é 125 × 48? Mostre o cálculo.",
+  "Resuma em cinco tópicos os principais impactos ambientais da computação em nuvem.",
+  "Traduza para inglês, em tom profissional: Gostaria de agendar uma reunião para discutirmos o andamento do projeto na próxima semana.",
+  "Consider removing the redundant regex after pre-validation checks, as they already ensure that the input contains only uppercase letters and digits. This will optimize the function's performance.",
+  "Explique o conceito de aprendizado de máquina e como ele difere da programação tradicional.",
+  "Liste cinco medidas que podem ser adotadas para tornar a inteligência artificial mais sustentável e ambientalmente responsável.",
+  "Crie um prompt para um modelo de linguagem que explique a importância da ética na inteligência artificial e forneça exemplos de dilemas éticos que podem surgir no desenvolvimento de IA.",
+  "The code could be optimized for better performance. Currently, it has a time complexity of O(n^2) due to the nested stream operations.",
+  "Why is the sky blue during the day and red/orange during sunset? Explain the scientific principles behind this phenomenon.",
+  "Desenvolva um algoritmo em Python que receba uma lista de strings e retorne apenas aquelas que contêm a letra 'a' ou 'A'.",
+  "Please provide a brief overview of the main differences between supervised, unsupervised, and reinforcement learning in machine learning.",
+  "Could you explain the concept of overfitting in machine learning and how it can be mitigated?",
+  "Is there a way to improve the accuracy of a machine learning model without increasing the size of the training dataset? If so, what techniques can be used?",
+  "What are the ethical considerations that should be taken into account when developing AI systems, particularly in sensitive areas such as healthcare and finance?",
+  "How can transfer learning be applied to improve the performance of a machine learning model when there is limited labeled data available?",
+  "What are some common pitfalls to avoid when deploying machine learning models in production environments, and how can they be mitigated?"
 ]
