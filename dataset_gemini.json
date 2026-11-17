@@ -1,12 +1,16 @@
 [
   {
-    "registro_id": "43c6bd3b-01d3-425d-aaa6-fdf371fde653",
-    "run_id": "745721b5-952b-4045-b781-e3c25d59f7f8",
+    "registro_id": "a64f0aa6-c574-4b57-8adc-fc1b331f35d1",
+    "run_id": "825daaf1-3b08-4965-b8b1-cdd3fe69153c",
     "prompt_id": "P001",
-    "coletado_em_utc": "2026-11-17T13:28:28.819630+00:00",
+    "coletado_em_utc": "2026-11-17T13:40:28.842295+00:00",
     "provedor": "Google Gemini",
     "modelo": "gemini-3.5-flash-lite",
-    "categoria": "pergunta_informativa",
+    "classificacao": {
+      "categoria_principal": "pergunta_informativa",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
     "prompt": "O que é inteligência artificial e cite três aplicações práticas no cotidiano.",
     "analise_prompt": {
       "quantidade_palavras": 12,
@@ -26,57 +30,57 @@
       "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
     },
     "status": "sucesso",
-    "duracao_segundos": 3.341764,
+    "duracao_segundos": 18.235126,
     "tokens": {
       "entrada": 16,
-      "saida": 497,
-      "total": 513
+      "saida": 369,
+      "total": 385
     },
-    "resposta_llm": "A **Inteligência Artificial (IA)** é um ramo da ciência da computação que se dedica a criar sistemas e máquinas capazes de simular a inteligência humana. Isso inclui a habilidade de raciocinar, aprender, tomar decisões, resolver problemas, compreender linguagem natural e até mesmo perceber o ambiente ao seu redor. \n\nDiferente dos softwares tradicionais, que apenas seguem regras rígidas programadas por humanos, os sistemas de IA usam algoritmos e grandes volumes de dados (Big Data) para \"aprender\" com a experiência, melhorando seu desempenho com o tempo através do chamado **Machine Learning** (Aprendizado de Máquina).\n\n---\n\n### Três aplicações práticas da IA no cotidiano:\n\n1. **Assistentes Virtuais (Siri, Alexa, Google Assistant)**\n   * **Como funciona:** Eles utilizam o Processamento de Linguagem Natural (PLN) e reconhecimento de voz para entender o que você fala, interpretar o contexto e executar comandos ou responder perguntas.\n   * **No dia a dia:** Você os utiliza para tocar músicas, verificar a previsão do tempo, definir alarmes, controlar dispositivos de automação residencial (como luzes inteligentes) ou enviar mensagens sem usar as mãos.\n\n2. **Algoritmos de Recomendação (Netflix, Spotify, YouTube, TikTok)**\n   * **Como funciona:** A IA analisa o seu histórico de consumo (o que você assistiu, ouviu, curtiu ou pulou) e o compara com o comportamento de milhões de outros usuários com gostos semelhantes.\n   * **No dia a dia:** É graças a isso que a Netflix sugere exatamente a série que você tem vontade de ver, ou o Spotify cria uma \"Discover Weekly\" (Descoberta da Semana) com músicas que combinam perfeitamente com o seu estilo.\n\n3. **Aplicativos de Navegação e Mobilidade (Google Maps, Waze, Uber)**\n   * **Como funciona:** A IA processa em tempo real uma quantidade massiva de dados — como localização de smartphones, velocidade dos veículos, acidentes, obras e até condições meteorológicas.\n   * **No dia a dia:** O aplicativo calcula a rota mais rápida para o seu destino, desvia de congestionamentos automaticamente, prevê com precisão o horário de chegada e, no caso de aplicativos de transporte, calcula o preço da corrida com base na oferta e demanda.",
+    "resposta_llm": "A **Inteligência Artificial (IA)** é um ramo da ciência da computação que se dedica a criar sistemas e máquinas capazes de simular a inteligência humana. Isso inclui a capacidade de aprender, raciocinar, tomar decisões, reconhecer padrões, entender linguagem natural e resolver problemas. \n\nDiferente dos softwares tradicionais que apenas seguem regras rígidas programadas por humanos, a IA aprende através de dados e experiências anteriores (processo conhecido como *Machine Learning* ou aprendizado de máquina).\n\n---\n\n### Três aplicações práticas no cotidiano:\n\n1. **Assistentes Virtuais (como Siri, Alexa e Google Assistente):**\n   * **Como funciona:** Eles utilizam o Processamento de Linguagem Natural (PLN) para entender a nossa fala, interpretar o que estamos pedindo (como tocar uma música, ver a previsão do tempo ou apagar a luz de casa) e executar a ação ou responder com voz sintetizada.\n\n2. **Algoritmos de Recomendação (Netflix, Spotify, YouTube e TikTok):**\n   * **Como funciona:** A IA analisa o seu histórico de consumo (o que você assistiu, ouviu, curtiu ou pulou) e compara com o comportamento de milhões de outros usuários. Com base nisso, ela prevê do que você gostará e sugere novos filmes, músicas ou vídeos de forma personalizada.\n\n3. **GPS e Aplicativos de Mobilidade (Google Maps e Waze):**\n   * **Como funciona:** Esses aplicativos usam IA para analisar dados em tempo real (como velocidade dos carros na via, acidentes relatados, obras e congestionamentos) para calcular a rota mais rápida, prever com precisão o horário de chegada e sugerir desvios no trânsito.",
     "impactos_ambientais": {
       "total": {
         "energy": {
           "nome": "Energy",
           "valor": {
-            "min": 3.351156248354709e-05,
-            "mean": 0.00013004919396550964,
-            "max": 0.0002265868254474722
+            "min": 2.58284720585691e-05,
+            "mean": 9.892477407439232e-05,
+            "max": 0.00017202107609021552
           },
           "unidade": "kWh"
         },
         "gwp": {
           "nome": "Global Warming Potential",
           "valor": {
-            "min": 1.340972931659215e-05,
-            "mean": 5.131062190513353e-05,
-            "max": 8.921151449367491e-05
+            "min": 1.0537746992799364e-05,
+            "mean": 3.954988898790991e-05,
+            "max": 6.856203098302046e-05
           },
           "unidade": "kgCO2eq"
         },
         "adpe": {
           "nome": "Abiotic Depletion Potential (elements)",
           "valor": {
-            "min": 3.2870535385847364e-11,
-            "mean": 8.673627532303548e-11,
-            "max": 1.406020152602236e-10
+            "min": 3.667262555951928e-11,
+            "mean": 9.50671105803996e-11,
+            "max": 1.5346159560127992e-10
           },
           "unidade": "kgSbeq"
         },
         "pe": {
           "nome": "Primary Energy",
           "valor": {
-            "min": 0.0003313535336527803,
-            "mean": 0.0012766688900334002,
-            "max": 0.00222198424641402
+            "min": 0.00025794672595342444,
+            "mean": 0.0009776981742953014,
+            "max": 0.0016974496226371783
           },
           "unidade": "MJ"
         },
         "wcf": {
           "nome": "Water Consumption Footprint",
           "valor": {
-            "min": 0.00013567537303917976,
-            "mean": 0.0005265189563565691,
-            "max": 0.0009173625396739584
+            "min": 0.00010456950741401172,
+            "mean": 0.0004005082016676866,
+            "max": 0.0006964468959213615
           },
           "unidade": "L"
         }
@@ -85,45 +89,45 @@
         "energy": {
           "nome": "Energy",
           "valor": {
-            "min": 3.351156248354709e-05,
-            "mean": 0.00013004919396550964,
-            "max": 0.0002265868254474722
+            "min": 2.58284720585691e-05,
+            "mean": 9.892477407439232e-05,
+            "max": 0.00017202107609021552
           },
           "unidade": "kWh"
         },
         "gwp": {
           "nome": "Global Warming Potential",
           "valor": {
-            "min": 1.2881844618675502e-05,
-            "mean": 4.999091016034191e-05,
-            "max": 8.709997570200832e-05
+            "min": 9.928464659313963e-06,
+            "mean": 3.8026683154196405e-05,
+            "max": 6.612490164907885e-05
           },
           "unidade": "kgCO2eq"
         },
         "adpe": {
           "nome": "Abiotic Depletion Potential (elements)",
           "valor": {
-            "min": 3.302564482753566e-12,
-            "mean": 1.2816348065300976e-11,
-            "max": 2.2330131647848386e-11
+            "min": 2.545395921371985e-12,
+            "mean": 9.749036485031364e-12,
+            "max": 1.695267704869074e-11
           },
           "unidade": "kgSbeq"
         },
         "pe": {
           "nome": "Primary Energy",
           "valor": {
-            "min": 0.0003246734219655976,
-            "mean": 0.0012599686108154436,
-            "max": 0.0021952637996652895
+            "min": 0.00025023656869224085,
+            "mean": 0.0009584227811423424,
+            "max": 0.001666608993592444
           },
           "unidade": "MJ"
         },
         "wcf": {
           "nome": "Water Consumption Footprint",
           "valor": {
-            "min": 0.00013567537303917976,
-            "mean": 0.0005265189563565691,
-            "max": 0.0009173625396739584
+            "min": 0.00010456950741401172,
+            "mean": 0.0004005082016676866,
+            "max": 0.0006964468959213615
           },
           "unidade": "L"
         }
@@ -133,27 +137,27 @@
         "gwp": {
           "nome": "Global Warming Potential",
           "valor": {
-            "min": 5.278846979166473e-07,
-            "mean": 1.3197117447916184e-06,
-            "max": 2.1115387916665893e-06
+            "min": 6.092823334854014e-07,
+            "mean": 1.5232058337135037e-06,
+            "max": 2.437129333941606e-06
           },
           "unidade": "kgCO2eq"
         },
         "adpe": {
           "nome": "Abiotic Depletion Potential (elements)",
           "valor": {
-            "min": 2.95679709030938e-11,
-            "mean": 7.39199272577345e-11,
-            "max": 1.182718836123752e-10
+            "min": 3.4127229638147295e-11,
+            "mean": 8.531807409536823e-11,
+            "max": 1.3650891855258918e-10
           },
           "unidade": "kgSbeq"
         },
         "pe": {
           "nome": "Primary Energy",
           "valor": {
-            "min": 6.680111687182658e-06,
-            "mean": 1.6700279217956644e-05,
-            "max": 2.6720446748730632e-05
+            "min": 7.710157261183604e-06,
+            "mean": 1.9275393152959008e-05,
+            "max": 3.0840629044734416e-05
           },
           "unidade": "MJ"
         },
@@ -172,13 +176,19 @@
     "erro_execucao": null
   },
   {
-    "registro_id": "71fcc43c-9295-4e4f-81d0-80a762208e13",
-    "run_id": "745721b5-952b-4045-b781-e3c25d59f7f8",
+    "registro_id": "816508da-5433-408d-bafb-e8db11b555df",
+    "run_id": "825daaf1-3b08-4965-b8b1-cdd3fe69153c",
     "prompt_id": "P002",
-    "coletado_em_utc": "2026-11-17T13:28:34.168112+00:00",
+    "coletado_em_utc": "2026-11-17T13:40:49.082379+00:00",
     "provedor": "Google Gemini",
     "modelo": "gemini-3.5-flash-lite",
-    "categoria": "geracao_codigo",
+    "classificacao": {
+      "categoria_principal": "geracao_codigo",
+      "categorias_secundarias": [],
+      "pontuacoes": {
+        "geracao_codigo": 1
+      }
+    },
     "prompt": "Crie uma função em Python que receba uma lista de números e retorne apenas os números pares.",
     "analise_prompt": {
       "quantidade_palavras": 17,
@@ -197,160 +207,35 @@
       },
       "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
     },
-    "status": "sucesso",
-    "duracao_segundos": 9.93571,
+    "status": "erro",
+    "duracao_segundos": 26.327042,
     "tokens": {
-      "entrada": 22,
-      "saida": 505,
-      "total": 527
+      "entrada": null,
+      "saida": null,
+      "total": null
     },
-    "resposta_llm": "Aqui estão algumas maneiras de fazer isso em Python. \n\n### Opção 1: Usando List Comprehension (Mais Pythonica e recomendada)\nEsta é a forma mais concisa e legível de filtrar dados em Python.\n\n```python\ndef retorna_pares(lista_numeros):\n    return [numero for numero in lista_numeros if numero % 2 == 0]\n\n\n# Exemplo de uso:\nnumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\npares = retorna_pares(numeros)\nprint(pares)  # Saída: [2, 4, 6, 8, 10]\n```\n\n---\n\n### Opção 2: Usando a função `filter()`\nSe você prefere uma abordagem funcional, pode usar a função embutida `filter` junto com uma função `lambda`.\n\n```python\ndef retorna_pares(lista_numeros):\n    return list(filter(lambda x: x % 2 == 0, lista_numeros))\n\n\n# Exemplo de uso:\nnumeros = [10, 15, 20, 25, 30]\nprint(retorna_pares(numeros))  # Saída: [10, 20, 30]\n```\n\n---\n\n### Opção 3: Usando um loop `for` tradicional\nSe estiver começando agora e quiser ver a lógica passo a passo com um laço de repetição:\n\n```python\ndef retorna_pares(lista_numeros):\n    pares = []\n    for numero in lista_numeros:\n        if numero % 2 == 0:\n            pares.append(numero)\n    return pares\n\n\n# Exemplo de uso:\nnumeros = [7, 8, 9, 10]\nprint(retorna_pares(numeros))  # Saída: [8, 10]\n```\n\n### Explicação da lógica:\nO operador `%` calcula o resto da divisão. A condição `numero % 2 == 0` verifica se o número é divisível por 2 (ou seja, se o resto da divisão por 2 é zero). Se for, o número é **par**.",
-    "impactos_ambientais": {
-      "total": {
-        "energy": {
-          "nome": "Energy",
-          "valor": {
-            "min": 3.507328577798752e-05,
-            "mean": 0.00013469829556590277,
-            "max": 0.000234323305353818
-          },
-          "unidade": "kWh"
-        },
-        "gwp": {
-          "nome": "Global Warming Potential",
-          "valor": {
-            "min": 1.4253025770972029e-05,
-            "mean": 5.370516161031708e-05,
-            "max": 9.315729744966214e-05
-          },
-          "unidade": "kgCO2eq"
-        },
-        "adpe": {
-          "nome": "Abiotic Depletion Potential (elements)",
-          "valor": {
-            "min": 4.663372287540151e-11,
-            "mean": 1.212176434329718e-10,
-            "max": 1.958015639905421e-10
-          },
-          "unidade": "kgSbeq"
-        },
-        "pe": {
-          "nome": "Primary Energy",
-          "valor": {
-            "min": 0.00034955879533287565,
-            "mean": 0.001329397900264246,
-            "max": 0.002309237005195616
-          },
-          "unidade": "MJ"
-        },
-        "wcf": {
-          "nome": "Water Consumption Footprint",
-          "valor": {
-            "min": 0.00014199818746065627,
-            "mean": 0.0005453413730743831,
-            "max": 0.0009486845586881099
-          },
-          "unidade": "L"
-        }
-      },
-      "uso": {
-        "energy": {
-          "nome": "Energy",
-          "valor": {
-            "min": 3.507328577798752e-05,
-            "mean": 0.00013469829556590277,
-            "max": 0.000234323305353818
-          },
-          "unidade": "kWh"
-        },
-        "gwp": {
-          "nome": "Global Warming Potential",
-          "valor": {
-            "min": 1.3482171053058403e-05,
-            "mean": 5.177802481553302e-05,
-            "max": 9.007387857800764e-05
-          },
-          "unidade": "kgCO2eq"
-        },
-        "adpe": {
-          "nome": "Abiotic Depletion Potential (elements)",
-          "valor": {
-            "min": 3.45647231342067e-12,
-            "mean": 1.3274517028019717e-11,
-            "max": 2.3092561742618765e-11
-          },
-          "unidade": "kgSbeq"
-        },
-        "pe": {
-          "nome": "Primary Energy",
-          "valor": {
-            "min": 0.00033980402193145424,
-            "mean": 0.0013050109667606924,
-            "max": 0.0022702179115899304
-          },
-          "unidade": "MJ"
-        },
-        "wcf": {
-          "nome": "Water Consumption Footprint",
-          "valor": {
-            "min": 0.00014199818746065627,
-            "mean": 0.0005453413730743831,
-            "max": 0.0009486845586881099
-          },
-          "unidade": "L"
-        }
-      },
-      "incorporados": {
-        "energy": null,
-        "gwp": {
-          "nome": "Global Warming Potential",
-          "valor": {
-            "min": 7.708547179136254e-07,
-            "mean": 1.9271367947840632e-06,
-            "max": 3.0834188716545015e-06
-          },
-          "unidade": "kgCO2eq"
-        },
-        "adpe": {
-          "nome": "Abiotic Depletion Potential (elements)",
-          "valor": {
-            "min": 4.3177250561980836e-11,
-            "mean": 1.0794312640495208e-10,
-            "max": 1.7270900224792335e-10
-          },
-          "unidade": "kgSbeq"
-        },
-        "pe": {
-          "nome": "Primary Energy",
-          "valor": {
-            "min": 9.754773401421433e-06,
-            "mean": 2.438693350355358e-05,
-            "max": 3.901909360568573e-05
-          },
-          "unidade": "MJ"
-        },
-        "wcf": null
-      }
-    },
-    "diagnostico_ecologits": {
-      "disponivel": true,
-      "avisos": [
-        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
-        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
-      ],
-      "erros": [],
-      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
-    },
-    "erro_execucao": null
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
   },
   {
-    "registro_id": "d6f032a2-165e-490d-8aa6-8641de50c187",
-    "run_id": "745721b5-952b-4045-b781-e3c25d59f7f8",
+    "registro_id": "3a255aa6-3666-45ae-9d53-9a456b7ed2ec",
+    "run_id": "825daaf1-3b08-4965-b8b1-cdd3fe69153c",
     "prompt_id": "P003",
-    "coletado_em_utc": "2026-11-17T13:28:46.110862+00:00",
+    "coletado_em_utc": "2026-11-17T13:41:17.417031+00:00",
     "provedor": "Google Gemini",
     "modelo": "gemini-3.5-flash-lite",
-    "categoria": "calculo_matematico",
+    "classificacao": {
+      "categoria_principal": "calculo_matematico",
+      "categorias_secundarias": [],
+      "pontuacoes": {
+        "calculo_matematico": 1
+      }
+    },
     "prompt": "Quanto é 125 × 48? Mostre o cálculo.",
     "analise_prompt": {
       "quantidade_palavras": 7,
@@ -370,57 +255,57 @@
       "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
     },
     "status": "sucesso",
-    "duracao_segundos": 1.570864,
+    "duracao_segundos": 15.504967,
     "tokens": {
       "entrada": 17,
-      "saida": 224,
-      "total": 241
+      "saida": 285,
+      "total": 302
     },
-    "resposta_llm": "O resultado de **125 × 48** é **6.000**.\n\nAqui estão duas formas de fazer o cálculo passo a passo:\n\n### Método 1: Decomposição (Fatoração)\nPodemos quebrar o número 48 em fatores mais fáceis de multiplicar ($6 \\times 8$ ou $8 \\times 6$, ou melhor ainda: $8 \\times 6$):\n\n1. $125 \\times 8 = 1.000$\n2. $1.000 \\times 6 = 6.000$\n\n---\n\n### Método 2: Multiiglicação tradicional (Armada)\n\n     1 2 5\n   ×   4 8\n   ---------\n   1 0 0 0  *(que é 125 × 8)*\n + 5 0 0 0  *(que é 125 × 40)*\n   ---------\n     **6 0 0 0**",
+    "resposta_llm": "O resultado de **125 × 48** é **6.000**.\n\nAqui estão duas maneiras de fazer esse cálculo:\n\n### Método 1: Decomposição (Mais fácil de calcular de cabeça)\nPodemos quebrar o número 48 em $40 + 8$:\n* $125 \\times 40 = 5.000$\n* $125 \\times 8 = 1.000$\n\nAgora, somamos os dois resultados:\n* $5.000 + 1.000 = 6.000$\n\n---\n\n### Método 2: Multiplicação por partes (Algoritmo tradicional)\nMultiplicamos 125 por cada dígito de 48:\n\n1. **Multiplicar 125 por 8:**\n   * $125 \\times 8 = 1.000$\n\n2. **Multiplicar 125 por 40** (o 4 na casa das dezenas):\n   * $125 \\times 40 = 5.000$\n\n3. **Somar os dois valores:**\n   * $1.000 + 5.000 = 6.000$",
     "impactos_ambientais": {
       "total": {
         "energy": {
           "nome": "Energy",
           "valor": {
-            "min": 1.5176439480930828e-05,
-            "mean": 5.8795312902503714e-05,
-            "max": 0.0001024141863240766
+            "min": 2.0118440055398902e-05,
+            "mean": 7.682936374140057e-05,
+            "max": 0.00013354028742740224
           },
           "unidade": "kWh"
         },
         "gwp": {
           "nome": "Global Warming Potential",
           "valor": {
-            "min": 6.088402987348194e-06,
-            "mean": 2.3237367406918387e-05,
-            "max": 4.038633182648858e-05
+            "min": 8.243015982751544e-06,
+            "mean": 3.080692648583489e-05,
+            "max": 5.337083698891824e-05
           },
           "unidade": "kgCO2eq"
         },
         "adpe": {
           "nome": "Abiotic Depletion Potential (elements)",
           "valor": {
-            "min": 1.5755198464459923e-11,
-            "mean": 4.144317897057721e-11,
-            "max": 6.71311594766945e-11
+            "min": 3.0520183099709667e-11,
+            "mean": 7.891531087734029e-11,
+            "max": 1.2731043865497092e-10
           },
           "unidade": "kgSbeq"
         },
         "pe": {
           "nome": "Primary Energy",
           "valor": {
-            "min": 0.00015025699194041837,
-            "mean": 0.0005776864487080373,
-            "max": 0.0010051159054756563
+            "min": 0.0002013628007484693,
+            "mean": 0.0007604718729615418,
+            "max": 0.0013195809451746142
           },
           "unidade": "MJ"
         },
         "wcf": {
           "nome": "Water Consumption Footprint",
           "valor": {
-            "min": 6.144354173258113e-05,
-            "mean": 0.00023803951292688706,
-            "max": 0.000414635484121193
+            "min": 8.14517932675548e-05,
+            "mean": 0.00031105241932825645,
+            "max": 0.0005406530453889581
           },
           "unidade": "L"
         }
@@ -429,45 +314,45 @@
         "energy": {
           "nome": "Energy",
           "valor": {
-            "min": 1.5176439480930828e-05,
-            "mean": 5.8795312902503714e-05,
-            "max": 0.0001024141863240766
+            "min": 2.0118440055398902e-05,
+            "mean": 7.682936374140057e-05,
+            "max": 0.00013354028742740224
           },
           "unidade": "kWh"
         },
         "gwp": {
           "nome": "Global Warming Potential",
           "valor": {
-            "min": 5.83382333646981e-06,
-            "mean": 2.2600918279722427e-05,
-            "max": 3.936801322297504e-05
+            "min": 7.73352835729534e-06,
+            "mean": 2.953320742219438e-05,
+            "max": 5.1332886487093424e-05
           },
           "unidade": "kgCO2eq"
         },
         "adpe": {
           "nome": "Abiotic Depletion Potential (elements)",
           "valor": {
-            "min": 1.495638110845733e-12,
-            "mean": 5.794278086541741e-12,
-            "max": 1.009291806223775e-11
+            "min": 1.982672267459562e-12,
+            "mean": 7.571533796715026e-12,
+            "max": 1.3160395325970492e-11
           },
           "unidade": "kgSbeq"
         },
         "pe": {
           "nome": "Primary Energy",
           "valor": {
-            "min": 0.0001470354162670502,
-            "mean": 0.0005696325095246169,
-            "max": 0.0009922296027821836
+            "min": 0.00019491549463272672,
+            "mean": 0.0007443536076721853,
+            "max": 0.0012937917207116439
           },
           "unidade": "MJ"
         },
         "wcf": {
           "nome": "Water Consumption Footprint",
           "valor": {
-            "min": 6.144354173258113e-05,
-            "mean": 0.00023803951292688706,
-            "max": 0.000414635484121193
+            "min": 8.14517932675548e-05,
+            "mean": 0.00031105241932825645,
+            "max": 0.0005406530453889581
           },
           "unidade": "L"
         }
@@ -477,27 +362,27 @@
         "gwp": {
           "nome": "Global Warming Potential",
           "valor": {
-            "min": 2.5457965087838375e-07,
-            "mean": 6.364491271959593e-07,
-            "max": 1.018318603513535e-06
+            "min": 5.094876254562044e-07,
+            "mean": 1.273719063640511e-06,
+            "max": 2.0379505018248175e-06
           },
           "unidade": "kgCO2eq"
         },
         "adpe": {
           "nome": "Abiotic Depletion Potential (elements)",
           "valor": {
-            "min": 1.4259560353614189e-11,
-            "mean": 3.5648900884035475e-11,
-            "max": 5.7038241414456755e-11
+            "min": 2.8537510832250105e-11,
+            "mean": 7.134377708062527e-11,
+            "max": 1.1415004332900042e-10
           },
           "unidade": "kgSbeq"
         },
         "pe": {
           "nome": "Primary Energy",
           "valor": {
-            "min": 3.221575673368162e-06,
-            "mean": 8.053939183420405e-06,
-            "max": 1.2886302693472648e-05
+            "min": 6.4473061157425924e-06,
+            "mean": 1.6118265289356482e-05,
+            "max": 2.578922446297037e-05
           },
           "unidade": "MJ"
         },
@@ -516,13 +401,19 @@
     "erro_execucao": null
   },
   {
-    "registro_id": "ba417b69-8483-458f-b51d-267e19e4f5dc",
-    "run_id": "745721b5-952b-4045-b781-e3c25d59f7f8",
+    "registro_id": "12204633-45ca-48fc-9dd8-b5b39e19b872",
+    "run_id": "825daaf1-3b08-4965-b8b1-cdd3fe69153c",
     "prompt_id": "P004",
-    "coletado_em_utc": "2026-11-17T13:28:49.687818+00:00",
+    "coletado_em_utc": "2026-11-17T13:41:34.930411+00:00",
     "provedor": "Google Gemini",
     "modelo": "gemini-3.5-flash-lite",
-    "categoria": "resumo",
+    "classificacao": {
+      "categoria_principal": "resumo",
+      "categorias_secundarias": [],
+      "pontuacoes": {
+        "resumo": 1
+      }
+    },
     "prompt": "Resuma em cinco tópicos os principais impactos ambientais da computação em nuvem.",
     "analise_prompt": {
       "quantidade_palavras": 12,
@@ -541,29 +432,166 @@
       },
       "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
     },
-    "status": "erro",
-    "duracao_segundos": 10.769909,
+    "status": "sucesso",
+    "duracao_segundos": 7.00074,
     "tokens": {
-      "entrada": null,
-      "saida": null,
-      "total": null
+      "entrada": 19,
+      "saida": 335,
+      "total": 354
     },
-    "resposta_llm": null,
-    "impactos_ambientais": null,
-    "diagnostico_ecologits": null,
-    "erro_execucao": {
-      "tipo": "ServerError",
-      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
-    }
+    "resposta_llm": "Aqui estão os cinco principais impactos ambientais da computação em nuvem, resumidos em tópicos:\n\n1. **Alto Consumo de Energia:** Os grandes centros de dados (data centers) que sustentam a nuvem operam 24 horas por dia e exigem imensas quantidades de eletricidade para alimentar servidores, roteadores e sistemas de armazenamento.\n2. **Pegada de Carbono Significativa:** Como a maior parte da matriz energética global ainda depende de combustíveis fósseis (carvão, gás e petróleo), a enorme demanda elétrica dos data centers resulta na emissão de milhões de toneladas de gases de efeito estufa.\n3. **Uso Intensivo de Água para Resfriamento:** Os servidores geram muito calor e exigem sistemas de refrigeração complexos. Isso consome bilhões de litros de água potável por ano, seja diretamente nos data centers ou indiretamente nas usinas que geram a eletricidade.\n4. **Geração de Lixo Eletrônico (E-waste):** O rápido avanço tecnológico e a necessidade de manter a nuvem veloz exigem a substituição constante de servidores e hardwares obsoletos, gerando uma quantidade massiva de resíduos eletrônicos difíceis de reciclar.\n5. **Extração de Recursos Naturais:** A fabricação dos próprios componentes de hardware (como processadores, placas-mãe e baterias) demanda a mineração intensiva de metais raros e preciosos, causando desmatamento, destruição de hábitats e poluição do solo e da água.",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.3517268628714496e-05,
+            "mean": 8.998139370151469e-05,
+            "max": 0.00015644551877431488
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 9.608927298256199e-06,
+            "mean": 3.6011070832308116e-05,
+            "max": 6.241321436636003e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.418235123054872e-11,
+            "mean": 8.852947736725655e-11,
+            "max": 1.4287660350396438e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.00023504370860856166,
+            "mean": 0.0008897732428030654,
+            "max": 0.001544502776997569
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 9.521233740235059e-05,
+            "mean": 0.00036429990881601247,
+            "max": 0.0006333874802296743
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 2.3517268628714496e-05,
+            "mean": 8.998139370151469e-05,
+            "max": 0.00015644551877431488
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 9.040038060877853e-06,
+            "mean": 3.458884773886225e-05,
+            "max": 6.0137657416846646e-05
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 2.317626823359814e-12,
+            "mean": 8.867666349284273e-12,
+            "max": 1.5417705875208732e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.00022784470538243751,
+            "mean": 0.000871775734737755,
+            "max": 0.0015157067640930724
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 9.521233740235059e-05,
+            "mean": 0.00036429990881601247,
+            "max": 0.0006333874802296743
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 5.688892373783456e-07,
+            "mean": 1.4222230934458639e-06,
+            "max": 2.2755569495133823e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.186472440718891e-11,
+            "mean": 7.966181101797227e-11,
+            "max": 1.2745889762875564e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 7.199003226124147e-06,
+            "mean": 1.7997508065310367e-05,
+            "max": 2.8796012904496587e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
   },
   {
-    "registro_id": "4789d866-932a-4077-962f-ade48b8a83d0",
-    "run_id": "745721b5-952b-4045-b781-e3c25d59f7f8",
+    "registro_id": "f36c2a50-2f6b-482e-accc-69850912f34d",
+    "run_id": "825daaf1-3b08-4965-b8b1-cdd3fe69153c",
     "prompt_id": "P005",
-    "coletado_em_utc": "2026-11-17T13:29:02.462587+00:00",
+    "coletado_em_utc": "2026-11-17T13:41:43.938264+00:00",
     "provedor": "Google Gemini",
     "modelo": "gemini-3.5-flash-lite",
-    "categoria": "traducao",
+    "classificacao": {
+      "categoria_principal": "traducao",
+      "categorias_secundarias": [],
+      "pontuacoes": {
+        "traducao": 2
+      }
+    },
     "prompt": "Traduza para inglês, em tom profissional: Gostaria de agendar uma reunião para discutirmos o andamento do projeto na próxima semana.",
     "analise_prompt": {
       "quantidade_palavras": 20,
@@ -583,57 +611,57 @@
       "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
     },
     "status": "sucesso",
-    "duracao_segundos": 1.197069,
+    "duracao_segundos": 9.054728,
     "tokens": {
       "entrada": 31,
-      "saida": 134,
-      "total": 165
+      "saida": 229,
+      "total": 260
     },
-    "resposta_llm": "Aqui estão algumas opções em inglês, variando do mais direto ao mais formal:\n\n**Opção 1 (Padrão e Profissional - recomendada para a maioria dos casos):**\n> \"I would like to schedule a meeting to discuss the project's progress next week.\"\n\n**Opção 2 (Um pouco mais polida e elegante):**\n> \"I would like to set up a meeting next week to discuss the project status.\"\n\n**Opção 3 (Mais formal, ideal para clientes ou alta gestão):**\n> \"I would like to request a meeting next week to review the ongoing progress of the project.\"",
+    "resposta_llm": "Aqui estão algumas opções em inglês, variando do mais direto ao mais polido, todas em tom profissional:\n\n**Opção 1 (Padrão e muito utilizada - Recomendada):**\n> \"I would like to schedule a meeting to discuss the project progress next week.\"\n\n**Opção 2 (Um pouco mais formal/elegante):**\n> \"I would like to arrange a meeting to discuss the project's progress next week.\"\n\n**Opção 3 (Focada em \"atualizações\", muito comum no ambiente corporativo):**\n> \"I would like to schedule a meeting to discuss the project updates next week.\"\n\n**Dica:** Se você quiser perguntar a disponibilidade da pessoa na mesma frase, pode usar:\n> *\"I would like to schedule a meeting to discuss the project progress next week. Please let me know what day and time work best for you.\"* \n> (Gostaria de agendar uma reunião para discutirmos o andamento do projeto na próxima semana. Por favor, me avise qual dia e horário funcionam melhor para você.)",
     "impactos_ambientais": {
       "total": {
         "energy": {
           "nome": "Energy",
           "valor": {
-            "min": 9.257611645416184e-06,
-            "mean": 3.561931796543185e-05,
-            "max": 6.198102428544752e-05
+            "min": 1.631175205328543e-05,
+            "mean": 6.209909018607274e-05,
+            "max": 0.00010788642831886004
           },
           "unidade": "kWh"
         },
         "gwp": {
           "nome": "Global Warming Potential",
           "valor": {
-            "min": 3.7519394540939036e-06,
-            "mean": 1.4175349669901809e-05,
-            "max": 2.4598759885709715e-05
+            "min": 6.713195309386326e-06,
+            "mean": 2.4978284817784876e-05,
+            "max": 4.3243374326183425e-05
           },
           "unidade": "kgCO2eq"
         },
         "adpe": {
           "nome": "Abiotic Depletion Potential (elements)",
           "valor": {
-            "min": 1.1740249626940284e-11,
-            "mean": 3.0580063783704604e-11,
-            "max": 4.9419877940468926e-11
+            "min": 2.6418554793169928e-11,
+            "mean": 6.814744440863409e-11,
+            "max": 1.0987633402409826e-10
           },
           "unidade": "kgSbeq"
         },
         "pe": {
           "nome": "Primary Energy",
           "valor": {
-            "min": 9.213772891441895e-05,
-            "mean": 0.00035120991079871185,
-            "max": 0.0006102820926830048
+            "min": 0.00016364018394516582,
+            "mean": 0.0006156543387390352,
+            "max": 0.0010676684935329046
           },
           "unidade": "MJ"
         },
         "wcf": {
           "nome": "Water Consumption Footprint",
           "valor": {
-            "min": 3.748049390595735e-05,
-            "mean": 0.0001442088608889478,
-            "max": 0.00025093722787193824
+            "min": 6.60399838365835e-05,
+            "mean": 0.0002514152311019696,
+            "max": 0.0004367904783673557
           },
           "unidade": "L"
         }
@@ -642,45 +670,45 @@
         "energy": {
           "nome": "Energy",
           "valor": {
-            "min": 9.257611645416184e-06,
-            "mean": 3.561931796543185e-05,
-            "max": 6.198102428544752e-05
+            "min": 1.631175205328543e-05,
+            "mean": 6.209909018607274e-05,
+            "max": 0.00010788642831886004
           },
           "unidade": "kWh"
         },
         "gwp": {
           "nome": "Global Warming Potential",
           "valor": {
-            "min": 3.5586259164979814e-06,
-            "mean": 1.3692065825912004e-05,
-            "max": 2.3825505735326027e-05
+            "min": 6.27023748928292e-06,
+            "mean": 2.387089026752636e-05,
+            "max": 4.14715430457698e-05
           },
           "unidade": "kgCO2eq"
         },
         "adpe": {
           "nome": "Abiotic Depletion Potential (elements)",
           "valor": {
-            "min": 9.123376276557651e-13,
-            "mean": 3.5102837854933087e-12,
-            "max": 6.108229943330853e-12
+            "min": 1.6075231648512793e-12,
+            "mean": 6.119865337837469e-12,
+            "max": 1.0632207510823658e-11
           },
           "unidade": "kgSbeq"
         },
         "pe": {
           "nome": "Primary Energy",
           "valor": {
-            "min": 8.969144466545016e-05,
-            "mean": 0.00034509420017628993,
-            "max": 0.0006004969556871296
+            "min": 0.00015803477859305056,
+            "mean": 0.000601640825358747,
+            "max": 0.0010452468721244435
           },
           "unidade": "MJ"
         },
         "wcf": {
           "nome": "Water Consumption Footprint",
           "valor": {
-            "min": 3.748049390595735e-05,
-            "mean": 0.0001442088608889478,
-            "max": 0.00025093722787193824
+            "min": 6.60399838365835e-05,
+            "mean": 0.0002514152311019696,
+            "max": 0.0004367904783673557
           },
           "unidade": "L"
         }
@@ -690,27 +718,27 @@
         "gwp": {
           "nome": "Global Warming Potential",
           "valor": {
-            "min": 1.93313537595922e-07,
-            "mean": 4.83283843989805e-07,
-            "max": 7.73254150383688e-07
+            "min": 4.4295782010340634e-07,
+            "mean": 1.1073945502585158e-06,
+            "max": 1.7718312804136253e-06
           },
           "unidade": "kgCO2eq"
         },
         "adpe": {
           "nome": "Abiotic Depletion Potential (elements)",
           "valor": {
-            "min": 1.0827911999284519e-11,
-            "mean": 2.70697799982113e-11,
-            "max": 4.3311647997138076e-11
+            "min": 2.4811031628318648e-11,
+            "mean": 6.202757907079663e-11,
+            "max": 9.924412651327459e-11
           },
           "unidade": "kgSbeq"
         },
         "pe": {
           "nome": "Primary Energy",
           "valor": {
-            "min": 2.4462842489687908e-06,
-            "mean": 6.115710622421977e-06,
-            "max": 9.785136995875163e-06
+            "min": 5.605405352115251e-06,
+            "mean": 1.4013513380288128e-05,
+            "max": 2.2421621408461005e-05
           },
           "unidade": "MJ"
         },

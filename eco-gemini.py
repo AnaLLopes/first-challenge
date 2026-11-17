@@ -24,22 +24,6 @@ ARQUIVO_SAIDA = PASTA / "dataset_gemini.json"
 MODELO = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 PAUSA_ENTRE_PROMPTS_SEGUNDOS = float(os.getenv("SLEEP_ENTRE_CHAMADAS", "2"))
 
-CATEGORIAS = {
-    "pergunta_informativa",
-    "geracao_codigo",
-    "depuracao_codigo",
-    "calculo_matematico",
-    "analise_dados",
-    "resumo",
-    "traducao",
-    "geracao_texto",
-    "criatividade",
-    "planejamento",
-    "classificacao",
-    "extracao_dados",
-    "outro",
-}
-
 NOMES_IDIOMAS = {
     "de": "Alemão",
     "en": "Inglês",
@@ -54,8 +38,112 @@ INDICADORES = ("energy", "gwp", "adpe", "pe", "wcf")
 DetectorFactory.seed = 0
 
 
+def normalizar_texto(texto: str) -> str:
+    texto = texto.lower()
+    texto = unicodedata.normalize("NFKD", texto)
+    return "".join(
+        caractere for caractere in texto
+        if not unicodedata.combining(caractere)
+    )
+
+
+def classificar_prompt(prompt: str) -> dict[str, Any]:
+    texto = normalizar_texto(prompt)
+    categorias = {
+        "geracao_codigo": [
+            "crie um codigo", "escreva um codigo",
+            "implemente", "desenvolva uma funcao",
+            "crie uma funcao", "programar",
+            "escreva uma classe", "gere um script",
+        ],
+        "depuracao_codigo": [
+            "corrija o erro", "debug", "depure",
+            "identifique o erro", "corrija este codigo",
+            "por que este codigo", "erro no codigo",
+        ],
+        "calculo_matematico": [
+            "quanto e", "calcule", "resolva a equacao",
+            "qual o resultado", "multiplique",
+            "divida", "some", "subtraia",
+            "raiz quadrada", "porcentagem",
+        ],
+        "analise_dados": [
+            "analise os dados", "analise esta planilha",
+            "identifique tendencias", "estatistica",
+            "analise os resultados", "compare os dados",
+        ],
+        "resumo": [
+            "resuma", "faca um resumo",
+            "sintetize", "resuma este texto",
+        ],
+        "traducao": [
+            "traduza", "traduzir",
+            "traduza para", "versao em ingles",
+        ],
+        "geracao_texto": [
+            "escreva um texto", "redija",
+            "escreva um email", "crie um artigo",
+            "elabore um texto", "escreva uma redacao",
+        ],
+        "criatividade": [
+            "crie uma historia", "invente",
+            "crie um poema", "crie um personagem",
+            "ideia criativa", "escreva uma ficcao",
+        ],
+        "planejamento": [
+            "monte um cronograma", "crie um plano",
+            "organize uma rotina", "planeje",
+            "monte um planejamento",
+        ],
+        "classificacao": [
+            "classifique", "categorize",
+            "separe por categoria", "identifique o sentimento",
+            "classificacao de",
+        ],
+        "extracao_dados": [
+            "extraia", "extraia os dados",
+            "identifique os nomes", "extraia informacoes",
+            "leia este documento e extraia",
+        ],
+    }
+
+    pontuacoes = {
+        categoria: pontuacao
+        for categoria, palavras_chave in categorias.items()
+        if (pontuacao := sum(
+            1 for palavra in palavras_chave
+            if normalizar_texto(palavra) in texto
+        )) > 0
+    }
+
+    encontradas = sorted(
+        pontuacoes.items(),
+        key=lambda item: item[1],
+        reverse=True,
+    )
+
+    if encontradas:
+        principal = encontradas[0][0]
+        secundarias = [categoria for categoria, _ in encontradas[1:]]
+    elif re.search(
+        r"\b(quem|qual|quais|quando|onde|como|por que|o que)\b",
+        texto,
+    ):
+        principal = "pergunta_informativa"
+        secundarias = []
+    else:
+        principal = "outro"
+        secundarias = []
+
+    return {
+        "categoria_principal": principal,
+        "categorias_secundarias": secundarias,
+        "pontuacoes": pontuacoes,
+    }
+
+
 def carregar_prompts(caminho: Path) -> list[dict[str, str]]:
-    """Lê e valida uma lista JSON de prompts categorizados."""
+    """Lê uma lista JSON contendo somente textos de prompts."""
     with caminho.open(encoding="utf-8") as arquivo:
         dados = json.load(arquivo)
 
@@ -63,33 +151,13 @@ def carregar_prompts(caminho: Path) -> list[dict[str, str]]:
         raise ValueError("O arquivo de entrada deve conter uma lista JSON não vazia.")
 
     prompts: list[dict[str, str]] = []
-    ids: set[str] = set()
-
     for indice, item in enumerate(dados, start=1):
-        if not isinstance(item, dict):
-            raise ValueError(f"O item {indice} deve ser um objeto JSON.")
-
-        prompt_id = item.get("prompt_id")
-        categoria = item.get("categoria")
-        prompt = item.get("prompt")
-
-        if not isinstance(prompt_id, str) or not prompt_id.strip():
-            raise ValueError(f"O item {indice} precisa de um prompt_id válido.")
-        if prompt_id in ids:
-            raise ValueError(f"prompt_id duplicado: {prompt_id}")
-        if categoria not in CATEGORIAS:
-            raise ValueError(
-                f"Categoria inválida no item {indice}: {categoria!r}. "
-                f"Categorias aceitas: {', '.join(sorted(CATEGORIAS))}."
-            )
-        if not isinstance(prompt, str) or not prompt.strip():
+        if not isinstance(item, str) or not item.strip():
             raise ValueError(f"O prompt do item {indice} não pode ser vazio.")
 
-        ids.add(prompt_id)
         prompts.append({
-            "prompt_id": prompt_id.strip(),
-            "categoria": categoria,
-            "prompt": prompt.strip(),
+            "prompt_id": f"P{indice:03d}",
+            "prompt": item.strip(),
         })
 
     return prompts
@@ -240,7 +308,7 @@ def processar_prompt(
         "coletado_em_utc": datetime.now(timezone.utc).isoformat(),
         "provedor": "Google Gemini",
         "modelo": MODELO,
-        "categoria": item["categoria"],
+        "classificacao": classificar_prompt(item["prompt"]),
         "prompt": item["prompt"],
         "analise_prompt": analisar_prompt(item["prompt"]),
         "status": "iniciado",
