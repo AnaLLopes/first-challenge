@@ -1,0 +1,27 @@
+[
+  {
+    "prompt_id": "P001",
+    "categoria": "pergunta_informativa",
+    "prompt": "O que é inteligência artificial e cite três aplicações práticas no cotidiano."
+  },
+  {
+    "prompt_id": "P002",
+    "categoria": "geracao_codigo",
+    "prompt": "Crie uma função em Python que receba uma lista de números e retorne apenas os números pares."
+  },
+  {
+    "prompt_id": "P003",
+    "categoria": "calculo_matematico",
+    "prompt": "Quanto é 125 × 48? Mostre o cálculo."
+  },
+  {
+    "prompt_id": "P004",
+    "categoria": "resumo",
+    "prompt": "Resuma em cinco tópicos os principais impactos ambientais da computação em nuvem."
+  },
+  {
+    "prompt_id": "P005",
+    "categoria": "traducao",
+    "prompt": "Traduza para inglês, em tom profissional: Gostaria de agendar uma reunião para discutirmos o andamento do projeto na próxima semana."
+  }
+]

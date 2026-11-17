@@ -3,3 +3,4 @@ google-genai
 ecologits
 pandas
 python-dotenv
+langdetect
