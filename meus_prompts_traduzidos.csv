@@ -1,0 +1,1003 @@
+id,tarefa,prompt_original,prompt_otimizado
+1,consulta,"Quem foram os filhos do lendário Garth Greenhand, o Alto Rei dos Primeiros Homens na série As Crônicas de Gelo e Fogo?",Liste os filhos de Garth Greenhand de As Crônicas de Gelo e Fogo.
+2,listagem,Me dê uma lista de ingredientes básicos para assar biscoitos,Liste os ingredientes básicos para biscoitos.
+3,criacao,Escreva uma leitura de horóscopo engraçada e caprichosa,Gere um horóscopo engraçado e divertido.
+4,pergunta,Quem foi a primeira pessoa a fazer uma caminhada espacial?,Quem foi a primeira pessoa a caminhar no espaço?
+5,explicacao,O que faz a asa de um avião voar?,Explique a física do voo de uma asa de avião.
+6,explicacao,Uma explosão nuclear poderia mudar a rotação da Terra?,Explosão nuclear altera rotação da Terra?
+7,explicacao,"Na teoria musical, o que é o círculo de quintas?",Explique o círculo de quintas na teoria musical.
+8,recomendacao,O que eu devo fazer em uma tarde livre em São Francisco?,O que fazer em uma tarde livre em São Francisco?
+9,extracao,Extraia as datas do seguinte.,Extraia as datas do texto:
+10,extracao,"De acordo com a passagem, cujos trabalhos Narendranath estudou?",Quem foram os autores estudados por Narendranath segundo o texto?
+11,duvida,Qual é o terceiro membro do ioga?,Terceiro membro do ioga?
+12,resumo,"Resuma o significado de ""Amantes"" no slogan ""A Virgínia é para os amantes""","Explique o termo ""Amantes"" no slogan ""Virginia is for lovers""."
+13,explicacao,por que os seres humanos têm a tendência de achar que estão sempre certos?,explique a tendência humana de achar que está sempre certa.
+14,vendas,Me venda este lápis,Venda este lápis.
+15,explicacao,Quais são os méritos de pular o café da manhã? Você pode direcionar sua resposta para um americano típico e descrever em termos leigos em vez de jargão científico detalhado?,"Explique os benefícios de pular o café da manhã para o americano médio, usando termos simples sem jargões científicos."
+16,explicacao,Como você faz vinho?,Explique o processo de fabricação do vinho.
+17,pesquisa,Qual gravadora criou o vinil?,Gravadora criadora do vinil.
+18,consulta,Por qual gravadora foi lançado o álbum 101 Damnations?,Gravadora do álbum 101 Damnations?
+19,extracao,"Dado este parágrafo, quantas escolas secundárias públicas existem em Arlington, Virgínia?","Quantas escolas secundárias públicas há em Arlington, VA, no texto?"
+20,consulta,Quem foi a primeira Pessoa do Ano da revista Time?,Primeira Pessoa do Ano da Time
+21,explicacao,Quais são alguns exemplos de diferentes tipos de cerveja?,Liste tipos de cerveja.
+22,explicacao,Por que os biscoitos são deliciosos?,Por que biscoitos são deliciosos?
+23,extracao,"Por favor, compartilhe alguns pontos importantes para lembrar sobre o Oscar a partir do texto fornecido",Liste os pontos principais sobre o Oscar baseados no texto.
+24,listagem,"Liste alguns dos personagens de Arquivo X que foram infectados pelo vírus do óleo negro alienígena, mas não morreram devido à exposição a ele.",Liste personagens de Arquivo X infectados pelo óleo negro que sobreviveram.
+25,extracao,"Extraia os nomes de pessoas e países em duas listas diferentes separadas por vírgulas: ""A explosão de domingo ecoa o atentado a carro-bomba que matou Darya Dugina, filha do influente filósofo ultranacionalista Alexander Dugan, em agosto de 2022. Alexander Dugan é creditado como o arquiteto, ou ""guia espiritual"", da invasão da Ucrânia pela Rússia. Dugina e Tatarsky circulavam nos mesmos círculos e haviam sido fotografados várias vezes juntos""","Extraia os nomes de pessoas e países em duas listas separadas por vírgulas do texto: ""Sunday’s blast has echoes of the car bombing that killed Darya Dugina, the daughter of influential ultra-nationalist philosopher Alexander Dugan in August 2022. Alexander Dugan is credited with being the architect, or “spiritual guide,” to Russia’s invasion of Ukraine. Dugina and Tatarsky moved in the same circles, and they had been photographed multiple times together"""
+26,escrita,Escreva uma homenagem ao meu treinador de natação do ensino médio.,Escreva uma homenagem ao meu treinador de natação do ensino médio.
+27,classificacao,"Identifique a ave da lista: Bar-tailed godwit, Leopard, Shark","Identifique a ave: Bar-tailed godwit, Leopard, Shark"
+28,resenha,"Escreva uma resenha do livro A Sombra do Vento, de Carlos Ruiz Zafón","Resenha do livro A Sombra do Vento, de Carlos Ruiz Zafón."
+29,pesquisa,qual era a população da Índia durante a Era Mauryan?,População da Índia no Império Máuria.
+30,classificacao,"Olá! Poderia, por favor, classificar cada um dos seguintes veículos como elétrico ou a gás: Tesla Model Y, Kia Telluride, Lexus IS250, Mustang Mach-e, Chevy Bolt, Toyota Rav4? Muito obrigado!","Classifique cada veículo como elétrico ou a gás: Tesla Model Y, Kia Telluride, Lexus IS250, Mustang Mach-e, Chevy Bolt, Toyota Rav4."
+31,explicacao,O que é ácido palmítico?,Defina ácido palmítico.
+32,listagem,Nomeie três filmes famosos sobre esportes.,Cite 3 filmes famosos sobre esportes.
+33,consulta,Quando o álbum Memphis foi lançado,Data de lançamento do álbum Memphis.
+34,listagem,Me dê uma lista dos seis principais clubes de futebol da premier league,Top 6 clubes da Premier League.
+35,classificacao,"Diga-me se estas bebidas são ácidas: Suco de Laranja, Suco de Toranja, Coca-Cola, Leite de Soja, Água de Coco, Suco de Cenoura","Determine a acidez de: suco de laranja, suco de toranja, Coca-Cola, leite de soja, água de coco e suco de cenoura."
+36,classificacao,"Identifique qual animal é domesticado ou selvagem: Bicho-da-seda, Caracol-romano",Classifique se são domesticados ou selvagens: bicho-da-seda e caracol-romano.
+37,resumo,Me dê um resumo do parágrafo com suas próprias palavras e ele deve ser curto,Resuma o parágrafo brevemente com suas palavras.
+38,explicacao,O que é uma vírgula serial (Oxford comma) e por que os editores têm sentimentos tão fortes sobre o uso dela?,Explique o que é a vírgula de Oxford e por que há debates sobre seu uso.
+39,extracao,"Da passagem fornecida, extraia o segundo álbum de estúdio que Taylor Swift lançou.",Extraia o segundo álbum de estúdio de Taylor Swift da passagem.
+40,receita,Quais ingredientes eu preciso para fazer pão de fermentação natural,Ingredientes para pão de fermentação natural.
+41,duvida,Eu posso viajar para o Canadá vindo dos Estados Unidos com o meu cachorro?,Regras para viajar com cachorro dos EUA para o Canadá.
+42,pergunta,Em que anos aconteceu a Segunda Guerra Mundial?,Anos da Segunda Guerra Mundial
+43,explicacao,Por que alguém escolheria se mudar para Seattle?,Motivos para mudar para Seattle.
+44,duvida,Quantas teclas existem em um piano padrão?,Número de teclas de um piano padrão.
+45,explicacao,O que é uma maçã?,Defina maçã.
+46,explicacao,O que é geovisualização?,Defina geovisualização.
+47,explicacao,"aqui está um trecho sobre a codificação de pares de bytes para criptografia, quais benefícios esse conceito tem além da compressão?","Liste os benefícios da codificação de pares de bytes (BPE) em criptografia, além da compressão."
+48,pesquisa,Quem venceu a Liga dos Campeões da UEFA de 1998-99?,Vencedor UEFA Champions League 1998-99
+49,curiosidade,Quanto de madeira um marmota poderia roer se uma marmota pudesse roer madeira?,Quanta madeira uma marmota rói?
+50,explicacao,Qual é a melhor maneira de entender dados baseados em eventos?,Como entender dados baseados em eventos?
+51,explicacao,Por que o Prêmio Lupin não aconteceu de 1915 a 1918?,Motivo da suspensão do Prêmio Lupin entre 1915 e 1918.
+52,medicina,"Quantas vacinas devo tomar, se um cachorro me morder?",Número de vacinas necessárias após mordida de cachorro.
+53,explicacao,Por que sentar é o novo fumar?,Explique os malefícios à saúde do sedentarismo prolongado.
+54,pergunta,"Quem é a principal antagonista feminina em ""The X-Files""?",Quem é a principal antagonista feminina de Arquivo X?
+55,explicacao,O que é uma emenda?,Defina emenda.
+56,classificacao,"Classifique cada um dos seguintes como criativo ou analítico: pintura, matemática, física, química, desenho, filmagem","Classifique como criativo ou analítico: pintura, matemática, física, química, desenho, filmagem"
+57,pergunta,Quem foi o primeiro ator a interpretar o Coringa na série de televisão do Batman?,Primeiro ator do Coringa na série Batman.
+58,quiz,"Fissuras, aberturas e plugues estão todos associados a qual característica geológica?","Identifique a feição geológica associada a fissuras, aberturas (vents) e plugues."
+59,listagem,Liste cinco títulos de Suzanne Collins.,Liste 5 livros de Suzanne Collins.
+60,classificacao,"Quais das seguintes formas bidimensionais são feitas usando apenas linhas curvas? E quais usam apenas linhas retas? oval, retângulo, quadrado, pentágono, círculo e losango.","Classifique as formas (oval, retângulo, quadrado, pentágono, círculo, losango) entre apenas linhas curvas ou apenas linhas retas."
+61,explicacao,Por que é importante levantar pesos?,Importância da musculação.
+62,classificacao,"Quais destas comidas são do Norte e do Sul da Índia: Frango Tikka, Chole Samosa, Chole Batura, Idli Sambar, Dosa, Upama, Arroz de Tamarindo","Classifique os pratos indianos (Frango Tikka, Chole Samosa, Chole Batura, Idli Sambar, Dosa, Upama, Arroz de Tamarindo) entre Norte e Sul da Índia."
+63,classificacao,"Selecione a palavra ímpar desta lista e explique por que você a escolheu.
+Larch
+Elm
+Oak
+Yew
+Rhododendron","Identifique o intruso na lista (Larch, Elm, Oak, Yew, Rhododendron) e justifique."
+64,explicacao,Quais são as regras básicas do basebol?,Regras básicas do beisebol.
+65,listagem,"Nomeie três pratos que foram desenvolvidos a partir de condições de escassez ou de ter que ""se virar"" com os materiais ou ingredientes disponíveis.",Cite três pratos criados em condições de escassez com ingredientes disponíveis.
+66,consulta,Quantos e quais estados foram colônias dos EUA?,Liste os estados que foram colônias dos EUA e a quantidade.
+67,pergunta,"Dado um texto de referência sobre a Batalha das Termópilas, diga-me quando a batalha foi travada, entre quem foi a batalha, quantas forças gregas e persas havia, como o exército persa conseguiu flanquear as forças gregas e quem venceu a batalha?","Com base na Batalha das Termópilas, informe data, oponentes, tamanho dos exércitos (gregos e persas), como ocorreu o cerco/flanqueamento persa e o vencedor."
+68,classificacao,Qual é uma espécie de peixe? Leão ou Peixe-leão,Qual é peixe: Leão ou Peixe-leão?
+69,resumo,"Por favor, me dê uma breve lista em tópicos das principais realizações que John Wooden teve como técnico do time de basquete masculino da UCLA.",Liste as principais conquistas de John Wooden como técnico de basquete da UCLA.
+70,explicacao,O que é um IRA tradicional ou um 401k?,Defina IRA tradicional e 401(k).
+71,localizacao,Onde fica Pleasanton?,Localização de Pleasanton.
+72,extracao,"A partir da passagem, identifique o uso de calcário. Exiba os resultados em um formato de lista numerada.",Liste os usos do calcário mencionados no texto em formato numerado.
+73,resumo,"Com base no texto de referência, forneça uma lista com marcadores resumindo as três leis do movimento de Newton",Liste as três leis de Newton com base no texto.
+74,extracao,"De acordo com esta passagem, qual porcentagem do mercado de máquinas de litografia Ultratech, Canon e Nikon, MKS Instruments, Lam Research e Cadence Design Systems têm em conjunto?","Qual a participação de mercado agregada de Ultratech, Canon, Nikon, MKS Instruments, Lam Research e Cadence Design Systems segundo o texto?"
+75,explicacao,Por que o Arsenal FC é um grande clube de futebol?,Por que o Arsenal FC é um clube de futebol excelente?
+76,explicacao,"Se restam apenas dois gêneros, o que aconteceu com os outros 24?","Explique o desaparecimento dos outros 24 gêneros, restando apenas dois."
+77,consulta,Em que anos a equipe de críquete feminina australiana venceu a copa do mundo,Anos de vitória da seleção feminina de críquete da Austrália na Copa do Mundo
+78,extracao,"Dado este parágrafo sobre o esporte do triatlon, quais são os esportes individuais que compõem um triatlon",Quais são os esportes individuais do triatlon?
+79,filosofia,Um ser humano deve ser feliz o tempo todo?,O ser humano deve ser feliz constantemente?
+80,pesquisa,Qual é o filme mais antigo ambientado no Egito Antigo?,Filme mais antigo ambientado no Egito Antigo.
+81,planejamento_viagem,Quais são todas as formas que alguém pode viajar de Boston para Filadélfia,Liste todas as opções de transporte de Boston para Filadélfia.
+82,explicacao,Qual é o mês do Ramadã?,O que é o Ramadã?
+83,explicacao,Quem é o Doom Guy?,Quem é Doom Guy?
+84,pergunta,Quando e onde Nero nasceu?,Data e local de nascimento de Nero.
+85,completar,A Assembleia Geral das Nações Unidas declarou o ano de 2023 como,Qual o ano internacional de 2023 segundo a ONU?
+86,planejamento,Estou de férias de uma semana na Índia e quero especificamente explorar o estado himalaias de Himachal Pradesh. Como devo planejar minha viagem?,"Planeje um roteiro de 7 dias para Himachal Pradesh, Índia."
+87,consulta,Quem fundou a Belu?,Fundadores da Belu
+88,consulta,Quem compôs a suíte The Planets (ambos os nomes),Quem compôs a suíte The Planets?
+89,classificacao,"Classifique cada um dos seguintes como sendo um país ou uma cidade: Suécia, França, Paris, Bali, Roterdã, Sevilha, Índia, São Francisco, Amritsar, Portugal","Classifique como país ou cidade: Suécia, França, Paris, Bali, Roterdã, Sevilha, Índia, São Francisco, Amritsar, Portugal"
+90,informacao,Quem era o pai de Bosch?,Quem é o pai de Bosch?
+91,pesquisa,Onde se originou o Dia dos Pais?,Origem do Dia dos Pais
+92,explicacao,O que é o Maareech Advanced Torpedo Defence System (ATDS)?,O que é o Maareech ATDS?
+93,extracao,Extraia os nomes das cidades e ordene-os em ordem alfabética?,Liste e ordene alfabeticamente os nomes das cidades.
+94,extracao,"Dado este parágrafo sobre Mohamed Fourati, com que idade ele foi nomeado assistente hospitalar?",Idade de Mohamed Fourati ao ser nomeado assistente hospitalar no texto.
+95,listagem,Quais são 3 coisas a considerar ao escolher uma montanha para esquiar?,Liste 3 critérios para escolher uma montanha de esqui.
+96,classificacao,"Quais destes livros foram escritos por James Michener e quais foram escritos por Ian McEwan: Tales of the South Pacific, Saturday, Atonement, The Children Act, Hawaii, Texas, On Chesil Beach e Alaska.","Classifique os livros (Tales of the South Pacific, Saturday, Atonement, The Children Act, Hawaii, Texas, On Chesil Beach, Alaska) por autor: James Michener ou Ian McEwan."
+97,criacao_textual,Proponha um texto sobre um jovem garoto que queria empinar sua pipa sobre os arranha-céus. Faça desta uma história muito positiva com uma reviravolta,Escreva uma história positiva com reviravolta sobre um menino que tenta empinar pipa sobre arranha-céus.
+98,categorizacao,"Ao estar em clima frio, categorize cada um dos seguintes como ""Útil"" ou ""Não Útil"": Casaco, Ar Condicionado, Gelo, Gorro, Calças, Biquíni","Categorize como ""Útil"" ou ""Não Útil"" no frio: Casaco, Ar Condicionado, Gelo, Gorro, Calças, Biquíni."
+99,classificacao,Qual é uma espécie de peixe? Javali ou Peixe-javali,Qual é a espécie de peixe: Boar ou Boarfish?
+100,classificacao,"Qual destes animais podem ser animais de estimação? Lobo, cachorro, coelho, esquilo, gato, leão.","Liste quais destes animais podem ser pets: lobo, cachorro, coelho, esquilo, gato, leão."
+101,pergunta,Qual programa de TV é sobre um CEP em Beverly Hills?,Qual série de TV se passa no CEP de Beverly Hills?
+102,explicacao,O que é um Roth 401(k)?,Defina Roth 401(k).
+103,listagem,Diferentes usos para o vidro,Liste os usos do vidro.
+104,explicacao,Como é que Uzunkum se tornou num adorável parque de praia de areia na Turquia?,Explique a transformação de Uzunkum em um parque de praia na Turquia.
+105,explicacao,Por que o multi-threading não está tornando meu código Python mais rápido? Como posso consertar isso.,Por que o multi-threading não acelera o código Python e como corrigir?
+106,extracao,"Dado o seguinte trecho sobre Theodore Roosevelt, por favor liste as principais realizações durante sua presidência.",Liste as principais realizações da presidência de Theodore Roosevelt no texto.
+107,extracao_dados,"Dado um texto de referência sobre um futebolista, diga-me quando ele nasceu, quais são suas nacionalidades e em quais anos ele ganhou a Copa do Mundo da FIFA.","Informe data de nascimento, nacionalidade e anos de vitória na Copa do Mundo do futebolista citado no texto."
+108,explicacao,Qual é a diferença entre uma cítara e uma tanpura?,Diferença entre cítara e tanpura.
+109,redacao,Escreva um ensaio descrevendo por que o beisebol deve ser considerado o passatempo da América.,Escreva um ensaio explicando por que o beisebol é o passatempo dos EUA.
+110,fisica,"o que pesa mais, água fria ou água quente?",Qual pesa mais: água fria ou quente?
+111,explicacao,Por que o filme The Happytime Murders recebeu críticas tão ruins se ganhou prêmios?,Explique as críticas ruins de The Happytime Murders apesar de ter vencido prêmios.
+112,classificacao,"Identifique qual instrumento é de corda ou percussão: Davul, Begena",Classifique Davul e Begena como corda ou percussão.
+113,explicacao,Qual é a diferença entre uma função de venture corporativo e uma firma de venture institucional?,Diferença entre corporate venture e venture institucional.
+114,recomendacao,Qual é o melhor lugar para comer em Bangalore?,Melhor restaurante em Bangalore
+115,classificacao,"Diga-me se estes são um sólido, líquido ou gás","Classifique como sólido, líquido ou gás:"
+116,explicacao,O que é Lisp?,Defina Lisp.
+117,analise,"No resumo abaixo do episódio 158 da série Black Clover, como o exército de Spade perdeu?",Explique como o exército de Spade perdeu no resumo do episódio 158 de Black Clover.
+118,extracao,"Do trecho fornecido, extraia os nomes e as obras publicadas dos primeiros economistas. Identifique o nome e depois a obra publicada separados por um traço. Separe os pares de nome e obras publicadas com um ponto e vírgula.",Extraia nomes e obras de economistas do texto. Formato: Nome - Obra; Nome - Obra.
+119,extracao,Extraia os detalhes arquitetônicos em relação à Catedral de Nossa Senhora do Rosário na Colômbia. Separe os itens principais com uma nova linha que comece com um hífen.,Liste os detalhes arquitetônicos da Catedral de Nossa Senhora do Rosário na Colômbia em itens iniciados por hífen.
+120,consulta,"Na série As Crônicas de Gelo e Fogo, quem é o fundador da Casa Beesbury?",Fundador da Casa Beesbury em As Crônicas de Gelo e Fogo.
+121,consulta,Quais são as palavras da Casa Tyrell?,Lema da Casa Tyrell
+122,explicacao,Por que as pessoas gostam de gatos?,Por que pessoas gostam de gatos?
+123,listagem,Quem são os 5 melhores jogadores de basquete de todos os tempos?,Top 5 jogadores de basquete da história.
+124,pergunta,Quando foi a última vez que os alienígenas visitaram a Terra?,Última visita alienígena à Terra.
+125,explicacao,"Descreva como as mídias sociais podem ajudar as empresas a tomar melhores decisões de negócios. Quais dados de mídia social podem ser coletados para auxiliar nas decisões de negócios? Liste quatro partes de dados de mídia social (por exemplo, menções no Twitter e o número de retweets seriam contados como duas partes).",Explique como redes sociais melhoram decisões empresariais e liste quatro tipos de dados coletáveis.
+126,pesquisa,Quando e onde o campo da inteligência artificial nasceu oficialmente?,Quando e onde a IA nasceu oficialmente?
+127,explicacao,Por que os EUA entraram na Segunda Guerra Mundial?,Motivos da entrada dos EUA na Segunda Guerra Mundial.
+128,recomendacao,O que eu devo fazer nesta primavera em São Francisco?,Atrações primavera São Francisco.
+129,listagem,Nomeie cinco países no Hemisfério Norte,Liste 5 países do Hemisfério Norte.
+130,explicacao,O que significa o #956?,Significado de #956
+131,extracao,Extraia uma lista de todas as comunidades e condados mencionados neste artigo sobre a SH 115.,Liste comunidades e condados do artigo sobre a SH 115.
+132,pergunta,Quando a Flórida se tornou um estado?,Data de estado da Flórida.
+133,explicacao,O que foi a república árabe unida?,Defina República Árabe Unida.
+134,duvida,Qual linguagem de programação o Spark suporta?,Linguagens suportadas pelo Spark?
+135,analise,Quais foram os principais resultados da aplicação de análise estatística à língua inglesa?,Quais os principais resultados da análise estatística do inglês?
+136,pergunta,"Dado este parágrafo sobre açafrão, de onde esse nome se origina originalmente?",Qual a origem do nome açafrão no texto?
+137,recomendacao,"Quais são os 5 principais lugares para comer enquanto visita Milwaukee, Wisconsin?","Top 5 restaurantes em Milwaukee, Wisconsin."
+138,explicacao,O que eu preciso estar ciente ao falar com um alienígena?,Cuidados ao comunicar com alienígenas.
+139,explicacao,Qual é a diferença entre o NAFTA e a OTAN?,Diferença entre NAFTA e OTAN.
+140,explicacao,O que é pós-modernismo?,Defina pós-modernismo.
+141,resumo,"Como um estudante do ensino médio de 16 anos, escreva um pequeno resumo da sua visita à exposição do Vermeer no Rijksmuseum.",Escreva um resumo curto como um estudante de 16 anos sobre a visita à exposição de Vermeer no Rijksmuseum.
+142,explicacao,Pelo que a cidade de Seattle é conhecida?,Seattle é conhecida por quê?
+143,classificacao,"Classifique cada um dos seguintes itens como comida mexicana ou comida vietnamita: pho, tacos, spring rolls, bun bo hue, burritos, frijoles, banh mi, nachos","Classifique como comida mexicana ou vietnamita: pho, tacos, spring rolls, bun bo hue, burritos, frijoles, banh mi, nachos."
+144,explicacao,Quais são algumas estatísticas descritivas comuns?,Liste estatísticas descritivas comuns.
+145,analise,O que você acha: podemos lançar isso sem uma interface de usuário e adicionar isso depois? Podemos lançar como GA sem uma interface de usuário?,"Avalie o lançamento da funcionalidade como GA sem interface gráfica, incluindo a adição da UI posteriormente."
+146,duvida,Quando devo tomar um medicamento?,Qual o horário correto para tomar um medicamento?
+147,planejamento,"Estou planejando uma viagem para a Espanha. Estou interessado em cultura, museus e arte, mas também quero ir à praia e comer muito bem. Quais são 5 lugares que eu deveria definitivamente visitar?","Liste 5 destinos na Espanha que combinem cultura, arte, praia e boa gastronomia."
+148,recomendacao,Quais são os melhores filmes de super-heróis de 2022?,Melhores filmes de super-heróis de 2022.
+149,geração de lista,Me dê uma lista com marcadores de 8 cores pastel diferentes que eu poderia pintar minha parede,Liste 8 cores pastel para parede.
+150,extracao,"Com base neste artigo, quais são as considerações sobre qual fuso horário é usado para determinar qual terra está na zona do homem morto?","Com base no artigo, qual fuso horário define a 'dead man zone'?"
+151,pergunta,Quantas equipes competem no campeonato mundial de Fórmula 1?,Quantas equipes competem na Fórmula 1?
+152,criacao,Pense em 5 tons de azul que eu poderia pintar meu quarto,Liste 5 tons de azul para pintura de quarto.
+153,classificacao,"Identifique qual instrumento é de corda ou de percussão: Talempong, Guitar",Classifique Talempong e Guitarra como corda ou percussão.
+154,redacao,Elabore um e-mail para um resort solicitando informações sobre uma celebração de renovação de votos para minha esposa e para mim.,Escreva um e-mail para um resort pedindo informações sobre renovação de votos.
+155,classificacao,"Identifique qual instrumento é de corda ou percussão: Chocalho, Cak",Classifique se os instrumentos Chocalho e Cak são de corda ou percussão.
+156,pesquisa,Quem é o vencedor do International Booker Prize de 2022?,Vencedor International Booker Prize 2022
+157,resumo,"Anote alguns pontos sobre as ""Quatro Grandes"" usando a passagem fornecida como referência","Liste os pontos principais sobre as ""Big Four"" com base no texto fornecido."
+158,consulta,Quais são os três jogadores que têm mais vitórias no torneio Masters?,Top 3 maiores vencedores do Masters.
+159,recomendacao,"Quais são algumas coisas boas para fazer enquanto passa um dia na área do Tamalpais Valley em Mill Valley, CA?","Liste atrações e atividades para um dia no Tamalpais Valley, Mill Valley, CA."
+160,pesquisa,Os automóveis existiam antes da invenção do motor de combustão interna?,Automóveis existiam antes do motor de combustão interna?
+161,listagem,Dê-me uma lista em tópicos de dez coisas cidades que devo visitar na Espanha,Liste 10 cidades para visitar na Espanha.
+162,classificacao,"Escolha a palavra que é diferente do resto: Gatilho, Cano, Paleta, Barril, Bala","Identifique a palavra intrusa entre: Gatilho, Cano, Paleta, Cano de arma, Bala."
+163,extracao,Extraia os passos para resolver um dado problema de aprendizado de máquina supervisionado do seguinte texto,Extraia os passos para resolver um problema de aprendizado de máquina supervisionado do texto.
+164,filosofia,Quantos anjos podem dançar na cabeça de um alfinete?,Quantos anjos cabem na cabeça de um alfinete?
+165,explicacao,O que é Diabetes Tipo 2?,Defina diabetes tipo 2.
+166,classificacao,"Classifique cada uma das formas como tendo 3, 4 ou 5 lados: quadrado, retângulo, pentágono, losango, triângulo","Classifique as formas (quadrado, retângulo, pentágono, losango, triângulo) pelo número de lados (3, 4 ou 5)."
+167,explicacao,O universo paralelo realmente existe?,Universos paralelos existem?
+168,explicacao,O que é a Dollarama?,O que é Dollarama?
+169,consulta,"Diga-me o país destas cidades: Tóquio, Londres, Nova York, Taipé","País de: Tóquio, Londres, Nova York, Taipé."
+170,conselho,Como posso pedir ao meu sogro idoso para ir ver o cardiologista quando ele não quer ir?,Como convencer sogro idoso a ir ao cardiologista?
+171,classificacao,Qual é uma espécie de peixe? Peixe-soldado ou Soldier Boy,Peixe-soldado ou Soldier Boy é peixe?
+172,planejamento,Dê-me diferentes maneiras pelas quais posso viajar de um lugar para outro,Liste meios de transporte entre dois locais.
+173,comparacao,Qual é a diferença entre ECS e EC2?,Diferença entre ECS e EC2.
+174,explicacao,Por que houve uma tempestade em São Francisco na semana passada?,Explique a causa da tempestade em São Francisco na semana passada.
+175,explicacao,Por que os bengalis são famosos,Por que os bengalis são famosos?
+176,recomendacao,Qual estação do ano é a melhor estação para visitar Chicago?,Melhor época para visitar Chicago.
+177,classificacao,"Identifique qual fabricante de automóveis é chinês ou americano: BAIC, GMC",Classifique BAIC e GMC como fabricantes chineses ou americanos.
+178,classificacao,"classifique cada um destes como software de computador ou hardware: RAM, SSD, keyboard, mouse, trackpad, python, R, Scala, Google, Gmail, Figma, camera, screen","Classifique como hardware ou software: RAM, SSD, teclado, mouse, trackpad, python, R, Scala, Google, Gmail, Figma, câmera, tela."
+179,listagem,Quem foram os dez melhores jogadores de beisebol da história do Boston Red Sox?,Liste os 10 melhores jogadores da história do Boston Red Sox.
+180,explicacao,Por que os gatos são melhores do que os cachorros?,Compare gatos e cachorros.
+181,explicacao,O que é o GitHub Actions?,Explique o GitHub Actions.
+182,extracao,Extraia uma lista separada por vírgulas dos nomes dos inquilinos da Willis Tower a partir do texto.,Liste os inquilinos da Willis Tower separados por vírgula no texto.
+183,classificacao,"Quais das seguintes são árvores caducifólias?
+
+Abies concolor
+Acer rubrum
+Acer saccharinum
+Cornus florida
+Gleditsia triacanthos
+Picea glauca
+picea pungens
+Picea abies
+Pinus strobus
+Quercus rubra","Identifique quais destas árvores são caducifólias: Abies concolor, Acer rubrum, Acer saccharinum, Cornus florida, Gleditsia triacanthos, Picea glauca, Picea pungens, Picea abies, Pinus strobus, Quercus rubra."
+184,calculo,"Se cada cliente fosse atendido pelo mesmo número de profissionais, por quantos profissionais (arredondado para uma casa decimal) cada cliente seria atendido?","Calcule a média de profissionais por cliente, arredondada para uma casa decimal, considerando distribuição igualitária."
+185,duvida,Por que não há cereal de arroz para bebês no mercado agora?,Motivo da escassez atual de cereal de arroz para bebês.
+186,pesquisa,"Na série As Crônicas de Gelo e Fogo, quem é o fundador da Casa Redbeard?",Fundador da Casa Redbeard em As Crônicas de Gelo e Fogo.
+187,explicacao,Quais são os diferentes tipos de câncer?,Liste os tipos de câncer.
+188,informacao,Quem é a empresa Sonova,Defina a empresa Sonova.
+189,duvida,Quais são as maneiras de economizar dinheiro na jardinagem?,Como economizar dinheiro em jardinagem?
+190,extracao,"A partir da passagem, liste as obras mais influentes de Rumi. Separe-as com uma vírgula.",Liste as obras mais influentes de Rumi separadas por vírgula.
+191,resumo,Me diga alguns pontos sobre a música Foljk usando o parágrafo dado como referência,Liste pontos sobre música folk baseado no parágrafo fornecido.
+192,pergunta,Paul McCartney credits which artist with teaching him everything he knows?,Qual artista Paul McCartney credita por lhe ensinar tudo o que sabe?
+193,duvida,Qual o tamanho máximo de cluster para o qual o Spark pode escalar?,Qual o limite máximo de escalabilidade de cluster do Spark?
+194,listagem,Nomeie os livros de detetive mais famosos da história,Liste os livros de detetive mais famosos da história.
+195,explicacao,O que é WestWorld?,Defina Westworld.
+196,consulta,Quem foi o primeiro país a vencer a copa do mundo de críquete em seu próprio solo,Qual foi o primeiro país a vencer a copa do mundo de críquete em casa?
+197,consulta,Qual país tem o maior PIB?,País com maior PIB.
+198,redacao,Escreva uma carta para uma escola pedindo um horário para visitar suas instalações,Escreva carta para escola solicitando agendamento de visita às instalações.
+199,criacao,Conte para uma criança uma história sobre um dinossauro que joga beisebol mas tem que fazer uma pausa devido a uma lesão,História infantil sobre dinossauro jogador de beisebol que se machuca e para.
+200,classificacao,"Classifique cada um dos seguintes como sendo um título de Kevin Kwan ou Veronica Roth: Sex and Vanity, Crazy Rich Asians, China Rich Girlfriend, Rich People Problems, Luck: The Essential Guide, Divergent, Allegiant, Insurgent, Carve the Mark, Chosen Ones","Classifique os títulos por autor (Kevin Kwan ou Veronica Roth): Sex and Vanity, Crazy Rich Asians, China Rich Girlfriend, Rich People Problems, Luck: The Essential Guide, Divergent, Allegiant, Insurgent, Carve the Mark, Chosen Ones"
+201,explicacao,Descreva algumas maneiras diferentes de evitar que seu carro seja roubado?,Liste métodos antifurto para veículos.
+202,pergunta,O Monte Fuji é uma montanha ou um vulcão?,Monte Fuji é montanha ou vulcão?
+203,extracao,"Dado este parágrafo sobre Pablo Escobar, quanto dinheiro ele tinha quando morreu?",Quanto dinheiro Pablo Escobar tinha ao morrer?
+204,resumo,"Dê-me uma lista em tópicos das principais respostas a ""Bad Blood"" listadas neste texto, incluindo se foram positivas ou negativas.","Liste as respostas a 'Bad Blood' do texto, indicando se são positivas ou negativas em tópicos."
+205,opiniao,Quem é o maior artista de todos os tempos?,Qual o maior artista da história?
+206,consulta,Quais são as ferramentas mais importantes para se ter quando sou um inquilino de apartamento?,Liste ferramentas essenciais para inquilinos de apartamentos.
+207,pergunta,Qual era o nome do papagaio do Doutor Dolittle,Nome do papagaio do Dr. Dolittle?
+208,explicacao,Qual é o significado de uma papoula no Dia da Lembrança?,Significado da papoula no Remembrance Day.
+209,explicacao,O que faz o sol nascer?,Explique a causa do nascer do sol.
+210,listagem,cite algumas músicas de rock famosas na década de 1970,cite músicas de rock famosas dos anos 1970.
+211,pesquisa,Dê-me a história e os antecedentes da franquia de basquete Phoenix Suns,História e contexto do Phoenix Suns.
+212,explicacao,Para o que é conhecido como Transfonologização?,Defina transfonologização.
+213,analise,"Com base no seguinte parágrafo sobre água potável, existe o risco de beber muita água durante o exercício?","Há risco de beber muita água durante o exercício, baseado no texto?"
+214,listagem,Liste os 8 minerais mais raros,Liste os 8 minerais mais raros.
+215,biografia,Quem é Juliette Roche?,Quem é Juliette Roche?
+216,consulta,Quais prêmios Bill Murray recebeu por Lost in Translation?,Prêmios recebidos por Bill Murray em Lost in Translation.
+217,pergunta,Qual foi o carro mais caro já vendido em leilão,Carro mais caro vendido em leilão?
+218,pesquisa,A população de tigres está aumentando na Índia?,População de tigres na Índia está aumentando?
+219,classificacao,Qual é uma espécie de peixe? Ayu ou Aye,Ayu ou Aye é peixe?
+220,especulacao,"Como será que o mundo será daqui a, digamos, 200 anos?",Como será o mundo em 200 anos?
+221,recomendacao,Me dê 5 grandes atrações para ver em Berlim,Liste 5 atrações principais em Berlim.
+222,geracao,"Por favor, forneça 5 variantes diferentes de café servido",Liste 5 variantes de café servido.
+223,explicacao,Quais são os principais elementos da dança Odissi?,Elementos principais da dança Odissi.
+224,explicacao,Por que Stephen A. Smith é um grande jornalista?,Explique por que Stephen A. Smith é considerado um grande jornalista.
+225,listagem,Me dê uma lista de atrações turísticas populares em Roma,Liste atrações turísticas populares em Roma.
+226,extracao,"Dado este parágrafo sobre a República da Finlândia se tornar membro da Organização do Tratado do Atlântico Norte (OTAN), em que ano ela iniciou relações formais com a OTAN?",Em que ano a Finlândia iniciou relações formais com a OTAN?
+227,pesquisa,O que o Agente Especial Fox Mulder estudou quando estava na universidade?,Qual foi a formação universitária de Fox Mulder?
+228,classificacao,"Qual é um pássaro ou peixe: Alvéola-amarela, Fuzileiro de dorso amarelo",Classifique se Alvéola-amarela e Fuzileiro de dorso amarelo são pássaros ou peixes.
+229,extracao_informacao,"Dado o seguinte parágrafo, qual universidade tem evidências de ensino desde 1096?",Identifique a universidade com evidências de ensino desde 1096 no texto.
+230,pergunta,Quantos jogadores há em um time de críquete?,Quantos jogadores tem um time de críquete?
+231,explicacao,Por que o clima de Bangalore é agradável?,Explique por que o clima de Bangalore é agradável.
+232,explicacao,O que é niilismo e por que algumas pessoas acreditam nele? Liste algumas maneiras que os filósofos propuseram para lutar contra o niilismo. Explique-me em um tom casual,"Explique o que é niilismo, por que acreditam nele e como os filósofos propõem combatê-lo, em tom casual."
+233,ideias,Quais são algumas ideias de encontro para a noite?,Sugira ideias para encontro romântico.
+234,classificacao,"Diga-me se os seguintes animais são répteis ou anfíbios: salamandra, aligátor, caimão, cobra, sapo.","Classifique salamandra, aligátor, caimão, cobra e sapo como réptil ou anfíbio."
+235,explicacao,O que é a competição de estilo livre feminino de 48 kg apresentada no Campeonato Mundial de Luta Livre de 2017?,Explique a categoria 48 kg estilo livre feminino no Campeonato Mundial de Luta Livre 2017.
+236,explicacao,O que é um arquipélago,Defina arquipélago.
+237,pesquisa,Quais são as 5 maiores cidades da França em termos de habitantes?,Liste as 5 maiores cidades da França por população.
+238,extracao,Extraia os nomes das empresas que construíram a Ferrovia do Pacífico,Liste as empresas construtoras da Pacific Railroad.
+239,ideias,Quais são algumas maneiras diferentes de passar um fim de semana livre,Liste ideias para passar o fim de semana.
+240,coding,Como faço para ver o tamanho de um conjunto de dados no Spark?,Como verificar o tamanho de um dataset no Spark?
+241,explicacao,Qual é uma característica econômica da Geração Z (Gen Z)?,Característica econômica da Geração Z.
+242,orientacao,Qual é a melhor maneira de treinar um filhote de cachorro para fazer suas necessidades no lugar certo?,Como treinar um filhote de cachorro para fazer necessidades no lugar certo?
+243,duvida,Como alguém pode perder peso,Como perder peso?
+244,listagem,Me dê uma lista das sete cidades mais poluídas da América.,Liste as 7 cidades mais poluídas da América.
+245,consulta,Maria Magdelana Von Losch Beyyer know as who,Quem é Maria Magdalena von Losch Beyer?
+246,pergunta,Quem foi o 45º Presidente dos Estados Unidos da América?,Quem foi o 45º presidente dos EUA?
+247,explicacao,O que é o efeito estufa?,Defina o efeito estufa.
+248,localizacao,Onde fica Malard,Localização de Malard
+249,explicacao,Quais são os benefícios da votação por ordem de preferência?,Benefícios do voto preferencial.
+250,classificacao,"Encontre o pássaro nesta lista: Aquatic warbler, Tiger, Shark","Identifique a ave na lista: Aquatic warbler, Tiger, Shark"
+251,explicacao,O que as estrelas representam na bandeira dos Estados Unidos da América?,O que as estrelas na bandeira dos EUA representam?
+252,classificacao,"Identifique qual instrumento é de corda ou de percussão: Huiringua, Pipa",Classifique os instrumentos Huiringua e Pipa como corda ou percussão.
+253,pergunta,Qual é o maior lago da Suíça?,Maior lago da Suíça.
+254,recomendacao,Melhor lugar para visitar em Bengala Ocidental,Melhores pontos turísticos em Bengala Ocidental.
+255,extracao,Extraia todas as datas mencionadas neste parágrafo e liste-as usando marcadores no formato {Data} - {Descrição},Liste todas as datas do texto no formato: {Data} - {Descrição}.
+256,resumo,Breve resumo sobre a Copa do Mundo de Críquete de 2011,Resuma a Copa do Mundo de Críquete de 2011.
+257,duvida,Quanto tempo dura uma partida de tênis?,Duração partida tênis
+258,explicacao,Qual foi o impacto da revolução francesa?,Impacto da Revolução Francesa.
+259,pergunta,De onde é o Jon Rahm?,Origem de Jon Rahm
+260,pergunta,O Richard Nixon nasceu na Califórnia?,Richard Nixon nasceu na Califórnia?
+261,navegacao,"Como faço para chegar em Juneau, no Alasca?","Como ir para Juneau, Alasca?"
+262,explicacao,Descreva uma situação em que a extração de dados da web pode ser justificada. Ilustre essa situação com um exemplo específico.,Explique uma situação justificável para web scraping com exemplo.
+263,explicacao,O que é Renascimento?,Defina o Renascimento.
+264,explicacao,"Dado este parágrafo sobre uma árvore poço, por que é tão perigoso para caminhantes, snowboarders, esquiadores e quaisquer praticantes de neve?",Por que poços de árvore (tree wells) são perigosos para praticantes de esportes na neve?
+265,analise,"Quais destes são filmes e livros: Harry Potter, Senhor dos Anéis, Admirável Mundo Novo, Um Sonho de Liberdade.","Identifique quais itens são livros e filmes: Harry Potter, Senhor dos Anéis, Admirável Mundo Novo, Um Sonho de Liberdade."
+266,explicacao,Qual evento desencadeou o início da Primeira Guerra Mundial?,Causa da Primeira Guerra Mundial.
+267,explicacao,Me diga diferentes estágios no ciclo de vida dos dados.,Liste os estágios do ciclo de vida dos dados.
+268,listagem,Forneça uma lista de superpoderes que você gostaria de ter,Liste superpoderes desejados.
+269,explicacao,"Dado um texto de referência sobre a articulação incudomaleolar, diga-me sua principal função.",Qual a principal função da articulação incudomaleolar segundo o texto?
+270,explicacao,Quais são algumas das aulas que você precisa fazer na faculdade para se tornar um engenheiro aeroespacial?,Liste as disciplinas universitárias necessárias para engenharia aeroespacial.
+271,explicacao,Qual é a melhor maneira de aprender alguma coisa?,Qual o melhor método de aprendizado?
+272,pesquisa,Onde Adlai Stevenson II passou sua infância e juventude?,Local da infância e juventude de Adlai Stevenson II.
+273,classificacao,"Identifique qual fabricante de automóveis é italiano ou americano: Lancia, Tesla",Lancia e Tesla: quais são italianos ou americanos?
+274,extracao,"Usando os dois parágrafos abaixo, quando o Coro Ucraniano Dumka de NY foi fundado e quando ele tocou na Ucrânia pela primeira vez?","Com base nos dois parágrafos, informe a data de fundação do Coro Ucraniano Dumka de NY e a data de sua primeira apresentação na Ucrânia."
+275,explicacao,Quem é Satoshi Nakamoto?,Quem é Satoshi Nakamoto?
+276,explicacao,O que são dividendos?,Defina dividendos.
+277,geracao,Me dê uma lista de coisas para fazer quando eu sentir frio,Liste atividades para dias frios.
+278,explicacao,Por que as pessoas usam um telefone celular?,Por que usam celulares?
+279,explicacao,Por que as pessoas gostam de golfe?,Motivos para gostar de golfe.
+280,explicacao,Quais fatores influenciam os problemas de saúde mental nos jovens?,Fatores que influenciam problemas de saúde mental em jovens.
+281,extracao,Extraia os locais onde McEwan morou quando criança e liste-os usando marcadores.,Liste os locais de infância de McEwan com marcadores.
+282,escrita,Escreva para mim um texto para alguém com quem trabalho pedindo para cobrir meu turno porque fiquei doente. Use um tom educado.,Escreva uma mensagem educada para um colega de trabalho pedindo cobertura no turno por motivo de doença.
+283,escolha,Você preferiria ficar preso em um teleférico quebrado ou em um elevador quebrado?,Prefere ficar preso em teleférico ou elevador quebrado?
+284,explicacao,Por que as plantas são verdes?,Explique por que as plantas são verdes.
+285,pesquisa,Qual é a legalidade de possuir um aligátor como animal de estimação nos Estados Unidos?,Legalidade de ter um aligátor como pet nos EUA.
+286,pergunta,"Na música, qual tom é a menor relativa do tom de Si maior?",Qual é a relativa menor de Si maior?
+287,extracao,Extraia do texto a família de Parametrodes.,Extraia a família Parametrodes do texto.
+288,resumo,Resuma este parágrafo,Resuma o parágrafo.
+289,explicacao,O que é o Troféu do Kentucky Derby,Defina o Troféu do Kentucky Derby.
+290,listagem,Me dê uma lista de atores que ganharam um Oscar nos últimos 5 anos e me diga por qual filme eles ganharam.,Liste os atores vencedores do Oscar nos últimos 5 anos e seus respectivos filmes.
+291,ideacao,Me dê uma lista em tópicos de ideias para um vídeo viral do YouTube,Liste ideias de vídeos virais para o YouTube em tópicos.
+292,recomendacao,Melhor Chá do Mundo,Qual é o melhor chá do mundo?
+293,pergunta,Dado este parágrafo sobre os Mercury Seven. Quem não sobreviveu para alcançar a aposentadoria e qual foi a causa da morte deles?,Identifique quais astronautas dos Mercury Seven não sobreviveram até a aposentadoria e a causa de suas mortes.
+294,classificacao,"Diga-me se estes são tipos de rocha ou tipos de fungos: sedimentares, leveduras, míldios, metamórficas, ígneas, carvões, ferrugens, bolores.","Classifique cada item como rocha ou fungo: sedimentar, levedura, míldio, metamórfica, ígnea, carvão, ferrugem, bolor."
+295,adivinhacao,"O que começa com a letra ""e"" e contém apenas uma letra?",O que começa com 'e' e tem uma letra só?
+296,listagem,Me dê uma lista dos vencedores da Premier League nos últimos 5 anos com os pontos correspondentes.,Liste os campeões da Premier League dos últimos 5 anos e suas pontuações.
+297,listagem,Liste 3 cidades na costa leste da Austrália.,Liste 3 cidades da costa leste da Austrália.
+298,explicacao,O que é a Premier League?,Defina a Premier League.
+299,nomear,Diga o nome de um estilo de hot yoga.,Nomeie um estilo de hot yoga.
+300,comparacao,Como uma economia circular é diferente da economia dos EUA?,Compare economia circular com a economia dos EUA.
+301,extracao_informacao,Qual é o andar superior do Edifício do Rei com base neste artigo? Que andar é encontrado abaixo disso?,Identifique o último andar do King's Building e o andar imediatamente inferior com base no artigo.
+302,informacao,Me dê 5 fatos sobre Cingapura,5 fatos sobre Cingapura
+303,pergunta,Qual é o oceano mais profundo?,Qual o oceano mais profundo?
+304,consulta,Quem foi o último rei da Campina antes da Conquista de Aegon?,Último rei da Campina antes da Conquista de Aegon?
+305,classificacao,"Classifique cada um dos seguintes como um planeta ou uma estrela: Netuno, Saturno, Pollux, Sol, Júpiter, Mercúrio","Classifique como planeta ou estrela: Netuno, Saturno, Pollux, Sol, Júpiter, Mercúrio."
+306,explicacao,Como uma pessoa consegue novos hobbies depois de mais velha?,Como adquirir novos hobbies na terceira idade?
+307,explicacao,O que é uma recessão?,Defina recessão.
+308,classificacao,"Diga se estas coisas cheiram bem ou mal: lixo, limões, suor, oceanos, chuva","Classifique o aroma (bom ou ruim) de: lixo, limões, suor, oceanos, chuva."
+309,pergunta,Qual é a capital do Arizona?,Capital do Arizona?
+311,consulta,Quais são algumas das linguagens de programação mais eficientes?,Liste as linguagens de programação mais eficientes.
+312,explicacao,Pelo que Grace Hopper é conhecida?,Grace Hopper: principais realizações.
+313,recomendacao,Me dê uma lista de certos seguros que eu deveria contratar ao me mudar para a Alemanha.,Liste os seguros essenciais para morar na Alemanha.
+314,explicacao,Quais são os benefícios da meditação?,Benefícios da meditação.
+315,extracao,"Dados estes parágrafos sobre hidrogênio natural, qual é outro nome para ele que o distingue de outras formas de hidrogênio?",Sinônimo distintivo de hidrogênio natural.
+316,explicacao,Quais são algumas diretrizes ou regras para permitir que um adolescente use um telefone celular?,Liste regras para uso de celular por adolescentes.
+317,classificacao,"Diga-me quais destes são times da NFL: Bengals, Pumas, Seahawks, Falcons, Roadrunners, Eagles, Coyotes, Sheep, Bears.","Identifique quais destas opções são times da NFL: Bengals, Pumas, Seahawks, Falcons, Roadrunners, Eagles, Coyotes, Sheep, Bears."
+318,explicacao,Por que os americanos sentem tanta paixão sobre o controle de armas?,Explique o debate sobre o controle de armas nos EUA.
+319,explicacao,Qual é a diferença entre oxfords e derbys?,Diferença entre oxfords e derbys.
+320,resumo,Quais foram as principais realizações de Ansel Adams?,Liste as principais realizações de Ansel Adams.
+321,recomendacao,"Jill, uma cliente de treinamento pessoal de 60 anos, quer melhorar a flexibilidade do quadril. Jill está preocupada com o equilíbrio e o risco de queda. Recomende dois exercícios que ela pode fazer para melhorar o equilíbrio.",Recomende dois exercícios para melhorar o equilíbrio de uma mulher de 60 anos preocupada com quedas.
+322,comparacao,Quais são as diferenças do Wing Chun kung fu e o tradicional Shaolin kung fu?,Diferenças entre Wing Chun e Shaolin Kung Fu.
+323,extracao,"Dado um texto de referência sobre ""More"", quando foi a principal música na rádio cristã e por quanto tempo ela manteve sua posição?","Com base no texto sobre ""More"", informe a data em que alcançou o 1º lugar na rádio cristã e a duração dessa permanência."
+324,criacao,Me conte uma piada,Conte uma piada.
+325,listagem,Quais são cinco músicas populares da banda Grateful Dead?,Cite cinco músicas populares da banda Grateful Dead.
+326,analise,Qual temporada foi a mais importante da carreira de Roger Federer?,Identifique a temporada mais importante da carreira de Roger Federer.
+327,listagem,Forneça 5 fatores a serem considerados ao decidir onde morar,Liste 5 fatores para escolher onde morar.
+328,recomendacao,Quais são os melhores aviões para aprender a voar?,Melhores aviões para aprender a voar.
+329,criacao,"Me diga uma ideia para um filme baseado no filme de desenho animado Carros, mas incorpore carros autônomos.","Crie uma ideia de filme baseada em Carros, mas com carros autônomos."
+330,classificacao,"Classifique cada um dos seguintes itens como ""Vegetarian Friendly"" ou ""Not Vegetarian Friendly"": frango, amendoim, ovos, bacon, linguiça, alface, ketchup","Classifique como 'Vegetarian Friendly' ou 'Not Vegetarian Friendly': frango, amendoim, ovos, bacon, linguiça, alface, ketchup."
+331,extracao,"Do trecho fornecido, extraia quais indústrias cinematográficas estão localizadas em Mumbai",Liste as indústrias cinematográficas em Mumbai no texto.
+332,classificacao,"Diga-me se estes instrumentos são de corda ou de percussão: Violoncelo, Pratos, Triângulo, Harpa","Classifique se Violoncelo, Pratos, Triângulo e Harpa são de corda ou percussão."
+333,pergunta,Por qual esporte Ruud Gullit é conhecido,Esporte de Ruud Gullit
+334,explicacao,O que marca a mudança da pré-história para a história?,O que define a transição da pré-história para a história?
+335,explicacao,Quais são algumas das desvantagens da forma como o código tributário trata as opções de ações de incentivo?,Liste as desvantagens fiscais das incentive stock options.
+336,listagem,Forneça uma lista de algumas formas de arte japonesa que eu não conheço.,Liste formas de arte japonesa pouco conhecidas.
+337,pesquisa,Quais são as principais indústrias em Seattle hoje?,Liste as principais indústrias de Seattle.
+338,classificacao,"Encontre um item de cada categoria abaixo que de alguma forma se relacione com uma tangerina.
+
+local:
+animal
+veículo
+sentimento
+comida
+tecnologia
+música
+filme","Relacione uma tangerina a um item de cada categoria: local, animal, veículo, sentimento, comida, tecnologia, música e filme."
+339,listagem,Quais são cinco Pokémon do tipo Terra diferentes?,Liste 5 Pokémon tipo Terra.
+340,classificacao,"Identifique qual instrumento é de corda ou percussão: Washboard, Schrammel gitarre",Classifique Washboard e Schrammel gitarre como corda ou percussão.
+341,explicacao,como o iogurte é feito?,Explique o processo de fabricação do iogurte.
+342,pesquisa,Quais livros estão disponíveis para entender a Califórnia antes da corrida do ouro de 1849?,Livros sobre a Califórnia pré-corrida do ouro de 1849.
+343,classificacao,"Olhando para as cidades da Austrália que estão na costa leste e na costa oeste do país, em qual costa estão localizadas as cidades de Fremantle, Sydney, Brisbane, Perth, Cairns, Townsville, Newcastle?","Identifique a costa (leste ou oeste da Austrália) para as cidades: Fremantle, Sydney, Brisbane, Perth, Cairns, Townsville, Newcastle."
+344,recomendacao,Quais são os melhores lugares de boba no Condito de San Mateo??,Melhores boba shops no Condado de San Mateo.
+345,listagem,Liste algumas comediantes mulheres que têm especiais na Netflix,Comediantes femininas com especiais na Netflix
+346,culinaria,Como você cozinha costelinha de carne bovina?,Como cozinhar costela bovina?
+347,classificacao,"Diga-me se cada animal tem penas ou pelos: falcão, pombo, chimpanzé, gato, cardeal, hamster, cavalo","Classifique cada animal (falcão, pombo, chimpanzé, gato, cardeal, hamster, cavalo) em penas ou pelos."
+348,extracao,Liste alguns pontos sobre o Dalai Lama a partir do texto fornecido,Liste pontos sobre o Dalai Lama com base no texto.
+349,busca,Onde pode ser encontrado o transmissor para KQKZ?,Localização do transmissor KQKZ
+350,pergunta,"Dado este parágrafo sobre ciclismo, quem detém o recorde de mais vitórias em etapas do Tour de France?",Quem detém o recorde de mais vitórias em etapas do Tour de France?
+351,explicacao,As resoluções de ano novo são eficazes?,Analise a eficácia das resoluções de ano novo.
+352,classificacao,"Classifique cada um dos seguintes como um planeta ou um satélite/lua de um planeta em nosso sistema solar: Júpiter, Europa, Marte, Saturno, Titã, Calisto, Encélado, Urano","Classifique como planeta ou satélite: Júpiter, Europa, Marte, Saturno, Titã, Calisto, Encélado, Urano."
+353,pergunta,Qual é o maior lago dos Estados Unidos?,Maior lago dos EUA?
+354,pergunta,Quem inventou o avião?,Inventor do avião
+355,pesquisa,Quem foram os apoiadores do movimento Quit India?,Apoiadores do movimento Quit India
+356,criacao,"Estou trabalhando em uma postagem de blog sobre o efeito do Snapchat nos adolescentes. Você pode me ajudar a pensar em alguns títulos para a postagem? Como contexto, acho que o Snapchat tem um efeito negativo na capacidade de nossos adolescentes de focar, manter relacionamentos presenciais saudáveis e se desenvolver em adultos produtivos.","Gere títulos para um post de blog sobre os impactos negativos do Snapchat em adolescentes (foco, relações interpessoais e desenvolvimento)."
+357,pergunta,Quais idiomas são geralmente falados em Macau?,Idiomas falados em Macau?
+358,informacao,Qual é a versão mais recente do iOS no iPhone e quais problemas ela resolveu?,Última versão do iOS e correções de bugs.
+359,planejamento,Faça uma lista de bagagem para um piquenique na praia.,Liste os itens essenciais para um piquenique na praia.
+360,pesquisa,Quando a banda The White Mandigos foi formada?,Ano de formação da banda The White Mandigos.
+361,categorizacao,"Ao correr uma maratona e tentar correr o seu melhor tempo pessoal, categoriza o seguinte como 'útil' ou 'não útil', 'perigoso' ou 'nenhum'. Hidratos de carbono de digestão rápida, um extintor de incêndio, um colete com pesos, tesouras, sapatos de corrida","Categorize como 'útil', 'não útil', 'perigoso' ou 'nenhum' para bater recorde em maratona: carboidratos rápidos, extintor, colete de peso, tesoura, tênis de corrida."
+362,classificacao,Leucascidae é uma esponja,Leucascidae é esponja?
+363,explicacao,Quais são os benefícios se eu pudesse girar minha cabeça como uma coruja?,Liste os benefícios anatômicos e funcionais de girar a cabeça em 270 graus como uma coruja.
+364,pesquisa,Quais são as 5 melhores maneiras de controlar o cortisol?,Liste 5 formas de controlar o cortisol.
+365,pergunta,Art Garfunkel inicialmente recusou-se a cantar solo um dos maiores sucessos de Simon & Garfunkel. Qual é essa música?,Qual música do Simon & Garfunkel Art Garfunkel recusou-se a cantar solo?
+366,recomendacao,Liste alguns dos melhores livros de autoajuda que mudam a vida,Liste livros de autoajuda transformadores.
+367,completar,O ano de 2022 foi declarado pela Assembleia Geral da ONU como,Complete: O ano de 2022 foi declarado pela Assembleia Geral da ONU como
+368,busca,"Onde fica a sede da Tesla, Inc.?",Qual a sede da Tesla?
+369,explicacao,"O que Wittgenstein considera ser um problema ao aprender uma linguagem usando ""definição ostensiva""?","Explique o problema da ""definição ostensiva"" no aprendizado de linguagem segundo Wittgenstein."
+370,recomendacao,Melhor lugar para visitar por um dia a partir de Bangalore,Melhor bate-volta de 1 dia saindo de Bangalore.
+371,duvida,O tempo prolongado de tela causa atraso na fala em crianças?,O tempo de tela causa atraso na fala infantil?
+372,explicacao,Qual é a melhor maneira de fazer um café na AeroPress?,Como fazer café na AeroPress.
+373,recomendacao,Top 5 filmes que eu adoraria assistir repetidas vezes,Top 5 filmes para assistir várias vezes
+374,consulta,"Dos times da NFL que foram para o Super Bowl, quantos têm uma porcentagem de vitórias em Super Bowls de pelo menos 50%?",Quantos times da NFL que disputaram o Super Bowl possuem aproveitamento de vitórias superior ou igual a 50%?
+375,classificacao,"Estou pesquisando subúrbios na cidade de Brisbane. Por favor, diga-me quais subúrbios ficam ao norte do rio Brisbane e quais ficam ao sul. Annerley, Albion, West End, Kangaroo Point, Greenslopes, Windsor, Hamilton, Nundah, Cannon Hill, Kelvin Grove, Toowong, Milton","Classifique estes subúrbios de Brisbane entre norte e sul do rio: Annerley, Albion, West End, Kangaroo Point, Greenslopes, Windsor, Hamilton, Nundah, Cannon Hill, Kelvin Grove, Toowong, Milton."
+376,fitness,Crie um treino para fortalecer minha parte superior do corpo,Criar treino de fortalecimento para membros superiores.
+377,classificacao,"Classifique os filmes com base em seu idioma original.
+Bommarillu, Zeher, Lagaan, Karthikeya, Magadheera, PK","Classifique por idioma original: Bommarillu, Zeher, Lagaan, Karthikeya, Magadheera, PK."
+378,ideias,Quais são algumas coisas que eu poderia dar de presente para uma criança pequena curiosa?,Sugira presentes para uma criança curiosa.
+379,pesquisa,Quem foi a amante de Hitler?,Quem foi a amante de Hitler?
+380,pesquisa,Qual é o estádio de baseball mais antigo da Major League Baseball?,Estádio mais antigo da MLB?
+381,explicacao,Explique a gravidade,Explique a gravidade.
+382,pergunta,Em qual estação do ano a Páscoa acontece?,Qual estação ocorre a Páscoa?
+383,pesquisa,Quando a Fábrica da Tesla em Fremont foi comprada pela Tesla?,Ano de compra da fábrica da Tesla em Fremont.
+384,extracao,Extraia os nomes de todos os ex-presidentes dos EUA no parágrafo abaixo:,Liste os ex-presidentes dos EUA citados no texto.
+385,explicacao,"Dado este parágrafo sobre Sam Baker, o que é o Outland Trophy?",O que é o Outland Trophy baseado no texto de Sam Baker?
+386,localizacao,Onde fica o Landscape Arch?,Localização do Landscape Arch.
+387,explicacao,O que são microsserviços?,Defina microsserviços.
+388,classificacao,"Identifique qual instrumento é de corda ou percussão: Ratchet, Hasapi",Classifique se Ratchet e Hasapi são corda ou percussão.
+389,explicacao,O que significa jejum?,Defina jejum.
+390,pesquisa,Quais são os principais filmes indicados ao Oscar em 2023?,Filmes indicados ao Oscar 2023
+391,analise,Forneça-me alguns detalhes sobre os procuradores dos Estados Unidos com o texto fornecido como referência.,Detalhe procuradores dos EUA com base no texto.
+392,duvida,Como declarar imposto para 2022?,Como declarar imposto de renda 2022?
+393,planejamento,Me ajude a planejar uma viagem para a Nova Escócia,Planejar viagem para Nova Escócia.
+394,ideias,Me dê algumas ideias de presente para o Dia das Mães.,Ideias de presente para o Dia das Mães.
+395,extracao,"Localize o que o jogador deve se defender em The Last of Us usando a amostra como referência, extraia-os e coloque-os em uma lista numerada.",Liste de forma numerada os inimigos de The Last of Us com base na amostra.
+397,explicacao,O que torna um bom pai?,Defina as características de um bom pai.
+398,consulta,"Como as pessoas em Pittsburgh dizem ""you all""?","Como dizem ""you all"" em Pittsburgh?"
+399,consulta,Qual jogador marcou o gol da vitória da Premier League para o Manchester City contra o QPR em 2012?,Quem marcou o gol do título do Manchester City contra o QPR em 2012 na Premier League?
+400,pergunta,Como você chama os Arkansas Razorbacks?,Como chamar Arkansas Razorbacks?
+401,duvida,"Você poderia por favor me ajudar com alguns pontos sobre medicamentos analgésicos, com o texto dado como referência.",Esclareça pontos sobre analgésicos usando o texto fornecido.
+402,extracao,Quem são os Devas mais referidos no Rigveda de acordo com a passagem?,Liste os Devas mais citados no Rigveda segundo o texto.
+403,identificacao,Quem é Mariano Sánchez?,Quem é Mariano Sánchez?
+404,consulta,"Na série As Crônicas de Gelo e Fogo, quem é o fundador da Casa Crayne?",Quem é o fundador da Casa Crayne em As Crônicas de Gelo e Fogo?
+405,recomendacao,Quais são algumas boas músicas para iniciantes aprenderem no violão?,Liste músicas fáceis para iniciantes no violão.
+406,listagem,Me dê uma lista de atores que ganharam um Oscar nos últimos 5 anos.,Liste os atores vencedores do Oscar nos últimos 5 anos.
+407,classificacao,"Identifique qual instrumento é de corda ou percussão: Cultrun, Kora",Classifique Cultrun e Kora como corda ou percussão.
+408,explicacao,Por que o pickleball é tão popular nos EUA agora?,Explique a popularidade do pickleball nos EUA.
+409,explicacao,"Com base no seguinte parágrafo sobre a água, o que torna a água coesa.",Explique a coesão da água com base no texto.
+410,pesquisa,Quantos presidentes dos EUA nasceram na Virgínia.,Presidentes dos EUA nascidos na Virgínia: quantidade.
+411,extracao,"Dado um texto de referência sobre Elk Grove, em qual estado ele está localizado e quantas pessoas vivem aproximadamente lá?","Com base no texto sobre Elk Grove, informe o estado e a população aproximada."
+412,explicacao,Quais são alguns atributos típicos de uma gata tartaruga?,Quais são os atributos típicos de uma gata tartaruga?
+413,classificacao,"Diga-me se isto é um mamífero ou um pássaro: papagaio, golfinho, cachorro, porquinho-da-índia, periquito.","Classifique cada animal (papagaio, golfinho, cachorro, porquinho-da-índia, periquito) como mamífero ou ave."
+414,classificacao,"Identifique qual espécie de animal está viva ou extinta: Stupendemys, Baleia Cinzenta",Stupendemys e baleia-cinzenta: vivas ou extintas?
+415,email,Escreva um e-mail amigável para o meu vizinho pedindo para ele diminuir o barulho depois das 22h nos dias de semana.,Escreva um e-mail para o vizinho pedindo silêncio após as 22h em dias úteis.
+416,culinaria,Quais são sobremesas fáceis que eu posso fazer em casa?,Sobremesas fáceis para fazer em casa.
+417,explicacao,Quais são as diferenças entre violões acústicos e violões clássicos?,Diferenças entre violão acústico e clássico.
+418,recomendacao,Me dê cinco livros que eu deveria ler hoje.,Liste 5 livros recomendados para leitura.
+419,explicacao,"De acordo com o texto abaixo, o que é o processo de decisão de Markov?",Defina processo de decisão de Markov baseado no texto.
+420,recomendacao,Eu deveria comprar uma bicicleta de gravel ou uma bicicleta de montanha down country?,Comparar bicicleta gravel com mountain bike down country para compra.
+421,conselho,Como posso ser mais produtivo?,Dicas para aumentar a produtividade.
+422,extracao,Me diga quais são os aspectos dos politopos a partir do texto fornecido,Liste os aspectos dos politopos no texto.
+423,consulta,"O que liga Willie Brant, Lech Walesa, Yasser Arafat","Conexão entre Willy Brandt, Lech Wałęsa e Yasser Arafat."
+424,explicacao,O que é o teorema de Noether e como ele relaciona simetrias com grandezas conservadas?,Explique o teorema de Noether e a relação entre simetrias e grandezas conservadas.
+425,explicacao,Qual foi a primeira linguagem de programação de alto nível do mundo em 1957,Qual foi a primeira linguagem de programação de alto nível de 1957?
+426,biografia,Quem é o psicólogo Jonathan Young,Quem é o psicólogo Jonathan Young?
+427,analise,"A partir desta passagem, diga-me qual foi o erro da Osborne Computer Corporation.",Qual foi o erro da Osborne Computer Corporation nesta passagem?
+428,redacao,"Você é um gerente de produtos em uma empresa de software corporativo Y. Seu CEO pediu para você escrever um relatório sobre quão bem a empresa suporta as capacidades X. Forneça um modelo de e-mail para enviar ao meu CEO que inclua um TLDR e um link para o relatório. Use ""<"" e "">"" para denotar texto de espaço reservado que eu preciso personalizar.","Escreva um modelo de e-mail para o CEO da empresa Y, com TLDR e link para o relatório de suporte às capacidades X, usando '<' e '>' para marcadores."
+429,consulta,Por quanto tempo a Air Finland operou?,Tempo de operação da Air Finland.
+430,classificacao,"Identifique qual instrumento é de corda ou percussão: Chime bar, Pinaka vina",Classifique se os instrumentos Chime bar e Pinaka vina são de corda ou percussão.
+431,listagem,Forneça uma lista em marcadores dos últimos seis artistas que ganharam um Prêmio Grammy de Melhor Álbum. Inclua o título do álbum e o ano em que ganharam.,Liste os últimos 6 vencedores do Grammy de Álbum do Ano com título e ano.
+432,recomendacao,O que você sugeriria sobre como alguém poderia vender uma bicicleta?,Como vender uma bicicleta?
+433,analise,Número total de documentários na Netflix desde 2023,Total documentários Netflix desde 2023
+434,classificacao,"Classifique os países com base no continente a que pertencem - América do Norte ou América do Sul, com o primeiro como 'north' e o último como 'south'. Estados Unidos, México, Canadá, Brasil, Colômbia, Argentina, Cuba, Jamaica, Chile, Guiana, Peru.","Classifique os países em 'north' (América do Norte) ou 'south' (América do Sul): Estados Unidos, México, Canadá, Brasil, Colômbia, Argentina, Cuba, Jamaica, Chile, Guiana, Peru."
+435,pergunta,Onde a maioria das maçãs é cultivada?,Maiores produtores de maçã.
+436,explicacao,o que é Modern Talking?,Modern Talking
+437,extracao,Extraia os locais de cada show do Phish referenciado neste parágrafo e liste em formato de lista com marcadores.,Liste os locais dos shows do Phish citados no texto em formato de tópicos.
+438,classificacao,"Identifique qual instrumento é de corda ou percussão: Caxixi, Gunjac",Classifique Caxixi e Gunjac como corda ou percussão.
+439,classificacao,"Identifique quais equipes na lista a seguir são equipes de hóquei: Buffalo Sabres, Detroit Red Wings, Florida Panthers, Montreal Canadiens, New England Patriots, Pittsburgh Pirates, new York Yankees, Texas Rangers, Manchester United, Ottawa Senators, Tampa Bay Lightning, Toronto Maple Leafs, Chelsea, Liverpool FC, Los Angeles Lakers, Toronto Raptors, Arizona Coyotes, Chicago Blackhawks, Colorado Avalanche, Dallas Stars, Minnesota Wild, Pittsburgh Steelers","Liste quais equipes da lista são de hóquei: Buffalo Sabres, Detroit Red Wings, Florida Panthers, Montreal Canadiens, New England Patriots, Pittsburgh Pirates, New York Yankees, Texas Rangers, Manchester United, Ottawa Senators, Tampa Bay Lightning, Toronto Maple Leafs, Chelsea, Liverpool FC, Los Angeles Lakers, Toronto Raptors, Arizona Coyotes, Chicago Blackhawks, Colorado Avalanche, Dallas Stars, Minnesota Wild, Pittsburgh Steelers"
+440,resumo,Liste os principais pontos do parágrafo abaixo sobre como o crescimento de Singapura é derivado de sua política monetária,Liste os pontos principais de como a política monetária impulsiona o crescimento de Singapura.
+441,categorizacao,"Categorize os seguintes tipos de organismos.
+bacteriófagos, coccus, bacillus, spiral, coryneform, filamentous","Categorize: bacteriófagos, coccus, bacillus, spiral, coryneform, filamentous."
+442,listagem,Quais são os tipos mais comuns de pizzas?,Liste os tipos de pizza mais comuns.
+443,resumo,Resuma a seguinte entrada da Wikipédia em três frases.,Resuma o texto da Wikipédia em 3 frases.
+444,classificacao,"Identifique qual fabricante de automóveis é japonês ou americano: Dodge, Subaru",Classifique Dodge e Subaru por país de origem (Japão ou EUA).
+445,pesquisa,"Na série As Crônicas de Gelo e Fogo, quem é o fundador da Casa Grafton?",Fundador da Casa Grafton em As Crônicas de Gelo e Fogo.
+446,explicacao,O que é a Declaração de Direitos dos Estados Unidos?,Explique a Declaração de Direitos dos EUA.
+447,consulta,Quais são os maiores varejistas e empresas de comércio eletrônico?,Liste os maiores varejistas e e-commerces.
+448,informacao,Qual cantor teve um sucesso número 1 na Billboard em cada uma das últimas quatro décadas?,Cantor com hit nº 1 na Billboard nas últimas 4 décadas?
+449,explicacao,O que é Barkers Butts RFC?,O que é Barkers Butts RFC?
+450,explicacao,O que é VCF?,Defina VCF.
+451,explicacao,Como você cuida de um animal de estimação?,Cuidados básicos com animais de estimação.
+452,pergunta,Qual é o nome indígena para Dunk Island?,Nome indígena de Dunk Island.
+453,conceito,O que é liberdade?,Defina liberdade.
+454,explicacao,O que é o Grande Romance Americano?,Defina o Grande Romance Americano.
+455,listagem,Dê-me uma lista com marcadores de 3 livros que Thomas Sowell escreveu e sobre o que eles falam.,Liste 3 livros de Thomas Sowell com uma breve sinopse de cada um.
+456,listagem,Forneça uma lista de benefícios de voar na primeira classe.,Liste os benefícios de voar de primeira classe.
+457,classificacao,"Classifique as seguintes formas como bidimensionais ou tridimensionais: cubo, círculo, esfera, triângulo, cone, losango, quadrado e pirâmide.","Classifique em 2D ou 3D: cubo, círculo, esfera, triângulo, cone, losango, quadrado, pirâmide."
+458,pesquisa,Quem é o dono dos biscoitos Ritz?,Dono Ritz Crackers
+459,consulta,Qual atleta criou o 'beast quake' para o Seattle Seahawks?,Quem criou o 'beast quake' do Seattle Seahawks?
+461,classificacao,Qual destas é uma espécie de peixe? Perca (Perch) ou Expurgar (Purge),Qual é uma espécie de peixe: Perch ou Purge?
+462,explicacao,Qual é a Constante do Círculo Tau?,Defina a constante Tau.
+463,culinaria,Que tipo de queijos você pode usar para fazer um sanduíche de queijo grelhado?,Liste queijos para sanduíche grelhado.
+464,explicacao,O que é um metaverso?,Defina metaverso.
+467,explicacao,Quais fatores eu devo considerar antes de me tornar um dono de cachorro?,Liste os fatores para considerar antes de adotar um cachorro.
+470,duvida,Como posso saber se o meu fermento natural de pão (sourdough starter) está pronto para uso?,Como saber se o fermento natural está pronto para uso?
+490,pesquisa,Quais são as maiores economias do mundo?,Maiores economias do mundo.
+496,criacao,Imagine que você está vendo cores pela primeira vez. Explique o que você vê e como se sente.,Descreva a experiência e o sentimento de ver cores pela primeira vez.
+497,classificacao,"Classifique estes filmes com base no ano de lançamento deles
+Kedarnath, Bala, Raazi, Kaashi, Article 15","Classifique por ano de lançamento: Kedarnath, Bala, Raazi, Kaashi, Article 15"
+498,explicacao,"Por que Falmouth, Massachusetts é um ótimo lugar para visitar nas férias?","Por que Falmouth, Massachusetts, é um bom destino de férias?"
+499,extracao,Extraia e liste os nomes dos personagens que um jogador pode controlar em The Last of Us mencionados no parágrafo. Descreva também as relações entre esses personagens.,Liste os personagens jogáveis de The Last of Us e suas relações.
+500,explicacao,O que é o videogame Diablo,Explique o que é o jogo Diablo.
+501,duvida,Carros podem ter um número ímpar de rodas?,Carros podem ter número ímpar de rodas?
+502,explicacao,O que é um grand slam de carreira no golfe profissional?,Defina career grand slam no golfe.
+503,criacao,Conceba um enredo para um filme do John Wick que inclua redenção e encerramento,Crie um enredo para um filme do John Wick com foco em redenção e encerramento.
+504,classificacao,"Quais dos seguintes são equipamentos de exercício: bicicleta, livro, haltere, esteira, colher, televisão","Identifique quais itens são equipamentos de exercício: bicicleta, livro, haltere, esteira, colher, televisão."
+505,explicacao,Na língua inglesa o que é aliteração?,Defina aliteração em inglês.
+506,explicacao,O que é um inibidor enzimático?,Defina inibidor enzimático.
+507,reclamacao,"Eu comprei duas garrafas de 2L de coca-cola quando elas estavam em promoção, mas quando eu conferi meu recibo, me cobraram o preço cheio! Por favor me contate no 0410787999 ou iratecustomer@hotmail.com para discutir um reembolso!",Solicitar reembolso para duas garrafas de Coca-Cola 2L cobradas com preço cheio em vez do valor promocional. Contato: 0410787999 ou iratecustomer@hotmail.com.
+508,pesquisa,Quem foram os membros fundadores da id Software?,Fundadores da id Software
+509,criacao,Escreva uma conversa entre dois amigos de longa data que se encontram cinco anos depois de terem se afastado inicialmente.,Escreva um diálogo entre dois velhos amigos que se reencontram após cinco anos afastados.
+510,ideias,Dê-me três maneiras diferentes de reaproveitar um saco de papel de supermercado.,Cite 3 formas de reutilizar um saco de papel de mercado.
+511,consulta,Quais são as palavras da Casa Waxley?,Lema da Casa Waxley
+512,exemplo,Dê um exemplo de lugares onde os astronautas são treinados?,Cite locais de treinamento para astronautas.
+513,pergunta,"De acordo com a mitologia grega, quem foi a primeira mulher na terra?",Quem foi a primeira mulher na mitologia grega?
+514,explicacao,Qual é a diferença entre NumPy e pandas?,Diferença entre NumPy e pandas.
+515,analise,Que tipo de sistema de imigração é o melhor,Qual o melhor sistema de imigração?
+516,listagem,Quais são as novas 7 Maravilhas do Mundo:,Liste as Novas 7 Maravilhas do Mundo.
+517,explicacao,Quão difícil é aprender a fazer malabarismos?,Qual a dificuldade de aprender malabarismo?
+518,duvida,Qual número de octanagem da gasolina deve ser usado para motores de combustão em veículos?,Qual octanagem de gasolina usar em motores de combustão?
+519,classificacao,"Quais destes estados americanos fazem fronteira com o oceano ou não têm saída para o mar: Colorado, Alasca, Wisconsin, Havaí, Washington, Oregon, Indiana, Maine, Nebraska, Flórida e Califórnia.","Classifique os estados (Colorado, Alasca, Wisconsin, Havaí, Washington, Oregon, Indiana, Maine, Nebraska, Flórida, Califórnia) entre litorâneos ou sem saída para o mar."
+520,pesquisa,Quando foi a primeira corrida de bicicleta?,Data da primeira corrida de bicicleta.
+521,extracao,"A partir da passagem fornecida, extraia a progressão do número de jogos em uma temporada da NFL.",Extraia a progressão do número de jogos na temporada da NFL do texto.
+522,explicacao,O que é AWS EMR?,Explique AWS EMR.
+523,explicacao,Por que as perguntas impulsionam a criatividade durante as sessões de chuva de ideias,Explique por que perguntas aumentam a criatividade no brainstorming.
+524,exemplos,Me dê dois exemplos de um Ato de significância independente. Separe-os em uma lista.,Liste dois exemplos de ato de significância independente.
+525,classificacao,"Identifique qual instrumento é de corda ou percussão: Riq, Surbahar",Classifique se os instrumentos Riq e Surbahar são de corda ou percussão.
+526,piada,Qual é uma boa piada de pai?,Conte uma piada de pai.
+527,extracao,"Liste alguns pontos-chave sobre a música ""El Rey"" do texto fornecido","Liste os pontos-chave da música ""El Rey"" com base no texto."
+528,explicacao,Qual é a diferença entre raça e etnia?,Defina raça e etnia e explique a diferença entre elas.
+529,classificacao,"Classifique estes itens na minha sacola de compras como 'vegano' ou 'não vegano'. Carne moída, manteiga de amêndoa, ovos, espinafre, favas, cevada, tâmaras, leite, arroz selvagem, iogurte de leite de caju, língua de boi, ghee, pimentões jalapenos","Classifique como 'vegano' ou 'não vegano': carne moída, manteiga de amêndoa, ovos, espinafre, favas, cevada, tâmaras, leite, arroz selvagem, iogurte de caju, língua de boi, ghee, jalapeños."
+530,pergunta,Quantos lados e vértices tem um polígono?,Quantos lados e vértices tem um polígono?
+531,classificacao,"Diga-me se estas cidades estão na Itália ou na Suíça: Milão, Florença, Zurique, Berna, Lucerna, Roma","Classifique as cidades (Milão, Florença, Zurique, Berna, Lucerna, Roma) em Itália ou Suíça."
+532,pesquisa,Quem estava entre os famosos poetas romanos?,Liste poetas romanos famosos.
+533,classificacao,"É um gás, líquido ou sólido","Estado físico (gás, líquido ou sólido):"
+534,informacao,A qual clube de Londres Mycroft Holmes pertencia,Clube de Londres de Mycroft Holmes
+535,explicacao,Por que as pessoas se casam?,Explique motivos para o casamento.
+536,redacao,Escreva um parágrafo breve sobre os benefícios de frequentar a Universidade Estadual do Arizona.,Liste em um parágrafo os benefícios da Arizona State University.
+537,duvida,Qual tipo de caqui pode ser consumido cru?,Quais caquis podem ser consumidos crus?
+538,resolucao_de_problemas,o que nós podemos fazer quando derrama café no notebook para fazer ele funcionar,como recuperar notebook com derramamento de café
+539,explicacao,Quais são os benefícios de colaborar em um blog de tecnologia com seus clientes?,Benefícios de colaborar em blog tech com clientes.
+540,classificacao,"Qual dos seguintes itens é o intruso? Pacífico, Atlântico, Báltico e Índico","Qual o intruso entre: Pacífico, Atlântico, Báltico e Índico?"
+541,explicacao,O que é o Shiba Inu,O que é a raça de cão Shiba Inu?
+542,extracao,"A partir da passagem, anote o nome e a população do maior e do menor estado dos EUA categorizados por população. Liste os resultados no formato 'nome do estado: contagem da população'.",Liste o nome e a população do maior e do menor estado dos EUA no formato 'nome: população'.
+543,classificacao,"Categorize cada uma das seguintes classes como 'hard', 'medium' ou 'easy': english writing, math, history, chemistry, physics.","Classifique as disciplinas (english writing, math, history, chemistry, physics) como 'hard', 'medium' ou 'easy'."
+544,criacao,Escreva um poema curto sobre a primavera,Escreva um poema curto sobre a primavera.
+545,extracao,"Da passagem fornecida, extraia o número de episódios de Naruto: Shippuden.",Extraia o número de episódios de Naruto: Shippuden do texto.
+546,pergunta,Qual era o antigo nome do time de futebol americano Washington Commanders?,Antigo nome do Washington Commanders
+547,analise,Podemos nos afastar dos combustíveis fósseis na próxima década?,Viabilidade de transição energética sem combustíveis fósseis na próxima década.
+548,duvida,Produtos online afirmam prevenir ou tratar a COVID-19. Onde posso denunciar sites que vendem produtos com alegações fraudulentas?,Onde denunciar sites que vendem produtos com falsas alegações de prevenção ou cura para COVID-19?
+549,consulta,Quem foram os membros da seleção masculina de futebol da Inglaterra campeã da Copa do Mundo em 1966?,Liste os jogadores da seleção da Inglaterra campeã da Copa do Mundo de 1966.
+550,pergunta,Qual é o menor país do mundo?,Menor país do mundo?
+551,pergunta,Quantos continentes existem na Terra?,Quantos continentes existem na Terra?
+552,analise,Que tipo de navios mercantes seriam úteis em um conflito naval moderno?,Liste navios mercantes úteis em conflitos navais modernos.
+553,classificacao,"Quais destes são idiomas na Índia e quais não são idiomas indianos: Inglês, Hindi, Ucraniano, Francês, Espanhol, Hindi, Kannada, Tulu, Mandarim, Tâmil, Taiwanês, Coreano, Japonês, Assamês, Sânscrito, Urdu, Telugu, Russo, Alemão, Italiano, Árabe, Holandês, Galês, Gujarati, Somali, Pahari, punjabi","Classifique quais destes idiomas são falados na Índia e quais não são: Inglês, Hindi, Ucraniano, Francês, Espanhol, Kannada, Tulu, Mandarim, Tâmil, Taiwanês, Coreano, Japonês, Assamês, Sânscrito, Urdu, Telugu, Russo, Alemão, Italiano, Árabe, Holandês, Galês, Gujarati, Somali, Pahari, Punjabi."
+554,extracao,"Da passagem fornecida, extraia as linguagens de programação suportadas pelo Flink. Separe-as com uma vírgula.","Liste as linguagens de programação suportadas pelo Flink, separadas por vírgula."
+555,listagem,Dê-me uma lista com marcadores das diferentes maneiras que o café pode ser coado.,Liste em tópicos os métodos de preparo de café.
+556,consulta,Quais são as palavras da Casa Tallhart?,Palavras da Casa Tallhart?
+557,extracao,"A partir da passagem fornecida, extraia os ganhos brutos do filme Homem de Ferro",Extraia a bilheteria bruta de Iron Man do texto fornecido.
+558,pergunta,Qual é o maior planeta do sistema solar?,Maior planeta do sistema solar?
+559,explicacao,O que aconteceu em Woodstock,Resumo do festival de Woodstock.
+560,pergunta,Qual cidade sediará os Jogos Olímpicos de Verão de 2024?,Sede Olimpíadas 2024
+561,pesquisa,Quem desenhou a atual bandeira indiana?,Quem desenhou a bandeira da Índia?
+562,explicacao,Por que beber café é melhor antes do esporte?,Benefícios do café antes do exercício.
+563,explicacao,Quem são os almorávidas?,Defina os almorávidas.
+564,pesquisa,Quais são os principais rios da Sérvia,Liste os principais rios da Sérvia.
+565,extracao,Extraia os nomes das ilhas localizadas no Grupo Oriental do planalto dos Açores a partir do texto. Separe-os com uma vírgula.,Liste separadas por vírgulas as ilhas do Grupo Oriental dos Açores mencionadas no texto.
+566,recomendacao,Qual é uma boa época do ano para visitar Seattle?,Melhor época para visitar Seattle?
+567,explicacao,O que é Ativação CRISPR/Cas9 Específica de Alelo Direcionado (TASCA)?,Defina TASCA.
+568,consulta,Quantos prêmios Grammy o Bad Bunny ganhou?,Quantos Grammys o Bad Bunny ganhou?
+569,categorizacao,"Agrupe os seguintes esportes com base em suas semelhanças. Considere os instrumentos usados, o local e a duração:
+
+Tênis, kick-boxing, futebol, squash, boxe, rúgbi, tênis de mesa, taekwondo","Agrupe por similaridade (equipamento, local, duração): Tênis, kick-boxing, futebol, squash, boxe, rúgbi, tênis de mesa, taekwondo."
+570,explicacao,Como jogar xadrez,regras do xadrez
+571,analise,"Com base neste parágrafo sobre jiu-jitsu brasileiro, quais artes marciais influenciaram o Jiu-Jitsu.",Liste as artes marciais que influenciaram o jiu-jitsu brasileiro com base no texto.
+572,recomendacao,Qual é o melhor tipo de lâmpada?,Qual é o melhor tipo de lâmpada?
+573,explicacao,Quem é o Avatar? E o que ele estava tentando realizar?,Quem é o Avatar e qual seu objetivo?
+574,exercicio,Me dê um exercício rápido que eu possa fazer todos os dias,Sugira um exercício diário rápido.
+575,matemática,Maria tem o dobro da idade de Elizabeth. João é dois anos mais velho que Elizabeth. As idades combinadas de João e Elizabeth somam oito. Qual é a idade de Maria? Explique seu raciocínio.,Maria é 2x mais velha que Elizabeth. João é 2 anos mais velho que Elizabeth. A soma da idade de João e Elizabeth é 8. Qual a idade de Maria? Explique.
+576,planejamento,Quais cidades uma viagem perfeita para a Alemanha deve incluir.,Liste as melhores cidades para visitar na Alemanha.
+577,explicacao,O que é um CPT em relação aos Cuidados de Saúde?,O que é CPT na saúde?
+578,explicacao,O que é Unanimous?,Defina Unanimous.
+579,explicacao,Quem é Eric Brewer? Por que ele é conhecido?,Quem é Eric Brewer e quais suas principais realizações?
+580,criatividade,Quais são as 3 primeiras coisas que você faz quando acorda de manhã?,Liste suas 3 primeiras atividades matinais.
+581,explicacao,Qual é a diferença entre um ativo e um passivo.,Diferença entre ativo e passivo.
+582,explicacao,"Dado este texto de referência, por que e quando a Coca usou Splenda como adoçante na Diet Coke?","Explique o motivo e o período em que a Coca-Cola utilizou Splenda na Diet Coke, com base no texto de referência."
+583,informacao,Quem dirigiu o filme Lost in Translation?,Diretor de Lost in Translation
+584,redacao,Escreva uma resposta de rejeição educada para um recrutador do LinkedIn,Escreva recusa educada para recrutador LinkedIn.
+585,conselho,Qual é o melhor conselho de carreira que você poderia dar a um recém-formado que está entrando em uma área técnica ou de análise?,Melhor conselho de carreira para recém-formado em área técnica ou analítica.
+586,duvida,É possível criar seu filho trilíngue?,Como criar um filho trilíngue?
+587,culinaria,Quais ingredientes extras você pode usar ao assar um pão?,Liste ingredientes extras para pão.
+588,redacao,Escreva um parágrafo sobre a relevância de IA/ML no campo de Engenharia de Dados,Explique a relevância de IA e ML na engenharia de dados em um parágrafo.
+589,extracao,"Usando o seguinte texto, liste os 4 principais medicamentos por receita da Pfizer em 2022?",Liste os 4 principais medicamentos da Pfizer por receita em 2022 com base no texto.
+590,pergunta,Quantas posições de slide existem em um trombone,Quantas posições de slide tem o trombone?
+591,pergunta,Qual é a distância da Terra até a sua lua?,Distância Terra-Lua
+592,explicacao,Qual é a melhor maneira de ensinar seus filhos a ler?,Método para ensinar crianças a ler.
+593,historia,Quais dinastias governam em Marrocos?,Liste as dinastias governantes de Marrocos.
+594,recomendacao,Que tipo de máquina de espresso é melhor para uso doméstico?,Qual a melhor máquina de espresso para uso doméstico?
+595,explicacao,Do que é feita a kombucha?,Ingredientes da kombucha.
+596,recomendacao,Diga o nome de um filme de comédia muda famoso,Cite um filme de comédia muda famoso.
+597,recomendacao,Quais atrações eu deveria visitar enquanto estiver em Londres?,Liste atrações turísticas em Londres.
+598,explicacao,O que é o jogo de críquete?,Explique o que é críquete.
+599,informacao,Me dê alguns detalhes sobre o MV Cape Race por favor,Detalhes sobre o navio MV Cape Race.
+600,culinaria,Quais são receitas rápidas para fazer no jantar?,Receitas rápidas de jantar.
+601,escrita,"Você é um jovem cidadão de um país em desenvolvimento. Escreva uma carta em menos de 150 palavras para um jornal, destacando sua preocupação com o descarte incorreto de resíduos biomédicos e para espalhar conscientização sobre o mesmo.","Como jovem de país em desenvolvimento, escreva uma carta de até 150 palavras para jornal alertando sobre o descarte incorreto de resíduos biomédicos."
+602,explicacao,Como a eletricidade é registrada em textos do antigo Egito de acordo com a passagem abaixo.,Explique o registro de eletricidade em textos do antigo Egito com base no texto.
+603,explicacao,Como você mantém seu cachorro feliz?,Como manter um cachorro feliz.
+604,resumo,Me dê uma visão geral da inspiração do desenvolvimento da Barbie com base neste trecho,Resuma a inspiração do desenvolvimento da Barbie com base no trecho.
+605,informacao,Quantos tipos de baixo existem?,Tipos de baixo existentes.
+606,comparacao,Magic Johnson ou Larry Bird ganharam mais campeonatos de basquete universitário e profissional?,Quem ganhou mais títulos universitários e profissionais: Magic Johnson ou Larry Bird?
+607,explicacao,Como posso ser saudável?,Hábitos para ter boa saúde.
+608,pergunta,Qual é o seu ensinamento favorito do estoicismo?,Qual seu ensinamento estoico favorito?
+609,consulta,Quem foi o jogador mais caro no leilão da Indian Premier League (IPL) de 2020?,Quem foi o jogador mais caro no leilão da IPL 2020?
+610,criacao,"Por favor, escreva para mim uma pequena história infantil de ninar sobre um sapo, uma árvore e a lua. Faça com que a moral da história seja sobre apreciar o que você tem na vida.","Escreva uma história infantil de ninar sobre um sapo, uma árvore e a lua. Moral: aprecie o que você tem."
+611,listagem,Liste as igrejas que atendem Mayfield Park em East Bristol de maneira separada por vírgula.,"Liste separadas por vírgula as igrejas de Mayfield Park, East Bristol."
+612,pergunta,Quais são os três poderes do Governo Federal dos EUA?,Três poderes do governo federal dos EUA.
+613,explicacao,"Durante a Páscoa judaica, quais são algumas distinções do que é e do que não é Kosher?",Diferencie o que é Kosher e não Kosher durante a Páscoa judaica.
+614,criacao,Escreva um haicai sobre sentar na costa e observar as ondas.,Escreva um haicai sobre sentar na costa e observar as ondas.
+615,classificacao,"Identifique qual instrumento é de corda ou percussão: Sino de vento, Hardingfele",Classifique se Sino de vento e Hardingfele são de corda ou percussão.
+616,resumo,Você pode gerar um resumo de 2 linhas deste texto?,Resuma este texto em 2 linhas.
+617,planejamento_exercicio,"Roslyn tem 36 anos de idade, pesa 74 kg, tem 165 cm de altura e 35% de gordura corporal. O pai dela teve um ataque cardíaco aos 68 anos e o irmão teve uma angioplastia aos 40. Ambos estão vivos e bem. Os valores da química sanguínea dela medem o colesterol total em 195 mg% e o colesterol HDL em 42 mg%. A glicemia de jejum dela é de 105 mg%. Roslyn é sedentária e não participou de nenhum programa de treinamento de resistência desde a faculdade. Faça um brainstorming de um programa de treinamento de exercício apropriado para ajudar Roslyn a melhorar sua aptidão cardiorrespiratória (C-R). Certifique-se de calcular uma faixa de frequência cardíaca alvo com a RPE correspondente.","Crie um programa de treinamento cardiorrespiratório para Roslyn (36 anos, 74 kg, 165 cm, 35% gordura, histórico familiar de problemas cardíacos, colesterol total 195, HDL 42, glicemia 105, sedentária). Inclua o cálculo da frequência cardíaca alvo e a RPE correspondente."
+618,duvida,Os pinguins conseguem voar?,Pinguins voam?
+619,classificacao,"Classifique cada um dos seguintes jogadores de futebol por gols marcados: Romario, Messi, Ibrahimovic, Muller, Ronaldo","Classifique Romário, Messi, Ibrahimovic, Müller e Ronaldo por gols marcados."
+620,extracao,Extraia os nomes das séries de televisão em que Dixie Violet Egerickx atuou e o ano em que essas séries foram lançadas. Liste-os usando marcadores no formato {Série} - {Ano},Liste com marcadores no formato {Série} - {Ano} as séries de TV de Dixie Violet Egerickx e seus anos de lançamento.
+621,explicacao,Em quais indústrias o SIG é indispensável?,Liste indústrias onde SIG é indispensável.
+622,explicacao,Quais são alguns usos do Isopor?,Liste usos para o isopor.
+623,explicacao,Qual é a diferença entre o surfe de longboard e de shortboard?,Diferença entre longboard e shortboard.
+624,classificacao,"Qual das seguintes partes componentes pertence à Engenharia de Dados ou ao Aprendizado de Máquina? Delta Live Table (DLT), MLFlow, Autoloader, AutoML","Classifique cada item entre Engenharia de Dados ou Machine Learning: Delta Live Table (DLT), MLFlow, Autoloader, AutoML."
+625,explicacao,Qual tem sido a ideia do atlanticismo,Explique o atlanticismo.
+626,duvida,Que tipo de perguntas eu posso te fazer?,Quais tipos de perguntas posso fazer?
+627,classificacao,"Classifique cada um dos seguintes produtos como um produto da Apple, Amazon ou Microsoft: Airpods, Xbox, Alexa, Fire TV Stick, iPhone, Surface Pro, Macbook","Classifique os produtos (Airpods, Xbox, Alexa, Fire TV Stick, iPhone, Surface Pro, Macbook) como Apple, Amazon ou Microsoft."
+628,listagem,Quais são alguns programas de jogos populares que podem ser assistidos na TV?,Liste game shows populares na TV.
+629,explicacao,Qual é a diferença entre um sapo e uma rã?,Diferença entre sapo e rã.
+630,classificacao,"Diga-me se as partidas em cada esporte são geralmente jogadas individualmente ou em equipe: beisebol, golfe, tênis, luta livre, hóquei","Informe se os esportes são individuais ou em equipe: beisebol, golfe, tênis, luta livre, hóquei."
+631,explicacao,Como você vive uma vida cheia de gratidão?,Como viver com gratidão?
+632,explicacao,O que é uma declaração composta?,Defina declaração composta.
+633,classificacao,"Estou separando minha comida fresca em dois grupos. Quais são frutas e quais são vegetais? Maçã, espinho, banana brócolis, batata, ameixa, pera, abacate e pêssego.","Classifique em frutas e vegetais: maçã, espinafre, banana, brócolis, batata, ameixa, pera, abacate, pêssego."
+634,criacao,"Imagine que um dia, uma propriedade universalmente reconhecida do tempo seja alterada. Qual é essa propriedade? Escreva sobre o novo mundo sob essa configuração.","Escreva sobre um mundo onde uma propriedade universal do tempo foi alterada, definindo qual é essa propriedade."
+635,explicacao,Como funciona a Inicialização Rápida do Windows?,Explique o funcionamento do Windows Fast Startup.
+636,explicacao,Para que serve o pergaminho horizontal?,Defina o uso do pergaminho horizontal.
+637,explicacao,Quem foram os Peregrinos e qual feriado é tipicamente associado a eles?,Quem foram os Peregrinos e qual feriado é associado a eles?
+638,pesquisa,"Depois que a musica ""Holding Out for a Hero"" apareceu em Footloose, em qual album ela apareceu?","Em qual álbum a música ""Holding Out for a Hero"" foi lançada após aparecer em Footloose?"
+639,explicacao,O que a FDA está fazendo para responder à pandemia de COVID-19?,Ações da FDA frente à pandemia de COVID-19.
+640,consulta,Quem é o chefe da equipe Ferrari de Fórmula 1?,Chefe da equipe Ferrari F1
+641,classificacao,"Me diga se estes são queijo ou pão: Gouda, Focaccia, Brie, Baguette, Pecorino, Romano, Cheddar, Brioche, Ciabatta, Manchego, Smoked Gouda, Pita, Sourdough","Classifique cada item como queijo ou pão: Gouda, Focaccia, Brie, Baguette, Pecorino, Romano, Cheddar, Brioche, Ciabatta, Manchego, Smoked Gouda, Pita, Sourdough."
+642,resumo,"Avalie o poema abaixo ""since feeling is first"" por ee cummings e forneça um resumo do seu significado.","Resuma o significado do poema ""since feeling is first"" de ee cummings."
+643,informacao,"Qual é a duração da música ""The New Deal""?","Duração da música ""The New Deal""."
+644,duvida,Com que frequência você deve escovar os dentes?,Frequência ideal de escovação dentária.
+645,listagem,Liste os melhores brinquedos para crianças pequenas?,Liste os melhores brinquedos para toddlers.
+646,explicacao,Qual é a fórmula matemática do teorema de Bayes?,Fórmula matemática do teorema de Bayes.
+647,classificacao,"Classifique as cidades com base no fato de estarem localizadas na Namíbia ou na Lituânia.
+Klaipėda, Oshakati, Kaunas, Windhoek, Vilnius, Rundu","Classifique as cidades entre Namíbia e Lituânia: Klaipėda, Oshakati, Kaunas, Windhoek, Vilnius, Rundu"
+648,explicacao,Qual é o benefício da canela,Benefícios da canela.
+649,analise,"Qual é a primeira letra de cada frase, separadas por vírgulas?",Primeira letra de cada frase separada por vírgula.
+650,extracao,Extraia os nomes das cidades onde a UNESCO possui escritórios de campo na Ásia e no Pacífico. Separe-as com um ponto e vírgula,"Liste as cidades com escritórios de campo da UNESCO na Ásia e Pacífico, separadas por ponto e vírgula."
+651,explicacao,Como você faz uma boa apresentação?,Dicas para fazer uma boa apresentação.
+652,explicacao,Como os engenheiros de dados são diferentes dos engenheiros de software?,Diferença entre engenheiro de dados e de software.
+653,classificacao,"Identifique qual instrumento é de corda ou percussão: Madal, Craviola",Classifique Madal e Craviola como corda ou percussão.
+654,pergunta,"Dado um texto de referência sobre o Comissário Parlamentar para Padrões, como o cargo é nomeado?",Como o cargo de Comissário Parlamentar para Padrões é nomeado?
+655,classificacao,"Identifique qual fabricante de automóveis é italiano ou americano: Lancia, Lincoln",Classifique as marcas Lancia e Lincoln como italiana ou americana.
+656,escolha,Mar ou montanha,Mar ou montanha?
+657,pergunta,O Rei Charles III tem 73 anos e o nome completo dele é?,Qual é o nome completo do Rei Charles III?
+658,culinaria,Como eu faço um sanduíche de queijo grelhado perfeito?,Receita de sanduíche de queijo grelhado perfeito.
+659,pergunta,qual é a capital da China?,Capital da China
+660,pesquisa,Qual foi o time de futebol que jogou na Universidade de Oregon em 1949?,Time de futebol da Universidade de Oregon em 1949.
+661,resumo,Me dê um resumo sobre a Catedral de São Paulo,Resuma a Catedral de São Paulo.
+662,consulta,Me diga quem são os 5 maiores artilheiros de todos os tempos da NBA,Top 5 maiores pontuadores da história da NBA.
+663,duvida,Qual é a melhor maneira de dar banho em um cachorro?,Passo a passo para dar banho em cachorro.
+664,classificacao,Qual é uma espécie de peixe? Cabeça-de-lodo ou Bola-de-lodo,Slimehead ou Slimeball é uma espécie de peixe?
+665,pergunta,Qual cidade dos EUA é mais conhecida por suas comemorações de Mardi Gras?,Cidade EUA famosa pelo Mardi Gras?
+666,explicacao,Quem é Brendon Small?,Quem é Brendon Small?
+667,extracao,Extraia os motivos pelos quais o Deserto do Atacama é um dos lugares mais secos da terra e liste-os em formato de marcadores.,Liste em tópicos os motivos pelos quais o Deserto do Atacama é tão seco.
+668,classificacao,Qual é uma espécie de peixe? Slipmouth ou Slipknot,Qual é peixe: Slipmouth ou Slipknot?
+669,redacao,Escreva um ponto de vista sobre a privacidade pessoal na era do software e da tecnologia.,Escreva um texto de opinião sobre privacidade pessoal na era digital.
+670,extracao,Extraia quais sistemas operacionais o openRA suporta a partir do texto abaixo e liste-os em uma linha separada,Liste os sistemas operacionais suportados pelo openRA com base no texto.
+671,analise,"De acordo com este artigo, quantos libras escocesas valeriam quatro Half-pistole?",Valor em libras escocesas de quatro Half-pistoles conforme o artigo.
+672,pergunta,Qual é a distância entre as bases no beisebol profissional?,Distância entre bases no beisebol profissional.
+673,ideias,Quais são algumas boas atividades para um dia chuvoso?,Atividades para dia chuvoso.
+674,logica,"Um fazendeiro está a caminho do mercado. Ele vai vender um lobo, uma cabra e um repolho. No caminho, ele chega a uma travessia de rio. O rio é largo demais para atravessar a pé, então ele precisa pegar um barquinho para atravessar. O barco é tão pequeno que ele pode levar no máximo um dos três itens com ele no barco de cada vez. Deixados sozinhos, o lobo devoraria a cabra, e a cabra devoraria o repolho. Como o fazendeiro pode transportar com segurança todos os três itens através do rio?","Resolva o enigma do fazendeiro, do lobo, da cabra e do repolho cruzando o rio."
+675,extracao,Quais conquistas Cade Cunningham recebeu durante seu primeiro ano na NBA com base no parágrafo fornecido?,Liste as conquistas de Cade Cunningham no primeiro ano na NBA segundo o texto.
+676,duvida,O Spark requer versões modificadas do Scala ou Python?,O Spark precisa de versões modificadas de Scala ou Python?
+677,resumo,"Por favor, dê uma breve história da IA.",História resumida da IA.
+678,extracao,"A partir da passagem, anote o nome dos países que têm maior poder de voto. Liste os resultados em formato separado por vírgulas.",Liste os países com maior poder de voto do texto em formato separado por vírgulas.
+679,extracao,"Da passagem fornecida, extraia o nome do treinador do Gujarat Giants",Extraia o nome do técnico do Gujarat Giants do texto.
+680,instrucoes,Escreva instruções para um cuidador de cães para um cachorro chamado Chunkie,Crie instruções de cuidados para o cão Chunkie.
+681,explicacao,Quais são os 3 ramos da ciência?,Liste os 3 ramos da ciência.
+682,extracao,"Da passagem fornecida, extraia os nomes dos roteiristas do filme Capitão América: O Primeiro Vingador. Separe-os com uma vírgula.",Liste os roteiristas de Capitão América: O Primeiro Vingador separados por vírgula.
+683,geografia,Em qual parte do mundo o Egito está localizado?,Localização geográfica do Egito.
+684,explicacao,Qual é a diferença entre um ovo frito com a gema mole para cima e um ovo mexido?,Diferença entre ovo sunny side up e ovo mexido.
+685,explicacao,Qual era a cultura de Tirinto,Explique a cultura de Tirinto.
+686,explicacao,"O que alguém quer dizer quando diz ""flip him the bird""?","Defina a expressão ""flip him the bird""."
+687,extracao,Extraia todos os locais do texto,Liste todos os locais do texto.
+688,pesquisa,Quando é que o Christoph Karl von Piacsek serviu como oficial húngaro?,Período de serviço de Christoph Karl von Piacsek como oficial húngaro.
+689,pergunta,Qual é o filme de maior bilheteria mundialmente?,Filme maior bilheteria mundial
+690,recomendacao,"Quais são os melhores lugares para brunch em Burlingame, CA?","Melhores lugares para brunch em Burlingame, CA."
+691,explicacao,Por que os velejadores precisam dar bordos contra o vento?,Explique a física de velejar contra o vento (dar bordos).
+692,explicacao,O que são dentes?,Defina dentes.
+693,explicacao,Como as categorias raciais são usadas historicamente?,Explique o uso histórico das categorias raciais.
+694,recomendacao,Me dê uma lista de alguns países subestimados para os quais eu nunca viajei.,Liste países subestimados.
+695,explicacao,Como os Legos ganharam seu nome?,Origem do nome Lego
+696,explicacao,Qual é a diferença entre Texas Hold'em e pôquer?,Diferença entre Texas Hold'em e pôquer.
+697,extracao,"Dado um texto de referência sobre Nicholas Theodore, diga-me onde ele cursou a faculdade de medicina e pelo que ele é conhecido.",Informe a faculdade de medicina de Nicholas Theodore e suas principais realizações com base no texto de referência.
+698,consulta,Quando Irina Vysheslavska nasceu?,Data de nascimento de Irina Vysheslavska
+699,explicacao,"Qual foi a ""febre X.Y.Z.""?",Explique a febre X.Y.Z.
+700,listagem,Nomeie quatro faculdades na área de Boston.,Liste 4 faculdades em Boston.
+701,extracao,Nomeie as instituições acadêmicas que John Cena frequentou.,Liste as instituições de ensino frequentadas por John Cena.
+702,informacao,Como Stevie Ray Vaughan chamava sua guitarra mais amada?,Nome da guitarra principal de Stevie Ray Vaughan.
+703,explicacao,O que causou a Covid 19?,Causa da Covid-19.
+704,resumo,"Dados estes parágrafos sobre a síndrome de Asperger, quais são as intervenções típicas que ajudam a melhorar a capacidade da pessoa de funcionar no mundo cotidiano?","Liste intervenções típicas para melhorar o funcionamento cotidiano na síndrome de Asperger, baseado no texto."
+705,redacao,Escreva um parágrafo para refutar a afirmação de um colega de que estruturas antigas como Stonehenge e a Grande Pirâmide são evidências de atividades de OVNIs na Terra.,Escreva um parágrafo refutando que Stonehenge e a Grande Pirâmide sejam evidências de OVNIs.
+706,explicacao,O que é o Microsoft Copilot?,Explique o Microsoft Copilot.
+707,consulta,Quem estabeleceu a Sociedade Humana de Illinois?,Fundador da Illinois Humane Society
+708,explicacao,O fungo Cordyceps de The Last of Us é real?,O fungo Cordyceps de The Last of Us é real?
+709,extracao,"Dado o texto de referência abaixo sobre Larry Bird, diga-me onde ele nasceu, o que ele fazia para viver e quem era seu maior rival profissional.","Com base no texto de Larry Bird, informe: local de nascimento, profissão e principal rival profissional."
+710,listagem,Cite alguns gatos de desenho animado famosos.,Liste gatos de desenhos animados famosos.
+711,classificacao,"Qual é o intruso? Colher, Caneta, Faca, Garfo","Qual é o intruso entre: Colher, Caneta, Faca, Garfo?"
+712,explicacao,Quais são alguns tipos diferentes de desastres naturais?,Liste tipos de desastres naturais.
+713,resumo,Você pode resumir o livro Aniquilação?,Resuma o livro Aniquilação.
+714,explicacao,"Se um candidato concorrendo a Presidente dos Estados Unidos for indiciado durante sua campanha, ele pode continuar concorrendo à eleição?",Candidato presidencial indiciado pode continuar a campanha?
+715,explicacao,O que acontece se você se perder no Triângulo das Bermudas?,O que ocorre ao se perder no Triângulo das Bermudas?
+716,geografia,"O Rio Chi Kraeng fica na América do Sul, no Sudeste Asiático ou na Austrália?","Localização do Rio Chi Kraeng: América do Sul, Sudeste Asiático ou Austrália?"
+717,explicacao,Qual é o ponto de vela mais rápido?,Qual é o ponto de vela mais rápido?
+718,explicacao,O que significa quantitative easing?,Defina quantitative easing.
+719,definicao,"Dado o seguinte parágrafo sobre lama silicosa, como as lamas são definidas?",Defina lama silicosa com base no texto fornecido.
+720,extracao,"Me dê um título de um dos romances de ""Harry Potter"".",Cite um título de um livro de Harry Potter.
+721,explicacao,O que é um fluxo piroclástico?,Defina fluxo piroclástico.
+722,explicacao,Como a baía de São Francisco foi criada?,Como foi criada a baía de São Francisco?
+723,analise,"Qual destas três palavras é diferente das outras: Novidade, Brincalhão, Irresistível? Por quê?","Identifique a palavra diferente entre Novidade, Brincalhão e Irresistível e justifique."
+724,pesquisa,Qual era o principal meio de transporte através da baía de São Francisco antes da Ponte Golden Gate?,Qual era o principal transporte na baía de São Francisco antes da Ponte Golden Gate?
+725,classificacao,"Qual das seguintes opções são bandas de rock (por exemplo, garage rock, alternativo, indie, etc.): Pavement, Nirvana, The Beatles, The Who, Led Zeppelin, Lynyrd Skynyrd, Pearl Jam, The Doors, terra, grama, co2, hambúrgueres","Identifique as bandas de rock na lista: Pavement, Nirvana, The Beatles, The Who, Led Zeppelin, Lynyrd Skynyrd, Pearl Jam, The Doors, dirt, grass, co2, hamburgers."
+726,explicacao,Conte-me sobre o Sukhoi-Gulfstream,Explique sobre o Sukhoi-Gulfstream.
+727,explicacao,Quais são as 3 leis do movimento que Newton definiu?,Quais são as 3 leis de Newton?
+728,duvida,"Se ao seu filho foi dito que ele ou ela tem piolhos, o que você deve fazer?",O que fazer se meu filho tiver piolhos?
+729,extracao,Nomeie dois membros do gabinete mencionados no parágrafo a seguir. Forneça-os como uma lista com marcadores em ordem de aparição.,Liste dois membros do gabinete do parágrafo a seguir em ordem de aparição com marcadores.
+730,extracao,"De acordo com este parágrafo sobre a Universidade da Virgínia, onde Edgar Allan Poe morou durante seu tempo na universidade?",Informe onde Edgar Allan Poe morou na Universidade da Virgínia segundo o texto.
+731,analise,O que eu devo considerar antes de aceitar um emprego com muitas viagens?,Fatores a considerar antes de aceitar emprego com viagens frequentes.
+732,classificacao,"Identifique quais espécies de animais estão vivas ou extintas: Hallucigenia, Baleia Comum",Hallucigenia e baleia-comum: vivas ou extintas?
+733,consulta,Quais são os dois torneios continentais diferentes que Roger Lemerre venceu?,Quais foram os dois torneios continentais vencidos por Roger Lemerre?
+734,pergunta,A civilização asteca originou-se de qual país?,Origem geográfica da civilização asteca.
+735,explicacao,Por que uma pessoa da Suíça imigraria para a Califórnia?,Motivos para um suíço imigrar para a Califórnia.
+736,explicacao,O que é o Prêmio Pulitzer de Ficção?,Defina o Prêmio Pulitzer de Ficção.
+737,explicacao,Qual é a contribuição teórica de Jiang?,Qual a contribuição teórica de Jiang?
+738,listagem,Dê-me uma lista de alguns feriados de verão diferentes que ocorrem nos Estados Unidos,Liste feriados de verão nos EUA.
+739,pergunta,Quem é a pessoa mais poderosa do mundo?,Quem é a pessoa mais poderosa do mundo?
+740,dica,Quais são as melhores dicas para fotografia profissional de Safári?,Dicas para fotografia profissional de safári.
+741,informacao,Quantos locais olímpicos existem para a canoagem,Número de locais olímpicos de canoagem.
+742,pergunta,Qual era a dieta do Tricerátops?,Dieta do Tricerátops.
+743,consulta,Quais vilas compõem Cape Ann?,Quais cidades formam Cape Ann?
+744,listagem,Liste alguns sintomas comuns que alguém pode apresentar se contrair uma infecção gastrointestinal.,Liste sintomas comuns de infecção gastrointestinal.
+745,informacao,O que é o Memorial Recreation Park e onde ele está localizado,O que é e onde fica o Memorial Recreation Park?
+746,pesquisa,Quantos irmãos inteiros Fatemeh Pahlavi teve?,Quantos irmãos germanos Fatemeh Pahlavi teve?
+747,informacao,Quais instrumentos Henri Chaix tocava?,Instrumentos de Henri Chaix?
+748,explicacao,Quais são os benefícios de usar a função de ativação ReLU em vez da função sigmóide clássica em redes neurais?,Compare os benefícios da função ReLU versus sigmóide em redes neurais.
+749,informacao,Quem é Joëlle Boutin?,Quem é Joëlle Boutin?
+752,pergunta,"Quem foram os ""Quatro Grandes"" do Grunge?",Quais são as quatro principais bandas de grunge?
+753,consulta,Quando o mundo celebra o Hindi Diwas todos os anos?,Data do Hindi Diwas
+754,classificacao,"Classifique os seguintes alimentos como mexicanos ou italianos: Burrito, Pizza, Pasta, Quesadilla, Taco, Gelato","Classifique como mexicano ou italiano: Burrito, Pizza, Pasta, Quesadilla, Taco, Gelato."
+755,explicacao,Quais são 3 coisas que eu posso fazer para me sentir melhor se eu estiver de mau humor?,Liste 3 formas de melhorar o mau humor.
+756,recomendacao,Quais são alguns dos melhores filmes de ficção científica de todos os tempos?,Liste os melhores filmes de ficção científica de todos os tempos.
+757,explicacao,O que é o ICC Men's T20 World Cup?,O que é a Copa do Mundo T20 Masculina da ICC?
+758,extracao,Extraia as espécies de café do texto. Separe-as com um ponto e vírgula,Extraia espécies de café e separe com ponto e vírgula.
+759,explicacao,O que Michael Faraday e Georg Ohm fizeram?,Explique as contribuições de Michael Faraday e Georg Ohm.
+760,extracao,"Dado um texto de referência sobre José Francisco Miguel António de Mendonça, diga-me quando ele foi nomeado patriarca e quando ele morreu.","Com base no texto de referência sobre José Francisco Miguel António de Mendonça, informe a data de sua nomeação como patriarca e a data de seu falecimento."
+761,duvida,Qual é o melhor tipo de raça de cachorro?,Qual a melhor raça de cachorro?
+762,explicacao,O que é React?,Defina React.
+763,classificacao,Qual é uma espécie de peixe? Nurseryfish ou Nursery?,Nurseryfish ou Nursery: qual é espécie de peixe?
+764,duvida,Qual coloração de gato é geralmente quase sempre fêmea?,Qual pelagem de gato é quase sempre fêmea?
+765,nomear,Cite um livro de Jane Austen.,Cite um livro de Jane Austen.
+766,consulta,Quais são as diferentes rotas aéreas para viajar entre Gênova (GOA) e São Francisco (SFO) da mais rápida para a mais longa?,Liste as rotas aéreas de Gênova (GOA) a São Francisco (SFO) da mais rápida para a mais longa.
+767,pergunta,O Sir Winston Churchill ganhou o Prêmio Nobel da Paz?,Winston Churchill ganhou o Nobel da Paz?
+768,explicacao,o que é o Estado de Bieh,O que é o Estado de Bieh?
+769,planejamento,"Você foi convidado para participar do Conselho Consultivo de Saúde Escolar para desenvolver uma nova política que se concentra no desenvolvimento de um serviço de alimentação mais sustentável. Liste as etapas que você tomaria para desenvolver e implementar a nova política. Como você envolveria a equipe, as famílias e as crianças?","Liste as etapas para desenvolver e implementar uma política de serviço de alimentação escolar sustentável, incluindo estratégias para envolver equipe, famílias e crianças."
+771,explicacao,Por que malhar é bom para você?,Explique os benefícios de fazer exercícios físicos.
+772,explicacao,"Você poderia, por favor, descrever o jogo de golfe?",Explique o jogo de golfe.
+773,listagem,Diga o nome de alguns atores famosos na década de 1940,Atores famosos da década de 1940.
+774,conceito,O que é um herbívoro?,Defina herbívoro.
+775,listagem,Nomeie 5 músicos populares,Liste 5 músicos populares.
+777,explicacao,Quais são os principais elementos da demonstração de resultados de uma empresa?,Quais são os elementos principais da demonstração de resultado de uma empresa?
+778,explicacao,O que é o Projeto Nimbus?,Explique o Projeto Nimbus.
+779,pesquisa,Onde as manchas solares foram observadas pela primeira vez?,Onde foram observadas as primeiras manchas solares?
+780,biografia,Quem é Anne Francis?,Quem foi Anne Francis?
+781,listagem,Você pode sugerir 3 desvantagens de tecnologias de modificação genética como CRISPR?,Liste 3 desvantagens do CRISPR.
+782,classificacao,"Quais dos seguintes são elementos periódicos: Ti, N, Pt, Fl, Zt, 1L, 2y, O, F, V, Y","Identifique quais itens são elementos químicos na lista: Ti, N, Pt, Fl, Zt, 1L, 2y, O, F, V, Y."
+783,analise,"Dado este parágrafo sobre a série de TV The Last of Us, quem não foi escalado para o show?",Quem não foi escalado para a série The Last of Us (com base no texto)?
+784,consulta,Quais países ganharam a copa do mundo de rúgbi?,Liste os países campeões da Copa do Mundo de Rúgbi.
+785,explicacao,O que é engenharia de detecção e quais são os benefícios?,Defina engenharia de detecção e liste seus benefícios.
+786,pergunta,Qual é a fórmula científica para o sal de cozinha?,Fórmula química do cloreto de sódio.
+787,consulta,Quais são os principais times de futebol na cidade de Madri?,Times de futebol em Madri.
+788,pesquisa,Quem inventou o Jeans,Quem inventou o jeans?
+789,duvida,Qual é a expectativa de vida média de um Golden Retriever?,Expectativa de vida média Golden Retriever
+790,biografia,Quem foi Lionel Danthanarayana?,Quem foi Lionel Danthanarayana?
+791,listagem,Diferentes maneiras nas quais você pode comer macarrão,Liste maneiras de comer macarrão.
+792,recomendacao,3 melhores séries de TV do mundo,Top 3 séries de TV.
+793,recomendacao,Qual é a melhor estação do ano para visitar o Japão?,Melhor época para visitar o Japão.
+794,informacao,Quem é o chefe de equipe da Aston Martin na Fórmula 1?,Chefe da equipe Aston Martin F1.
+795,explicacao,Por que as pessoas gostam de gatos?,Por que pessoas gostam de gatos?
+796,pergunta,Quando o império romano foi fundado?,Ano de fundação do Império Romano.
+797,duvida,Como posso executar o Spark em um cluster?,Como executar Spark em cluster?
+798,classificacao,Qual é uma espécie de peixe? Cisco ou Palo Alto,Cisco ou Palo Alto é uma espécie de peixe?
+799,classificacao,"Diga-me se os seguintes alimentos seriam seguros ou inseguros para alguém com alergia a nozes comer? Manteiga de amendoim, ovos, maçãs, pb&j, cenouras, pad thai","Avalie a segurança dos seguintes alimentos para alérgicos a nozes: manteiga de amendoim, ovos, maçãs, sanduíche de pasta de amendoim com geléia, cenouras, pad thai."
+800,explicacao,O que é a Estação Denville?,O que é a Estação Denville?
+801,classificacao,"Classifique abaixo em minerais mais úteis e menos úteis em nossa comida: ferro, cálcio, magnésio, cloreto, selênio, potássio, fósforo, zinco, iodo, mercúrio, cobre.","Classifique os minerais em mais úteis e menos úteis na alimentação: ferro, cálcio, magnésio, cloreto, selênio, potássio, fósforo, zinco, iodo, mercúrio, cobre."
+802,criacao,"Escreva uma pequena história sobre Batman, Superman e Homem-Aranha","Escreva uma história curta com Batman, Superman e Homem-Aranha."
+803,analise,Quais são as possíveis alianças para o futuro da IA?,Alianças futuras para IA.
+804,suporte,Meu computador não quer ligar. Como eu concerto isso?,Como consertar um computador que não liga?
+805,explicacao,Em que língua as pessoas multilíngues sonham?,Idioma dos sonhos de multilíngues.
+806,extracao,"A partir da passagem, anote os vários temas nos quais a série Harry Potter é baseada. Liste os resultados em formato separado por vírgulas.",Liste em formato separado por vírgulas os temas da série Harry Potter baseados na passagem.
+807,listagem,Quem são alguns filósofos gregos famosos?,Liste filósofos gregos famosos.
+808,extracao,Extraia todas as competições de futebol mencionadas no trecho e apresente-as usando marcadores.,Liste em tópicos as competições de futebol citadas no texto.
+809,extracao,"Dado este parágrafo sobre KITS, diga-me em que estação ele está e onde sua torre de rádio está localizada.",Informe a estação e a localização da torre de rádio do KITS com base no texto.
+810,recomendacao,Quais são algumas recomendações de parques nacionais dos EUA para visitar?,Liste parques nacionais dos EUA para visitar.
+811,pergunta,Qual país tem mais habitantes?,País mais populoso?
+812,explicacao,O que é as férias de verão?,Defina férias de verão.
+813,explicacao,O que é esqui cross-country?,Defina esqui cross-country.
+814,informacao,Qual é o loft padrão de um ferro 9 no golfe?,Loft padrão ferro 9 golfe
+815,explicacao,Por que os humanos precisam de luz solar?,Explique a necessidade humana de luz solar.
+816,categorizacao,"Categorize os nomes abaixo em peixes e insetos. salmão, formiga, abelha, rohu, lúcio, vespa, besouro, carpa, borboleta, bacalhau, traça","Classifique em peixes e insetos: salmon, ant, bee, rohu, pike, wasp, beetle, carp, butterfly, cod, moth."
+817,localizacao,Em qual distrito fica Lightwater?,Distrito de Lightwater?
+818,consulta,Quem ganhou o Super Bowl de 1988,Vencedor Super Bowl 1988
+819,consulta,Quem foram os últimos 5 presidentes republicanos?,Liste os últimos 5 presidentes republicanos dos EUA.
+820,pergunta,Em quais hemisférios os Estados Unidos estão?,Hemisférios dos Estados Unidos.
+821,explicacao,O que é um mulligan em Magic the Gathering?,Explique o que é mulligan em Magic the Gathering.
+822,listagem,Dê-me uma lista das cinco coisas famosas para ver no Nepal,Liste 5 atrações famosas do Nepal.
+823,culinaria,Que tipo de sal eu devo usar ao cozinhar?,Qual sal usar ao cozinhar?
+824,listagem,Forneça-me uma lista de algumas maneiras de fazer exercícios que sejam divertidas,Liste exercícios divertidos.
+825,extracao_dados,"De acordo com este parágrafo sobre a UVA, diga-me quanto do orçamento acadêmico da UVA vai para dotações e presentes?","Informe a porcentagem do orçamento acadêmico da UVA destinada a doações e presentes, com base no texto."
+826,consulta,Quem é o melhor time de basquete da NBA?,Qual o melhor time da NBA?
+827,listagem,5 maneiras de aumentar a resistência,Liste 5 maneiras de aumentar a resistência.
+828,listagem,Me dê uma lista em marcadores de 5 estados dos EUA que têm costa com o Oceano Pacífico,Liste 5 estados americanos costeiros do Oceano Pacífico.
+829,resumo,Me dê uma visão geral da rivalidade entre os Celtics e os Lakers.,Resuma a rivalidade Celtics-Lakers.
+830,analise,"Dado este texto de referência sobre beneficência, o que posso fazer para garantir a conformidade com o conceito de beneficência?",Como garantir conformidade com o conceito de beneficência com base no texto?
+831,pergunta,Quando foi o ataque a Pearl Harbor,Data do ataque a Pearl Harbor.
+832,extracao,Quais prêmios Tendulkar recebeu com base na passagem acima? Use o formato 'Nome do prêmio (ano)' em uma lista separada por vírgulas para apresentar o resultado.,Liste os prêmios de Tendulkar do texto no formato 'Prêmio (ano)' separados por vírgula.
+833,classificacao,"classifique o seguinte como esportes versus outras atividades: críquete, conversa, escrita, corrida, dança, futebol, golfe, construção, encanamento, natação, parapente, corrida, atrasando-se","Classifique os itens em esportes ou outras atividades: críquete, conversa, escrita, corrida, dança, futebol, golfe, construção, encanamento, natação, parapente, corrida, atraso."
+834,explicacao,Como viver uma vida longa e saudável?,Hábitos para longevidade e saúde.
+835,listagem,"Liste alguns dos game shows de televisão que Bob Stewart criou, co-criou e/ou produziu.","Liste os game shows criados, co-criados ou produzidos por Bob Stewart."
+836,consulta,Quantas rodovias interestaduais existem no Colorado?,Quantas interestaduais há no Colorado?
+837,planejamento,"Descreva um plano para esquiar progressivamente em trilhas mais difíceis. Recomende uma estação de esqui em Tahoe, incluindo trilhas que posso usar para seguir o plano.",Planeje a progressão de nível no esqui com recomendações de trilhas e resort em Tahoe.
+838,consulta,Quem deu os slogans de Quit India e Simon Go Back?,Autores dos slogans 'Quit India' e 'Simon Go Back'.
+839,explicacao,O que significa o termo ACID com respeito a bancos de dados?,Explique o acrônimo ACID em bancos de dados.
+840,planejamento,Qual é um bom roteiro de 5 dias para visitar a Costa Amalfitana?,Roteiro de 5 dias para a Costa Amalfitana.
+841,explicacao,O jiu-jitsu brasileiro é bom para autodefesa?,O jiu-jitsu brasileiro é eficaz para autodefesa?
+842,explicacao,O que é uma hipoteca?,Defina hipoteca.
+843,explicacao,Qual é a melhor maneira de viver a vida,Qual é a melhor forma de viver a vida?
+844,orientacao,"Eu realmente gosto de voar e estou pensando em me juntar aos militares dos EUA. Se eu quiser ser um piloto, a qual parte dos militares devo me juntar?",Qual ramo das Forças Armadas dos EUA é melhor para se tornar piloto?
+845,extracao,Extraia os valores de financiamento federal fornecidos aos governos estaduais e locais para educação no ano passado,Extraia os valores do financiamento federal para educação estadual e local do último ano.
+846,extracao,Liste alguns pontos sobre base militar a partir da passagem fornecida.,Liste pontos sobre base militar do texto.
+847,extracao,"Dado este parágrafo sobre o Gato Grumpy, diga-me o verdadeiro nome do gato.",Qual é o nome verdadeiro do Gato Grumpy no parágrafo?
+848,consulta,Qual é a população masculina em Madaria?,População masculina Madaria
+849,culinaria,Quais são algumas maneiras de reaproveitar o peito bovino defumado?,Ideias para reutilizar peito bovino defumado.
+850,explicacao,O que é mineração de processos?,Defina mineração de processos.
+851,viagem,Qual é a melhor maneira de ir de Londres a Paris.,Melhor trajeto de Londres a Paris.
+852,pesquisa,Qual é a origem do vinho laranja?,Origem do vinho laranja.
+853,listagem,"Me dê uma lista das cinco pessoas mais seguidas no Instagram, junto com o número de seguidores delas.",Liste as 5 pessoas mais seguidas do Instagram e seus números de seguidores.
+854,duvida,O Alasca tem seis meses de escuridão e seis meses de luz?,O Alasca tem seis meses de escuridão e seis meses de luz?
+855,explicacao,qual é a diferença entre um rato e um camundongo,diferença entre rato e camundongo
+856,biografia,Quem foi Lem Tucker?,Quem foi Lem Tucker?
+857,pergunta,Quais são os quatro principais torneios da Associação de Golfistas Profissionais?,Quais são os quatro majors do golfe profissional (PGA)?
+858,explicacao,Quais são os tipos de objetos espaciais?,Liste os tipos de objetos espaciais.
+859,analise,Quais são algumas aplicações práticas do lema de Burnside na combinatória com base nesta passagem?,Aplicações práticas do lema de Burnside na combinatória segundo o texto.
+860,explicacao,O plástico faz mal para nós?,O plástico é prejudicial à saúde humana?
+861,criacao,Escreva um prompt de escrita criativa para dar aos alunos para um exame sobre não-ficção criativa sobre a natureza.,Crie um tema de redação de não-ficção criativa sobre a natureza para um exame escolar.
+862,pesquisa,Quem escreveu a música Happy Birthday Darlin,Quem compôs Happy Birthday Darlin?
+863,analise,"O que ajudou a Argentina a vencer a Copa do Mundo, considerando que eles não eram a equipe mais forte no papel?",Fatores da vitória da Argentina na Copa do Mundo de 2022.
+864,consulta,Quando foi lançado The Palpable Leprosy of Pollution?,Data de lançamento do álbum The Palpable Leprosy of Pollution
+865,classificacao,"Identifique qual instrumento é de corda ou percussão: Fiddlesticks, Tricordia",Classifique se Fiddlesticks e Tricordia são instrumentos de corda ou percussão.
+866,pesquisa,Contra quem a seleção francesa de futebol jogou nas últimas 3 partidas da Copa do Mundo de 2018 e como terminaram as partidas?,Adversários e resultados dos últimos 3 jogos da França na Copa de 2018.
+867,analise,Você pode me escrever um resumo desta página e depois me dizer quem e quanto tráfego é direcionado para esta página de quais regiões ao redor do mundo?,Resuma esta página e analise o volume e a origem geográfica do tráfego.
+868,explicacao,Quem são Torvill e Dean?,Quem são Torvill e Dean?
+869,investigacao,Quem é responsável pela deportação de crianças ucranianas para a Rússia?,Responsáveis deportação crianças ucranianas Rússia
+870,listagem,"Aqui está uma lista dos principais personagens da série de TV Picard que também apareceram em outra série da franquia Star Trek: Jean-Luc Picard, Data, Seven of Nine, Deanna Troi, William Riker, Q, Borg Queen e Wesley Crusher.
+
+Liste os personagens, ordenados pela série original em que apareceram.","Liste os personagens da série Picard (Jean-Luc Picard, Data, Seven of Nine, Deanna Troi, William Riker, Q, Borg Queen, Wesley Crusher) ordenados pela série original de aparição."
+871,listagem,Me dê uma lista com marcadores das cinco maiores cidades da Alemanha,Liste as 5 maiores cidades da Alemanha em tópicos.
+872,analise,"Me diga qual destes países tem mais de 1 bilhão de habitantes: Japão, Canadá, Estados Unidos, Rússia, China, Índia","Quais destes países têm mais de 1 bilhão de habitantes: Japão, Canadá, EUA, Rússia, China, Índia?"
+873,recomendacao,"Me diga o que eu devo fazer em Londres, na Inglaterra.",Liste atrações turísticas em Londres.
+874,classificacao,"Qual dos seguintes itens você comumente levaria para uma viagem de acampamento: refeições liofilizadas, sacos de dormir, modelador de cachos, lanterna, machado, barraca, saltos altos, botas de trilha, espelhos, baú vintage, lâmpada antiga, canivete suíço","Liste os itens comuns para acampamento entre as opções: refeições liofilizadas, sacos de dormir, modelador de cachos, lanterna, machado, barraca, saltos altos, botas de trilha, espelhos, baú vintage, lâmpada antiga, canivete suíço."
+875,consulta,O SCI Dallas abriga homens ou mulheres?,SCI Dallas: abriga homens ou mulheres?
+876,explicacao,Quais são as melhores coisas sobre estar em um relacionamento amoroso?,Vantagens de um relacionamento amoroso.
+877,instrucao,Como você instala uma cerca de madeira?,Instalar cerca de madeira passo a passo.
+878,orientacao,Quais são algumas maneiras de se preparar para uma nova carreira?,Como se preparar para uma nova carreira?
+879,consulta,"Na série As Crônicas de Gelo e Fogo, quem é o fundador da Casa Bar Emmon?",Fundador da Casa Bar Emmon em As Crônicas de Gelo e Fogo.
+880,classificacao,"Classifique cada país como ""Africano"" ou ""Europeu"": Nigéria, Ruanda, Portugal, Romênia, Gana, Ucrânia","Classifique como Africano ou Europeu: Nigéria, Ruanda, Portugal, Romênia, Gana, Ucrânia."
+881,explicacao,Quão confiável é o transporte público?,Confiabilidade do transporte público.
+882,informacao,Quais são algumas das línguas faladas na Índia?,Liste línguas faladas na Índia.
+883,extracao_informacao,"Dado o parágrafo sobre a Colnago C40, em que ano uma bicicleta da marca Colnago foi pilotada pela primeira vez pelo vencedor da classificação geral no Tour de France?","Em que ano uma bicicleta Colnago venceu a classificação geral do Tour de France pela primeira vez, segundo o texto da Colnago C40?"
+884,explicacao,Como você sabe se um peito de frango está totalmente cozido?,Como saber se o peito de frango está cozido?
+885,pergunta,Qual é o nome do cachorro da Dorothy?,Nome do cachorro da Dorothy.
+886,extracao,"Com base neste parágrafo sobre as viagens do tesouro de Ming, quem comandou a frota?",Quem comandou a frota das viagens de Ming?
+887,explicacao,O que é uma plataforma de Gerenciamento de Eventos e Informações de Segurança (SIEM)?,O que é SIEM?
+888,listagem,Quais são os livros da série 'As Crônicas de Gelo e Fogo' e quando eles foram lançados?,Liste os livros da série 'As Crônicas de Gelo e Fogo' com as respectivas datas de lançamento.
+889,consulta,Com qual companhia de ópera a falecida soprano e mestra de canto Ellen Faull Gordon é mais associada?,Qual companhia de ópera é mais associada à soprano Ellen Faull Gordon?
+890,analise,as operações são uma ótima carreira,Avalie a carreira em operações.
+891,resumo,"Dê-me um resumo de uma linha disto: ""Gale me deu uma sensação de segurança que me faltava desde a morte do meu pai. Sua companhia substituiu as longas horas solitárias na madeira. Eu me tornei um caçador muito melhor quando não precisei olhar por cima do ombro constantemente, quando alguém estava cobrindo minhas costas... Estar na madeira com Gale... às vezes eu estava realmente feliz.""","Resuma em uma linha: ""Gale deu a Katniss segurança, melhorou sua caça e trouxe momentos de felicidade na floresta."""
+892,pergunta,Quem é o atleta olímpico mais condecorado de todos os tempos?,Maior medalhista olímpico da história
+893,classificacao,"Identifique qual instrumento é de corda ou de percussão: Tsymbaly, Yehu",Classifique Tsymbaly e Yehu como corda ou percussão.
+894,explicacao,O que é economia?,Defina economia.
+895,analise,"A partir deste texto, descubra os prós e os contras da dragagem",Liste prós e contras da dragagem no texto.
+896,explicacao,Por que as pessoas estão comendo ovos na Páscoa,Explique a origem de comer ovos na Páscoa.
+897,explicacao,Por que ainda usamos tubos de vácuo em amplificadores de guitarra elétrica modernos?,Explique o uso atual de válvulas em amplificadores de guitarra.
+898,extracao,"Dado este parágrafo sobre a 9ª temporada do Love Island UK, Kai Fagan e Sanam Harrinanan venceram a votação final por qual porcentagem?",Porcentagem de votos que Kai Fagan e Sanam Harrinanan obtiveram para vencer a 9ª temporada do Love Island UK.
+899,recomendacao,Eu quero comprar um monitor de trabalho que deve ser usado junto com o notebook. Quais recursos do monitor devem ser considerados?,Quais recursos considerar ao comprar um monitor para trabalhar com notebook?
+900,pergunta,Quantos membros existem na Organização para Cooperação de Xangai (OCS)?,Número de membros da Organização para Cooperação de Xangai (OCS).
+901,recomendacao,"Minha esposa e eu temos dois filhos: um menino de 4 anos e uma menina de 1 ano. Estamos pensando em comprar um animal de estimação. Quais são algumas boas opções de animais de estimação para nossa família de quatro pessoas? Por favor, inclua algumas vantagens e desvantagens para cada opção.","Sugira opções de animais de estimação para família com crianças de 4 e 1 ano, incluindo prós e contras de cada."
+902,classificacao,"Identifique quais espécies de animais estão vivas ou extintas: Hyaenodon, Humphead Wrasse",Hyaenodon e Humphead Wrasse: vivos ou extintos?
+903,seguranca,As informações da escola dos meus filhos estão disponíveis para qualquer pessoa na Internet?,Verificar se dados da escola dos filhos estão públicos na internet.
+904,recomendacao,O que eu posso fazer em Amsterdã em um día chuvoso?,Atividades em Amsterdã para dias de chuva.
+905,explicacao,O que causa a chuva?,Explique a causa da chuva.
+906,explicacao,Qual é a causa principal da chuva?,Causa principal da chuva.
+907,classificacao,"Classifique estas cidades indianas nos estados em que elas estão.
+Hyderabad, Kolkata, Purulia, Medak, Warangal, Darjeeling","Associe estas cidades indianas aos seus respectivos estados: Hyderabad, Kolkata, Purulia, Medak, Warangal, Darjeeling."
+908,classificacao,"Classifique cada um como sendo usado na água ou na terra: jet ski, barco, carro, bicicleta, caiaque, skate","Classifique se são usados na água ou na terra: jet ski, barco, carro, bicicleta, caiaque, skate."
+909,classificacao,"Diga-me se estas empresas são bancos ou fabricantes de automóveis: Chase, Wells Fargo, GMC, Ford, Tesla, Truist","Classifique se são bancos ou montadoras: Chase, Wells Fargo, GMC, Ford, Tesla, Truist"
+910,analise,7 Razões pelas quais São Francisco tem sem-tetos,Liste 7 causas da falta de moradia em São Francisco.
+911,consulta,Em quais países a uva Pinot Noir é cultivada mais comumente?,Liste os principais países produtores de Pinot Noir.
+912,explicacao,Quais são as leis do movimento de Newton?,Leis de Newton
+913,informacao,Quem criou o Craigslist?,Criador do Craigslist.
+914,pergunta,Quantas peças eram totalmente novas no Porsche 993?,Quantas peças eram novas no Porsche 993?
+915,pesquisa,Qual festival acontece ao lado do Walibi Holland todos os anos em agosto?,Qual festival ocorre ao lado do Walibi Holland todo mês de agosto?
+916,classificacao,"Quais destes animais são domesticados: Cachorro, Gato, Serval, Macaco, Furão, Peixe-dourado, Leão, Urso, Zibelina","Identifique animais domesticados da lista: Cachorro, Gato, Serval, Macaco, Furão, Peixe-dourado, Leão, Urso, Zibelina."
+917,classificacao,"Estou registrando presentes para o meu casamento e preciso incluir itens que sejam úteis na minha nova casa. Quais itens são artigos domésticos que podem ser dados como presente de casamento: liquidificador, cafeteira, passagem de ônibus, toalhas, lençóis, skate, celular, carro, pratos, talheres, academia, artigos de vidro, smoking, pastilhas de freio, bicicleta, porta-retratos","Identifique quais destes itens são artigos domésticos úteis para presente de casamento: liquidificador, cafeteira, passagem de ônibus, toalhas, lençóis, skate, celular, carro, pratos, talheres, academia, artigos de vidro, smoking, pastilhas de freio, bicicleta, porta-retratos."
+918,pergunta,"Qual é o nome do vizinho nerd dos Winslow na série de TV ""Family Matters""?",Nome do vizinho nerd dos Winslow em Family Matters?
+919,explicacao,Por que uma romã é conhecida como uma granada de mão?,Por que a romã é chamada de granada de mão?
+920,explicacao,"Como Andy Warhol criou as ""piss paintings""?","Explique o processo de criação das ""piss paintings"" de Andy Warhol."
+921,explicacao,O que é um computador?,Defina computador.
+922,explicacao,Qual é a diferença entre um veleiro de cruzeiro costeiro e um de alto-mar?,Diferença entre veleiro costeiro e de alto-mar.
+923,pesquisa,Onde os xiaolongbao se originaram e quais são alguns dos principais tipos,Origem e principais tipos de xiaolongbao.
+924,explicacao,Quais são alguns dos benefícios para a saúde física de fazer exercícios de treinamento de força?,Liste os benefícios físicos do treinamento de força.
+925,explicacao,o que é uma consulta sql?,Defina consulta SQL.
+926,informacao,Quais são as três maiores cidades por população na Espanha?,Três maiores cidades da Espanha por população.
+927,calculo,Quantos centavos eu tenho se eu tenho 3 moedas de dez centavos?,Valor em centavos de 3 dimes.
+928,explicacao,Quais atividades um administrador ou um administrador de quaisquer ferramentas e plataforma de dados ou ferramentas de dados pode fazer?,Liste as responsabilidades de um administrador de ferramentas e plataformas de dados.
+929,explicacao,como funciona o ciclo da água?,explique o ciclo da água.
+930,explicacao,Qual é o melhor sistema elétrico para motorhomes?,Melhor sistema elétrico para RVs.
+931,resumo,Escreva um breve resumo de Layli e Majnun de Nezami Ganjavi.,Resuma Layli e Majnun de Nezami Ganjavi.
+932,classificacao,"Identifique qual espécie animal está viva ou extinta: Seymouria, Rinoceronte Branco","Informe se estão vivos ou extintos: Seymouria, Rinoceronte Branco."
+933,localizacao,Em que parte dos Estados Unidos fica a região da Nova Inglaterra?,Região da Nova Inglaterra localização EUA.
+934,classificacao,"Classifique cada um dos seguintes itens como um dispositivo de áudio doméstico, uma peça de mobiliário ou nenhum dos dois.
+
+Toca-discos, subwoofer, mesa de centro, monitor de computador, rolo de espuma, caixa de som.","Classifique cada item como dispositivo de áudio doméstico, móvel ou nenhum: Toca-discos, subwoofer, mesa de centro, monitor de computador, rolo de espuma, caixa de som."
+935,redacao,Escreva uma resposta para um veterano interessado em alugar minha casa,Escreva resposta para veterano interessado em alugar minha casa.
+936,listagem,Liste o nome dos jogos da série Prince of Persia junto com o ano de publicação deles. Liste os resultados em formato separado por vírgula.,Liste jogos da série Prince of Persia e anos de lançamento separados por vírgula.
+937,explicacao,Me informe algumas maneiras diferentes pelas quais alguém pode ficar mais saudável.,Liste métodos para melhorar a saúde.
+938,criacao,Escreva algo que você nunca possa esquecer.,Escreva algo inesquecível.
+939,biografia,Quem foi Ann-Marie Hermans?,Quem foi Ann-Marie Hermans?
+940,explicacao,Por que você acha que os humanos precisam de animais de estimação?,Por que humanos precisam de pets?
+941,explicacao,O que é um faisão de orelhas castanhas?,Defina o faisão-de-orelhas-castanhas.
+942,redacao,escreva um pequeno ensaio sobre a experiência de Buzz Aldrin na lua,Escreva um ensaio curto sobre a experiência de Buzz Aldrin na Lua.
+943,biografia,Quem é Sachin Tendulkar?,Quem é Sachin Tendulkar?
+944,criacao,"Escreva um diálogo entre dois caminhantes, John e Jane, que estão perdidos na floresta e não conseguem decidir o que fazer. Termine a discussão com Jane vencendo e eles decidindo dar meia-volta e refazer seus passos.","Escreva o diálogo de John e Jane, perdidos na floresta, discutindo até Jane convencê-los a voltar pelo mesmo caminho."
+945,busca,Qual episódio de Arquivo X a Dana Scully foi diagnosticada com câncer?,Arquivo X episódio diagnóstico de câncer da Scully
+946,explicacao,O que torna as árvores e plantas verdes?,Por que plantas e árvores são verdes?
+947,explicacao,O que é Cadoo?,Defina Cadoo.
+948,explicacao,O que é Dragon Ball Z?,Explique o que é Dragon Ball Z.
+949,explicacao,Qual é a diferença entre uma comparação (simile) e uma metáfora?,Diferença entre simile e metáfora.
+950,pesquisa,Em quais meses do ano o Pacífico Noroeste vê ciclones tropicais?,Meses de ocorrência de ciclones tropicais no Pacífico Noroeste.
+951,classificacao,"Quais personagens pertencem ao Universo DC ou Marvel? Átomo, Hank Pym",Classifique Atom e Hank Pym entre DC e Marvel.
+952,recomendacao,Quais são algumas bebidas espirituosas básicas que você deve ter em seu bar?,Liste as bebidas espirituosas essenciais para um bar básico.
+953,explicacao,Quais são alguns bons exercícios com peso corporal para a parte inferior do corpo?,Liste exercícios com peso corporal para membros inferiores.
+955,explicacao,Como você faz massa fresca?,Receita massa fresca
+956,explicacao,O que é um título,Defina o que é um título financeiro (bond).
+957,extracao,"Dado este parágrafo sobre a carne bovina Kobe, diga-me de que tipo de gado ela é originária",Identifique a raça do gado da carne Kobe no texto.
+958,geografia,Onde está localizado o Campo Vulcânico de Bulgan?,Localização do Campo Vulcânico de Bulgan.
+959,classificacao,Qual é uma espécie de peixe? Peixe-gelo (Icefish) ou Iceberg?,Icefish ou Iceberg: qual é peixe?
+960,explicacao,Quais são as diferentes maneiras pelas quais as pessoas ajudam umas às outras?,Liste formas de ajuda mútua.
+961,classificacao,"Identifique qual fabricante de automóveis é britânico ou americano: Aston Martin, Cadillac",Classifique as marcas Aston Martin e Cadillac como britânica ou americana.
+962,cronologia,Qual é a linha do tempo da banda Level 42?,Cronologia da banda Level 42.
+963,classificacao,Qual é uma espécie de peixe? John Dory ou Jack Sparrow,John Dory ou Jack Sparrow é uma espécie de peixe?
+964,explicacao,O que é medido na escala Gay-Lussac,O que mede a escala Gay-Lussac?
+965,criacao,"Conte uma história com o seguinte: Um cara que mora em San Jose, Califórnia, ele é um cientista de dados, ele está na faixa dos 40 anos e ele aspira construir um modelo LLM que vai mudar o mundo.","Escreva uma história sobre um cientista de dados de 40 anos de San Jose, Califórnia, que quer criar um LLM revolucionário."
+966,consulta,Qual é o novo recorde de lançamento de dardo feito por Neeraj Chopra,Novo recorde lançamento de dardo Neeraj Chopra.
+967,leitura_e_resposta,"Eu vou te dar um trecho do livro de Marty Essen ""Cool Creatures, Hot Planet: Exploring the Seven Continents"" e quero que você responda à seguinte pergunta: Onde são encontrados os cágados-de-Hermann ocidentais?
+
+Depois de passar a noite em um grande hotel de rede, Deb e eu viajamos para o sudeste com os cágados em mente. Nosso plano para o dia era infiltrar a área do Maciço dos Maures e procurar por um dos répteis mais ameaçados da França -- o cágado-de-Hermann ocidental. A primeira parada de nossa busca foi Le Village de Tortues (a Aldeia dos Cágados), um centro de reabilitação de cágados perto da cidade de Gonfaron. Nossa missão era fazer amizade com um membro da equipe, aprender o máximo que pudéssemos e obter informações detalhadas sobre como rastrear o astuto cágado-de-Hermann na natureza. Quando não conseguimos encontrar um funcionário que falasse inglês, nossa missão foi quase frustrada. Apenas através de pensamento rápido e improvisação fomos capazes de adquirir as informações de fundo vitais de que precisávamos. Ok - utilizamos as placas fornecidas para visitantes britânicos. Para muitas pessoas, a palavra cágado evoca pensamentos de cágados gigantes de quatro pés de comprimento das Galápagos. Os cágados-de-Hermann ocidentais, por outro lado, são pequenos, atingindo um comprimento máximo de oito polegadas. Enquanto ambos os répteis entram na Lista Vermelha de Espécies Ameaçadas da IUCN, o cágado de Galápagos é listado como ""vulnerável"" e o cágado-de-Hermann ocidental é listado como ""ameaçado"". Na França, a destruição do habitat, o roubo de ovos e o fogo são os principais fatores para o declínio dos cágados.","Com base no texto fornecido, responda: Onde são encontrados os cágados-de-Hermann ocidentais?"
+968,consulta,O Prêmio Nobel de 2021 foi concedido a quais jornalistas?,Vencedores do Prêmio Nobel de Jornalismo 2021
+969,extracao,"Da passagem fornecida, extraia as medições da FAO para a fome. Separe-as com uma vírgula.",Extraia as medições da FAO sobre fome da passagem e separe-as por vírgula.
+970,classificacao,"Identifique qual espécie de animal está viva ou extinta: Golfinho do Rio Ganges, Helicoprion","Informe se estão vivos ou extintos: Golfinho do Rio Ganges, Helicoprion."
+971,filosofia,O que você acha que são as coisas mais relevantes na vida?,Quais são as coisas mais relevantes na vida?
+972,esportes,Que esportes eu posso jogar no verão?,Liste esportes de verão.
+973,explicacao,Descreva uma viagem para Tóquio. Para o que eu deveria me preparar? O que eu deveria comer? Alguma atração imperdível?,"Guia de Tóquio: preparativos, comidas típicas e atrações imperdíveis."
+974,explicacao,Quem é J.K. Rowling?,Quem é J.K. Rowling?
+975,criacao,escreva uma história sobre como seria o primeiro contato com alienígenas,Escreva uma história de primeiro contato alienígena.
+976,criacao,Imagine que você está na selva em um dia muito quente fazendo uma trilha. Escreva um monólogo descrevendo como você se sente.,Escreva um monólogo descrevendo a sensação de fazer uma trilha na selva em um dia muito quente.
+977,duvida,What is the database?,Qual é o banco de dados?
+978,pergunta,Quando o muro de Berlim foi derrubado?,Data da queda do Muro de Berlim.
+979,analise,"De acordo com o seguinte trecho, qual foi a causa do Grande Incêndio de Chicago?",Causa do Grande Incêndio de Chicago no texto.
+980,pergunta,Em que ano a Apple estreou o 'Sistema Operacional Mac'?,Ano de lançamento do Mac Operating System pela Apple.
+981,classificacao,"Categorize os seguintes animais em animais marinhos ou terrestres: tubarão, golfinho, urso, rato, salmão, alce, barata, peixe-boi","Classifique em marinho ou terrestre: tubarão, golfinho, urso, rato, salmão, alce, barata, peixe-boi."
+982,recomendacao,Onde devo pescar com mosca trutas no estado de Washington?,Melhores locais pesca com mosca truta estado de Washington.
+983,ideias,Me dê algumas ideias de como cultivar tomates no meu quintal.,Como cultivar tomates no quintal.
+984,classificacao,"Quais personagens pertencem ao Universo DC ou Marvel? Sandman, Cara de Barro",Classifique Sandman e Cara de Barro entre DC e Marvel.
+985,resumo,"Dado um texto de referência sobre prontidão de combate, diga-me quais tropas são mantidas mais prontas para o combate.",Identifique no texto de referência quais tropas possuem maior prontidão para combate.
+986,recomendacao,"Quais são os melhores tipos de plantas para cultivar em Austin, Texas?","Liste as melhores plantas para cultivar em Austin, Texas."
+987,extracao,Extraia do texto as principais características da cidade de São Paulo. Separe-as com uma vírgula.,"Extraia as principais características de São Paulo do texto, separadas por vírgula."
+988,explicacao,O que são Vedas?,Defina Vedas.
+989,pergunta,Onde foi realizado o Campeonato Mundial de Ciclismo de Pista da UCI de 2018?,Local do Campeonato Mundial de Ciclismo de Pista UCI 2018.
+990,explicacao,Qual é o risco de usar um desinfetante para as mãos que contenha metanol (álcool de madeira) ou 1-propanol?,Explique os riscos de usar álcool em gel contendo metanol ou 1-propanol.
+991,adivinhacao,"Eu sigo você o tempo todo e copio cada movimento seu, mas você não pode me tocar ou me pegar. O que sou eu?","O que sou eu: sigo você sempre, copio seus movimentos, mas não posso ser tocado ou pego?"
+992,explicacao,Por que nós amamos o verde,Explique por que gostamos da cor verde.
+993,consulta,Quem é o melhor jogador de xadrez de todos os tempos?,Melhor enxadrista da história.
+994,listagem,Me dê a lista de deusas gregas começando com 'B':,Liste deusas gregas com a letra B.
+995,classificacao,"Qual das seguintes guerras ocorreu no século XX: Segunda Guerra Mundial, Revolução Americana, Revolução Francesa, Guerra dos Cem Anos e a Guerra do Vietnã?","Identifique quais destas guerras ocorreram no século XX: Segunda Guerra Mundial, Revolução Americana, Revolução Francesa, Guerra dos Cem Anos e Guerra do Vietnã."
+996,pergunta,Qual é o nome oficial de Singapura?,Nome oficial de Singapura?
+997,classificacao,"Diga-me se os seguintes países estão localizados na Europa, América do Norte, América do Sul, África ou Ásia: França, México, Peru, Índia, Nepal, Ruanda, Egito, Portugal, Quênia, Argentina, Canadá","Classifique estes países por continente (Europa, América do Norte, América do Sul, África, Ásia): França, México, Peru, Índia, Nepal, Ruanda, Egito, Portugal, Quênia, Argentina, Canadá"
+998,explicacao,Que tipo de método é a impressão por transferência?,O que é impressão por transferência?
+999,explicacao,Quais são os cargos executivos comuns em grandes empresas?,Liste os cargos executivos comuns em grandes empresas.
+1000,explicacao,O que são calorias e qual é a diferença entre calorias boas e ruins?,Defina calorias e diferencie calorias boas de ruins.
