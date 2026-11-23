@@ -187,6 +187,27 @@ para que o conteúdo e as exigências também influenciem a estimativa.
 
 O `.env` já está no `.gitignore`. Nunca versione a chave.
 
+### Exportação JSON e CSV
+
+O [eco-gemini.py](eco-gemini.py) salva o mesmo resultado em duas formas:
+
+- `dataset_gemini.json`: uma lista de registros completos, com objetos aninhados.
+- `dataset_gemini.csv`: uma linha por registro e o nome de cada campo achatado na primeira linha.
+
+Os campos incluem modelo, resposta, status, duração, classificação, complexidade,
+tokens de entrada, saída visível, raciocínio, cache e total cobrado, além dos
+valores detalhados de `usage_metadata` disponíveis no SDK. Também registra o
+custo equivalente em USD, usando a tabela configurada em
+`PRECOS_USD_POR_MILHAO` no próprio coletor:
+
+- `gemini-3.5-flash-lite`: entrada US$ 0,30 / saída US$ 2,50 por milhão.
+- `gemini-3.6-flash`: entrada US$ 0,75 / saída US$ 3,75 por milhão.
+
+Os preços representam uma estimativa equivalente ao plano pago. Não significa
+que uma chave gratuita foi cobrada. Tokens de raciocínio são somados aos tokens
+de saída no cálculo, conforme o piloto; os detalhes podem variar conforme a
+versão do SDK ou modelo retornado.
+
 ## Execução
 
 ```bash

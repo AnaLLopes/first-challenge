@@ -81,6 +81,53 @@ class PromptComplexityTests(unittest.TestCase):
     def test_weights_total_one_hundred(self):
         self.assertEqual(sum(PESOS_COMPLEXIDADE.values()), 100)
 
+    def test_gemini_usage_and_cost_metrics(self):
+        response = SimpleNamespace(
+            usage_metadata=SimpleNamespace(
+                prompt_token_count=100,
+                candidates_token_count=40,
+                thoughts_token_count=10,
+                cached_content_token_count=20,
+                total_token_count=150,
+            )
+        )
+        usage = COLLECTOR.extrair_metricas_uso(response)
+        self.assertEqual(usage["entrada"], 100)
+        self.assertEqual(usage["saida_visivel"], 40)
+        self.assertEqual(usage["raciocinio"], 10)
+        self.assertEqual(usage["cache"], 20)
+        self.assertEqual(usage["saida_total_cobrada"], 50)
+
+        cost = COLLECTOR.calcular_custo_equivalente(
+            "gemini-3.5-flash-lite", 100, 50
+        )
+        self.assertIsNotNone(cost["custo_equivalente_usd"])
+        self.assertGreater(cost["custo_equivalente_usd"], 0)
+
+    def test_csv_export_has_header_and_one_row_per_record(self):
+        import csv
+        import tempfile
+
+        records = [{
+            "prompt_id": "P001",
+            "modelo": "gemini-3.5-flash-lite",
+            "tokens": {"entrada": 10, "saida": 20, "raciocinio": 5},
+            "complexidade_prompt": {
+                "pontuacao": 25,
+                "nivel": "moderada",
+            },
+        }]
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "dataset.csv"
+            COLLECTOR.exportar_csv(output, records)
+            with output.open(newline="", encoding="utf-8") as file:
+                reader = csv.DictReader(file)
+                rows = list(reader)
+                self.assertIn("prompt_id", reader.fieldnames)
+                self.assertIn("tokens.raciocinio", reader.fieldnames)
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(rows[0]["prompt_id"], "P001")
+
     def test_analysis_failure_is_recorded_without_blocking_request(self):
         class FakeModels:
             called = False

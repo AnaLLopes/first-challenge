@@ -1,5 +1,6 @@
 """Executa prompts no Gemini e salva os dados de geração e impactos EcoLogits."""
 
+import csv
 import json
 import os
 import re
@@ -22,6 +23,7 @@ load_dotenv(PASTA / ".env")
 
 ARQUIVO_ENTRADA = PASTA / "prompts_gemini.json"
 ARQUIVO_SAIDA = PASTA / "dataset_gemini.json"
+ARQUIVO_CSV = PASTA / "dataset_gemini.csv"
 MODELO = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 PAUSA_ENTRE_PROMPTS_SEGUNDOS = float(os.getenv("SLEEP_ENTRE_CHAMADAS", "2"))
 
@@ -185,6 +187,135 @@ def salvar_dataset(caminho: Path, registros: list[dict[str, Any]]) -> None:
     temporario.replace(caminho)
 
 
+PRECOS_USD_POR_MILHAO = {
+    "gemini-3.5-flash-lite": {"entrada": 0.30, "saida": 2.50},
+    "gemini-3.6-flash": {"entrada": 0.75, "saida": 3.75},
+}
+
+
+def extrair_metricas_uso(response: Any) -> dict[str, Any]:
+    """Extrai métricas públicas do uso sem depender de uma única versão do SDK."""
+    usage = getattr(response, "usage_metadata", None)
+    if usage is None:
+        return {"entrada": 0, "saida_visivel": 0, "raciocinio": 0,
+                "cache": 0, "saida_total_cobrada": 0, "total": 0,
+                "detalhes": {}}
+
+    entrada = getattr(usage, "prompt_token_count", None) or 0
+    saida_visivel = getattr(usage, "candidates_token_count", None) or 0
+    raciocinio = getattr(usage, "thoughts_token_count", None) or 0
+    cache = getattr(usage, "cached_content_token_count", None) or 0
+    total = getattr(usage, "total_token_count", None) or (
+        entrada + saida_visivel + raciocinio
+    )
+
+    detalhes: dict[str, Any] = {}
+    model_dump = getattr(usage, "model_dump", None)
+    if callable(model_dump):
+        try:
+            detalhes = model_dump(mode="json", exclude_none=True)
+        except Exception:
+            detalhes = {}
+    if not detalhes:
+        for nome in dir(usage):
+            if nome.startswith("_"):
+                continue
+            try:
+                valor = getattr(usage, nome)
+            except Exception:
+                continue
+            if isinstance(valor, (str, int, float, bool, list, dict, type(None))):
+                detalhes[nome] = valor
+
+    return {
+        "entrada": entrada,
+        "saida_visivel": saida_visivel,
+        "raciocinio": raciocinio,
+        "cache": cache,
+        "saida_total_cobrada": saida_visivel + raciocinio,
+        "total": total,
+        "detalhes": detalhes,
+    }
+
+
+def calcular_custo_equivalente(modelo: str, entrada: int, saida_total: int) -> dict[str, Any]:
+    """Estima o custo pago por milhão de tokens; não é cobrança da chave gratuita."""
+    precos = PRECOS_USD_POR_MILHAO.get(modelo)
+    if precos is None:
+        return {
+            "preco_entrada_usd_milhao": None,
+            "preco_saida_usd_milhao": None,
+            "custo_equivalente_usd": None,
+            "observacao": "Modelo sem tabela de preço configurada.",
+        }
+
+    custo = (
+        entrada / 1_000_000 * precos["entrada"]
+        + saida_total / 1_000_000 * precos["saida"]
+    )
+    return {
+        "preco_entrada_usd_milhao": precos["entrada"],
+        "preco_saida_usd_milhao": precos["saida"],
+        "custo_equivalente_usd": round(custo, 12),
+        "observacao": "Estimativa equivalente ao plano pago; não representa cobrança da conta gratuita.",
+    }
+
+
+def achatavel(valor: Any, prefixo: str = "", destino: dict[str, str] | None = None) -> dict[str, str]:
+    """Transforma campos aninhados em colunas CSV com nomes únicos."""
+    destino = destino if destino is not None else {}
+    if isinstance(valor, dict):
+        for chave, filho in valor.items():
+            nome = f"{prefixo}.{chave}" if prefixo else str(chave)
+            achatavel(filho, nome, destino)
+    elif isinstance(valor, list):
+        destino[prefixo or "lista"] = json.dumps(valor, ensure_ascii=False)
+    elif valor is None:
+        destino[prefixo or "valor"] = ""
+    else:
+        destino[prefixo or "valor"] = str(valor)
+    return destino
+
+
+def exportar_csv(caminho: Path, registros: list[dict[str, Any]]) -> None:
+    """Regrava o CSV com uma linha por registro e cabeçalho da união das colunas."""
+    registros_exportacao: list[dict[str, Any]] = []
+    for registro in registros:
+        registro_exportacao = dict(registro)
+        tokens_exportacao = dict(registro_exportacao.get("tokens") or {})
+        entrada = tokens_exportacao.get("entrada", 0) or 0
+        saida = tokens_exportacao.get("saida", 0) or 0
+        raciocinio = tokens_exportacao.get("raciocinio", 0) or 0
+        tokens_exportacao.setdefault("raciocinio", raciocinio)
+        tokens_exportacao.setdefault("cache", 0)
+        tokens_exportacao.setdefault("saida_total_cobrada", saida + raciocinio)
+        registro_exportacao["tokens"] = tokens_exportacao
+
+        if not registro_exportacao.get("metricas_gemini"):
+            registro_exportacao["metricas_gemini"] = {
+                "custo": calcular_custo_equivalente(
+                    registro_exportacao.get("modelo", ""),
+                    entrada,
+                    saida + raciocinio,
+                ),
+                "modelo_resposta": None,
+                "finish_reason": None,
+                "response_id": None,
+                "usage_metadata": {},
+            }
+        registros_exportacao.append(registro_exportacao)
+
+    linhas = [achatavel(registro) for registro in registros_exportacao]
+    colunas = sorted({chave for linha in linhas for chave in linha})
+
+    temporario = caminho.with_suffix(caminho.suffix + ".tmp")
+    with temporario.open("w", newline="", encoding="utf-8") as arquivo:
+        writer = csv.DictWriter(arquivo, fieldnames=colunas, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(linhas)
+    temporario.replace(caminho)
+
+
 def analisar_prompt(prompt: str) -> dict[str, Any]:
     texto = unicodedata.normalize("NFC", prompt)
     palavras = re.findall(r"\b[\w]+(?:['’\-][\w]+)*\b", texto, flags=re.UNICODE)
@@ -329,6 +460,12 @@ def processar_prompt(
         "prompt": item["prompt"],
         "analise_prompt": analisar_prompt(item["prompt"]),
         "complexidade_prompt": complexidade_prompt,
+        "metricas_gemini": {
+            "response_id": None,
+            "finish_reason": None,
+            "modelo_resposta": None,
+            "usage_metadata": {},
+        },
         "status": "iniciado",
         "duracao_segundos": None,
         "tokens": {"entrada": None, "saida": None, "total": None},
@@ -347,13 +484,33 @@ def processar_prompt(
         registro["duracao_segundos"] = round(time.perf_counter() - inicio, 6)
         registro["resposta_llm"] = getattr(response, "text", None)
 
-        usage = getattr(response, "usage_metadata", None)
-        if usage is not None:
-            registro["tokens"] = {
-                "entrada": getattr(usage, "prompt_token_count", None),
-                "saida": getattr(usage, "candidates_token_count", None),
-                "total": getattr(usage, "total_token_count", None),
-            }
+        metricas_uso = extrair_metricas_uso(response)
+        registro["tokens"] = {
+            "entrada": metricas_uso["entrada"],
+            "saida": metricas_uso["saida_visivel"],
+            "raciocinio": metricas_uso["raciocinio"],
+            "cache": metricas_uso["cache"],
+            "saida_total_cobrada": metricas_uso["saida_total_cobrada"],
+            "total": metricas_uso["total"],
+        }
+
+        custo = calcular_custo_equivalente(
+            MODELO,
+            metricas_uso["entrada"],
+            metricas_uso["saida_total_cobrada"],
+        )
+        finish_reason = None
+        candidates = getattr(response, "candidates", None)
+        if candidates:
+            finish_reason = getattr(candidates[0], "finish_reason", None)
+
+        registro["metricas_gemini"] = {
+            "response_id": getattr(response, "response_id", None),
+            "finish_reason": str(finish_reason) if finish_reason is not None else None,
+            "modelo_resposta": getattr(response, "model_version", None),
+            "usage_metadata": metricas_uso["detalhes"],
+            "custo": custo,
+        }
 
         impactos, diagnostico = extrair_impactos(response)
         registro["impactos_ambientais"] = impactos
@@ -387,6 +544,7 @@ def main() -> None:
 
     prompts = carregar_prompts(ARQUIVO_ENTRADA)
     dataset = carregar_dataset(ARQUIVO_SAIDA)
+    exportar_csv(ARQUIVO_CSV, dataset)
 
     EcoLogits.init(providers=["google_genai"])
     cliente = genai.Client(api_key=api_key)
@@ -397,6 +555,7 @@ def main() -> None:
         registro = processar_prompt(item, indice, len(prompts), cliente, run_id)
         dataset.append(registro)
         salvar_dataset(ARQUIVO_SAIDA, dataset)
+        exportar_csv(ARQUIVO_CSV, dataset)
         print(
             f"Status: {registro['status']} | "
             f"Duração: {registro['duracao_segundos']} s"
@@ -405,7 +564,8 @@ def main() -> None:
         if indice < len(prompts):
             time.sleep(PAUSA_ENTRE_PROMPTS_SEGUNDOS)
 
-    print(f"Dataset atualizado: {ARQUIVO_SAIDA}")
+    print(f"Dataset JSON atualizado: {ARQUIVO_SAIDA}")
+    print(f"Dataset CSV atualizado: {ARQUIVO_CSV}")
 
 
 if __name__ == "__main__":
