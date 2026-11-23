@@ -6,3 +6,5 @@ Lib/
 Scripts/
 Include/
 pyvenv.cfg
+WildChat/
+.venv/
