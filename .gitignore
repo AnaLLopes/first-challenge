@@ -2,3 +2,7 @@
 .venv/
 __pycache__/
 dataset_tokenwise.csv
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
