@@ -187,9 +187,25 @@ para que o conteúdo e as exigências também influenciem a estimativa.
 
 O `.env` já está no `.gitignore`. Nunca versione a chave.
 
-### Exportação JSON e CSV
+### Entrada CSV e exportação JSON/CSV
 
-O [eco-gemini.py](eco-gemini.py) salva o mesmo resultado em duas formas:
+O [eco-gemini.py](eco-gemini.py) usa por padrão
+`meus_prompts_traduzidos.csv`, com as colunas `id,tarefa,prompt_original,prompt_otimizado`.
+No modo padrão `--versoes ambos`, cada linha gera um registro para a versão
+original e outro para a otimizada. Use `--versoes original` ou
+`--versoes otimizado` para coletar somente uma versão. Use `--limite 5` para
+processar somente as primeiras cinco linhas durante testes.
+
+```bash
+python eco-gemini.py --limite 5
+python eco-gemini.py --versoes otimizado
+python eco-gemini.py --entrada meu_arquivo.csv --saida-json resultado.json --saida-csv resultado.csv
+```
+
+O coletor retoma a execução: pares `id + versão` já presentes no JSON não são
+enviados novamente.
+
+O coletor salva o mesmo resultado em duas formas:
 
 - `dataset_gemini.json`: uma lista de registros completos, com objetos aninhados.
 - `dataset_gemini.csv`: uma linha por registro e o nome de cada campo achatado na primeira linha.

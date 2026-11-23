@@ -1,5 +1,6 @@
 """Executa prompts no Gemini e salva os dados de geração e impactos EcoLogits."""
 
+import argparse
 import csv
 import json
 import os
@@ -21,7 +22,7 @@ from prompt_complexity import analisar_complexidade_prompt
 PASTA = Path(__file__).resolve().parent
 load_dotenv(PASTA / ".env")
 
-ARQUIVO_ENTRADA = PASTA / "prompts_gemini.json"
+ARQUIVO_ENTRADA = PASTA / "meus_prompts_traduzidos.csv"
 ARQUIVO_SAIDA = PASTA / "dataset_gemini.json"
 ARQUIVO_CSV = PASTA / "dataset_gemini.csv"
 MODELO = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
@@ -146,21 +147,54 @@ def classificar_prompt(prompt: str) -> dict[str, Any]:
 
 
 def carregar_prompts(caminho: Path) -> list[dict[str, str]]:
-    """Lê uma lista JSON contendo somente textos de prompts."""
-    with caminho.open(encoding="utf-8") as arquivo:
-        dados = json.load(arquivo)
+    """Lê o CSV de prompts e preserva id, tarefa e as duas versões."""
+    colunas_obrigatorias = [
+        "id", "tarefa", "prompt_original", "prompt_otimizado",
+    ]
 
-    if not isinstance(dados, list) or not dados:
-        raise ValueError("O arquivo de entrada deve conter uma lista JSON não vazia.")
+    with caminho.open("r", newline="", encoding="utf-8") as arquivo:
+        leitor = csv.DictReader(arquivo)
+        if not leitor.fieldnames:
+            raise ValueError("O arquivo CSV não possui cabeçalho.")
+
+        ausentes = [
+            coluna for coluna in colunas_obrigatorias
+            if coluna not in leitor.fieldnames
+        ]
+        if ausentes:
+            raise ValueError(
+                "Colunas obrigatórias ausentes no CSV: " + ", ".join(ausentes)
+            )
+
+        dados = list(leitor)
+
+    if not dados:
+        raise ValueError("O arquivo CSV não contém prompts.")
 
     prompts: list[dict[str, str]] = []
-    for indice, item in enumerate(dados, start=1):
-        if not isinstance(item, str) or not item.strip():
-            raise ValueError(f"O prompt do item {indice} não pode ser vazio.")
+    ids_vistos: set[str] = set()
 
+    for indice, item in enumerate(dados, start=1):
+        prompt_id = str(item["id"] or "").strip()
+        tarefa = str(item["tarefa"] or "").strip()
+        prompt_original = str(item["prompt_original"] or "").strip()
+        prompt_otimizado = str(item["prompt_otimizado"] or "").strip()
+
+        if not prompt_id:
+            raise ValueError(f"O item {indice} não possui id.")
+        if prompt_id in ids_vistos:
+            raise ValueError(f"id duplicado no CSV: {prompt_id}")
+        if not prompt_original:
+            raise ValueError(f"prompt_original vazio no id {prompt_id}.")
+        if not prompt_otimizado:
+            raise ValueError(f"prompt_otimizado vazio no id {prompt_id}.")
+
+        ids_vistos.add(prompt_id)
         prompts.append({
-            "prompt_id": f"P{indice:03d}",
-            "prompt": item.strip(),
+            "prompt_id": prompt_id,
+            "tarefa": tarefa,
+            "prompt_original": prompt_original,
+            "prompt_otimizado": prompt_otimizado,
         })
 
     return prompts
@@ -431,10 +465,12 @@ def processar_prompt(
     total: int,
     cliente: Any,
     run_id: str,
+    versao_prompt: str,
 ) -> dict[str, Any]:
+    prompt = item[f"prompt_{versao_prompt}"]
     inicio = time.perf_counter()
     try:
-        complexidade_prompt = analisar_complexidade_prompt(item["prompt"])
+        complexidade_prompt = analisar_complexidade_prompt(prompt)
     except Exception as erro:
         complexidade_prompt = {
             "pontuacao": None,
@@ -453,12 +489,16 @@ def processar_prompt(
         "registro_id": str(uuid.uuid4()),
         "run_id": run_id,
         "prompt_id": item["prompt_id"],
+        "tarefa": item["tarefa"],
+        "versao_prompt": versao_prompt,
+        "prompt_original": item["prompt_original"],
+        "prompt_otimizado": item["prompt_otimizado"],
         "coletado_em_utc": datetime.now(timezone.utc).isoformat(),
         "provedor": "Google Gemini",
         "modelo": MODELO,
-        "classificacao": classificar_prompt(item["prompt"]),
-        "prompt": item["prompt"],
-        "analise_prompt": analisar_prompt(item["prompt"]),
+        "classificacao": classificar_prompt(prompt),
+        "prompt": prompt,
+        "analise_prompt": analisar_prompt(prompt),
         "complexidade_prompt": complexidade_prompt,
         "metricas_gemini": {
             "response_id": None,
@@ -479,7 +519,7 @@ def processar_prompt(
     try:
         response = cliente.models.generate_content(
             model=MODELO,
-            contents=item["prompt"],
+            contents=prompt,
         )
         registro["duracao_segundos"] = round(time.perf_counter() - inicio, 6)
         registro["resposta_llm"] = getattr(response, "text", None)
@@ -531,6 +571,24 @@ def processar_prompt(
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Coleta prompts originais e otimizados no Gemini."
+    )
+    parser.add_argument("--entrada", default=str(ARQUIVO_ENTRADA))
+    parser.add_argument("--saida-json", default=str(ARQUIVO_SAIDA))
+    parser.add_argument("--saida-csv", default=str(ARQUIVO_CSV))
+    parser.add_argument("--limite", type=int, default=None)
+    parser.add_argument(
+        "--versoes",
+        choices=("original", "otimizado", "ambos"),
+        default="ambos",
+    )
+    args = parser.parse_args()
+
+    caminho_entrada = Path(args.entrada)
+    caminho_json = Path(args.saida_json)
+    caminho_csv = Path(args.saida_csv)
+
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key or api_key == "cole_sua_chave_aqui":
         raise RuntimeError(
@@ -539,33 +597,72 @@ def main() -> None:
         )
     if PAUSA_ENTRE_PROMPTS_SEGUNDOS < 0:
         raise ValueError("SLEEP_ENTRE_CHAMADAS não pode ser negativo.")
-    if not ARQUIVO_ENTRADA.exists():
-        raise FileNotFoundError(f"Arquivo de prompts não encontrado: {ARQUIVO_ENTRADA}")
+    if not caminho_entrada.exists():
+        raise FileNotFoundError(
+            f"Arquivo de prompts não encontrado: {caminho_entrada}"
+        )
 
-    prompts = carregar_prompts(ARQUIVO_ENTRADA)
-    dataset = carregar_dataset(ARQUIVO_SAIDA)
-    exportar_csv(ARQUIVO_CSV, dataset)
+    prompts = carregar_prompts(caminho_entrada)
+    dataset = carregar_dataset(caminho_json)
+    exportar_csv(caminho_csv, dataset)
 
     EcoLogits.init(providers=["google_genai"])
     cliente = genai.Client(api_key=api_key)
     run_id = str(uuid.uuid4())
 
-    print(f"Prompts: {len(prompts)} | Modelo: {MODELO}")
-    for indice, item in enumerate(prompts, start=1):
-        registro = processar_prompt(item, indice, len(prompts), cliente, run_id)
+    if args.limite is not None:
+        if args.limite < 1:
+            raise ValueError("--limite deve ser pelo menos 1.")
+        prompts = prompts[:args.limite]
+
+    versoes = (
+        ("original", "otimizado")
+        if args.versoes == "ambos"
+        else (args.versoes,)
+    )
+
+    ids_processados = {
+        (str(registro.get("prompt_id")), registro.get("versao_prompt"))
+        for registro in dataset
+        if registro.get("versao_prompt")
+    }
+    pendentes: list[tuple[dict[str, str], str]] = []
+    for item in prompts:
+        for versao in versoes:
+            chave = (str(item["prompt_id"]), versao)
+            if chave not in ids_processados:
+                pendentes.append((item, versao))
+
+    total = len(pendentes)
+    print(
+        f"Linhas CSV: {len(prompts)} | Versões: {versoes} | "
+        f"Já registradas: {len(ids_processados)} | Pendentes: {total} | "
+        f"Modelo: {MODELO}"
+    )
+
+    for indice, (item, versao) in enumerate(pendentes, start=1):
+        print(f"[{indice}/{total}] id={item['prompt_id']} versão={versao}")
+        registro = processar_prompt(
+            item,
+            indice,
+            total,
+            cliente,
+            run_id,
+            versao,
+        )
         dataset.append(registro)
-        salvar_dataset(ARQUIVO_SAIDA, dataset)
-        exportar_csv(ARQUIVO_CSV, dataset)
+        salvar_dataset(caminho_json, dataset)
+        exportar_csv(caminho_csv, dataset)
         print(
             f"Status: {registro['status']} | "
             f"Duração: {registro['duracao_segundos']} s"
         )
 
-        if indice < len(prompts):
+        if indice < total:
             time.sleep(PAUSA_ENTRE_PROMPTS_SEGUNDOS)
 
-    print(f"Dataset JSON atualizado: {ARQUIVO_SAIDA}")
-    print(f"Dataset CSV atualizado: {ARQUIVO_CSV}")
+    print(f"Dataset JSON atualizado: {caminho_json}")
+    print(f"Dataset CSV atualizado: {caminho_csv}")
 
 
 if __name__ == "__main__":

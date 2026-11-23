@@ -81,6 +81,33 @@ class PromptComplexityTests(unittest.TestCase):
     def test_weights_total_one_hundred(self):
         self.assertEqual(sum(PESOS_COMPLEXIDADE.values()), 100)
 
+    def test_csv_input_and_both_prompt_versions(self):
+        import csv
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as directory:
+            entrada = Path(directory) / "prompts.csv"
+            with entrada.open("w", newline="", encoding="utf-8") as file:
+                writer = csv.DictWriter(
+                    file,
+                    fieldnames=["id", "tarefa", "prompt_original", "prompt_otimizado"],
+                )
+                writer.writeheader()
+                writer.writerow({
+                    "id": "7",
+                    "tarefa": "explicacao",
+                    "prompt_original": "Explique a física do voo.",
+                    "prompt_otimizado": "Explique o voo de um avião.",
+                })
+
+            prompts = COLLECTOR.carregar_prompts(entrada)
+
+        self.assertEqual(len(prompts), 1)
+        self.assertEqual(prompts[0]["prompt_id"], "7")
+        self.assertEqual(prompts[0]["tarefa"], "explicacao")
+        self.assertIn("prompt_original", prompts[0])
+        self.assertIn("prompt_otimizado", prompts[0])
+
     def test_gemini_usage_and_cost_metrics(self):
         response = SimpleNamespace(
             usage_metadata=SimpleNamespace(
@@ -138,14 +165,21 @@ class PromptComplexityTests(unittest.TestCase):
 
         models = FakeModels()
         client = SimpleNamespace(models=models)
-        item = {"prompt_id": "P001", "prompt": "Um prompt de teste."}
+        item = {
+            "prompt_id": "P001",
+            "tarefa": "teste",
+            "prompt_original": "Um prompt de teste.",
+            "prompt_otimizado": "Teste: responda de forma objetiva.",
+        }
 
         with patch.object(
             COLLECTOR,
             "analisar_complexidade_prompt",
             side_effect=ValueError("falha simulada"),
         ):
-            record = COLLECTOR.processar_prompt(item, 1, 1, client, "run")
+            record = COLLECTOR.processar_prompt(
+                item, 1, 1, client, "run", "original"
+            )
 
         self.assertTrue(models.called)
         self.assertEqual(record["complexidade_prompt"]["status_analise"], "erro")
