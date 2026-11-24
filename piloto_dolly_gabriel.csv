@@ -1,0 +1,608 @@
+id,area,fonte,executor,coletado_em_utc,versao_experimento,gabarito,enunciado,qtd_palavras,qtd_caracteres,complexidade_pontuacao,complexidade_nivel,modelo_A,status_A,resposta_letra_A,acertou_A,tokens_entrada_A,tokens_saida_A,tokens_raciocinio_A,custo_usd_A,latencia_s_A,energia_kwh_A,agua_l_A,carbono_kg_A,resposta_texto_A,modelo_B,status_B,resposta_letra_B,acertou_B,tokens_entrada_B,tokens_saida_B,tokens_raciocinio_B,custo_usd_B,latencia_s_B,energia_kwh_B,agua_l_B,carbono_kg_B,resposta_texto_B,rotulo,economia_usd,pct_economia_custo
+dolly_2,listagem,dolly-15k,dolly,2026-11-23T14:44:29+00:00,piloto-dolly-v1,ABERTA,Me dê uma lista de ingredientes básicos para assar biscoitos,10,60,1,baixa,gemini-3.5-flash-lite,sucesso,,True,14,670,0,0.0016792,3.2204,0.00017326791880521947,0.0007014948804957124,6.79131138550195e-05,"Para assar a grande maioria dos biscoitos caseiros, você só precisa de **7 ingredientes básicos**. Eles formam a ""espinha dorsal"" da confeitaria. 
+
+Aqui está a lista essencial, junto com a função de cada um:
+
+### Os 7 Essenciais:
+
+1. **Farinha de Trigo (comum, sem fermento):**
+   * **Função:** É a base estrutural do biscoito. Dá forma e consistência.
+   * *Dica:* Use a farinha de trigo branca tradicional.
+
+2. **Gordura (manteiga ou margarina):**
+   * **Função:** Dá sabor, maciez e aquela textura que derrete na boca.
+   * *Dica:* A **manteiga** costuma dar um sabor muito superior, mas a margarina (com pelo menos 75% de lipídios) também funciona. Geralmente usa-se em temperatura ambiente (nem derretida, nem gelada).
+
+3. **Açúcar:**
+   * **Função:** Adoça, ajuda a dourar e influencia na textura (açúcar refinado deixa mais crocante; açúcar mascavo deixa mais úmido e com sabor de caramelo).
+   * *Dica:* Muitas receitas usam uma mistura dos dois.
+
+4. **Ovos:**
+   * **Função:** Funcionam como a ""cola"" que une tudo, além de darem estrutura, umidade e ajudarem a crescer levemente.
+   * *Dica:* A menos que a receita diga o contrário, use ovos em temperatura ambiente.
+
+5. **Fermento em Pó (ou Bicarbonato de Sódio):**
+   * **Função:** É o agente químico que faz o biscoito crescer e ficar leve (e não uma sola de sapato).
+   * *Atenção:* O fermento faz crescer para cima/fofo; o bicarbonato ajuda a espalhar e dourar (muito usado em *cookies*).
+
+6. **Sal:**
+   * **Função:** Parece estranho em um doce, mas o sal é um **realçador de sabor**. Ele equilibra o doce e faz com que os outros sabores se destaque. (Use apenas uma pitada).
+
+7. **Extrato ou Essência de Baunilha:**
+   * **Função:** É o aromatizante principal que dá aquele cheirinho e sabor clássico de ""biscoito caseiro"".
+
+---
+
+### Extras Populares (para incrementar):
+Depois que você dominar a base, pode adicionar itens como:
+* **Gotas de chocolate ou chocolate picado** (para clássicos *chocolate chip cookies*).
+* **Castanhas, nozes ou amendoim** picados.
+* **Canela em pó** (ótima para biscoitos amanteigados).
+* **Aveia em flocos**.
+* **Cacau em pó** (para biscoitos de chocolate).
+
+Com esses 7 ingredientes básicos na sua despensa, você já pode fazer centenas de receitas diferentes de biscoitos!",gemini-3.6-flash,sucesso,,True,14,561,954,0.00569175,24.8785,0.006629877062814687,0.026841811513351847,0.0026289956139866895,"Aqui está uma lista dos ingredientes mais básicos e essenciais que formam a base da maioria das receitas de biscoitos (ou cookies):
+
+### 1. Os Ingredientes Essenciais (A Base)
+
+*   **Farinha de trigo:** É a estrutura do biscoito. (Dica: prefira a farinha tradicional sem fermento para ter controle total da receita).
+*   **Gordura (Manteiga ou Margarina):** Dá sabor, maciez e umidade. A manteiga sem sal costuma ser a melhor opção para confeitaria.
+*   **Açúcar:** Dá o doce e ajuda na textura:
+    *   *Açúcar branco (refinado ou cristal):* Deixa o biscoito mais crocante e ajuda a espalhar.
+    *   *Açúcar mascavo:* Traz umidade, deixa o biscoito macio/chicletinho no centro e dá um sabor leve de caramelo.
+*   **Ovos:** Servem como ""cola"" (ligam os ingredientes), dão estrutura e trazem umidade.
+*   **Agente fermentador (Bicarbonato de Sódio ou Fermento em pó):**
+    *   *Bicarbonato:* Deixa o biscoito mais denso, corado e ajuda a espalhar.
+    *   *Fermento em pó:* Deixa o biscoito mais alto e fofinho (estilo bolo).
+*   **Uma pitada de sal:** Essencial em qualquer doceria, pois equilibra o açúcar e realça todos os outros sabores.
+
+---
+
+### 2. Opcionais (Para dar Sabor e Textura)
+
+Com a base acima pronta, você pode adicionar o que quiser para criar o seu sabor favorito:
+
+*   **Extrato ou essência de baunilha:** O aromatizante mais clássico.
+*   **Gotas de chocolate** (ao leite, meio amargo ou branco).
+*   **Oleaginosas:** Nozes, castanhas, amêndoas ou amendoim picados.
+*   **Especiarias:** Canela, noz-moscada ou raspas de limão/laranja.
+*   **Aveia em flocos** ou **frutas secas** (como uva-passa).
+
+---
+
+💡 **Dica de Ouro:** Para a maioria dos biscoitos, o ideal é usar a **manteiga e os ovos em temperatura ambiente** (não muito gelados, nem a manteiga derretida/quente), para que a massa fique homogênea!",economica_suficiente,0.00401255,70.5
+dolly_4,pergunta,dolly-15k,dolly,2026-11-23T14:48:42+00:00,piloto-dolly-v1,ABERTA,Quem foi a primeira pessoa a fazer uma caminhada espacial?,10,58,12,baixa,gemini-3.5-flash-lite,sucesso,,True,13,78,0,0.0001989,0.9187,2.1134905432984652e-05,8.556706898330412e-05,8.497607121909641e-06,"A primeira pessoa a fazer uma caminhada espacial foi o cosmonauta soviético **Alexei Leonov**. 
+
+O fato histórico ocorreu em **18 de março de 1965**, durante a missão Voskhod 2. Leonov flutuou no espaço por cerca de **12 minutos e 9 segundos** conectado à nave por um cabo de segurança.",gemini-3.6-flash,sucesso,,True,13,98,582,0.00255975,3.4819,0.0028973574877164464,0.011730281396660837,0.001131874873444879,"A primeira pessoa a fazer uma caminhada espacial (conhecida tecnicamente como atividade extraveicular ou EVA) foi o cosmonauta soviético **Alexei Leonov**.
+
+O evento histórico aconteceu em **18 de março de 1965**, durante a missão **Voskhod 2** da União Soviética. Leonov flutuou no espaço por cerca de 12 minutos, preso à nave apenas por um cabo de segurança de 5 metros.",economica_suficiente,0.00236085,92.23
+dolly_1,consulta,dolly-15k,dolly,2026-11-24T12:13:11+00:00,piloto-dolly-v1,ABERTA,"Quem foram os filhos do lendário Garth Greenhand, o Alto Rei dos Primeiros Homens na série As Crônicas de Gelo e Fogo?",22,118,3,baixa,gemini-3.5-flash-lite,sucesso,,False,33,671,0,0.0016874000000000001,13.4251,0.0001783630350334817,0.0007221230381737332,7.09829208406082e-05,"Na mitologia e no folclore de *As Crônicas de Gelo e Fogo* (o universo de *Game of Thrones*), **Garth Greenhand** (Garth Mão Verde) é o lendário Alto Rei dos Primeiros Homens, considerado o ancestral comum de muitas das grandes casas nobres de Westeros. 
+
+Como figura mítica da Era dos Heróis, a veracidade de sua existência é questionada pelos meistres, mas as lendas dizem que ele era tão fértil e associado à terra que onde pisava, colheitas brotavam, e ele podia engravidar mulheres apenas tocando suas barrigas.
+
+A lista exata de seus filhos varia conforme as fontes lendárias (como *A World of Ice and Fire* e histórias contadas por personagens como Velha Nan), mas **os filhos e filhas mais famosos e tradicionalmente aceitos como fundadores de casas nobres** são:
+
+1. **Garth o Moço (Garth the Younger):** Considerado o filho mais velho e herdeiro direto de suas terras e títulos na Campina. Ele seria o ancestral direto da **Casa Gardener** (os antigos Reis da Campina).
+2. **Garth o Feio (Garth the Ugly):** Ancestral de algumas das famílias menores da região.
+3. **John the Oak (João do Carvalho):** Dito ser o ancestral da **Casa Oakheart** de Velho Carvalho.
+4. **Foss the Archer (Foss, o Arqueiro):** Ancestral da **Casa Fossoway** (cujo brasão é uma maçã, remetindo à fertilidade de Garth).
+5. **Brandon da Coroa de Sangue (Brandon of the Bloody Blade):** A lenda diz que ele foi o ancestral da **Casa Stark** de Winterfell (embora outras lendas digam que Brandon o Construtor descende diretamente dos Primeiros Homens de outra forma).
+6. **Harlon the Hunter (Harlon, o Caçador):** Ancestral de várias casas associadas à caça.
+7. **Florys the Fox (Florys, a Raposa):** Conhecida pela astúcia.
+8. **Maris the Maid (Maris, a Donzela):** Famosa por sua beleza; a lenda diz que sua beleza causou rivalidades que levaram à destruição de reinos.
+9. **Rose of Red Lake (Rosa do Lago Vermelho):** Ancestral da **Casa Crane**.
+10. **Bessy the Bootmaker (Bessy, a Sapateira):** Ancestral de plebeus e artífices.
+11. **Owen Oakenshield (Owen Escudo de Carvalho):** Outro suposto ancestral de ramos nobres.
+
+**Importante:** 
+Quase todas as grandes casas da **Campina** (como os Tyrell, através dos Gardener, os Florent, Fossoway, Oakheart, entre outras) traçam sua linhagem até Garth Greenhand. Ele representa a personificação da fertilidade da terra e da chegada da agricultura a Westeros.",gemini-3.6-flash,sucesso,,True,33,1151,1932,0.011586,23.0319,0.013300674372242517,0.053849293300264334,0.005232725103476505,"Na mitologia de *As Crônicas de Gelo e Fogo* (de George R.R. Martin), **Garth Greenhand** (conhecido em português como **Garth Mão-Verde**) é o lendário Alto Rei dos Primeiros Homens que teria povoado a Campina (*The Reach*) durante a Era dos Heróis. 
+
+Segundo as lendas contadas no livro *O Mundo de Gelo e Fogo*, Garth era uma figura de fertilidade e quase divina. Ele teve dezenas de filhos, e muitos deles se tornaram os fundadores das Casas Nobres mais antigas e prestigiadas de Westeros.
+
+Abaixo estão os filhos mais famosos de Garth Mão-Verde e as casas nobres que eles originaram:
+
+---
+
+### Os Filhos Principais e Suas Casas
+
+1. **Garth Jardineiro (*Garth Gardener*)**
+   * **O Primogênito:** Tornou-se o primeiro Rei da Campina e fundou a **Casa Gardener**, que governou a região a partir de Jardim de Cima (*Highgarden*) por milênios, até ser extinta por Aegon, o Conquistador.
+
+2. **John do Carvalho (*John the Oak*)**
+   * **Lenda:** Dizem que era um gigante e o primeiro verdadeiro cavaleiro de Westeros.
+   * **Casa:** Fundador da **Casa Oakheart** de Carvalho Velho (*Old Oak*).
+
+3. **Gilbert das Vinhas (*Gilbert of the Vines*)**
+   * **Lenda:** Ensinou o povo da ilha de Arbor a cultivar uvas e fazer vinho.
+   * **Casa:** Fundador da **Casa Redwyne** de Arbor.
+
+4. **Florys, a Raposa (*Florys the Fox*)**
+   * **Lenda:** A mais esperta das filhas de Garth. Teve três maridos/amantes que não sabiam da existência uns dos outros.
+   * **Casas:** Suas linhagens deram origem às casas **Florent**, **Ball** e **Peake**.
+
+5. **Harlon, o Caçador, e Herndon da Trombeta (*Harlon the Hunter & Herndon of the Horn*)**
+   * **Lenda:** Irmãos gêmeos que construíram seu castelo no topo de uma colina e casaram-se com a mesma bruxa das florestas.
+   * **Casa:** Fundadores da **Casa Tarly** de Monte Chifre (*Horn Hill*).
+
+6. **Foss, o Arqueiro (*Foss the Archer*)**
+   * **Lenda:** Famoso por atirar maçãs da cabeça das pessoas com seu arco.
+   * **Casa:** Fundador da **Casa Fossoway**.
+
+7. **Rosa do Lago Vermelho (*Rose of Red Lake*)**
+   * **Lenda:** Uma troca-peles (*warg*) que conseguia se transformar em um cisne branco.
+   * **Casa:** Ancestral da **Casa Crane** do Lago Vermelho.
+
+8. **Ellyn Sempre-Doce (*Ellyn Ever Sweet*)**
+   * **Lenda:** Fez o primeiro pacto com as abelhas para produzir mel e hidromel.
+   * **Casa:** Fundadora da **Casa Beesbury**.
+
+9. **Owen Escudo de Carvalho (*Owen Oakenshield*)**
+   * **Lenda:** Conquistou as ilhas da costa da Campina expulsando os homens-peixe (sereianos).
+   * **Região:** Ancestral dos lordes das **Ilhas dos Escudos**.
+
+10. **Bors, o Quebrador (*Bors the Breaker*)**
+    * **Lenda:** Um homem de força descomunal que bebia sangue de touro.
+    * **Casa:** Fundador da **Casa Bulwer**.
+
+11. **Maris, a Donzela (*Maris the Maid*)**
+    * **Lenda:** A mais bela das filhas de Garth. Sua beleza era tão grande que causou guerras entre os reis que disputavam sua mão.
+
+---
+
+### Figuras Lendárias com Parentesco Debatido
+
+Nas histórias e canções de Westeros, outros fundadores famosos de Casas Grandes também são associados a Garth Mão-Verde, embora as histórias variem entre as regiões:
+
+* **Lann, o Esperto (*Lann the Clever*):** Fundador da **Casa Lannister**. Algumas lendas da Campina dizem que ele era um filho bastardo de Garth (ou neto de Garth, nascido de Florys ou Maris), que enganou o pai ou os Casterly para tomar o Rochedo Casterly.
+* **Brandon, o Construtor (*Brandon the Builder*):** Fundador da **Casa Stark** e construtor da Muralha. As lendas da Campina afirmam que Brandon era um descendente de Garth Mão-Verde, embora os homens do Norte rejeitem essa ideia, alegando que Brandon não tinha sangue do sul.
+
+---
+
+### Resumo
+Praticamente quase todas as famílias tradicionais da região da **Campina** (e algumas de fora) justificam sua legitimidade e sangue nobre alegando descendência direta dos filhos de **Garth Mão-Verde**.",referencia_necessaria,0.0098986,85.44
+dolly_3,criacao,dolly-15k,dolly,2026-11-24T12:19:37+00:00,piloto-dolly-v1,ABERTA,Escreva uma leitura de horóscopo engraçada e caprichosa,8,55,8,baixa,gemini-3.5-flash-lite,sucesso,,,16,1575,0,0.0039423,7.1151,0.00040651440388916047,0.0016458198098205706,0.00015915886245110165,"Prepara a pipoca cósmica, ajeita o seu chapéu de alumínio e respira fundo, porque o universo resolveu tirar o dia de folga e deixar um estagiário caótico no comando das estrelas. 
+
+Aqui está o seu horóscopo absolutamente científico, 100% preciso (confia) e levemente irresponsável para esta semana:
+
+---
+
+### ♈ Áries (21/03 - 20/04)
+**O clima:** Você tem tanta energia acumulada que se encostar num trator, ele começa a funcionar sozinho. 
+**O conselho:** Não, você não precisa resolver todos os problemas do mundo até a hora do almoço. Sim, tentar abrir uma porta ""Empurre"" puxando com força vai acontecer de novo. Aceite.
+**Frase da semana:** ""Calma? O que é isso, come?""
+
+### ♉ Touro (21/04 - 20/05)
+**O clima:** Sua lua minguante está em alinhamento perfeito com a sua vontade de ficar deitado comendo brigadeiro direto da panela.
+**O conselho:** Siga seu instinto. Se alguém tentar te arrastar para um ""networking"" ou uma trilha às 6h da manhã, finja que foi abduzido por extraterrestres. Eles entenderão.
+**Frase da semana:** ""Meu esporte favorito é o halterofilismo de edredom.""
+
+### ♊ Gêmeos (21/05 - 20/06)
+**O clima:** Suas duas personalidades estão finalmente concordando em algo: ambas querem comprar coisas desnecessárias na internet às 3h da manhã.
+**O conselho:** Esconda seu próprio cartão de crédito no congelador. Se precisar comer o gelo para pegá-lo, talvez você repense a compra daquele abridor de abacate bluetooth.
+**Frase da semana:** ""Eu tenho um plano! ...Espera, qual era o plano mesmo?""
+
+### ♋ Câncer (21/06 - 22/07)
+**O clima:** Sensibilidade nível: chorar porque viu um pombo que parecia pensativo na praça.
+**O conselho:** Protecha seu coração delicado. E por favor, pare de mandar mensagem para o ex ou para aquela pessoa que te deu vácuo em 2018. O único fantasma que deve rondar sua casa é o Gasparzinho, e olhe lá.
+**Frase da semana:** ""Vou ali sofrer um pouquinho e já volto.""
+
+### ♌ Leão (21/07 - 22/08)
+**O clima:** Os holofotes do universo estão em você. Pena que você esqueceu de passar rímel e está usando aquela blusa com mancha de café.
+**O conselho:** Não importa, a sua autoconfiança é tanta que vão achar que é ""estilo despojado parisiense"". Continue brilhando, mesmo que seja de pijama na padaria.
+**Frase da semana:** ""Modéstia é para quem não tem o meu brilho.""
+
+### ♍ Virgem (23/08 - 22/09)
+**O clima:** Você organizou até os parafusos da sua gaveta de bagunça, mas sua paz de espírito continua perdida embaixo do sofá.
+**O conselho:** Deixe o caos acontecer. Se um quadro estiver 1 milímetro torto, resista ao impulso de ajeitá-lo. O universo precisa de um pouco de desordem para manter o charme.
+**Frase da semana:** ""Se não for perfeito, eu choro... ou crio uma planilha.""
+
+### ♎ Libra (23/09 - 22/10)
+**O clima:** O dilema da semana: escolher entre pizza de calabresa ou 4 queijos vai exigir tanto esforço mental que você vai acabar comendo miojo.
+**O conselho:** Tire cara ou coroa para decisões importantes. Se a moeda cair em pé, considere um sinal divino para tirar um cochilo.
+**Frase da semana:** ""Eu decido... quer dizer, dependendo... o que você acha?""
+
+### ♏ Escorpião (23/10 - 21/11)
+**O clima:** Seu radar de conspiração está tão afiado que você desconfia até do seu cachorro. ""Por que ele está me olhando com essa cara de quem sabe meus segredos?""
+**O conselho:** Relaxe os chakras, detetive. Ninguém está tramando contra você; as pessoas estão apenas ocupadas demais tentando pagar os boletos delas.
+**Frase da semana:** ""Eu perdoo, mas anotei o nome no caderninho.""
+
+### ♐ Sagitário (22/11 - 21/12)
+**O clima:** A sua vontade de sumir do mapa e ir morar numa cabana na Islândia para criar cabras está 98%.
+**O conselho:** Vá caminhar no parque mais próximo e finja que a árvore é um misterioso bosque nórdico. Já ajuda a saciar a sede de aventura sem gastar com passagens aéreas.
+**Frase da semana:** ""Malas prontas, alma perdida, coração na estrada.""
+
+### ♑ Capricorniano (22/12 - 20/01)
+**O clima:** Você está tão focado no trabalho que sua planta de estimação esqueceu qual é a cor da água.
+**O conselho:** Lembre-se de que o capitalismo não vai acabar se você fechar o notebook às 18h. Vá ver a luz do sol, ela é gratuita (por enquanto).
+**Frase da semana:** ""Descanso é para os fracos. Mas, nossa, como eu queria ser fraco agora.""
+
+### ♒ Aquário (21/01 - 18/02)
+**O clima:** Ideias revolucionárias para salvar o planeta pipocam na sua mente, mas você esqueceu onde colocou as chaves.
+**O conselho:** Anote suas teorias malucas num caderno. Uma delas pode ser a cura para a ressaca ou a invenção do teletransporte de pizza. 
+**Frase da semana:** ""O problema da sociedade é que vocês não pensam fora da caixa... onde eu deixei meu óculos?""
+
+### ♓ Peixes (19/02 - 20/03)
+**O clima:** Você está vivendo 80% no mundo dos sonhos e 20% no mundo real tentando lembrar por que entrou na cozinha.
+**O conselho:** Use essa criatividade toda para criar desculpas criativas para cancelar compromissos sociais. ""Desculpa, não posso ir, meu horóscopo disse que Netuno está conversando com meu peixe beta.""
+**Frase da semana:** ""Oi? Onde estou? Que ano é hoje?""
+
+---
+*Conselho geral para todos os signos:* Se nada der certo hoje, culpa mercúrio retrógrado (mesmo que ele nem esteja retrógrado). Bom caos a todos! ✨🔮",gemini-3.6-flash,sucesso,,,16,1417,1200,0.00982575,24.6804,0.011406752191927988,0.04618153389789366,0.004513290316014617,"Aqui está o seu **Horóscopo Cósmico do Absurdo**: aperte os cintos, ajuste seus cristais e prepare-se para o que o universo (e um pouco de poeira estelar alucinógena) tem a dizer sobre a sua semana.
+
+---
+
+### 🌌 **O Horóscopo Definitivo para Almas Perdidas no Tempo-Espaço** 🌌
+
+**♈ Áries (21/03 - 19/04)**
+Marte está alinhado com a sua total falta de paciência. Esta semana, a sua aura estará da cor de ""vontade de dar uma furada no pneu de alguém"". Evite discutir com portas de armário que insistem em bater na sua cabeça. 
+* *Dica cósmica:* Contar até dez não funciona mais para você. Tente contar até dez em latim arcaico enquanto encara a pessoa fixamente.
+
+**♉ Touro (20/04 - 20/05)**
+A Lua entra na sua Casa do Carboidrato. Uma decisão importante se aproxima: pedir pizza ou fazer um sanduíche de três andares às 2 da manhã. Alerta de romance: alguém vai olhar para você da mesma forma que você olha para uma coxinha quentinha.
+* *Dica cósmica:* Se a vida te der limões, peça também leite condensado e faça uma torta. Não aceite menos que isso.
+
+**♊ Gêmeos (21/05 - 20/06)**
+Seus dois neurônios principais vão entrar em greve por excesso de abas abertas na sua cabeça. Você começará a semana querendo aprender aramaico e terminará assistindo a um documentário sobre a vida secreta dos cogumelos.
+* *Dica cósmica:* Não envie áudios de 8 minutos. Ninguém quer ouvir o seu monólogo interior com barulho de vento no fundo.
+
+**♋ Câncer (21/06 - 22/07)**
+O alinhamento dos planetas indica que você vai chorar. Motivo? Um comercial de sabão em pó ou o fato de que os pinguins têm joelhos e você não sabia. Sua casa será o seu santuário. 
+* *Dica cósmica:* Construa uma fortaleza de lençóis e só saia de lá quando o mundo aprender a tratar suas emoções com o respeito que elas merecem.
+
+**♌ Leão (23/07 - 22/08)**
+O Sol brilha para todos, mas você tem certeza de que ele é apenas o seu iluminador pessoal. Esta semana, o universo pede que você reduza o drama em 5%. Ou seja, se o seu café esfriar, chore em silêncio em vez de fazer uma cena de novela mexicana.
+* *Dica cósmica:* Continue brilhando, mas lembre-se de que nem todo mundo trouxe óculos de sol.
+
+**♍ Virgem (23/08 - 22/09)**
+Mercúrio exige que você organize a sua gaveta de meias por gradiente de cor e densidade do tecido. O caos do mundo vai tentar te irritar, especialmente pessoas que não usam apoio de copo.
+* *Dica cósmica:* Respire fundo. O fato de o quadro na parede estar 1 milímetro torto não é o fim do mundo (embora pareça).
+
+**♎ Libra (23/09 - 22/10)**
+Você vai passar 45 minutos escolhendo o que assistir na Netflix e acabará dormindo com a tela inicial aberta. A indecisão será sua fiel companheira. Se alguém te perguntar ""tanto faz?"", responda ""sim, mas depende"".
+* *Dica cósmica:* O equilíbrio que você procura está entre a primeira e a segunda fatia de bolo.
+
+**♏ Escorpião (23/10 - 21/11)**
+Seu raio laser de julgamento estará 30% mais afiado. Você vai descobrir o segredo de alguém apenas olhando para a dobrinha da camisa da pessoa. Use seus poderes para o bem (ou para conseguir o melhor lugar no sofá).
+* *Dica cósmica:* Deixe a vingança para a semana que vem. Hoje você está muito ocupado sendo misterioso.
+
+**♐ Sagitário (22/11 - 21/12)**
+Júpiter sopra ventos de aventura! O que significa que você vai falar algo completamente inapropriado no momento mais sério da semana e depois rir sozinho. Cuidado para não comprar uma passagem só de ida para a Islândia enquanto estiver no tédio.
+* *Dica cósmica:* Pense antes de falar. Brincadeira, a gente sabe que você não vai fazer isso.
+
+**♑ Capricórnio (22/12 - 19/01)**
+Seu coração de pedra vai amolecer um pouco esta semana... ficando com a consistência de um concreto ligeiramente úmido. Seu trabalho duro será recompensado com mais trabalho duro! Eba!
+* *Dica cósmica:* Sorria para as pessoas. Não com esse sorriso de quem está calculando o imposto de renda delas, um sorriso de verdade.
+
+**♒ Aquário (20/01 - 18/02)**
+Os alienígenas mandaram avisar que você está certo e o resto do planeta é chato. Sua mente estará viajando por dimensões paralelas. Excelente semana para inventar uma teoria da conspiração sobre por que os pés de mesa sempre atraem o seu dedinho.
+* *Dica cósmica:* Use meias descombinadas. O universo gosta da sua esquisitice.
+
+**♓ Peixes (19/02 - 20/03)**
+Você vai flutuar tanto em devaneios esta semana que correrá o risco de ser confundido com um balão de hélio. Cuidado para não confundir um pombo na rua com uma manifestação do seu anjo da guarda.
+* *Dica cósmica:* Volte para a terra firme pelo menos para comer e pagar os boletos. A realidade é chata, mas tem chocolate.
+
+---
+
+*Lembre-se: se as coisas derem errado esta semana, a culpa não é sua. É de Mercúrio Retrogrado (mesmo que ele não esteja retrógrado).* ✨",inconclusivo,0.005883449999999999,59.88
+dolly_5,explicacao,dolly-15k,dolly,2026-11-24T12:22:00+00:00,piloto-dolly-v1,ABERTA,O que faz a asa de um avião voar?,9,33,2,baixa,gemini-3.5-flash-lite,sucesso,,True,13,633,0,0.0015864000000000002,2.5819,0.0001628851438327828,0.000659459034860081,6.366293703549644e-05,"O voo de um avião é resultado da interação entre a asa e o ar ao seu redor. Para entender o que faz a asa voar, precisamos falar sobre **quatro forças principais** que atuam em um avião, mas com foco especial na **sustentação** (a força que empurra o avião para cima).
+
+Aqui estão os princípios físicos fundamentais que explicam como a asa gera essa sustentação:
+
+### 1. O formato da asa (Perfil Alar)
+Se você cortar uma asa de avião ao meio, verá que ela tem um formato específico: é arredondada na parte de cima e mais plana na parte de baixo. Esse formato é chamado de **perfil alar**. 
+
+### 2. A diferença de pressão (Efeito Bernoulli)
+À medida que o avião avança, a asa corta o ar. Devido ao formato da asa, o ar que passa por **cima** é obrigado a viajar mais rápido do que o ar que passa por **baixo**. 
+
+De acordo com o Princípio de Bernoulli (uma lei da física dos fluidos), **ar em alta velocidade exerce menos pressão**. Portanto:
+*   Em cima da asa: o ar corre rápido = **baixa pressão**.
+*   Embaixo da asa: o ar corre mais devagar = **alta pressão**.
+*   **O resultado:** A alta pressão de baixo empurra a asa para cima, enquanto a baixa pressão de cima puxa a asa para cima.
+
+### 3. A Terceira Lei de Newton (Ação e Reação)
+Embora a diferença de pressão seja importante, ela não conta a história toda. A **inclinação da asa** (chamada de *ângulo de ataque*) também é crucial.
+Conforme a asa avança, ela é ligeiramente inclinada para cima. Isso faz com que o ar que bate na parte inferior da asa seja **desviado para baixo**. Pela Terceira Lei de Newton (toda ação gera uma reação igual e oposta), se a asa empurra o ar para baixo, o ar empurra a asa para **cima**.
+
+---
+
+### As 4 forças do voo
+Para o avião voar de fato, a asa precisa vencer a gravidade. O voo é um equilíbrio entre quatro forças:
+1.  **Sustentação (Lift):** A força gerada pelas asas que empurra o avião para cima.
+2.  **Peso (Gravity):** A força da gravidade que puxa o avião para baixo.
+3.  **Tração (Thrust):** A força dos motores que empurra o avião para frente.
+4.  **Arrasto (Drag):** A resistência do ar que freia o avião.
+
+Quando a **Tração** é suficiente para fazer o avião correr pela pista, o ar passa pelas asas gerando **Sustentação**. Quando a Sustentação se torna maior que o **Peso**, o avião decola!",gemini-3.6-flash,sucesso,,True,13,645,988,0.0061335,82.9191,0.007143185985859,0.02892000108307332,0.0028318734041255875,"O que faz a asa de um avião voar (ou seja, manter o avião no ar) é uma força física chamada **sustentação**. 
+
+Essa força é gerada pela combinação de três fatores principais: a **forma da asa**, o **ângulo** em que ela corta o ar e a **velocidade** do avião.
+
+Aqui está a explicação de como isso funciona na prática:
+
+---
+
+### 1. A Forma da Asa (Diferença de Pressão)
+Se você olhar para a asa de um avião de lado, verá que ela tem um formato especial chamado **aerofólio**: a parte de cima é curvada e a parte de baixo é mais reta.
+
+* **Em cima:** O ar que passa por cima da curva tem que se mover **mais rápido**. O ar em alta velocidade cria uma zona de **baixa pressão** (ele ""puxa"" a asa para cima).
+* **Em baixo:** O ar que passa por baixo se move mais devagar, criando uma zona de **alta pressão** (ele ""empurra"" a asa para cima).
+
+Essa diferença (alta pressão embaixo e baixa pressão em cima) faz com que a asa seja literalmente **chupada e empurrada para cima**. *(Isso é explicado pelo Princípio de Bernoulli).*
+
+---
+
+### 2. O Ângulo da Asa (Empurrando o Ar para Baixo)
+A forma da asa não faz todo o trabalho sozinha. A asa também é ligeiramente inclinada para cima em relação ao vento. Isso é chamado de **Ângulo de Ataque**.
+
+* Conforme o avião avança, a asa empurra o ar **para baixo**.
+* Pela **Terceira Lei de Newton** (Ação e Reação), se a asa empurra o ar para baixo, o ar responde empurrando a asa **para cima** com a mesma força.
+
+> **Exemplo prático:** Sabe quando você está num carro em movimento, coloca a mão para fora da janela e a inclina um pouco para cima? O vento bate na sua mão e a joga para cima. É exatamente isso que a asa faz!
+
+---
+
+### 3. A Velocidade do Avião
+Nada disso funciona se o avião estiver parado. Os motores do avião (turbinas ou hélices) servem para empurrar o avião **para frente** (força chamada de *tração*). 
+
+Quanto mais rápido o avião vai para frente, mais ar passa pela asa e **maior é a sustentação**. Quando a força de sustentação fica maior do que o peso do avião, ele decola.
+
+---
+
+### Resumo
+O avião voa porque as asas **fazem o ar passar mais rápido por cima do que por baixo** (gerando sucção) e **empurram uma enorme quantidade de ar para baixo** (gerando uma reação para cima). 
+
+Juntando isso à alta velocidade dos motores, o avião vence a gravidade e flutua no ar!",economica_suficiente,0.0045471,74.14
+dolly_6,explicacao,dolly-15k,dolly,2026-11-24T12:23:50+00:00,piloto-dolly-v1,ABERTA,Uma explosão nuclear poderia mudar a rotação da Terra?,9,54,2,baixa,gemini-3.5-flash-lite,sucesso,,True,13,573,0,0.0014364,2.7323,0.00014814645191464783,0.0005997877639342842,5.805856985988563e-05,"**Em tese, sim. Na prática, não da forma como você imagina.** 
+
+Para a física, qualquer evento que movimente massa na Terra altera, por menor que seja, a sua rotação (e a inclinação do seu eixo), devido à **conservação do momento angular**.
+
+No entanto, mesmo a maior arma nuclear já detonada na história — a **Bomba Tsar**, testada pela União Soviética em 1961, com uma potência de 50 megatons — teve um efeito **completamente imperceptível** na rotação da Terra.
+
+Aqui está o porquê:
+
+1. **A escala da Terra:** A Terra é um objeto de massa colossal ($6 \times 10^{24}$ kg) e com um momento angular gigantesco. A energia de uma bomba nuclear, por mais destrutiva que pareça para nós, é insignificante em comparação com a massa e a energia do planeta.
+2. **Efeitos que realmente mudam a rotação:** Eventos naturais muito mais massivos alteram a rotação da Terra o tempo todo. Por exemplo:
+   * **Grandes terremotos** (como o do Oceano Índico em 2004 ou o do Japão em 2011) deslocam enormes quantidades de massa sólida da crosta terrestre, encurtando o dia em alguns microssegundos.
+   * O **derretimento das calotas polares** devido às mudanças climáticas redistribui a água dos polos para o equador, o que desacelera a rotação da Terra de forma mensurável (embora também na faixa de milissegundos).
+   * A **Lua** desacelera a rotação da Terra constantemente através das marés.
+
+### E se detonarmos *todas* as armas nucleares do mundo de uma vez?
+Atualmente, o arsenal nuclear global tem uma potência combinada muito superior à da Bomba Tsar. Se detonássemos todas elas simultaneamente, liberaríamos uma quantidade monumental de energia, causando um inverno nuclear e destruindo a civilização humana. 
+
+Ainda assim, **o impacto na rotação da Terra seria mínimo**. A energia seria dissipada em forma de calor, ondas de choque na atmosfera e destruição local, mas a massa do planeta continuaria essencialmente a mesma, e o deslocamento de massa seria caótico e multidirecional, cancelando a maior parte dos efeitos vetoriais no momento angular.
+
+**Resumo:** Uma explosão nuclear alteraria a rotação da Terra? Sim, por uma fração de bilionésimo de segundo. Seria algo impossível de medir com a tecnologia atual e totalmente irrelevante para a duração do nosso dia.",gemini-3.6-flash,sucesso,,True,13,799,1302,0.0078885,32.1866,0.009179021375560169,0.037162312257900815,0.0036365073514561287,"A resposta curta é: **na prática, não.** 
+
+Embora uma explosão nuclear seja devastadora para a vida humana e a superfície local, a sua energia é **insignificante** quando comparada às forças físicas que regem o planeta Terra. 
+
+Se detonássemos a bomba nuclear mais forte já criada (ou até mesmo todo o arsenal nuclear do mundo de uma só vez), a rotação da Terra **não mudaria de forma perceptível**.
+
+Aqui estão os três motivos científicos para isso:
+
+---
+
+### 1. A escala de energia é absurdamente diferente
+A energia necessária para alterar a rotação da Terra é ordens de grandeza maior do que qualquer coisa que a humanidade consiga produzir.
+
+* **Energia de rotação da Terra:** A Terra girando possui uma energia cinética de cerca de **$2,1 \times 10^{29}$ Joules**.
+* **A Tsar Bomba (a maior bomba nuclear já detonada):** Liberou cerca de **$2,1 \times 10^{17}$ Joules**.
+
+Isso significa que a rotação da Terra tem **1 bilhão de vezes mais energia** do que a maior bomba atômica da história. Mesmo se detonássemos todo o arsenal nuclear do planeta juntas (cerca de 12.000 cabeças nucleares), a energia combinada ainda seria uma ""gota no oceano"" para o planeta.
+
+---
+
+### 2. A Lei da Conservação do Momento Angular
+Para alterar a rotação de um objeto no espaço sem uma força externa (como um asteroide colidindo com a Terra), você precisa alterar a **distribuição de massa** desse objeto (o chamado *momento de inércia*). É o mesmo princípio da patinadora no gelo que gira mais rápido quando encolhe os braços.
+
+Uma bomba nuclear explodindo na superfície ou na atmosfera empurra o ar e a terra ao seu redor. No entanto, por causa da gravidade, toda essa matéria explode e **volta para o mesmo lugar** (ou fica na atmosfera). Como a massa total da Terra e sua distribuição não mudaram de forma significativa, o momento angular permanece o mesmo.
+
+Para a bomba agir como um ""propulsor de foguete"" e empurrar a Terra, ela teria que arremessar uma quantidade gigantesca de rocha para **fora da gravidade da Terra** (no espaço sideral), o que as bombas nucleares não conseguem fazer.
+
+---
+
+### 3. Comparação com Terremotos
+A Terra já passa por eventos que alteram sua rotação, mas de forma imperceptível no dia a dia:
+
+* O **terremoto de 2011 no Japão** (magnitude 9,1) foi tão poderoso que moveu placas tectônicas inteiras por metros, afundando parte da crosta e aproximando massa do centro da Terra.
+* Esse terremoto **encurtou o dia em 1,8 microssegundos** (0,0000018 segundos) e desviou o eixo da Terra em cerca de 17 centímetros.
+
+A energia libertada por esse terremoto foi equivalente a centenas de bombas nucleares explodindo nas profundezas da Terra. Como as bombas humanas explodem na superfície e deslocam uma quantidade de massa incomparavelmente menor que uma placa tectônica, o efeito delas na rotação é praticamente zero.
+
+---
+
+### Resumo
+Se todas as armas nucleares do mundo fossem detonadas no mesmo ponto, a humanidade seria extinta e o clima do planeta seria devastado (inverno nuclear), mas **a Terra continuaria a girar exatamente na mesma velocidade e na mesma direção**, como se nada tivesse acontecido.",economica_suficiente,0.0064521,81.79
+dolly_7,explicacao,dolly-15k,dolly,2026-11-24T12:30:27+00:00,piloto-dolly-v1,ABERTA,"Na teoria musical, o que é o círculo de quintas?",10,48,2,baixa,gemini-3.5-flash-lite,sucesso,,False,14,901,0,0.0022567,3.9459,0.00023232951266621816,0.0009406124621755792,9.091239095226228e-05,"O **círculo de quintas** (ou círculo das quintas) é um dos conceitos mais importantes e úteis da teoria musical. Em termos simples, é uma representação geométrica (geralmente um círculo, como um relógio) que mostra a relação entre os 12 tons da escala cromática, suas armaduras de clave (sustenidos e bemóis) e as tonalidades maiores e menores.
+
+Para entendê-lo passo a passo, veja os seguintes pontos principais:
+
+### 1. Como ele funciona?
+Imagine um relógio, mas em vez de horas, temos notas musicais. 
+* Se você caminhar no **sentido horário**, cada passo avança um intervalo de **uma quinta justa** (por exemplo, de Dó para Sol, de Sol para Ré, de Ré para Lá, e assim por diante).
+* Se você caminhar no **sentido anti-horário**, cada passo avança um intervalo de **uma quarta justa** (ou descende uma quinta), adicionando bemóis.
+
+### 2. O mapeamento das Tonalidades e Armaduras de Clave
+O círculo é a forma mais fácil de memorizar quantas alterações (sustenidos ou bemóis) tem cada tonalidade:
+
+* **No topo do círculo (12 horas):** Está a tonalidade de **Dó Maior** (e sua relativa menor, Lá menor), que não tem **nenhum** sustenido ou bemol.
+* **Indo para a direita (sentido horário - Sustenidos):**
+  * 1 hora: **Sol Maior** (1 sustenido: Fá#)
+  * 2 horas: **Ré Maior** (2 sustenidos: Fá#, Dó#)
+  * 3 horas: **Lá Maior** (3 sustenidos)
+  * E assim por diante, até chegar a 7 sustenidos. Cada nova tonalidade adiciona um sustenido à anterior.
+* **Indo para a esquerda (sentido anti-horário - Bemóis):**
+  * 11 horas: **Fá Maior** (1 bemol: Si♭)
+  * 10 horas: **Si bemol Maior** (2 bemóis: Si♭, Mi♭)
+  * 9 horas: **Mi bemol Maior** (3 bemóis)
+  * E assim por diante, até chegar a 7 bemóis. Cada nova tonalidade adiciona um bemol.
+
+### 3. Tonalidades Maiores e Menores Relativas
+O círculo geralmente tem duas camadas:
+* A camada externa mostra as **tonalidades maiores**.
+* A camada interna mostra as **tonalidades menores** (suas relativas menores, que compartilham a mesma armadura de clave). Por exemplo, Am (Lá menor) fica logo abaixo de C (Dó Maior).
+
+---
+
+### Para que serve o Círculo de Quintas? (Aplicações práticas)
+
+1. **Composição e Modulação:** Músicos usam o círculo para saber quais acordes soam bem juntos. Tonalidades que estão lado a lado no círculo são muito parecidas (compartilham muitas notas), o que facilita a **modulação** (mudar de tom no meio de uma música) de forma suave.
+2. **Identificação de Acordes (Progressões):** A progressão de acordes mais famosa da música ocidental, o ciclo **II - V - I** (muito usado no Jazz e na MPB), baseia-se no movimento do círculo de quintas.
+3. **Memorização rápida:** Em vez de decorar tabelas complexas, o músico olha para o círculo e sabe imediatamente quantas alterações tem uma armadura de clave.
+4. **Afinação de instrumentos:** O ciclo de quintas é a base para a afinação de vários instrumentos de cordas, como o violoncelo, a viola e o violino (que são afinados em quintas: Dó-Sol-Ré-Lá).
+
+Em resumo, o círculo de quintas é o **""GPS da harmonia musical""**, ajudando a entender como os tons se conectam e como navegar por eles.",gemini-3.6-flash,sucesso,,True,14,933,1063,0.0074955,37.9716,0.008722263435563113,0.035313075776369,0.003455980504298635,"O **Círculo de Quintas** (ou Ciclo de Quintas) é uma das ferramentas visuais e teóricas mais importantes da música. Ele é um diagrama em forma de relógio que organiza as **12 notas da escala cromática** com base na relação de intervalo de **quinta justa** entre elas.
+
+Ele serve como um ""mapa"" para entender como as escalas, tonalidades e acordes se relacionam.
+
+---
+
+### Como funciona o Círculo de Quintas?
+
+Imagine o mostrador de um relógio tradicional com 12 horas:
+
+1. **O Topo (12 horas - Dó Maior / C):**
+   * A escala de **Dó Maior** fica no topo porque é a ""tonalidade neutra"": ela **não tem nenhum sustenido (#) nem bemol (b)**.
+
+2. **Sentido Horário (Avançando em Quintas):**
+   * Conforme você anda para a direita (sentido horário), cada nota está **uma quinta justa acima** da anterior.
+   * A cada passo, **adiciona-se 1 sustenido (#)** à armadura de clave:
+     * Dó (0#) $\rightarrow$ **Sol** (1#) $\rightarrow$ **Ré** (2#) $\rightarrow$ **Lá** (3#) $\rightarrow$ **Mi** (4#) $\rightarrow$ **Si** (5#) $\rightarrow$ **Fá#** (6#) $\rightarrow$ **Dó#** (7#).
+
+3. **Sentido Anti-Horário (Voltando em Quintas / Avançando em Quartas):**
+   * Conforme você anda para a esquerda (sentido anti-horário), você anda em **quintas descendentes** (ou quartas ascendentes).
+   * A cada passo, **adiciona-se 1 bemol (b)**:
+     * Dó (0b) $\rightarrow$ **Fá** (1b) $\rightarrow$ **Si$\flat$** (2b) $\rightarrow$ **Mi$\flat$** (3b) $\rightarrow$ **Lá$\flat$** (4b) $\rightarrow$ **Ré$\flat$** (5b) $\rightarrow$ **Sol$\flat$** (6b) $\rightarrow$ **Dó$\flat$** (7b).
+
+4. **Tonalidades Maiores e Menores (Relativas):**
+   * O círculo geralmente possui duas camadas:
+     * **Anel externo:** Tonalidades Maiores (ex: Dó Maior).
+     * **Anel interno:** Tonalidades Menores Relativas (ex: Lá menor).
+   * A tonalidade menor relativa compartilha exatamente a mesma armadura de clave (os mesmos sustenidos/bemóis) que a sua maior correspondente.
+
+---
+
+### Para que serve o Círculo de Quintas?
+
+Na prática, o círculo de quintas ajuda músicos, compositores e arranjadores a:
+
+* **Memorizar as armaduras de clave:** Você descobre instantaneamente quantos sustenidos ou bemóis tem qualquer escala (ex: ""Lá Maior está às 3 horas, então tem 3 sustenidos"").
+* **Compor e Criar Progressões de Acordes:** Notas vizinhas no círculo soam muito bem juntas porque compartilham quase todas as mesmas notas (ex: Dó, Sol e Fá estão lado a lado e formam a base dos acordes I, IV e V no tom de Dó).
+* **Fazer Modulações (Mudar de Tom):** Mudar de uma tonalidade para outra que está ao lado no círculo soa suave e natural.
+* **Transpor Músicas:** Facilita a tarefa de mudar uma música inteira de tom para se adequar ao alcance de um cantor ou instrumento.
+
+---
+
+### Curiosidade: Enharmonia
+Na parte inferior do círculo (em torno das 6 horas), as tonalidades com sustenidos e bemóis se encontram. Notas como **Fá#** (Fá sustenido) e **Sol$\flat$** (Sol bemol) ocupam a mesma posição. Elas têm nomes diferentes, mas **soam exatamente a mesma nota** no piano ou violão. Isso é chamado de *enharmonia*.",referencia_necessaria,0.0052388,69.89
+dolly_8,recomendacao,dolly-15k,dolly,2026-11-24T12:45:32+00:00,piloto-dolly-v1,ABERTA,O que eu devo fazer em uma tarde livre em São Francisco?,12,56,2,baixa,gemini-3.5-flash-lite,sucesso,,,14,1203,0,0.0030117,11.3692,0.00031830063380909607,0.0012886763263234577,0.00012635501668708333,"Uma tarde livre em São Francisco passa rápido, já que a cidade é compacta, mas muito rica em paisagens e cultura. Como o tempo é curto, o segredo é **escolher uma região** para não ficar preso no trânsito. 
+
+Aqui estão 4 roteiros diferentes, dependendo do seu estilo. Escolha o seu favorito:
+
+---
+
+### Opção 1: O Clássico Cartão-Postal (Para quem visita pela primeira vez)
+*Ideal para quem quer ver a famosa baía, leões-marinhos e ícones da cidade.*
+
+*   **14:00 – Fisherman’s Wharf e Pier 39:** Comece caminhando pelo animado Pier 39 para ver os famosos leões-marinhos deitados ao sol e sentir o clima turístico. Se tiver fome, experimente a *Clam Chowder* (sopa de mariscos servida dentro de um pão redondo sourdough).
+*   **15:30 – Alugue uma bike ou vá de Uber até Crissy Field:** Siga pela costa em direção à **Golden Gate Bridge**. A vista da ponte a partir de Crissy Field é espetacular.
+*   **17:00 – Pôr do sol na Golden Gate (Battery Spencer):** Se puder, atravesse para o lado de Sausalito até o mirante *Battery Spencer* (do outro lado da ponte). A vista da cidade com a neblina (a famosa ""Karl, the Fog"") e a ponte ao fundo é inesquecível.
+
+---
+
+### Opção 2: O Lado Descolado e Panorâmico (Para quem gosta de vistas e bairros charmosos)
+*Ideal para um ritmo mais relaxado, combinando parques e casinhas vitorianas.*
+
+*   **14:00 – Alamo Square e as ""Painted Ladies"":** Vá até a praça para ver as famosas casas vitorianas coloridas (as *Painted Ladies*) com o skyline financeiro de São Francisco ao fundo. É o cenário clássico de cartões-postais e séries de TV.
+*   **15:00 – Hayes Valley:** Caminhe descendo para o bairro de Hayes Valley. É uma área super charmosa, cheia de lojas locais independentes, cafés excelentes e galerias de arte ao ar livre (muitas lojas são construídas dentro de contêineres coloridos).
+*   **16:30 – Dolores Park:** Pegue um café ou um sorvete e vá para o Mission Dolores Park. Sente-se na grama para ver o movimento dos locais. O parque tem uma das vistas mais bonitas do centro da cidade.
+*   **17:30 – Burrito no Mission District:** Já que está no bairro Mission, aproveite para comer um autêntico e gigante *Mission Burrito* (recomendo o *La Taqueria* ou o *El Farolito*).
+
+---
+
+### Opção 3: Arte, Cultura e Natureza (Para os mais contemplativos)
+*Ideal para quem prefere museus, parques e bairros históricos.*
+
+*   **14:00 – Golden Gate Park (De Young Museum ou Conservatory of Flowers):** Este parque é maior que o Central Park de Nova York. Visite o *Conservatory of Flowers* (uma estufa vitoriana deslumbrante) ou suba na torre de observação do *De Young Museum* (a entrada para a torre é gratuita e tem uma vista 360° incrível).
+*   **16:00 – Haight-Ashbury:** Caminhe até o berço do movimento *hippie* de 1967. As ruas ainda mantêm a estética psicodélica, com lojas de vinil, roupas vintage e murais coloridos. Visite a antiga casa de Janis Joplin.
+
+---
+
+### Opção 4: O Roteiro Urbano e Gastronômico (Para quem gosta de caminhar e comer bem)
+*Ideal para uma tarde de compras e exploração urbana.*
+
+*   **14:00 – Ferry Building Marketplace:** Comece no terminal de balsas no Embarcadero. É um mercado gastronômico maravilhoso com queijos artesanais, chocolates, ostras e cafés locais. 
+*   **15:00 – Suba a Lombard Street:** Caminhe em direção à ""rua mais sinuosa do mundo"" (a ladeira zigue-zague cheia de flores). Vá a pé para ter o desafio da subida e a recompensa da vista do topo.
+*   **16:30 – Chinatown e North Beach:** Atravesse a ""Dragon's Gate"" para entrar na Chinatown mais antiga da América do Norte. Depois, caminhe para **North Beach** (a Pequena Itália da cidade). Sente-se na *Caffè Trieste* para tomar um espresso onde artistas da Geração Beat (como Jack Kerouac) costumavam se reunir.
+
+---
+
+### 💡 Dicas de Ouro para São Francisco:
+1.  **Leve sempre um casaco:** A famosa frase atribuída a Mark Twain nunca falha: *""O inverno mais frio que já passei foi um verão em São Francisco""*. O vento da baía pode congelar você rapidamente à tarde, mesmo com sol.
+2.  **Transporte:** O Uber funciona muito bem, mas andar de bondinho (*Cable Car*) pelo menos uma vez é um clássico imperdível (prepare-se para pegar fila na linha da Market St. ou do Pier 39).",gemini-3.6-flash,sucesso,,,14,972,1014,0.007458,43.7917,0.008678762679372917,0.035136958016223116,0.003438787471236017,"São Francisco é uma cidade incrivelmente compacta, o que é ótimo para quem tem apenas uma tarde livre! 
+
+Para aproveitar ao máximo as suas **4 a 5 horas**, o ideal é focar em uma região ou seguir um roteiro fluido. Aqui estão **3 opções de roteiros**, dependendo do seu estilo:
+
+---
+
+### Opção 1: O Clássico Impossível de Errar (Primeira vez na cidade)
+*Ideal para quem quer ver os pontos turísticos mais famosos.*
+
+1. **13:00 - Almoço no Ferry Building:** Comece neste mercado histórico à beira-mar. Almoce no *Gott’s Roadside* (hambúrgueres incríveis) ou pegue uma empanada na *El Porteño*. Tome um café no famoso *Blue Bottle Coffee*.
+2. **14:30 - Embarcadero até o Pier 39:** Vá caminhando ou pegue o bonde histórico (Linha F) ao longo da orla até o Pier 39 para ver os famosos **leões-marinhos** tomando sol.
+3. **16:00 - Lombard Street:** Pegue um Uber/Lyft ou suba a pé (haja perna!) até a Lombard Street, a rua mais tortuosa do mundo, famosa por suas curvas e jardins.
+4. **17:30 - Pôr do Sol na Golden Gate:** Pegue um Uber até o **Crissy Field** ou **Palace of Fine Arts** (que fica ali perto). De lá, você terá uma vista espetacular da Ponte Golden Gate com a luz do fim de tarde.
+
+---
+
+### Opção 2: Natureza, Vistas e Clima Praiano
+*Ideal para quem prefere fugir do tumulto e gosta de caminhar ao ar livre.*
+
+1. **13:30 - Golden Gate Park:** Comece visitando o **Jardim Chá Japonês** (*Japanese Tea Garden*) ou o **Conservatório de Flores**. O parque é lindo e maior que o Central Park de NY.
+2. **15:30 - Trilha de Lands End:** Vá até o extremo oeste da cidade e faça a caminhada de *Lands End*. É uma trilha leve e segura na costa, com vistas dramáticas do oceano e da ponte.
+3. **17:00 - Sutro Baths e Ocean Beach:** Termine o passeio nas ruínas dos banhos de Sutro e veja o pôr do sol no Oceano Pacífico tomando uma cerveja ou chocolate quente no *Cliff House* ou na praia.
+
+---
+
+### Opção 3: Arte Urbana, Cultura e Gastronomia (Mission & Castro)
+*Ideal para quem gosta de um clima mais ""hipsters"", arte, história LGBTQIA+ e boa comida.*
+
+1. **13:00 - Almoço no Mission District:** Coma um autêntico ""Mission Burrito"" no *Taqueria La Cumbre* ou *El Farolito*.
+2. **14:00 - Murais de Arte:** Passeie pelo **Clarion Alley** e **Balmy Alley**, becos cheios de grafites incríveis e politizados.
+3. **15:30 - Dolores Park:** Compre um doce na famosa padaria *Tartine Bakery* e sente no gramado do Dolores Park. É onde os moradores locais relaxam e a vista do skyline da cidade é linda.
+4. **17:00 - Bairro The Castro:** Caminhe até o Castro (bairro histórico da luta pelos direitos LGBTQIA+), visite o *Castro Theatre* e explore as lojas locais.
+
+---
+
+### 💡 Dicas de Ouro para sua Tarde:
+
+* **Leve um casaco (Mesmo no verão!):** O clima de São Francisco é imprevisível. Às 14h pode estar calor e às 16h o vento gelado e a névoa (*Mark Twain dizia que o inverno mais frio que passou foi um verão em SF*). Adote o estilo ""cebola"" (em camadas).
+* **Locomoção:** Para economizar tempo em apenas uma tarde, use aplicativos de transporte (**Uber/Lyft**) entre pontos mais distantes. 
+* **Segurança:** Se você estiver com malas ou mochilas em um carro alugado, **nunca** deixe nada visível dentro do veículo. Arrombamentos de carros são muito comuns na cidade.
+
+Qual dessas opções combina mais com você?",inconclusivo,0.0044463,59.62
+dolly_9,duvida,dolly-15k,dolly,2026-11-24T12:52:42+00:00,piloto-dolly-v1,ABERTA,Qual é o terceiro membro do ioga?,7,33,2,baixa,gemini-3.5-flash-lite,sucesso,,,10,222,0,0.000558,2.1095,5.92596606124039e-05,0.0002399194774552951,2.3637085099059687e-05,"O terceiro membro do ioga é o **Ásana** (ou *Asana*).
+
+De acordo com o sistema de Ioga Clássico (o *Ashtanga Yoga* ou ""Ioga de Oito Passos"" descrito por Patânjali no *Yoga Sutra*), os membros são:
+
+1. **Yama** (Restrições morais / condutas sociais)
+2. **Niyama** (Observâncias pessoais / autodisciplina)
+3. **Ásana** (Posturas físicas)
+4. **Pranayama** (Controle da respiração)
+5. **Pratyahara** (Retirada dos sentidos)
+6. **Dharana** (Concentração)
+7. **Dhyana** (Meditação)
+8. **Samadhi** (Iluminação / absorção completa)
+
+Portanto, os **ásanas** (as posturas físicas que a maioria das pessoas associa à prática moderna de ioga) ocupam o terceiro degrau dessa escada evolutiva.",gemini-3.6-flash,sucesso,,,10,212,747,0.00360375,16.5408,0.004211235018639792,0.017049664049240545,0.001673062975705106,"O terceiro membro do ioga (de acordo com a filosofia clássica dos *Yoga Sutras* de Patanjali) é o **Asana** (as posturas físicas).
+
+O termo *Asana* significa originalmente ""assento"" ou ""postura firme e confortável"", voltada para preparar o corpo e a mente para a meditação.
+
+Para contexto, os **Oito Membros do Ioga** (*Ashtanga Yoga*) em ordem são:
+
+1. **Yama** (princípios éticos/contenções)
+2. **Niyama** (observâncias pessoais/autodisciplina)
+3. **Asana** (posturas físicas)
+4. **Pranayama** (controle da respiração/energia vital)
+5. **Pratyahara** (retração dos sentidos)
+6. **Dharana** (concentração)
+7. **Dhyana** (meditação)
+8. **Samadhi** (absorção total/libertação)",inconclusivo,0.0030457500000000003,84.52
