@@ -208,7 +208,9 @@ enviados novamente.
 O coletor salva o mesmo resultado em duas formas:
 
 - `dataset_gemini.json`: uma lista de registros completos, com objetos aninhados.
-- `dataset_gemini.csv`: uma linha por registro e o nome de cada campo achatado na primeira linha.
+- `dataset_gemini.csv`: formato tabular simples, com aproximadamente 61 colunas fixas,
+  uma linha por execução e nomes legíveis. O JSON continua contendo os detalhes
+  completos; o CSV inclui os campos principais e os valores EcoLogits totais.
 
 Os campos incluem modelo, resposta, status, duração, classificação, complexidade,
 tokens de entrada, saída visível, raciocínio, cache e total cobrado, além dos

@@ -151,7 +151,7 @@ class PromptComplexityTests(unittest.TestCase):
                 reader = csv.DictReader(file)
                 rows = list(reader)
                 self.assertIn("prompt_id", reader.fieldnames)
-                self.assertIn("tokens.raciocinio", reader.fieldnames)
+                self.assertIn("tokens_raciocinio", reader.fieldnames)
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]["prompt_id"], "P001")
 

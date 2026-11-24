@@ -311,42 +311,124 @@ def achatavel(valor: Any, prefixo: str = "", destino: dict[str, str] | None = No
     return destino
 
 
+def valor_impacto(indicador: Any, campo: str = "mean") -> Any:
+    """Obtém min, mean ou max de um indicador EcoLogits já convertido em dict."""
+    if not isinstance(indicador, dict):
+        return ""
+    valor = indicador.get("valor")
+    if isinstance(valor, dict):
+        return valor.get(campo, "")
+    return indicador.get("valor", "") if campo == "mean" else ""
+
+
 def exportar_csv(caminho: Path, registros: list[dict[str, Any]]) -> None:
-    """Regrava o CSV com uma linha por registro e cabeçalho da união das colunas."""
-    registros_exportacao: list[dict[str, Any]] = []
-    for registro in registros:
-        registro_exportacao = dict(registro)
-        tokens_exportacao = dict(registro_exportacao.get("tokens") or {})
-        entrada = tokens_exportacao.get("entrada", 0) or 0
-        saida = tokens_exportacao.get("saida", 0) or 0
-        raciocinio = tokens_exportacao.get("raciocinio", 0) or 0
-        tokens_exportacao.setdefault("raciocinio", raciocinio)
-        tokens_exportacao.setdefault("cache", 0)
-        tokens_exportacao.setdefault("saida_total_cobrada", saida + raciocinio)
-        registro_exportacao["tokens"] = tokens_exportacao
-
-        if not registro_exportacao.get("metricas_gemini"):
-            registro_exportacao["metricas_gemini"] = {
-                "custo": calcular_custo_equivalente(
-                    registro_exportacao.get("modelo", ""),
-                    entrada,
-                    saida + raciocinio,
-                ),
-                "modelo_resposta": None,
-                "finish_reason": None,
-                "response_id": None,
-                "usage_metadata": {},
-            }
-        registros_exportacao.append(registro_exportacao)
-
-    linhas = [achatavel(registro) for registro in registros_exportacao]
-    colunas = sorted({chave for linha in linhas for chave in linha})
+    """Exporta um CSV simples com uma linha por prompt/versão."""
+    colunas = [
+        "prompt_id", "tarefa", "versao_prompt", "prompt",
+        "modelo", "provedor", "status", "coletado_em_utc", "duracao_segundos",
+        "categoria_principal", "idioma", "quantidade_palavras_prompt", "quantidade_caracteres_prompt",
+        "complexidade_pontuacao", "complexidade_nivel", "complexidade_status",
+        "complexidade_frases", "complexidade_perguntas", "complexidade_instrucoes",
+        "complexidade_requisitos", "complexidade_etapas", "complexidade_objetivos",
+        "raciocinio_logico", "calculo_matematico", "conhecimento_tecnico",
+        "multiplas_etapas", "regras_e_restricoes", "analise_dados",
+        "tokens_entrada", "tokens_saida", "tokens_raciocinio", "tokens_cache",
+        "tokens_saida_total_cobrada", "tokens_total",
+        "resposta_id", "finish_reason", "modelo_resposta",
+        "custo_equivalente_usd", "preco_entrada_usd_milhao", "preco_saida_usd_milhao",
+        "ecologits_disponivel", "ecologits_aviso_count", "ecologits_erro_count",
+        "energy_total_min_kwh", "energy_total_mean_kwh", "energy_total_max_kwh",
+        "gwp_total_min_kgco2eq", "gwp_total_mean_kgco2eq", "gwp_total_max_kgco2eq",
+        "adpe_total_min_kgsbeq", "adpe_total_mean_kgsbeq", "adpe_total_max_kgsbeq",
+        "pe_total_min_mj", "pe_total_mean_mj", "pe_total_max_mj",
+        "wcf_total_min_l", "wcf_total_mean_l", "wcf_total_max_l",
+        "erro_tipo", "erro_mensagem",
+    ]
 
     temporario = caminho.with_suffix(caminho.suffix + ".tmp")
     with temporario.open("w", newline="", encoding="utf-8") as arquivo:
-        writer = csv.DictWriter(arquivo, fieldnames=colunas, extrasaction="ignore")
+        writer = csv.DictWriter(
+            arquivo,
+            fieldnames=colunas,
+            extrasaction="ignore",
+            lineterminator="\n",
+        )
         writer.writeheader()
-        writer.writerows(linhas)
+
+        for registro in registros:
+            analise = registro.get("analise_prompt") or {}
+            idioma = analise.get("idioma") or {}
+            classificacao = registro.get("classificacao") or {}
+            complexidade = registro.get("complexidade_prompt") or {}
+            metricas_complexidade = complexidade.get("metricas") or {}
+            indicadores = complexidade.get("indicadores") or {}
+            tokens = registro.get("tokens") or {}
+            metricas_gemini = registro.get("metricas_gemini") or {}
+            custo = metricas_gemini.get("custo") or {}
+            diagnostico = registro.get("diagnostico_ecologits") or {}
+            impactos = registro.get("impactos_ambientais") or {}
+            total = impactos.get("total") or {}
+            erro = registro.get("erro_execucao") or {}
+
+            linha = {
+                "prompt_id": registro.get("prompt_id", ""),
+                "tarefa": registro.get("tarefa", ""),
+                "versao_prompt": registro.get("versao_prompt", ""),
+                "prompt": str(registro.get("prompt", "") or "").strip(),
+                "modelo": registro.get("modelo", ""),
+                "provedor": registro.get("provedor", ""),
+                "status": registro.get("status", ""),
+                "coletado_em_utc": registro.get("coletado_em_utc", ""),
+                "duracao_segundos": registro.get("duracao_segundos", ""),
+                "categoria_principal": classificacao.get("categoria_principal", ""),
+                "idioma": idioma.get("nome", ""),
+                "quantidade_palavras_prompt": analise.get("quantidade_palavras", ""),
+                "quantidade_caracteres_prompt": analise.get("quantidade_caracteres", ""),
+                "complexidade_pontuacao": complexidade.get("pontuacao", ""),
+                "complexidade_nivel": complexidade.get("nivel", ""),
+                "complexidade_status": complexidade.get("status_analise", ""),
+                "complexidade_frases": metricas_complexidade.get("quantidade_frases", ""),
+                "complexidade_perguntas": metricas_complexidade.get("quantidade_perguntas", ""),
+                "complexidade_instrucoes": metricas_complexidade.get("quantidade_instrucoes", ""),
+                "complexidade_requisitos": metricas_complexidade.get("quantidade_requisitos", ""),
+                "complexidade_etapas": metricas_complexidade.get("quantidade_etapas", ""),
+                "complexidade_objetivos": metricas_complexidade.get("quantidade_objetivos", ""),
+                "raciocinio_logico": indicadores.get("raciocinio_logico", ""),
+                "calculo_matematico": indicadores.get("calculo_matematico", ""),
+                "conhecimento_tecnico": indicadores.get("conhecimento_tecnico", ""),
+                "multiplas_etapas": indicadores.get("multiplas_etapas", ""),
+                "regras_e_restricoes": indicadores.get("regras_e_restricoes", ""),
+                "analise_dados": indicadores.get("analise_dados", ""),
+                "tokens_entrada": tokens.get("entrada", ""),
+                "tokens_saida": tokens.get("saida", ""),
+                "tokens_raciocinio": tokens.get("raciocinio", ""),
+                "tokens_cache": tokens.get("cache", ""),
+                "tokens_saida_total_cobrada": tokens.get("saida_total_cobrada", ""),
+                "tokens_total": tokens.get("total", ""),
+                "resposta_id": metricas_gemini.get("response_id", ""),
+                "finish_reason": metricas_gemini.get("finish_reason", ""),
+                "modelo_resposta": metricas_gemini.get("modelo_resposta", ""),
+                "custo_equivalente_usd": custo.get("custo_equivalente_usd", ""),
+                "preco_entrada_usd_milhao": custo.get("preco_entrada_usd_milhao", ""),
+                "preco_saida_usd_milhao": custo.get("preco_saida_usd_milhao", ""),
+                "ecologits_disponivel": diagnostico.get("disponivel", ""),
+                "ecologits_aviso_count": len(diagnostico.get("avisos", []) or []),
+                "ecologits_erro_count": len(diagnostico.get("erros", []) or []),
+                "erro_tipo": erro.get("tipo", ""),
+                "erro_mensagem": erro.get("mensagem", ""),
+            }
+
+            for prefixo, nome_impacto in (
+                ("energy", "energy"), ("gwp", "gwp"),
+                ("adpe", "adpe"), ("pe", "pe"), ("wcf", "wcf"),
+            ):
+                indicador = total.get(nome_impacto)
+                linha[f"{prefixo}_total_min" + ({"energy": "_kwh", "gwp": "_kgco2eq", "adpe": "_kgsbeq", "pe": "_mj", "wcf": "_l"}[prefixo])] = valor_impacto(indicador, "min")
+                linha[f"{prefixo}_total_mean" + ({"energy": "_kwh", "gwp": "_kgco2eq", "adpe": "_kgsbeq", "pe": "_mj", "wcf": "_l"}[prefixo])] = valor_impacto(indicador, "mean")
+                linha[f"{prefixo}_total_max" + ({"energy": "_kwh", "gwp": "_kgco2eq", "adpe": "_kgsbeq", "pe": "_mj", "wcf": "_l"}[prefixo])] = valor_impacto(indicador, "max")
+
+            writer.writerow(linha)
+
     temporario.replace(caminho)
 
 

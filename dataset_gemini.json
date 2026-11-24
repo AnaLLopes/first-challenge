@@ -6170,5 +6170,629 @@
       "tipo": "ServerError",
       "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
     }
+  },
+  {
+    "registro_id": "fec94a17-7b61-4449-9f55-c4591124d00d",
+    "run_id": "027e4fc6-73cf-44e6-9748-cfa14d97c39d",
+    "prompt_id": "1",
+    "tarefa": "consulta",
+    "versao_prompt": "original",
+    "prompt_original": "Quem foram os filhos do lendário Garth Greenhand, o Alto Rei dos Primeiros Homens na série As Crônicas de Gelo e Fogo?",
+    "prompt_otimizado": "Liste os filhos de Garth Greenhand de As Crônicas de Gelo e Fogo.",
+    "coletado_em_utc": "2026-11-24T12:39:33.579507+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "pergunta_informativa",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Quem foram os filhos do lendário Garth Greenhand, o Alto Rei dos Primeiros Homens na série As Crônicas de Gelo e Fogo?",
+    "analise_prompt": {
+      "quantidade_palavras": 22,
+      "quantidade_caracteres": 118,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 3,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 22,
+        "quantidade_caracteres": 118,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 1,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "metricas_gemini": {
+      "response_id": "hYUFa8GEOp_HxdIPv-302Qk",
+      "finish_reason": "FinishReason.STOP",
+      "modelo_resposta": "gemini-3.5-flash-lite",
+      "usage_metadata": {
+        "candidates_token_count": 802,
+        "prompt_token_count": 33,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 33
+          }
+        ],
+        "total_token_count": 835
+      },
+      "custo": {
+        "preco_entrada_usd_milhao": 0.3,
+        "preco_saida_usd_milhao": 2.5,
+        "custo_equivalente_usd": 0.0020149,
+        "observacao": "Estimativa equivalente ao plano pago; não representa cobrança da conta gratuita."
+      }
+    },
+    "status": "sucesso",
+    "duracao_segundos": 4.277153,
+    "tokens": {
+      "entrada": 33,
+      "saida": 802,
+      "raciocinio": 0,
+      "cache": 0,
+      "saida_total_cobrada": 802,
+      "total": 835
+    },
+    "resposta_llm": "Na mitologia do universo de *As Crônicas de Gelo e Fogo* (criado por George R. R. Martin), **Garth Greenhand** (Garth Mão Verde) é o lendário Alto Rei dos Primeiros Homens, considerado o ancestral comum de quase todas as grandes casas nobres da Campina (The Reach) e de muitas outras em Westeros. \n\nComo figura mítica, a extensão exata de sua prole é o tema de muitos contos, mitos e genealogias heróicas. A lista de seus filhos varia de acordo com as fontes dentro do próprio universo (maestres, cantores e contadores de histórias), mas os filhos e filhas mais famosos associados a ele incluem:\n\n### 1. Garth o Segundo (Garth the Younger)\n* Herdeiro de Garth e o segundo Alto Rei dos Primeiros Homens. Ele deu origem à linha dos reis da Campina.\n\n### 2. John o Carvalho (John the Oak)\n* Dito ser o ancestral da orgulhosa **Casa Florent**, cujos membros frequentemente afirmam ter sangue mais puro de Garth do que a antiga Casa Tyrell.\n\n### 3. Harlon o Caçador (Harlon the Hunter)\n* Ancestral da **Casa Vyrwel**.\n\n### 4. Heremon o Herdeiro\n* Embora muitos afirmem que Garth o Segundo foi o herdeiro principal, Heremon é frequentemente citado em outras linhagens como o continuador da dinastia real.\n\n### 5. Gilbert o Malcriado (Gilbert of the Vines)\n* Conhecido por plantar as primeiras vinhas e criar o famoso vinho da Arbor (Ilha dos Vinhos), sendo considerado o ancestral da **Casa Redwyne** (embora outros mitos digam que a fundadora foi uma de suas filhas).\n\n### 6. Owen o Carvalho (Owen Oakenshield)\n* Outro filho associado à proteção e às árvores, ancestral da **Casa Oakheart** de Velho Carvalho.\n\n### 7. Garth Grão-Boina (Garth Grandbeard)\n* Fundador de vários ramos menores e associado à longevidade.\n\n---\n\n### Filhas Notáveis:\nMuitas das filhas de Garth Greenhand são lembradas por terem dado à luz os fundadores de outras grandes casas através de uniões lendárias:\n\n* **Felia Blackberry:** Famosa por espalhar amoreiras pela Campina.\n* **Bessy a Baleia** e **Corinna a Corvo:** Figuras folclóricas cujas histórias misturam-se com animais e a natureza.\n* **Florys a Raposa** e **Maris a Donzela:** Duas irmãs famosas por sua astúcia e beleza, cujos mitos dizem ter gerado linhagens que fundaram várias casas nobres.\n* **Rowena do Carvalho:** Frequentemente associada à fertilidade e às florestas ancestrais.\n\n---\n\n### Importância na Genealogia de Westeros:\nNa tradição de Westeros, Garth Greenhand não era apenas um homem, mas um símbolo de fertilidade, agricultura e primavera. Através de seus incontáveis filhos, netos e filhas, ele é considerado o patriarca lendário de quase todas as grandes casas da Campina, incluindo:\n* **Casa Tyrell** (através da linhagem dos reisgardos e senescalas)\n* **Casa Florent**\n* **Casa Redwyne**\n* **Casa Oakheart**\n* **Casa Tarly**\n* **Casa Hightower** (em algumas versões do mito)\n* Entre muitas outras casas menores, como os Fossoway, Cuy, Peake e Merryweather.",
+    "impactos_ambientais": {
+      "total": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 5.332945447885004e-05,
+            "mean": 0.00020798917096740037,
+            "max": 0.0003626488874559507
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 2.1180223093338684e-05,
+            "mean": 8.165198929904054e-05,
+            "max": 0.0001421237555047424
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 4.336522676995497e-11,
+            "mean": 1.1577135537649806e-10,
+            "max": 1.8817748398304115e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0005252869587697459,
+            "mean": 0.0020366069639926997,
+            "max": 0.0035479269692156533
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00021591036329464763,
+            "mean": 0.0008420678198149147,
+            "max": 0.0014682252763351818
+          },
+          "unidade": "L"
+        }
+      },
+      "uso": {
+        "energy": {
+          "nome": "Energy",
+          "valor": {
+            "min": 5.332945447885004e-05,
+            "mean": 0.00020798917096740037,
+            "max": 0.0003626488874559507
+          },
+          "unidade": "kWh"
+        },
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 2.0499842301669955e-05,
+            "mean": 7.99510373198687e-05,
+            "max": 0.00013940223233806746
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 5.255617738890671e-12,
+            "mean": 2.0497332798837306e-11,
+            "max": 3.573904785878394e-11
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 0.0005166770867728907,
+            "mean": 0.002015082284000562,
+            "max": 0.0035134874812282326
+          },
+          "unidade": "MJ"
+        },
+        "wcf": {
+          "nome": "Water Consumption Footprint",
+          "valor": {
+            "min": 0.00021591036329464763,
+            "mean": 0.0008420678198149147,
+            "max": 0.0014682252763351818
+          },
+          "unidade": "L"
+        }
+      },
+      "incorporados": {
+        "energy": null,
+        "gwp": {
+          "nome": "Global Warming Potential",
+          "valor": {
+            "min": 6.803807916687295e-07,
+            "mean": 1.7009519791718239e-06,
+            "max": 2.721523166674918e-06
+          },
+          "unidade": "kgCO2eq"
+        },
+        "adpe": {
+          "nome": "Abiotic Depletion Potential (elements)",
+          "valor": {
+            "min": 3.81096090310643e-11,
+            "mean": 9.527402257766076e-11,
+            "max": 1.524384361242572e-10
+          },
+          "unidade": "kgSbeq"
+        },
+        "pe": {
+          "nome": "Primary Energy",
+          "valor": {
+            "min": 8.609871996855125e-06,
+            "mean": 2.1524679992137812e-05,
+            "max": 3.44394879874205e-05
+          },
+          "unidade": "MJ"
+        },
+        "wcf": null
+      }
+    },
+    "diagnostico_ecologits": {
+      "disponivel": true,
+      "avisos": [
+        "The model architecture has not been released, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-not-released",
+        "The model architecture is multimodal, expect lower precision. For further information visit https://ecologits.ai/tutorial/warnings_and_errors/#model-arch-multimodal"
+      ],
+      "erros": [],
+      "observacao": "Os indicadores são estimativas modeladas. O total já inclui o impacto total; não some total, uso e incorporados."
+    },
+    "erro_execucao": null
+  },
+  {
+    "registro_id": "95c9818c-9588-42ac-b93c-1e90e35d9e84",
+    "run_id": "027e4fc6-73cf-44e6-9748-cfa14d97c39d",
+    "prompt_id": "1",
+    "tarefa": "consulta",
+    "versao_prompt": "otimizado",
+    "prompt_original": "Quem foram os filhos do lendário Garth Greenhand, o Alto Rei dos Primeiros Homens na série As Crônicas de Gelo e Fogo?",
+    "prompt_otimizado": "Liste os filhos de Garth Greenhand de As Crônicas de Gelo e Fogo.",
+    "coletado_em_utc": "2026-11-24T12:39:39.879991+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Liste os filhos de Garth Greenhand de As Crônicas de Gelo e Fogo.",
+    "analise_prompt": {
+      "quantidade_palavras": 13,
+      "quantidade_caracteres": 65,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 8,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 13,
+        "quantidade_caracteres": 65,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "metricas_gemini": {
+      "response_id": null,
+      "finish_reason": null,
+      "modelo_resposta": null,
+      "usage_metadata": {}
+    },
+    "status": "erro",
+    "duracao_segundos": 1.24384,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  },
+  {
+    "registro_id": "93f16137-13e4-4ab9-901d-feff386fcc69",
+    "run_id": "027e4fc6-73cf-44e6-9748-cfa14d97c39d",
+    "prompt_id": "2",
+    "tarefa": "listagem",
+    "versao_prompt": "original",
+    "prompt_original": "Me dê uma lista de ingredientes básicos para assar biscoitos",
+    "prompt_otimizado": "Liste os ingredientes básicos para biscoitos.",
+    "coletado_em_utc": "2026-11-24T12:39:43.139885+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Me dê uma lista de ingredientes básicos para assar biscoitos",
+    "analise_prompt": {
+      "quantidade_palavras": 10,
+      "quantidade_caracteres": 60,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 1,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 10,
+        "quantidade_caracteres": 60,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 0,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 0,
+        "quantidade_objetivos": 0
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "metricas_gemini": {
+      "response_id": null,
+      "finish_reason": null,
+      "modelo_resposta": null,
+      "usage_metadata": {}
+    },
+    "status": "erro",
+    "duracao_segundos": 1.574092,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  },
+  {
+    "registro_id": "89eb8838-51dc-48c9-836f-96068022536b",
+    "run_id": "027e4fc6-73cf-44e6-9748-cfa14d97c39d",
+    "prompt_id": "2",
+    "tarefa": "listagem",
+    "versao_prompt": "otimizado",
+    "prompt_original": "Me dê uma lista de ingredientes básicos para assar biscoitos",
+    "prompt_otimizado": "Liste os ingredientes básicos para biscoitos.",
+    "coletado_em_utc": "2026-11-24T12:39:46.741550+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Liste os ingredientes básicos para biscoitos.",
+    "analise_prompt": {
+      "quantidade_palavras": 6,
+      "quantidade_caracteres": 45,
+      "idioma": {
+        "codigo": "es",
+        "nome": "Espanhol",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "es",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 8,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 6,
+        "quantidade_caracteres": 45,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "metricas_gemini": {
+      "response_id": null,
+      "finish_reason": null,
+      "modelo_resposta": null,
+      "usage_metadata": {}
+    },
+    "status": "erro",
+    "duracao_segundos": 1.556522,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  },
+  {
+    "registro_id": "403da1e4-7348-43e7-bfbe-fbc227bbd2bb",
+    "run_id": "027e4fc6-73cf-44e6-9748-cfa14d97c39d",
+    "prompt_id": "3",
+    "tarefa": "criacao",
+    "versao_prompt": "original",
+    "prompt_original": "Escreva uma leitura de horóscopo engraçada e caprichosa",
+    "prompt_otimizado": "Gere um horóscopo engraçado e divertido.",
+    "coletado_em_utc": "2026-11-24T12:39:50.322789+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Escreva uma leitura de horóscopo engraçada e caprichosa",
+    "analise_prompt": {
+      "quantidade_palavras": 8,
+      "quantidade_caracteres": 55,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 8,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 8,
+        "quantidade_caracteres": 55,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "metricas_gemini": {
+      "response_id": null,
+      "finish_reason": null,
+      "modelo_resposta": null,
+      "usage_metadata": {}
+    },
+    "status": "erro",
+    "duracao_segundos": 2.071404,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  },
+  {
+    "registro_id": "4b509496-705e-4c8c-a8e4-2ed5569c5183",
+    "run_id": "027e4fc6-73cf-44e6-9748-cfa14d97c39d",
+    "prompt_id": "3",
+    "tarefa": "criacao",
+    "versao_prompt": "otimizado",
+    "prompt_original": "Escreva uma leitura de horóscopo engraçada e caprichosa",
+    "prompt_otimizado": "Gere um horóscopo engraçado e divertido.",
+    "coletado_em_utc": "2026-11-24T12:39:54.427448+00:00",
+    "provedor": "Google Gemini",
+    "modelo": "gemini-3.5-flash-lite",
+    "classificacao": {
+      "categoria_principal": "outro",
+      "categorias_secundarias": [],
+      "pontuacoes": {}
+    },
+    "prompt": "Gere um horóscopo engraçado e divertido.",
+    "analise_prompt": {
+      "quantidade_palavras": 6,
+      "quantidade_caracteres": 40,
+      "idioma": {
+        "codigo": "pt",
+        "nome": "Português",
+        "probabilidade": 1.0,
+        "alternativas": [
+          {
+            "codigo": "pt",
+            "probabilidade": 1.0
+          }
+        ],
+        "status": "identificado"
+      },
+      "contagem_caracteres": "Inclui espaços, pontuação e quebras de linha; texto normalizado em Unicode NFC."
+    },
+    "complexidade_prompt": {
+      "pontuacao": 8,
+      "nivel": "baixa",
+      "metodo": "heuristico",
+      "metricas": {
+        "quantidade_palavras": 6,
+        "quantidade_caracteres": 40,
+        "quantidade_frases": 1,
+        "quantidade_perguntas": 0,
+        "quantidade_instrucoes": 1,
+        "quantidade_requisitos": 0,
+        "quantidade_etapas": 1,
+        "quantidade_objetivos": 1
+      },
+      "indicadores": {
+        "raciocinio_logico": false,
+        "calculo_matematico": false,
+        "conhecimento_tecnico": false,
+        "multiplas_etapas": false,
+        "regras_e_restricoes": false,
+        "analise_dados": false
+      },
+      "status_analise": "sucesso"
+    },
+    "metricas_gemini": {
+      "response_id": null,
+      "finish_reason": null,
+      "modelo_resposta": null,
+      "usage_metadata": {}
+    },
+    "status": "erro",
+    "duracao_segundos": 1.754992,
+    "tokens": {
+      "entrada": null,
+      "saida": null,
+      "total": null
+    },
+    "resposta_llm": null,
+    "impactos_ambientais": null,
+    "diagnostico_ecologits": null,
+    "erro_execucao": {
+      "tipo": "ServerError",
+      "mensagem": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
   }
 ]
