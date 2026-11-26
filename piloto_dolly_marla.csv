@@ -1,0 +1,1659 @@
+id,area,fonte,executor,coletado_em_utc,versao_experimento,gabarito,enunciado,qtd_palavras,qtd_caracteres,complexidade_pontuacao,complexidade_nivel,modelo_A,status_A,resposta_letra_A,acertou_A,tokens_entrada_A,tokens_saida_A,tokens_raciocinio_A,custo_usd_A,latencia_s_A,energia_kwh_A,agua_l_A,carbono_kg_A,resposta_texto_A,modelo_B,status_B,resposta_letra_B,acertou_B,tokens_entrada_B,tokens_saida_B,tokens_raciocinio_B,custo_usd_B,latencia_s_B,energia_kwh_B,agua_l_B,carbono_kg_B,resposta_texto_B,rotulo,economia_usd,pct_economia_custo
+dolly_501,duvida,dolly-15k,marla,2026-11-25T13:29:09+00:00,piloto-dolly-v1,ABERTA,É possível criar seu filho trilíngue?,6,37,2,baixa,gemini-3.5-flash-lite,sucesso,,,10,718,0,0.001798,10.0458,0.00019072594319598896,0.000772175678292224,7.587481652629303e-05,"**Sim, é totalmente possível criar um filho trilíngue!** Milhões de famílias ao redor do mundo fazem isso com sucesso. Não é preciso ser um gênio da pedagogia nem ter superpoderes; o segredo está na **estratégia, consistência e exposição natural** às línguas.
+
+Aqui estão os principais fatores que tornam o multilinguismo infantil possível e bem-sucedido:
+
+### 1. O cérebro da criança é uma ""esponja""
+Nos primeiros anos de vida, o cérebro humano é biologicamente programado para absorver sons e estruturas linguísticas. Bebês conseguem distinguir todos os sons de todos os idiomas do mundo. Para uma criança pequena, aprender três línguas ao mesmo tempo não é um fardo; o cérebro simplesmente categoriza os dados que recebe.
+
+### 2. Estratégias comprovadas
+Para que a criança realmente aprenda e use os três idiomas, os pais costumam adotar métodos estruturados. Os mais comuns são:
+*   **OPOL (One Parent, One Language / Um Pai, Uma Língua):** Cada pai fala um idioma diferente com a criança. Por exemplo: a mãe fala apenas espanhol, o pai fala apenas inglês, e a comunidade ao redor fala português.
+*   **mL@H (minority Language at Home / Língua minoritária em casa):** Os pais falam um idioma diferente daquele que é falado na escola/sociedade (muito comum em famílias expatriadas).
+*   **Tempo e Lugar (Time and Place):** O idioma é definido pelo contexto (por exemplo: ""Em casa falamos francês, na rua com os amigos falamos português, e às terças-feiras na casa da avó falamos italiano"").
+
+### 3. A regra de ouro: Quantidade e Qualidade
+Para que uma criança domine um idioma, ela precisa de **exposição significativa**. Não basta apenas ouvir passivamente (como ver TV); é preciso interação humana (conversar, brincar, ler histórias). Os especialistas sugerem que uma língua precisa ser ouvida por pelo menos 20% a 30% do tempo acordado da criança para ser mantida ativamente.
+
+### O que esperar (Mitos e Realidades):
+*   **Atraso na fala?** É um mito comum. Crianças trilíngues podem demorar *um pouquinho* mais para formar frases completas no início (já que estão processando três sistemas), mas geralmente alcançam os monolíngues rapidamente e têm um vocabulário total muito rico.
+*   **Misturar línguas (Code-switching):** É totalmente normal e esperado que a criança misture as palavras na mesma frase (ex: *""Dad, regarde o cachorro""*). Isso não significa confusão mental; mostra que ela é inteligente o suficiente para usar os recursos que tem para se comunicar. Com o tempo, elas aprendem a separar os idiomas.
+
+### O maior desafio:
+O maior obstáculo não é a capacidade da criança, mas sim **a consistência dos adultos**. Muitas vezes, os pais desistem porque exige esforço coordenado, leitura, viagens, busca por materiais (livros, desenhos) e muita paciência.
+
+**Resumo:** Se houver exposição regular, natural e afetiva aos três idiomas desde o nascimento ou primeira infância, seu filho crescerá falando os três com fluência natural.",gemini-3.6-flash,sucesso,,,10,869,824,0.00635625,9.3111,0.007228159858172623,0.029264027471887465,0.002826991409247194,"**Sim, é absolutamente possível!** Na verdade, criar filhos trilíngues (ou até multilíngues) é algo muito comum em várias partes do mundo, especialmente em países com mais de um idioma oficial ou em famílias imigrantes.
+
+O cérebro das crianças pequenas tem uma capacidade incrível de neuroplasticidade. Elas não ""estudam"" gramática; elas absorvem os idiomas de forma natural através da convivência, do afeto e da necessidade de se comunicar.
+
+No entanto, para que o trilinguismo funcione de forma bem-sucedida, é preciso **estratégia, consistência e exposição suficiente** a cada uma das línguas.
+
+---
+
+### As Estratégias Mais Comuns
+
+Para ensinar três línguas sem confundir a criança, os pais costumam usar um destes métodos:
+
+1. **OPOL (One Person, One Language / Uma Pessoa, Um Idioma):**
+   * *Exemplo:* A mãe fala Português com a criança, o pai fala Inglês, e a família mora na Espanha (onde a criança aprende Espanhol na escola e no dia a dia).
+   * É o método mais recomendado e eficaz.
+
+2. **MLAH (Minority Language at Home / Língua Minoritária em Casa):**
+   * *Exemplo:* Se a família mora na Alemanha (onde o idioma da comunidade é o Alemão), os pais podem falar Português e Francês dentro de casa.
+
+3. **Por Tempo e Lugar (Time and Place):**
+   * Os idiomas são divididos por contexto. Por exemplo: Português e Inglês em casa (dias alternados ou momentos específicos) e a língua local na escola.
+
+---
+
+### O que esperar? (Mitos e Realidades)
+
+* **Misturar as línguas é normal:** Nos primeiros anos, a criança vai misturar palavras de idiomas diferentes na mesma frase (*code-switching*). Isso **não é confusão**, é o cérebro dela usando todo o vocabulário disponível para se expressar. Com o tempo, ela aprende a separar os idiomas perfeitamente.
+* **Atraso na fala?** Existe o mito de que crianças multilíngues demoram mais para falar. Na verdade, o desenvolvimento cognitivo é o mesmo. O que pode acontecer é o vocabulário ser *dividido* entre as três línguas no início, mas somando tudo, o vocabulário delas costuma ser igual ou maior que o de uma criança monolíngue.
+* **Língua dominante:** É normal que a criança tenha uma língua mais forte (geralmente a da escola ou da comunidade) e precise de mais incentivo nas outras duas.
+
+---
+
+### Dicas para ter sucesso
+
+1. **Garantir Exposição Suficiente:** Para que a criança aprenda uma língua, ela precisa ser exposta a ela por pelo menos **20% a 30% do tempo em que está acordada**. Se a exposição for muito baixa, ela apenas *entenderá* o idioma (bilinguismo/trilinguismo passivo), mas terá dificuldade para falar.
+2. **Constância é a chave:** Os pais não devem desistir quando a criança responder em outro idioma. Se o pai fala em inglês e a criança responde em português, o pai deve continuar conversando em inglês naturalmente.
+3. **Ofereça estímulos ricos:** Livros, músicas, brincadeiras, visitas a familiares e contato com outras crianças que falem os idiomas desejados fazem toda a diferença. Evite depender apenas de telas/TV.
+4. **Seja paciente e leve:** Não corrija a criança de forma severa. Se ela disser algo errado, apenas repita a frase corretamente de forma natural na conversa.
+
+### Conclusão
+Criar um filho trilíngue dá trabalho e exige disciplina dos pais, mas é um dos maiores presentes que você pode dar a ele. Além de abrir portas culturais e profissionais no futuro, o trilinguismo traz diversos **benefícios cognitivos**, como maior flexibilidade mental, capacidade de resolução de problemas e empatia.",inconclusivo,0.00455825,71.71
+dolly_502,culinaria,dolly-15k,marla,2026-11-25T13:29:50+00:00,piloto-dolly-v1,ABERTA,Quais ingredientes extras você pode usar ao assar um pão?,10,57,2,baixa,gemini-3.5-flash-lite,sucesso,,,15,1195,0,0.002992,4.8153,0.00030739984478769615,0.00124454324188056,0.00012012345507556596,"Assar pão em casa é uma delícia porque você tem total liberdade para criar. Você pode adicionar ingredientes extras para mudar o sabor, a textura, a cor e até o valor nutricional do pão. 
+
+Aqui estão várias ideias de ingredientes extras que você pode usar, divididas por categorias:
+
+### 1. Sementes e Grãos (Textura e crocância)
+Dão um toque rústico e aumentam as fibras.
+*   **Sementes:** Girassol, abóbora, linhaça (dourada ou marrom), chia, gergelim (branco ou preto) e gergelim torrado.
+*   **Grãos e Flocos:** Aveia em flocos (na massa ou por cima), fubá (para dar uma textura rústica à casca), quinoa cozida, trigo sarraceno ou amaranto.
+*   *Dica:* Algumas sementes ficam ainda mais saborosas se você tostá-las levemente na frigideira antes de adicionar à massa.
+
+### 2. Gorduras e Laticínios (Maciez e sabor)
+Deixam o miolo mais macio e a casca menos dura (pães tipo *brioche* ou pão de forma).
+*   **Manteiga** ou azeite de oliva.
+*   **Leite** (substitui parte da água para um pão mais macio).
+*   **Iogurte natural** ou coalhada (deixam o miolo super úmido e adicionam uma leve acidez).
+*   **Ovos** (riquíssimo em proteínas, dá cor amarelada e estrutura).
+*   **Queijos:** Parmesão ralado, provolone em cubos, gorgonzola ou queijo prato. (Ótimo para pães salgados).
+
+### 3. Ervas, Especiarias e Temperos (Aromas intensos)
+*   **Ervas frescas ou secas:** Alecrim, tomilho,orégano, cebolinha, salsinha e manjericão.
+*   **Temperos:** Alho (assado ou em pó), cebola desidratada, pimenta-do-reino, pimenta calabresa e páprica (doce ou defumada).
+*   **Especiarias (para pães doces):** Canela, noz-moscada, cardamomo, gengibre em pó e cravos.
+
+### 4. Frutas, Castanhas e Doces (Para pães doces ou agridoces)
+Perfeitos para o café da manhã ou lanche.
+*   **Frutas secas:** Uvas-passas, damascos picados, figos secos, tâmaras e cranberries.
+*   **Castanhas e Oleaginosas:** Nozes, castanha-de-caju, amêndoas laminadas, avelãs ou castanha-do-pará (picadas).
+*   **Frutas frescas:** Bananas amassadas (para pão de banana), maçã ralada ou mirtilos (*blueberries*).
+*   **Chocolates:** Gotas de chocolate meio amargo ou cacau em pó (para massa de chocolate).
+*   **Zest (raspas):** Raspas de limão siciliano, limão tahiti ou laranja.
+
+### 5. Vegetais e Purês (Cor e umidade)
+Eles mudam completamente a cor e trazem umidade para o pão.
+*   **Legumes ralados:** Abobrinha (bem espremida) ou cenoura ralada fina.
+*   **Purês:** Purê de batata, batata-doce ou abóbora (fazem milagres pela maciez do pão).
+*   **Tomate seco:** Picadinho (ótimo com alecrim).
+*   **Cebola caramelizada:** Dá um sabor profundo e adocicado incrível.
+
+### 6. ""Extras"" Inusitados
+*   **Cerveja:** Substitua parte da água por cerveja (especialmente stout ou escura) para um pão com sabor maltado profundo.
+*   **Café coado forte:** Pode ser usado em pequenas quantidades em pães com chocolate ou centeio para realçar o sabor.
+*   **Mel ou Melado:** Substituem o açúcar comum e trazem um aroma floral e cor bonita à casca.
+
+---
+
+### ⚠️ Dicas importantes ao usar extras:
+1.  **Hidratação:** Ingredientes secos (como farinhas integrais, sementes e cacau) absorvem mais água. Talvez você precise adicionar um pouco mais de líquido na receita.
+2.  **Frutas e Queijos pesados:** Pedaços muito grandes de queijo ou frutas secas podem cortar a rede de glúten. É melhor hidratar frutas secas em água ou licor antes, e cortar os queijos em cubos pequenos.
+3.  **Momento de adicionar:** 
+    *   *Sementes, ervas e especiarias:* Podem ir direto com a farinha.
+    *   *Gorduras (manteiga/azeite):* Geralmente são adicionadas após a massa inicial já estar misturada (metade do processo de sola).
+    *   *Frutas, castanhas e queijos:* Devem ser incorporados no final da sovagem, para não desmancharem na massa.",gemini-3.6-flash,sucesso,,,15,961,1319,0.00856125,11.8739,0.009719219595634286,0.03934936620561335,0.0037979026961555595,"Adicionar ingredientes extras ao pão é uma excelente maneira de criar novas texturas, aromas, sabores e enriquecer o valor nutricional da receita. 
+
+Aqui está uma lista dividida por categorias de ingredientes que você pode usar:
+
+---
+
+### 1. Sementes e Grãos (Textura e Nutrição)
+* **Sementes:** Gergelim (branco ou preto), girassol, abóbora, chia, linhaça (dourada ou marrom) e semente de papoula.
+* **Grãos:** Aveia em flocos, quinoa, painço, milho ou grãos de trigo cozidos.
+* *Dica:* Você pode misturá-los na massa ou usá-los na cobertura para dar crocância.
+
+### 2. Ervas e Especiarias (Aroma e Sabor)
+* **Ervas frescas ou secas:** Alecrim, tomilho, orégano, manjericão, cebolinho e salsa.
+* **Especiarias salgadas:** Alho granulado ou em pó, cebola desidratada, páprica (doce ou defumada), pimenta-do-reino e noz-moscada.
+* **Especiarias doces:** Canela, cardamomo, erva-doce, aniz-estrelado e cravo-da-índia.
+
+### 3. Queijos e Embutidos (Sabor Marcante)
+* **Queijos duros e curados:** Parmesão, provolone, queijo canastra ou gouda (em cubos ou ralados).
+* **Queijos macios:** Queijo de cabra, gorgonzola ou requeijão (ótimo para rechear).
+* **Embutidos:** Bacon frito em cubos, calabresa picada, chouriço, presunto cru ou salame.
+
+### 4. Frutas Secas e Castanhas/Oleaginosas (Pães Doces ou Rústicos)
+* **Oleaginosas:** Nozes, castanha-do-pará, castanha-de-caju, amêndoas, avelãs e pistache. (Ficam melhores se forem levemente tostadas antes).
+* **Frutas secas:** Uvas-passas, figos secos, tâmaras, damascos, cranberries desidratadas e ameixas.
+
+### 5. Vegetais e Conservas (Umidade e Cor)
+* **Em conserva ou secos:** Azeitonas (verdes ou pretas), tomate seco, alcaparras e pimentão assado.
+* **Purês (substituem parte da água):** Purê de abóbora, de batata-doce, de cenoura ou de mandioca (deixam o pão extremamente macio).
+* **Frescos:** Abobrinha ralada (espremida para tirar a água), espinafre picado ou zested (raspas) de limão e laranja.
+
+### 6. Doces e Chocolates (Pães Especiais e Brioches)
+* **Chocolates:** Gotas de chocolate (amargo, ao leite ou branco), cacau em pó (para dar cor e sabor à massa).
+* **Adoçantes naturais:** Mel, melaço de cana, extrato de baunilha ou água de flor de laranjeira.
+
+---
+
+### ⚠️ Dicas importantes ao adicionar extras:
+
+1. **Proporção:** O excesso de ingredientes extras pode deixar a massa pesada e impedir que ela cresça. A regra geral é não ultrapassar **20% a 30% do peso total da farinha** em ingredientes extras.
+2. **Controle de Umidade:** Ingredientes como azeitonas, tomates secos ou vegetais ralados soltam água. Seque-os bem com papel toalha antes de adicionar à massa.
+3. **Frutas Secas:** Hidrate as frutas secas em água morna (ou rum/suco) por 15 minutos e seque-as antes de usar. Se colocadas secas, elas vão ""sugar"" a umidade da massa do pão.
+4. **Momento de adicionar:** Adicione os ingredientes extras no **final da sova** ou durante a primeira dobra da massa, para não rasgar a rede de glúten que está se formando.",inconclusivo,0.0055692499999999995,65.05
+dolly_503,redacao,dolly-15k,marla,2026-11-25T13:36:17+00:00,piloto-dolly-v1,ABERTA,Escreva um parágrafo sobre a relevância de IA/ML no campo de Engenharia de Dados,15,80,14,baixa,gemini-3.5-flash-lite,sucesso,,,22,229,0,0.0005791,1.8366,6.052617912172636e-05,0.0002450471217212918,2.4012898386222063e-05,"A Inteligência Artificial (IA) e o *Machine Learning* (ML) tornaram-se pilares fundamentais na Engenharia de Dados, transformando pipelines tradicionais — outrora focados apenas no movimento e armazenamento estático de informações — em ecossistemas dinâmicos e inteligentes. A relevância dessas tecnologias reside na capacidade de automatizar tarefas complexas e repetitivas, como a detecção de anomalias, a limpeza de dados (*data cleansing*), a imputação de valores ausentes e a otimização de consultas em grandes volumes de dados (Big Data). Além disso, os modelos de IA/ML permitem a implementação de arquiteturas orientadas a metadados e catálogos inteligentes, facilitando a governança, a linhagem de dados e a garantia de qualidade em tempo real. Em suma, integrar IA e ML na Engenharia de Dados não é apenas uma questão de eficiência operacional, mas um requisito estratégico para lidar com a escala e a complexidade dos dados modernos, permitindo que as empresas extraiam valor real e preditivo de sua infraestrutura com agilidade e precisão.",gemini-3.6-flash,sucesso,,,22,243,757,0.0037665,6.5393,0.0042930310886244594,0.017380824743814458,0.0016842917808891581,"A integração de Inteligência Artificial e Machine Learning redefiniu a Engenharia de Dados, transformando-a de uma disciplina focada apenas na movimentação e estruturação de dados para um ecossistema inteligente, dinâmico e auto-otimizável. Hoje, o uso de algoritmos de ML permite a automação de processos críticos de *DataOps*, como a detecção preditiva de falhas em *pipelines*, a identificação automática de anomalias na qualidade dos dados e a otimização de consultas e custos em arquiteturas de nuvem. Além disso, com a ascensão da IA Generativa, o engenheiro de dados assume um papel duplo: o de **utilizador**, aproveitando ferramentas inteligentes para acelerar o desenvolvimento de fluxos de ETL e catalogação, e o de **facilitador**, sendo responsável por construir a infraestrutura robusta (*Feature Stores*, pipelines para RAG e governança avançada) necessária para alimentar e sustentar os próprios modelos de IA da empresa. Essa sinergia tornou a IA/ML indispensável, elevando a Engenharia de Dados a um patamar estratégico onde a eficiência operacional e a inovação ocorrem em tempo real.",inconclusivo,0.0031874,84.62
+dolly_504,pergunta,dolly-15k,marla,2026-11-25T13:36:33+00:00,piloto-dolly-v1,ABERTA,Quantas posições de slide existem em um trombone,8,48,1,baixa,gemini-3.5-flash-lite,sucesso,,,11,264,0,0.0006632999999999999,1.833,6.927415559133707e-05,0.000280464299641155,2.7374425540336925e-05,"Em um trombone tradicional (como o trombone tenor), existem **7 posições principais** de slide. 
+
+Cada posição afasta o tubo um pouco mais em relação à posição fechada (chamada de **1ª posição**), alterando a extensão do instrumento e abaixando a nota em semitons.
+
+Aqui está um resumo de cada uma:
+
+* **1ª Posição:** Totalmente recolhido (posição inicial).
+* **2ª Posição:** Levemente puxado para fora (cerca de 8 cm).
+* **3ª Posição:** Um pouco mais adiante (alinhado aproximadamente com a borda da campana).
+* **4ª Posição:** Mais à frente.
+* **5ª Posição:** Próximo ao final do braço estendido.
+* **6ª Posição:** Quase no limite do braço.
+* **7ª Posição:** Totalmente ou quase totalmente estendido.
+
+**Nota:** Embora existam **7 posições principais**, os trombonistas frequentemente usam **subposições** (um pouco antes ou depois da marca exata) para afinar notas específicas, especialmente nos trombones com rotor (fv/quart-valve).",gemini-3.6-flash,sucesso,,,11,282,816,0.00412575,5.6363,0.004678694856647035,0.018942228382330218,0.0018278381522858567,"Existem **7 posições** de vara (slide) no trombone padrão.
+
+Aqui está como elas funcionam:
+
+*   **1ª Posição:** A vara fica totalmente recolhida (fechada).
+*   **7ª Posição:** A vara fica quase totalmente estendida (no limite do braço do músico).
+
+### Como funciona a afinação:
+Cada posição que você avança (da 1ª para a 7ª) reduz a afinação do instrumento em **um semitom** (meio tom). 
+
+Por exemplo, no trombone tenor tradicional (afinado em Si♭):
+*   **1ª posição:** Si♭ (B♭)
+*   **2ª posição:** Lá (A)
+*   **3ª posição:** Lá♭ (A♭)
+*   **4ª posição:** Sol (G)
+*   **5ª posição:** Sol♭ (G♭)
+*   **6ª posição:** Fá (F)
+*   **7ª posição:** Mi (E)
+
+**Observação importante:** O trombone não tem marcações físicas ou ""trastes"" para indicar onde fica cada posição. O trombonista precisa desenvolver a memória muscular e, principalmente, usar o **ouvido** para fazer microajustes e manter as notas perfeitamente afinadas.",inconclusivo,0.00346245,83.92
+dolly_505,pergunta,dolly-15k,marla,2026-11-25T13:38:32+00:00,piloto-dolly-v1,ABERTA,Qual é a distância da Terra até a sua lua?,10,42,2,baixa,gemini-3.5-flash-lite,sucesso,,,12,108,0,0.00027360000000000004,0.917,2.8633880679876076e-05,0.0001159275233647758,1.1379351695987583e-05,"A distância média da Terra até a Lua é de aproximadamente **384.400 quilômetros**. 
+
+No entanto, como a órbita da Lua ao redor da Terra não é um círculo perfeito, e sim uma elipse, essa distância varia constantemente:
+
+* **Perigeu (ponto mais próximo):** Cerca de **363.300 km**.
+* **Apogeu (ponto mais distante):** Cerca de **405.500 km**.",gemini-3.6-flash,sucesso,,,12,210,520,0.0027465,86.742,0.0032150677018843044,0.013016567341899737,0.001279342518571144,"A distância média entre a Terra e a Lua é de aproximadamente **384.400 quilômetros**.
+
+Como a órbita da Lua ao redor da Terra não é um círculo perfeito, mas sim uma elipse (oval), essa distância varia ao longo do mês:
+
+* **Perigeu (ponto mais próximo):** cerca de **363.300 km**
+* **Apogeu (ponto mais distante):** cerca de **405.500 km**
+
+**Algumas curiosidades sobre essa distância:**
+* **Espaço de sobra:** Cabe praticamente todos os outros planetas do Sistema Solar enfileirados no espaço entre a Terra e a Lua.
+* **Velocidade da luz:** A luz (ou um sinal de rádio) leva cerca de **1,3 segundo** para viajar da Terra até a Lua.
+* **Viagem espacial:** As missões Apollo da NASA levavam cerca de 3 dias para chegar à Lua.",inconclusivo,0.0024728999999999997,90.04
+dolly_507,historia,dolly-15k,marla,2026-11-25T13:59:45+00:00,piloto-dolly-v1,ABERTA,Quais dinastias governam em Marrocos?,5,37,2,baixa,gemini-3.5-flash-lite,sucesso,,,12,512,0,0.0012836,3.1585,0.0001336479325532265,0.0005410888589267252,5.265897079592804e-05,"Atualmente, Marrocos é governado por **uma única dinastia**: a **Dinastia Alaouite** (também conhecida como dinastia alauita). 
+
+Eles estão no poder desde **1666** (século XVII), o que faz dela uma das dinastias reinantes mais antigas do mundo. O atual monarca é o **Rei Maomé VI** (Mohammed VI), que subiu ao trono em 1999.
+
+No entanto, ao longo da sua longa história, Marrocos foi gobernado por várias dinastias berberes e árabes sucessivas. Se a pergunta se refere à **história do país**, as principais dinastias que governaram Marrocos foram:
+
+1. **Dinastia Idríssida** (788–974) – A primeira dinastia islâmica a governar Marrocos, considerada a fundadora do Estado marroquino.
+2. **Dinastia Almorávida** (1040–1147) – Dinastia berbere que criou um império que se estendia desde o Senegal até Espanha.
+3. **Dinastia Almóada** (1121–1269) – Outra dinastia berbere que sucedeu aos Almorávidas e unificou o Norte da África e o Al-Andalus (Espanha islâmica).
+4. **Dinastia Merinída** (1244–1465) – Conhecida pelo seu patrocínio da cultura e construção de madrasas (escolas corânicas) em Fez.
+5. **Dinastia Wattasída** (1472–1554) – Parentes e aliados dos Merinídas que assumiram o poder no norte do país.
+6. **Dinastia Saadianas** (1549–1659) – A primeira dinastia de origem árabe (xerifiana) a governar o país. Derrotaram os portugueses na famosa Batalha dos Três Reis (1578).
+7. **Dinastia Alaouite** (1666–presente) – A dinastia atual, que também reivindica descendência direta do profeta Maomé.
+
+Portanto, historicamente houve muitas, mas **hoje em dia governa apenas a dinastia Alaouite**.",gemini-3.6-flash,sucesso,,,12,830,1139,0.00739275,1.7219,0.008199726121842481,0.03319752401715919,0.003160935070413361,"Atualmente, o Reino de Marrocos é governado pela **Dinastia Alauita** (ou *Alaouite*). No entanto, a história do país foi moldada por várias grandes dinastias islâmicas e berberes desde o século VIII.
+
+Aqui está a cronologia das dinastias que governaram Marrocos ao longo da história:
+
+### 1. Dinastia Atual
+*   **Dinastia Alauita (1666 – Presente)**
+    *   **Origem:** Descendentes do Profeta Maomé (dinastia xerifiana), originários da região do Tafilalet.
+    *   **Rei Atual:** **Mohammed VI** (no poder desde 1999).
+    *   **Destaque:** É uma das monarquias mais antigas do mundo ainda em vigor. A dinastia consolidou o Estado moderno marroquino, manteve a independência durante séculos (apesar do protetorado franco-espanhol entre 1912 e 1956) e continua a liderar o país.
+
+---
+
+### 2. Dinastias Históricas (Por ordem cronológica)
+
+*   **Dinastia Idríssida (789 – 985)**
+    *   Considerada a fundadora do primeiro Estado marroquino unificado e da islamização do país. O seu fundador, Idris I, criou a cidade de **Fez**, que se tornou o centro cultural e religioso.
+
+*   **Dinastia Almorávida (1040 – 1147)**
+    *   Uma dinastia berbere vinda do Saara. Fundaram a cidade de **Marraquexe** (que deu nome ao país) e criaram um grande império que se estendia por todo o Marrocos, Argélia Ocidental e grande parte da Península Ibérica (Al-Andalus).
+
+*   **Dinastia Almóada (1121 – 1269)**
+    *   Outra dinastia de origem berbere que substituiu os Almorávidas. Foi a época de maior expansão territorial, dominando todo o Norte de África (Magrebe) e o sul da Espanha. Deixaram grandes monumentos, como a Mesquita Koutoubia (Marraquexe) e a Giralda (Sevilha).
+
+*   **Dinastia Marinída (1244 – 1465)**
+    *   De origem berbere Zanata. Transferiram a capital de volta para Fez (construindo Fez el-Jdid) e ficaram conhecidos pelo grande patrocínio às artes, arquitetura e educação, construindo magníficas *madraças* (escolas islâmicas).
+
+*   **Dinastia Wattásida (1472 – 1554)**
+    *   Um ramo dos Marinídas que assumiu o poder num período de grande instabilidade. Enfrentaram a expansão marítima de Portugal e Espanha, que conquistaram várias cidades costeiras marroquinas (como Ceuta, Tânger e Mazagão/El Jadida).
+
+*   **Dinastia Saadiana (1549 – 1659)**
+    *   A primeira dinastia xerifiana (descendentes de Maomé). Expulsaram os portugueses da maioria dos portos marroquinos e ficaram famosos pela vitória na **Batalha dos Três Reis (1578)**, onde o rei D. Sebastião de Portugal morreu. Marrocos viveu uma época de grande riqueza devido ao comércio de ouro e açúcar.
+
+---
+
+**Em resumo:** Marrocos foi governado por **7 dinastias principais**, sendo a **Dinastia Alauita** a que governa o país há mais de 350 anos até aos dias de hoje.",inconclusivo,0.00610915,82.64
+dolly_508,recomendacao,dolly-15k,marla,2026-11-25T14:04:56+00:00,piloto-dolly-v1,ABERTA,Que tipo de máquina de espresso é melhor para uso doméstico?,11,60,2,baixa,gemini-3.5-flash-lite,sucesso,,,14,902,0,0.0022592,4.6693,0.00023386305609263207,0.000946821187195567,9.179625485698374e-05,"Para uso doméstico, a **melhor máquina de espresso depende do seu orçamento, do seu nível de paciência e do quanto você gosta do ritual de fazer café**. 
+
+Em termos gerais, as **máquinas semiautomáticas** são consideradas as melhores para a maioria das pessoas porque oferecem o melhor equilíbrio entre controle de qualidade, preço e o prazer de aprender a arte do espresso.
+
+No entanto, para escolher a ideal para você, vale a pena conhecer as principais categorias disponíveis no mercado:
+
+---
+
+### 1. Máquinas Semiautomáticas (A Escolha dos Entusiastas)
+*Como funcionam:* Você mói os grãos, coloca o pó no cachimbo (portafiltro), compacta (tampeia) e aciona um botão para a água passar. Você decide quando parar a extração.
+*   **Vantagens:** Você tem controle total sobre o processo (moagem, compactação, tempo), o que permite fazer um espresso igual ao de cafeteria. Geralmente são duráveis e têm boa relação custo-benefício.
+*   **Desvantagens:** Exigem uma curva de aprendizado (você precisa aprender a moer e compactar corretamente). Você também vai precisar de um moedor de café separado (a menos que o modelo tenha moedor integrado).
+*   **Exemplos populares:** DeLonghi Dedica (entrada), Breville Barista Express (com moedor integrado), Gaggia Classic Pro.
+
+### 2. Máquinas Superautomáticas (A Escolha da Praticidade)
+*Como funcionam:* Apenas um toque. A máquina mói os grãos, compacta, extrai o espresso e descarta a borra sozinha. Muitos modelos também vaporizam o leite automaticamente.
+*   **Vantagens:** Extrema conveniência e rapidez. O resultado é consistente e você não faz bagunça.
+*   **Desvantagens:** São mais caras, ocupam mais espaço, oferecem menor controle sobre as variáveis do espresso e exigem limpeza e manutenção mais rigorosas (para evitar mofo no grupo de infusão interno).
+*   **Exemplos populares:** DeLonghi Magnifica S, Philips Walita Series 1200/2200, Jura (gama alta).
+
+### 3. Máquinas de Cápsula (A Escolha da Comodidade)
+*Como funcionam funcionam:* Usam cápsulas pré-porcionadas (Nespresso, Dolce Gusto, Três Corações).
+*   **Vantagens:** Praticidade absoluta, zero sujeira, aquecimento rápido e preço inicial mais baixo.
+*   **Desvantagens:** O custo por xícara a longo prazo é alto, o sabor é limitado comparado ao café em grãos frescos, e há o impacto ambiental das cápsulas (embora muitas sejam recicláveis).
+*   **Exemplos populares:** Linha Nespresso Original ou Vertuo.
+
+### 4. Máquinas Manuais / De Alavanca (Para os Puristas)
+*Como funcionam:* Você usa uma alavanca física para forçar a água através do café, controlando a pressão manualmente.
+*   **Vantagens:** Durabilidade extrema (quase não têm peças eletrônicas quebram), controle total da pressão e charme estético.
+*   **Desvantagens:** Exigem muita técnica, força física e testes até acertar a xícara perfeita.
+*   **Exemplos populares:** Flair Espresso, ROK, La Pavoni.
+
+---
+
+### Resumo: Qual você deve comprar?
+
+1.  **Se você quer praticidade rápida sem se importar muito com o ritual:** Vá de **Máquina de Cápsulas** ou **Superautomática**.
+2.  **Se você quer o melhor espresso possível, gosta do ritual e não se importa em aprender:** Vá de **Máquina Semiautomática** (de preferência combinada com um bom moedor de café separado). 
+3.  **Se o orçamento é um fator limitante:** Modelos de entrada semiautomáticos como a *DeLonghi Dedica* ou cafeteiras italianas (Moka) — embora a Moka não faça um espresso verdadeiro, chega perto em intensidade.",gemini-3.6-flash,sucesso,,,14,1073,1206,0.00855675,12.0833,0.009719833222550808,0.039351850543991984,0.0037992299039882583,"A ""melhor"" máquina de espresso para uso doméstico depende do seu **perfil, orçamento e do tempo** que você quer dedicar ao preparo. Não existe uma resposta única, mas sim a máquina ideal para cada tipo de pessoa.
+
+Abaixo, dividi as máquinas nos **4 tipos principais**, destacando para quem cada uma é indicada:
+
+---
+
+### 1. Máquinas Semiautomáticas (A melhor para quem ama o ""ritual"" e quer café de cafeteria)
+É o tipo de máquina que você vê nas cafeterias, mas em versão menor. Você precisa moer o café, compactar o pó no cachimbo (porta-filtro) e iniciar/parar a extração.
+
+*   **Para quem é:** Para quem quer aprender sobre café, gosta do processo artesanal (""hobbyista/barista em casa"") e busca a **melhor qualidade de bebida**.
+*   **Vantagens:** Total controle sobre o sabor, moagem e proporção. Permite vaporizar leite como um profissional (para fazer *latte art*).
+*   **Desvantagens:** Exige prática (curva de aprendizado), faz um pouco de sujeira e você precisará de um **bom moedor de café** (separado ou embutido).
+*   **Exemplos populares:** *De'Longhi Dedica, Breville Barista Express (com moedor), Gaggia Classic, Oster Xpert Perfect Brew.*
+
+### 2. Máquinas Superautomáticas (""Do grão à xícara"" com um toque)
+Você coloca o café em grãos no reservatório e a máquina faz tudo sozinha: mói na hora, compacta, extrai o espresso e descarta a borra internamente. Muitas também vaporizam o leite automaticamente.
+
+*   **Para quem é:** Para quem quer a **qualidade do café em grãos moído na hora**, mas busca a **máxima praticidade** no dia a dia, sem sujeira.
+*   **Vantagens:** Extremamente convenientes, rápidas e consistentes.
+*   **Desvantagens:** São mais caras, exigem manutenção e limpeza interna frequente para não mofar, e oferecem menos controle fino sobre o sabor.
+*   **Exemplos populares:** *De’Longhi Magnifica S, Philips Walita Série 2200/3200.*
+
+### 3. Máquinas de Cápsula (Praticidade máxima e espaço reduzido)
+Funcionam com doses individuais seladas. Você insere a cápsula, aperta o botão e o café sai em segundos.
+
+*   **Para quem é:** Para quem tem uma vida muito corrida, mora sozinho ou tem pouco espaço e **não quer ter trabalho nenhum com limpeza**.
+*   **Vantagens:** Baratas (a máquina em si), rápida, ocupam pouco espaço e zero sujeira.
+*   **Desvantagens:** O custo por xícara (cápsula) é alto a longo prazo, gera lixo (embora reciclável) e a qualidade não se compara ao café de grão fresco.
+*   **Exemplos populares:** *Nespresso (Essenza Mini, Vertuo), Três Corações, Dolce Gusto.*
+
+### 4. Máquinas Manuais / Alavanca (Para puristas e entusiastas)
+Não usam bomba elétrica para gerar pressão; é você quem faz a pressão puxando ou empurrando uma alavanca.
+
+*   **Para quem é:** Entusiastas avançados de café.
+*   **Vantagens:** Controle absoluto da pressão, máquinas extremamente duráveis (pouca eletrônica para quebrar), extrações impecáveis.
+*   **Desvantagens:** Exige muita força/técnica, moedor de altíssima precisão e é nada prática para o dia a dia.
+*   **Exemplos populares:** *Flair Espresso (manual portátil), La Pavoni.*
+
+---
+
+### Resumo: Qual você deve escolher?
+
+1.  **Se você quer PRATICIDADE acima de tudo:** Vá de **Cápsula** (Nespresso) ou **Superautomática** (De'Longhi Magnifica).
+2.  **Se você quer O MELHOR CAFÉ e gosta do processo:** Vá de **Semiautomática** (ex: *Breville Barista Express* ou uma *De'Longhi Dedica* combinada com um bom moedor).
+3.  **Se o orçamento é curto mas você quer fugir das cápsulas:** Compre uma **Semiautomática de entrada** (como a *Oster Primalatte* ou *De'Longhi EC221*) e use café moído na hora.
+
+> **Dica de Ouro:** O ingrediente mais importante para um bom espresso não é a máquina, é o **moedor de café** e a **frescura do grão**. Se escolher uma máquina semiautomática, guarde parte do orçamento para um bom moedor cônico (manual ou elétrico).",inconclusivo,0.006297550000000001,73.6
+dolly_509,explicacao,dolly-15k,marla,2026-11-25T14:06:42+00:00,piloto-dolly-v1,ABERTA,Do que é feita a kombucha?,6,26,2,baixa,gemini-3.5-flash-lite,sucesso,,,9,380,0,0.0009527,11.615,0.00010181822066561742,0.0004122226493549929,4.069480074413402e-05,"A kombucha é uma bebida fermentada feita basicamente de **quatro ingredientes principais**:
+
+1. **Água** filtrada.
+2. **Chá** (geralmente *Camellia sinensis*, que pode ser chá preto ou chá verde).
+3. **Açúcar** (geralmente açúcar branco refinado, mascavo ou demerara), que serve de ""alimento"" para a fermentação.
+4. **SCOBY** (sigla em inglês para *Symbiotic Culture of Bacteria and Yeast*, ou Cultura Simbiótica de Bactérias e Leveduras).
+
+### O que é o SCOBY?
+O SCOBY parece uma panqueca gelatinosa, de cor bege, e é o ""coração"" da kombucha. Ele não é um cogumelo (embora muitas vezes seja chamado erradamente de ""cogumelo do chá""), mas sim uma colônia viva de **bactérias benéficas e leveduras** que trabalham juntas.
+
+### Como funciona?
+Quando o SCOBY é colocado na mistura de chá adoçado e deixado em temperatura ambiente por alguns dias (geralmente de 7 a 14 dias), as leveduras consomem o açúcar e o transformam em álcool e gás carbônico. Em seguida, as bactérias consomem esse álcool e o transformam em ácidos orgânicos benéficos. O resultado é uma bebida levemente gaseificada, ácida e refrescante.
+
+### Variações e Sabores
+A kombucha tradicional leva apenas os quatro ingredientes citados. No entanto, após a primeira fermentação, é comum fazer uma **segunda fermentação**, na qual se adicionam **frutas, ervas, gengibre ou especiarias** para dar sabor e aumentar o gás da bebida.",gemini-3.6-flash,sucesso,,,9,688,941,0.0061155,8.0922,0.006935238982803236,0.02807810398484575,0.0027080466675051206,"A **kombucha** é uma bebida milenar fermentada, levemente efervescente e de sabor ácido e adocicado. Ela é feita a partir de uma base muito simples de ingredientes, mas o segredo está no processo de fermentação.
+
+Os ingredientes básicos para fazer a kombucha tradicional são:
+
+### 1. Ingredientes Principais (Primeira Fermentação)
+*   **Chá (Camellia sinensis):** Geralmente usa-se **chá preto** ou **chá verde** (ou uma mistura dos dois). O chá fornece os nutrientes essenciais (como nitrogênio e purinas) para a cultura de bactérias e leveduras.
+*   **Açúcar:** Pode ser açúcar cristal, demerara ou refinado. 
+    *   *Nota importante:* O açúcar não é para adoçar a bebida para você, mas sim para **alimentar as leveduras e bactérias**. Durante a fermentação, a maior parte do açúcar é consumida e transformada em ácidos orgânicos, gás e vitaminas.
+*   **Água:** Água purificada ou filtrada (sem cloro, pois o cloro pode matar as bactérias do bem).
+*   **SCOBY:** Sigla em inglês para *Symbiotic Culture of Bacteria and Yeast* (Cultura Simbiótica de Bactérias e Leveduras). É uma colônia gelatinosa (parece um ""disco"" ou ""panqueca"") que contém os microrganismos vivos responsáveis por fermentar o chá.
+*   **Líquido Iniciador (Starter):** Um pouco de kombucha já pronta e bem ácida de um lote anterior. Serve para baixar o pH do chá e proteger a bebida contra bactérias ruins no início do processo.
+
+---
+
+### 2. Saborização (Segunda Fermentação - Opcional)
+Depois que o chá fermenta por alguns dias e o SCOBY é retirado, a kombucha pode ser engarrafada com outros ingredientes para ganhar sabor e gás natural:
+*   **Frutas:** Sucos naturais, pedaços de frutas ou purês (ex: morango, maracujá, limão, uva).
+*   **Especiarias e Ervas:** Gengibre, hortelã, canela, manjericão.
+*   **Flores e Chás de Ervas:** Hibisco, camomila.
+
+---
+
+### O que tem na bebida pronta?
+Como resultado da fermentação de todos esses ingredientes, a kombucha final contém:
+*   **Probióticos** (bactérias benéficas para o intestino).
+*   **Ácidos orgânicos** (como ácido acético, o mesmo do vinagre, que dá o sabor ácido).
+*   **Vitaminas** (especialmente do complexo B e vitamina C).
+*   **Antioxidantes** (vindos do chá verde/preto).
+*   **Gás carbônico** (gás natural produzido pelas leveduras).
+*   **Traços de álcool** (geralmente entre 0,5% e 1%, como subproduto natural da fermentação, motivo pelo qual a maioria é considerada bebida não alcoólica).",inconclusivo,0.0051628,84.42
+dolly_510,recomendacao,dolly-15k,marla,2026-11-25T14:08:12+00:00,piloto-dolly-v1,ABERTA,Diga o nome de um filme de comédia muda famoso,10,46,1,baixa,gemini-3.5-flash-lite,sucesso,,,13,93,0,0.0002364,35.7185,2.632556869456229e-05,0.00010658205969527314,1.0823012195377701e-05,"Um dos filmes de comédia muda mais famosos do mundo é **""Tempos Modernos""** (*Modern Times*, 1936), estrelado e dirigido por **Charles Chaplin**. 
+
+Outro clássico absoluto é **""O Garoto""** (*The Kid*, 1921), também de Chaplin, ou **""A General""** (*The General*, 1926), estrelado por **Buster Keaton**.",gemini-3.6-flash,sucesso,,,13,120,889,0.0037935,30.1262,0.004428738799590772,0.017930252849969977,0.001759028141018198,"Um dos filmes de comédia muda mais famosos de todos os tempos é **""Tempos Modernos"" (1936)**, estrelado e dirigido por **Charlie Chaplin**.
+
+Outros exemplos extremamente famosos são:
+* **""Em Busca do Ouro"" (1925)** – também de Charlie Chaplin.
+* **""A General"" (1926)** – estrelado por Buster Keaton.
+* **""O Homem-Mosca"" (1923)** – estrelado por Harold Lloyd (famoso pela cena do relógio).",inconclusivo,0.0035571,93.77
+dolly_511,recomendacao,dolly-15k,marla,2026-11-25T14:08:51+00:00,piloto-dolly-v1,ABERTA,Quais atrações eu deveria visitar enquanto estiver em Londres?,9,62,2,baixa,gemini-3.5-flash-lite,sucesso,,,13,1013,0,0.0025364000000000003,18.4157,0.0002683229199606624,0.0010863358662699845,0.00010657926817048507,"Londres é uma cidade fantástica, repleta de história, cultura e atrações icônicas. Como a cidade é enorme, o ideal é dividir o roteiro por regiões. 
+
+Aqui está uma lista dividida por categorias para ajudar você a planejar a sua viagem:
+
+### Os Clássicos (Imperdíveis de Primeira Viagem)
+1. **Big Ben e Palácio de Westminster:** O símbolo máximo de Londres. A vista da ponte de Westminster é clássica.
+2. **London Eye:** A roda-gigante gigante oferece uma vista panorâmica incrível da cidade (recomendo comprar ingresso com antecedência).
+3. **Tower Bridge e Torre de Londres:** A ponte levadiça mais famosa do mundo e, ao lado dela, um castelo histórico de quase 1.000 anos que guarda as Joias da Coroa.
+4. **Abadia de Westminster:** Local de coroações e casamentos reais, além de túmulos de grandes figuras históricas (como Newton e Darwin).
+5. **Palácio de Buckingham:** A residência oficial do Rei. Se for no horário certo (geralmente às 11h em dias alternados), você pode ver a Troca da Guarda.
+
+### Cultura e Arte (Muitos são GRATUITOS!)
+*Nota: A maioria dos museus nacionais de Londres tem entrada gratuita para o acervo permanente, mas é bom reservar o horário online.*
+
+6. **British Museum:** Um dos maiores e mais importantes museus de história humana do mundo (abriga a Pedra de Roseta e múmias egípcias).
+7. **National Gallery:** Na Trafalgar Square, abriga obras-primas de Van Gogh, Da Vinci, Rembrandt, entre outros.
+8. **Tate Modern:** Para os amantes de arte moderna e contemporânea, instalado em uma antiga usina elétrica incrível às margens do Tâmisa.
+9. **Museu de História Natural:** Famoso pelo esqueleto de baleia na entrada e pela galeria de dinossauros (ótimo para todas as idades).
+
+### Compras, Ruas Famosas e Bairros Descolados
+10. **Piccadilly Circus e Leicester Square:** O ""coração"" agitado da cidade, cheio de luzes, teatros e energia (lembra a Times Square de Nova York).
+11. **Covent Garden:** Um mercado coberto charmoso, cheio de artistas de rua, lojinhas e restaurantes.
+12. **Oxford Street e Regent Street:** As ruas de compras mais famosas, perfeitas para quem quer ver grandes marcas e a famosa loja de departamentos **Selfridges**.
+13. **Soho e Chinatown:** Bairros vibrantes, repletos de pubs, restaurantes do mundo todo e vida noturna agitada.
+14. **Notting Hill:** Famoso pelas casinhas coloridas e pelo mercado de *Portobello Road* (aos sábados).
+
+### Parques Encantadores
+15. **Hyde Park:** O parque mais famoso de Londres, perfeito para caminhar ou ver o lago Serpentine.
+16. **Regent’s Park:** Lindo, com um belo jardim de rosas e bem perto do Zoológico de Londres.
+17. **Greenwich Park:** Fica um pouco mais afastado, mas oferece a melhor vista do horizonte de Londres e abriga o Meridiano de Greenwich.
+
+### Para os fãs de cultura pop e vistas
+18. **Platform 9 ¾ (King's Cross):** O carrinho de bagagem oficial do Harry Potter para tirar foto.
+19. **Camden Town:** Um bairro alternativo, com mercados punks/góticos, comida de rua do mundo todo e muito estilo rock 'n' roll.
+20. **Sky Garden ou Horizon 22:** São mirantes gratuitos no topo de arranha-céus na região financeira (City of London). *Atenção: É preciso reservar com semanas de antecedência.*
+
+---
+
+### Dicas rápidas para a viagem:
+* **Transporte:** Você não precisa comprar bilhetes de metrô. Basta usar seu **cartão de crédito/débito por aproximação** ou o celular (Apple Pay/Google Pay) direto nas catracas (sistema *Contactless*). É mais barato e prático que o Oyster Card para turistas.
+* **Chuvas:** O clima muda rápido. Tenha sempre um guarda-chuva na bolsa.
+* **Gorjetas:** Muitos restaurantes já incluem 12.5% de taxa de serviço na conta (verifique a nota antes de pagar).
+
+Qual é o seu estilo de viagem (mais focado em história, compras, gastronomia ou arte)? Posso te ajudar a montar um roteiro personalizado!",gemini-3.6-flash,sucesso,,,13,1134,1116,0.00844725,11.2667,0.009581103400877799,0.038790187078840646,0.003741650490396454,"Londres é uma cidade incrível, repleta de história, cultura, parques lindos e uma vida urbana vibrante. Para te ajudar a organizar sua viagem, dividi as melhores atrações por categorias, desde os clássicos imperdíveis até experiências locais:
+
+---
+
+### 1. Os Clássicos Imperdíveis (Cartões-Postais)
+* **Big Ben e o Palácio de Westminster:** O relógio mais famoso do mundo e a sede do parlamento britânico. A vista a partir da ponte de Westminster é espetacular.
+* **Tower Bridge e Torre de Londres:** A ponte basculante mais famosa do mundo fica ao lado da Torre de Londres, um castelo medieval histórico que guarda as Joias da Coroa britânica.
+* **Palácio de Buckingham:** A residência oficial do Rei. Tente assistir à famosa cerimônia da **Troca da Guarda** (cheque os horários no site oficial antes de ir).
+* **Abadia de Westminster:** O local de coroação e casamento dos reis e rainhas britânicos desde 1066.
+* **London Eye:** A famosa roda-gigante à beira do Rio Tamisa que oferece uma vista panorâmica incrível da cidade.
+
+---
+
+### 2. Museus (A maioria tem ENTRADA GRATUITA!)
+* **British Museum (Museu Britânico):** Um dos maiores e mais importantes museus do mundo, com relíquias como a Pedra de Roseta e mumiás do antigo Egito.
+* **Natural History Museum (Museu de História Natural):** Incrível por fora e por dentro (o prédio parece um castelo). Famoso pelos esqueletos de dinossauros.
+* **Tate Modern:** Para os amantes de arte moderna e contemporânea (fica em uma antiga usina de energia adaptada).
+* **National Gallery:** Localizada na Trafalgar Square, abriga obras de Da Vinci, Van Gogh, Monet e Rembrandt.
+* **Victoria and Albert Museum (V&A):** O maior museu de arte e design do mundo.
+
+---
+
+### 3. Mercados e Bairros Charmosos
+* **Borough Market:** O paraíso dos amantes da gastronomia. Perfeito para almoçar e provar comidas de rua do mundo todo.
+* **Camden Town e Camden Market:** O bairro alternativo de Londres, famoso pelo passado punk, lojas excêntricas, comida de rua e atmosfera única.
+* **Notting Hill:** Famoso pelas casas coloridas e pela feira de antiguidades na **Portobello Road** (visite preferencialmente no sábado).
+* **Covent Garden:** Uma praça coberta cheia de artistas de rua, lojas elegantes, restaurantes e o Royal Opera House.
+* **Soho e Chinatown:** O coração da vida noturna, dos teatros (West End) e da gastronomia no centro de Londres.
+
+---
+
+### 4. Vistas Panorâmicas Incríveis
+* **Sky Garden:** Um jardim coberto no topo de um arranha-céu com vista 360º de Londres. **A entrada é gratuita**, mas é preciso reservar o ingresso com semanas de antecedência no site oficial.
+* **The Shard:** O prédio mais alto do Reino Unido. A vista lá de cima é paga, mas espetacular.
+* **Horizon 22:** Atualmente o mirante gratuito mais alto da Europa (também exige reserva antecipada).
+
+---
+
+### 5. Parques Reais (Para relaxar)
+* **Hyde Park e Kensington Gardens:** O parque mais famoso, ideal para caminhar, andar de pedalinho ou visitar o Palácio de Kensington.
+* **Regent’s Park e Primrose Hill:** Suba a colina de Primrose Hill para ter uma das vistas mais bonitas do skyline de Londres.
+* **St. James’s Park:** Fica logo ao lado do Palácio de Buckingham e tem um lago lindo repleto de pelicanos e esquilos amigáveis.
+
+---
+
+### 💡 Dicas Bônus para Fãs de Cultura Pop:
+* **Fãs de Harry Potter:** Visite a **Plataforma 9 ¾** na estação de King's Cross ou faça o tour nos estúdios da Warner Bros (*Warner Bros. Studio Tour London - The Making of Harry Potter*), que fica perto de Londres (reserve com meses de antecedência!).
+* **Fãs de Beatles:** Vá até a **Abbey Road** para tirar a clássica foto na faixa de pedestres.
+
+---
+
+### 📌 Dicas Práticas:
+1. **Transporte:** Não precisa comprar bilhetes individuais. Use seu cartão de crédito/débito por aproximação (Contactless) ou celular diretamente nas catracas do metrô e ônibus (existe um teto diário de cobrança).
+2. **Clima:** Leve sempre um guarda-chuva leve e vista-se em camadas, pois o tempo em Londres muda rapidamente.
+3. **Reservas:** Mesmo os museus gratuitos hoje recomendam agendar o horário de entrada online para evitar filas.
+
+Para te dar recomendações ainda melhores: **quantos dias você vai passar na cidade** e qual é o seu **estilo de viagem** (mais histórico, cultural, compras, vida noturna)?",inconclusivo,0.00591085,69.97
+dolly_513,informacao,dolly-15k,marla,2026-11-25T14:20:27+00:00,piloto-dolly-v1,ABERTA,Me dê alguns detalhes sobre o MV Cape Race por favor,11,52,1,baixa,gemini-3.5-flash-lite,sucesso,,,12,667,0,0.0016711,4.2801,0.00017440027552707133,0.0007060793555026926,6.878018761955568e-05,"O **MV Cape Race** é um navio cargueiro de pequeno a médio porte (geralmente classificado como *general cargo ship* ou navio de carga geral) que ganhou enorme notoriedade mundial e viralizou nas redes sociais — especialmente no TikTok e no YouTube — devido a um incidente dramático ocorrido em **março de 2024**, no qual a embarcação quase afundou.
+
+Aqui estão os principais detalhes sobre o navio e o evento que o tornou famoso:
+
+### 1. Ficha Técnica Básica
+* **Tipo de Navio:** Navio de carga geral (*General Cargo Ship*).
+* **Bandeira:** São Vicente e Granadinas (um registro de conveniência comum na marinha mercante).
+* **Função:** Transporte de cargas diversas, geralmente operando em rotas costeiras ou regionais.
+
+### 2. O Incidente Viral (Março de 2024)
+O **MV Cape Race** entrou para a cultura pop da internet devido a um vídeo impressionante gravado pela sua própria tripulação durante uma tempestade severa no Oceano Atlântico Norte.
+
+* **O que aconteceu:** O navio foi atingido por ondas gigantescas e ventos furiosos. Devido à força do mar, a carga (que consistia em **toras de madeira**) se soltou no porão e no convés, fazendo com que o navio adernasse (inclinasse) severamente para bombordo (o lado esquerdo), ficando perigosamente próximo de virar.
+* **O Vídeos:** O que chocou e fascinou os internautas foi a **calma assustadora da tripulação** (principalmente de origem russa/leste europeu) e a atmosfera quase apocalíptica dentro da cabine de comando (ponte). Os tripulantes filmaram o tombo dos móveis, telas de computador voando e o horizonte totalmente inclinado pela janela, enquanto conversavam com uma serenidade incomum diante da morte iminente.
+* **O Resgate:** Apesar do susto extremo e dos danos estruturais, a tripulação conseguiu emitir pedidos de socorro. Outras embarcações e equipes de resgate responderam, e a tripulação foi resgatada com segurança.
+
+### 3. O Legado na Internet
+* **""Normal Day in the Navy"":** O incidente virou meme. Os vídeos do interior do navio inclinado foram editados com músicas relaxantes, lo-fi ou piadas sobre a calmo estoica dos marinheiros.
+* **Estudos de Caso Marítimo:** Além dos memes, o caso do *MV Cape Race* passou a ser estudado por escolas de marinha mercante para mostrar a importância crítica da **amarração correta da carga** (*cargo securing*) e os perigos do efeito de superfície livre e deslocamento de carga em tempestades.
+
+Em resumo, o **MV Cape Race** é um navio cargueiro comum que se tornou o protagonista involuntário de um dos vídeos de tempestade em alto-mar mais dramáticos e assistidos da história recente da internet.",gemini-3.6-flash,sucesso,,,12,829,1276,0.00790275,12.1858,0.009001002169001533,0.03644158124842193,0.003523444317097517,"O nome **MV *Cape Race*** pode se referir principalmente a dois navios notáveis, dependendo do contexto (militar/logístico ou turismo/expedição). 
+
+Abaixo estão os detalhes sobre as duas embarcações mais conhecidas com esse nome:
+
+---
+
+### 1. MV *Cape Race* (T-AKR 9960) – Navio de Carga Militar (EUA)
+Este é o **MV *Cape Race*** mais famoso no meio naval global. É um navio de carga do tipo **Ro-Ro** (*Roll-on/Roll-off*, projetado para transportar veículos que entram e saem dirigindo).
+
+* **Operador:** Pertence à Administração Marítima dos EUA (MARAD) e faz parte da **Ready Reserve Force (RRF)** (Força de Reserva Pronta), mantida pela Marinha dos Estados Unidos.
+* **Função:** Transporte rápido de equipamentos militares pesados (tanques, caminhões, helicópteros) e suprimentos para tropas americanas ou missões de ajuda humanitária em qualquer lugar do mundo.
+* **Histórico:**
+  * Foi construído em **1977** na Dinamarca com o nome original de *MV Illinois*.
+  * Foi adquirido pelos EUA e incorporado à frota de reserva estratégica.
+* **Especificações Principais:**
+  * **Comprimento:** Cerca de 207 metros.
+  * **Boca (largura):** Cerca de 32 metros.
+  * **Velocidade:** ~20 nós (aprox. 37 km/h).
+  * **Capacidade de Prontidão:** O navio é mantido em estado de ""ROS-5"" (*Reduced Operating Status*), o que significa que ele pode ser totalmente ativado com tripulação completa e pronto para navegar em apenas **5 dias** caso haja uma crise militar ou emergência nacional.
+* **Porto de Origem:** Geralmente fica atracado em Portsmouth, Virgínia (EUA).
+
+---
+
+### 2. MV *Cape Race* – Navio de Expedição Polar e Turística
+Se você estiver pesquisando sobre viagens para o Ártico ou Groenlândia, trata-se deste navio histórico convertido em iate de expedição.
+
+* **Histórico:** Construído em **1963** no Canadá, originalmente funcionou como um navio cutter de resgate no Atlântico Norte para a Guarda Costeira Canadense (CCGS *Cape Race*).
+* **Uso Atual:** Foi convertido em uma embarcação de expedição clássica/luxo para turismo ecológico e científico em regiões polares (como Svalbard, Groenlândia e Ártico Canadense).
+* **Características:**
+  * **Comprimento:** Cerca de 39 metros (muito menor que o militar).
+  * **Casco:** Reforçado para suportar navegação em águas com gelo.
+  * **Capacidade:** Transporta um número muito reduzido de passageiros (cerca de 12 hóspedes), oferecendo uma experiência de expedição exclusiva e com baixa pegada de carbono.
+  * **Estilo:** Mantém o visual clássico de um navio de pesca/resgate dos anos 60, mas com interior remodelado e confortável.
+
+---
+
+### Curiosidade sobre o nome ""Cape Race""
+Ambos os navios foram batizados em homenagem ao **Cabo Race** (*Cape Race*), localizado na ilha de Terra Nova, no Canadá. O local é historicamente famoso por sua estação de rádio, que foi a primeira a receber os sinais de socorro (SOS) do lendário **RMS Titanic** em 1912.
+
+---
+
+*Qual dessas duas embarcações você gostaria de explorar com mais detalhes?*",inconclusivo,0.00623165,78.85
+dolly_515,escrita,dolly-15k,marla,2026-11-25T14:30:42+00:00,piloto-dolly-v1,ABERTA,"Você é um jovem cidadão de um país em desenvolvimento. Escreva uma carta em menos de 150 palavras para um jornal, destacando sua preocupação com o descarte incorreto de resíduos biomédicos e para espalhar conscientização sobre o mesmo.",38,235,11,baixa,gemini-3.5-flash-lite,sucesso,,,57,181,0,0.00046960000000000003,6.8596,4.947314142436316e-05,0.0002002976411937238,1.998230624517058e-05,"Prezado Editor,
+
+Escrevo profundamente preocupado com uma ameaça silenciosa que cresce em nossas ruas: o descarte incorreto de resíduos biomédicos. Em nosso país em desenvolvimento, vejo frequentemente seringas, agulhas e luvas contaminadas descartadas junto ao lixo comum, por negligência ou falta de infraestrutura. 
+
+Essa prática irresponsável coloca em risco catadores de materiais recicláveis, crianças e o meio ambiente, além de ser um vetor para a propagação de doenças graves. Precisamos agir com urgência. Apelo às autoridades por fiscalização rigorosa e campanhas de conscientização pública sobre o perigo desse lixo hospitalar. 
+
+Cuidar da saúde pública começa pela forma como tratamos aquilo que nos fere. A mudança deve começar agora.
+
+Atenciosamente,
+
+Um Cidadão Consciente",gemini-3.6-flash,sucesso,,,57,206,1053,0.004764,6.2491,0.005359884848369286,0.02170010355699112,0.0020928789078067983,"**Caro Editor,**
+
+Como jovem cidadão de um país em desenvolvimento, escrevo para alertar sobre um perigo silencioso em nossas ruas: o descarte incorreto de resíduos biomédicos. 
+
+Diariamente, seringas, medicamentos e materiais contaminados são jogados no lixo comum. Essa negligência ameaça diretamente a vida dos catadores de recicláveis, contamina nosso solo e água, e acelera a disseminação de doenças em comunidades vulneráveis.
+
+Não podemos permitir que a gestão inadequada de resíduos comprometa nosso futuro. Precisamos de uma fiscalização rigorosa em hospitais e clínicas, além de postos de coleta seguros para a população. 
+
+Peço aos leitores que conscientizem suas famílias: lixo hospitalar nunca deve ser misturado ao lixo doméstico. A proteção da saúde pública e do meio ambiente depende da responsabilidade de todos nós.
+
+Atenciosamente,
+
+**Um Jovem Cidadão Consciente**",inconclusivo,0.0042944,90.14
+dolly_516,explicacao,dolly-15k,marla,2026-11-25T14:35:03+00:00,piloto-dolly-v1,ABERTA,Como você mantém seu cachorro feliz?,6,36,2,baixa,gemini-3.5-flash-lite,sucesso,,,8,567,0,0.0014199000000000002,24.4591,0.00015100681271644427,0.0006113682600392005,6.0158300599943885e-05,"Manter um cachorro feliz envolve cuidar das necessidades físicas, mentais e emocionais dele. Como sou uma inteligência artificial, não tenho um cão de verdade, mas se eu tivesse (ou baseando-me no que especialistas em comportamento animal recomendam), aqui estão os pilares fundamentais para garantir a felicidade de um cachorro:
+
+### 1. Estímulo Físico (Exercício)
+* **Passeios diários:** Não é só para fazer as necessidades, mas para explorar o mundo, cheirar novos opositores e gastar energia.
+* **Brincadeiras ativas:** Jogar bolinha, frisbee ou cabo de guerra. O tipo de exercício depende da raça, idade e porte do cão.
+
+### 2. Estímulo Mental (Cérebro cansado = cão feliz)
+Coches entediados costumam ser destrutivos.
+* **Brinquedos interativos (Enriquecimento Ambiental):** Kongs recheados e congelados, comedouros lentos ou tabuleiros de petiscos.
+* **Comandos e truques:** Ensinar novos truques (como ""rola"", ""junta os brinquedos"") estimula o raciocínio.
+* **Jogos de faro:** Esconder petiscos pela casa para ele procurar usando o olfato é extremamente gratificante para um cão.
+
+### 3. Conexão Social e Afeto
+* **Tempo de qualidade:** Carinho na medida certa, escovação diária (que também funciona como massagem) e atenção genuína.
+* **Socialização:** Permitir que ele interaja de forma segura com outros cães e pessoas (se ele for sociável).
+
+### 4. Necessidades Básicas Satisfeitas
+* **Alimentação de qualidade:** Comida adequada para a idade e porte, além de água fresca sempre disponível.
+* **Saúde em dia:** Visitas regulares ao veterinário, vacinas, vermífugos e prevenção contra pulgas e carrapatos.
+* **Segurança e conforto:** Um cantinho aconchegante e seguro para dormir, onde ele não seja incomodado.
+
+### 5. Compreensão da Linguagem Canina
+* **Respeitar o espaço dele:** Saber quando ele quer brincar e quando quer descansar.
+* **Reforço positivo:** Elogiar e premiar os bons comportamentos em vez de punir os erros.
+
+Em resumo, a chave para a felicidade de um cão é **consistência, paciência e amor**. Um cão feliz é aquele que se sente seguro, útil e parte da ""matilha"" (a família).",gemini-3.6-flash,sucesso,,,8,782,919,0.00638475,9.0106,0.007254500797543272,0.029370671761513468,0.0028355536499767692,"Manter um cachorro feliz exige uma combinação de cuidados **físicos, mentais e emocionais**. Os cães são animais sociais e inteligentes, então eles precisam de mais do que apenas comida e abrigo para serem realmente felizes.
+
+Aqui estão os pilares principais para garantir a felicidade do seu cão:
+
+---
+
+### 1. Exercício Físico Diário 🐕💨
+* **Passeios de qualidade:** Não passeie apenas para ele fazer necessidades. Deixe-o explorar, caminhar em ritmos diferentes e gastar energia.
+* **Brincadeiras ativas:** Jogue bolinha, brinque de cabo de guerra ou corra com ele no quintal ou no parque.
+* *Dica:* A quantidade de exercício varia de acordo com a raça, idade e porte do cão.
+
+### 2. Estimulação Mental 🧠🧩
+Um cão cansado mentalmente é um cão feliz e calmo. O cérebro dele precisa trabalhar!
+* **Deixe-o cheirar:** O focinho é a principal forma de o cão entender o mundo. Passeios onde ele pode cheirar tudo (""passeio olfativo"") são extremamente relaxantes.
+* **Brinquedos recheáveis e quebra-cabeças:** Use brinquedos como *Kong* recheados com ração ou petiscos congelados, ou tapetes de fuçar.
+* **Adestramento positivo:** Ensinar novos truques ou reforçar comandos básicos exercita a mente e fortalece a conexão entre vocês.
+
+### 3. Atenção e Afeto 💛
+* **Tempo de qualidade:** Passe um tempo apenas fazendo carinho, escovando o pelo dele ou deixando-o deitar ao seu lado enquanto você assiste TV.
+* **Reforço positivo:** Elogie e recompense os bons comportamentos. Cães adoram saber que deixaram seus donos orgulhosos.
+
+### 4. Saúde e Alimentação 🥗🩺
+* **Alimentação de qualidade:** Uma dieta equilibrada e adequada à idade/tamanho garante energia e bem-estar.
+* **Visitas ao veterinário:** Mantenha vacinas, vermífugos e remédios de pulga/carracho em dia. Cães sem dor ou desconforto são naturalmente mais felizes.
+* **Higiene:** Dentes limpos, unhas cortadas e banhos em dia evitam incômodos.
+
+### 5. Rotina e Segurança 🏠
+* **Previsibilidade:** Cães gostam de rotina. Ter horários semelhantes para comer, passear e dormir reduz a ansiedade.
+* **Um cantinho seguro:** Ele precisa de um local calmo, confortável e aquecido onde possa descansar sem ser perturbado.
+
+### 6. Socialização 🐕‍🦺🐩
+* **Interação com outros cães e pessoas:** Se o seu cachorro for sociável, promova encontros com outros cães amigáveis.
+* *Nota:* Nem todo cão gosta de socializar com estranhos, e tudo bem! Respeite o limite do seu pet.
+
+### 7. Deixe-o ""ser cachorro"" 🐾
+Permita que ele faça coisas naturais do universo canino de forma controlada:
+* Cavar (se houver um local apropriado).
+* Lamber.
+* Destruir caixas de papelão ou brinquedos próprios para isso.
+
+---
+
+**Em resumo:** O segredo para um cachorro feliz é o **equilíbrio**. Conhecer a personalidade do seu cão e respeitar as necessidades individuais dele é o passo mais importante!",inconclusivo,0.00496485,77.76
+dolly_517,resumo,dolly-15k,marla,2026-11-25T14:35:37+00:00,piloto-dolly-v1,ABERTA,Me dê uma visão geral da inspiração do desenvolvimento da Barbie com base neste trecho,15,86,2,baixa,gemini-3.5-flash-lite,sucesso,,,18,55,0,0.0001429,0.8311,1.5226617622630825e-05,6.164669364759264e-05,6.190637041995196e-06,"Parece que você esqueceu de incluir o trecho! 
+
+Por favor, **cole o texto** aqui na nossa conversa. Assim que você enviar, farei um resumo detalhado da inspiração para o desenvolvimento da Barbie com base exatamente nas informações fornecidas nele.",gemini-3.6-flash,sucesso,,,18,288,749,0.00390225,5.7365,0.00442815419713144,0.017927886020408138,0.0017320528299294112,"Você esqueceu de colar ou anexar o trecho! 😅 
+
+Por favor, **mande o texto aqui nos comentários** para que eu possa extrair a visão geral exatamente com base nas informações que você precisa.
+
+---
+
+*(Caso ajude de imediato, aqui está uma visão geral **histórica e real** da inspiração da Barbie, para o caso de o seu trecho abordar isso:)*
+
+1. **A observação de Ruth Handler:** A cofundadora da Mattel reparou que sua filha, Barbara, gostava de brincar com bonecas de papel dando a elas papeis de mulheres adultas (estudantes, profissionais, adultas independentes). Na época (anos 1950), quase todas as bonecas eram no formato de bebês para ensinar as meninas a serem mães.
+2. **A boneca alemã *Bild Lilli*:** Em uma viagem à Europa, Ruth encontrou uma boneca adulta chamada *Bild Lilli* (baseada em uma tirinha de jornal). Ela comprou a boneca e a usou como base estrutural para desenhar a Barbie.
+3. **O Propósito:** Dar às meninas a oportunidade de projetar seus futuros e entenderem que ""poderiam ser o que quisessem"".
+
+**Assim que você colar o seu trecho, faço o resumo baseado exclusivamente nele!**",inconclusivo,0.00375935,96.34
+dolly_519,comparacao,dolly-15k,marla,2026-11-25T14:43:24+00:00,piloto-dolly-v1,ABERTA,Magic Johnson ou Larry Bird ganharam mais campeonatos de basquete universitário e profissional?,13,95,3,baixa,gemini-3.5-flash-lite,sucesso,,,20,320,0,0.000806,2.3807,8.424990615881286e-05,0.0003410953294769481,3.335373063886303e-05,"Em termos de **títulos profissionais (NBA)**, **Magic Johnson** ganhou mais. 
+
+Em termos de **títulos universitários (NCAA)**, houve um empate, mas se considerarmos o impacto e o confronto direto, **Magic Johnson** também leva vantagem.
+
+Aqui está a comparação detalhada:
+
+### 1. Campeonato Universitário (NCAA)
+* **Magic Johnson:** 1 título (1979, jogando pela Universidade Estadual de Michigan - Michigan State). Na final, ele venceu justamente o time de Larry Bird.
+* **Larry Bird:** 0 títulos (foi vice-campeão em 1979 pela Universidade Estadual de Indiana - Indiana State).
+* *Nota:* No basquete universitário, Magic Johnson venceu o único confronto direto entre eles em uma final nacional.
+
+### 2. Campeonatos Profissionais (NBA)
+* **Magic Johnson:** 5 títulos da NBA (1980, 1982, 1985, 1987 e 1988), todos jogando pelo Los Angeles Lakers.
+* **Larry Bird:** 3 títulos da NBA (1981, 1984 e 1986), todos jogando pelo Boston Celtics.
+
+### Conclusão:
+**Magic Johnson** ganhou mais campeonatos no total: **6 títulos** (1 universitário + 5 profissionais) contra **3 títulos** de Larry Bird (0 universitários + 3 profissionais).",gemini-3.6-flash,sucesso,,,20,259,707,0.0036375,4.2998,0.004101260714789437,0.016604420569264144,0.0015989112624265318,"**Magic Johnson** ganhou mais campeonatos somando a carreira universitária e a profissional.
+
+Aqui está o detalhamento dos títulos de cada um:
+
+### **Magic Johnson (Total: 6 títulos)**
+* **Universitário (NCAA): 1 título** 
+  * 1979 (jogando por Michigan State — curiosamente, vencendo a Indiana State de Larry Bird na final).
+* **Profissional (NBA): 5 títulos** 
+  * 1980, 1982, 1985, 1987 e 1988 (todos pelo Los Angeles Lakers).
+
+---
+
+### **Larry Bird (Total: 3 títulos)**
+* **Universitário (NCAA): 0 títulos** 
+  * Foi vice-campeão em 1979 jogando por Indiana State.
+* **Profissional (NBA): 3 títulos** 
+  * 1981, 1984 e 1986 (todos pelo Boston Celtics).
+
+Portanto, **Magic Johnson tem o dobro de títulos** de Larry Bird somando a NCAA e a NBA (6 a 3).",inconclusivo,0.0028315000000000002,77.84
+dolly_521,pergunta,dolly-15k,marla,2026-11-25T14:50:46+00:00,piloto-dolly-v1,ABERTA,Qual é o seu ensinamento favorito do estoicismo?,8,48,2,baixa,gemini-3.5-flash-lite,sucesso,,,14,390,0,0.0009792,3.4843,0.00010371417249013824,0.00041989862600282806,4.128485264072943e-05,"Como uma inteligência artificial, eu não tenho sentimentos pessoais, mas se eu tivesse que escolher o ensinamento mais poderoso e transformador do estoicismo, seria a **Dicotomia do Controle**, popularizada por Epicteto.
+
+Ela se resume a esta premissa básica: **""Algumas coisas estão sob o nosso controle, e outras não.""**
+
+O ensinamento divide o mundo em dois grupos:
+
+1. **O que está no nosso controle:** Nossos próprios pensamentos, impulsos, desejos, aversões e ações. Em suma, o nosso carácter e as nossas escolhas.
+2. **O que NÃO está no nosso controle:** A opinião dos outros, o clima, a economia, o passado, o futuro, e até mesmo a nossa própria saúde física em muitos aspectos.
+
+### Por que este é o ensinamento supremo?
+
+A maior parte do sofrimento humano vem do esforço inútil de tentar controlar aquilo que não pode ser controlado, ou de negligenciar aquilo que *pode*. 
+
+Quando aplicamos essa regra, a vida ganha uma clareza impressionante:
+* Se algo deu errado e você fez o seu melhor, **não adianta se desesperar**, pois o resultado final nunca esteve 100% nas suas mãos.
+* Se você está sofrendo por críticas, lembre-se de que **a opinião do outro é externa**; o único controle que você tem é sobre como decide interpretar e reagir a essa crítica.
+
+Em última análise, esse ensinamento nos dá uma liberdade radical: o mundo exterior pode ser caótico e imprevisível, mas a nossa paz interior é uma fortaleza que só nós podemos entregar. 
+
+Como diria Sêneca ou Marco Aurélio: *Não são os eventos que nos perturbam, mas o julgamento que fazemos deles.*",gemini-3.6-flash,sucesso,,,14,531,992,0.00572175,9.9921,0.006539054532572563,0.02647410616756226,0.0025656478615813418,"Como uma inteligência artificial, não tenho sentimentos pessoais, mas o ensinamento estoico mais poderoso, prático e transformador é a **Dicotomia do Controle**, formulada de forma brilhante pelo filósofo **Epicteto**.
+
+### O que é a Dicotomia do Controle?
+
+Esse ensinamento divide tudo o que acontece na vida em apenas duas categorias:
+
+1. **Coisas que estão sob nosso controle:** Nossos pensamentos, nossas intenções, nossas escolhas, nossas reações e nossas virtudes.
+2. **Coisas que NÃO estão sob nosso controle:** As ações e opiniões dos outros, a economia, o clima, a saúde do nosso corpo no longo prazo, o passado e o futuro.
+
+Como Epicteto escreveu no início do seu *Enquirídio* (Manual):
+> *""Das coisas que existem, algumas estão sob nosso controle e outras não. Sob nosso controle estão a opinião, a busca, o desejo, a aversão e, em uma palavra, tudo o que é de nossa própria autoria.""*
+
+---
+
+### Por que esse ensinamento é tão valioso?
+
+* **Fim da ansiedade inútil:** A maior parte do sofrimento humano nasce da tentativa de controlar o incontrolável (como a opinião alheia ou o resultado incerto de um evento).
+* **Foco de energia:** Em vez de gastar energia mental se frustrando com o trânsito, a política ou o comportamento de outra pessoa, o estoico redireciona 100% da sua energia para a única coisa que pode mudar: **a sua própria resposta à situação.**
+* **Liberdade interior:** Você não pode controlar se vai chover no dia do seu evento ao ar livre, mas pode controlar se vai reclamar ou se vai adaptar seus planos com bom humor.
+
+---
+
+### Menção Honrosa: *Amor Fati*
+
+Outro conceito profundamente ligado a esse é o **Amor Fati** (o ""amor ao destino""), praticado por Marco Aurélio. Não se trata apenas de aceitar o que acontece, mas de **abraçar tudo o que acontece** — seja bom ou ruim — como o combustível necessário para o seu crescimento. Como Marco Aurélio dizia: *“ O impedimento à ação avança a ação. O que está no caminho se torna o caminho.”*
+
+Em resumo: **Foque no que você pode controlar e aceite com altivez o resto.** Essa é a chave estoica para a paz de espírito.",inconclusivo,0.00474255,82.89
+dolly_522,consulta,dolly-15k,marla,2026-11-25T14:51:03+00:00,piloto-dolly-v1,ABERTA,Quem foi o jogador mais caro no leilão da Indian Premier League (IPL) de 2020?,15,78,3,baixa,gemini-3.5-flash-lite,sucesso,,,25,104,0,0.0002675,5.0207,2.9219015285787402e-05,0.00011829650738257948,1.1967923951601811e-05,"O jogador mais caro no leilão da Indian Premier League (IPL) de 2020 foi o lançador (pacer) australiano **Pat Cummins**. 
+
+Ele foi comprado pelo **Kolkata Knight Riders (KKR)** por impressionantes **15,5 crores** de rúpias indianas (cerca de 2,17 milhões de dólares na época), o que o tornou, naquele momento, o jogador estrangeiro mais caro da história do leilão da IPL.",gemini-3.6-flash,sucesso,,,25,164,523,0.002595,3.0713,0.002917043229090386,0.011809981360092066,0.0011373030240331601,"O jogador mais caro no leilão da IPL (Indian Premier League) para a temporada de 2020 (realizado em dezembro de 2019) foi o australiano **Pat Cummins**.
+
+Aqui estão os detalhes da compra:
+
+* **Jogador:** Pat Cummins (Austrália)
+* **Posição:** Arremessador (Fast Bowler)
+* **Equipe que o comprou:** Kolkata Knight Riders (KKR)
+* **Valor:** **15,5 crores de rúpias** (aproximadamente US$ 2,2 milhões na época).
+
+Naquele momento, Cummins tornou-se o jogador estrangeiro mais caro da história dos leilões da IPL (um recorde que foi superado em leilões nos anos seguintes).",inconclusivo,0.0023275,89.69
+dolly_523,criacao,dolly-15k,marla,2026-11-25T14:51:46+00:00,piloto-dolly-v1,ABERTA,"Por favor, escreva para mim uma pequena história infantil de ninar sobre um sapo, uma árvore e a lua. Faça com que a moral da história seja sobre apreciar o que você tem na vida.",35,178,11,baixa,gemini-3.5-flash-lite,sucesso,,,43,669,0,0.0016854,3.5227,0.00017355750142556613,0.0007026672886775297,6.81482077785353e-05,"Era uma vez, à beira de um lago tranquilo, um pequeno sapo chamado Pingo. 
+
+Pingo morava na base de uma velha e sábia Oliveira. Todas as noites, quando a lua prateada subia ao céu, iluminando a floresta como uma lanterna mágica, Pingo cruzava os braços verdes e suspirava fundo.
+
+— Ah, que vida chata a minha — coaxava Pingo, olhando para cima. — Eu fico preso neste lago lamacento, enquanto os pássaros voam alto pelo céu. Queria tanto tocar a Lua! Ela sim tem uma vida emocionante, brilhando lá no alto, longe de tudo.
+
+A velha Oliveira, cujas folhas farfalhavam suavemente com a brisa da noite, balançou os galhos e disse com uma voz terna:
+— Meu querido Pingo, você olha tão longe que esquece de ver a beleza que está bem debaixo dos seus pés.
+
+Pingo deu de ombros e fechou os olhos para dormir, achando que a árvore não entendia nada.
+
+Na noite seguinte, a Lua, ouvindo os lamentos do sapo, resolveu pregar uma peça bondosa. Ela enviou um raio de luz prateado e especial que fez Pingo levitar, subindo, subindo, até quase tocar a sua superfície craterada.
+
+Pingo estava extasiado! Mas, ao chegar lá em cima, percebeu algo assustador. 
+— Brrr! Que frio! — tremeu o sapo. 
+
+Não havia moscas suculentas para jantar, não havia o som relaxante da água do lago, e a Lua, vista de perto, era apenas uma rocha árida e silenciosa. O vento lá em cima soprava forte e solitário. Pingo sentiu uma saudade enorme da grama macia, do abraço fresco da água e da proteção da velha Oliveira.
+
+— Por favor, Lua! Me deixe voltar! — suplicou ele.
+
+Com um suave piscar de luz, a Lua o devolveu delicadamente à beira do lago, bem na raiz da árvore.
+
+Pingo caiu de barriga para cima na grama fofa, respirando o ar úmido e quente da terra. Ele ouviu o coaxar dos seus amigos ao longe e sentiu o tronco firme da Oliveira logo atrás dele, como um porto seguro.
+
+O sapinho sorriu, aconchegou-se na grama e olhou para a Lua, que agora brilhava suavemente lá no alto. 
+
+— Obrigado, dona Lua — sussurrou Pingo, com os olhos pesados de sono. — O céu é lindo, mas o meu lugar no mundo é o melhor que existe.
+
+E, embalado pelo balançar das folhas da velha Oliveira, o pequeno sapo adormeceu profundamente, feliz com tudo o que tinha.
+
+***
+
+**Moral da história:** *Muitas vezes desejamos o que está longe, esquecendo-nos de que a verdadeira felicidade está nas coisas simples que já fazem parte da nossa vida.* 
+
+Agora, feche os olhos e boa noite.",gemini-3.6-flash,sucesso,,,43,906,1261,0.0081585,14.0312,0.009299872892538297,0.03765159337263274,0.0036479420036052562,"Aqui está uma historinha calma e aconchegante, perfeita para a hora de dormir.
+
+***
+
+### O Sapinho e o Espelho da Lua
+
+Era uma vez, em uma floresta muito calma, uma lagoa de águas tranquilas. À beira dessa lagoa, morava uma árvore muito antiga e sábia chamada Dona Figueira. Ela tinha galhos compridos que pareciam abraçar o céu e folhas grandes que sussurravam com o vento.
+
+Na lagoa, vivia Guga, um sapinho verde de olhos curiosos. Todas as noites, Guga subia em uma pedra e olhava para o céu. Lá no alto, a Lua brilhava, linda, prateada e radiante.
+
+Guga suspirava e dizia:
+— Ah, como eu queria ser como a Lua... Ela é tão alta, tão brilhante e ilumina todo o mundo. Eu sou apenas um sapinho pequeno que só sabe pular na lama.
+
+Dona Figueira, ouvindo o lamento do sapinho, balançou suas folhas suavemente e disse com uma voz amorosa:
+— Pequeno Guga, por que você olha tanto para o céu e se esquece de olhar para onde estão suas patinhas?
+
+Guga, porém, não deu ouvidos. Ele achava que a felicidade estava lá no alto. Então, teve uma ideia: decidiu subir no galho mais alto de Dona Figueira para tentar tocar a Lua. 
+
+Com muito esforço, ele pulou de galho em galho. *Pula, pula, pula...* Até que chegou ao topo da grande árvore. Cansado, esticou a patinha o mais alto que pôde... mas a Lua continuava lá no céu, muito longe de seu alcance.
+
+Guga sentou no galho e começou a chorar baixinho. 
+
+Nesse momento, a Lua, lá do alto, sorriu com carinho e mandou um feixe de luz prateado que iluminou toda a lagoa. Ela sussurrou com a voz do vento da noite:
+— Olhe para baixo, Guga.
+
+O sapinho olhou. Lá do alto da árvore, ele viu a sua lagoa. A água estava tão calma que refletia a Lua com perfeição, como se houvesse uma Lua mágica nadando na água. Ele viu as vitórias-régias macias, ouviu o cantar alegre dos seus amigos vaga-lumes e sentiu a brisa fresca da noite.
+
+Dona Figueira, então, disse baixinho:
+— Veja, Guga... A Lua é linda no céu, mas ela não pode mergulhar na água fresca como você. Eu sou grande e abraço o vento, mas não posso pular de folha em folha como você faz. Cada um de nós tem algo maravilhoso. Você tem a sua lagoa, a sua voz para cantar à noite e a liberdade de pular onde quiser.
+
+Guga olhou para o seu lar com outros olhos. Ele percebeu que não precisava alcançar a Lua para ser feliz, pois a própria Lua descia todas as noites para nadar em sua lagoa. Ele tinha uma casa acolhedora, a amizade da velha árvore e a beleza da noite só para ele.
+
+Com o coração cheio de gratidão, Guga agradeceu a Dona Figueira e desceu devagarzinho até a sua vitória-régia favorita. 
+
+Ele se ajeitou bem no meio da folha macia, olhou para a Lua no céu, olhou para o reflexo dela na água e deu um suspiro feliz.
+
+— Obrigado pela minha vida tão linda — sussurrou o sapinho.
+
+Ele fechou os olhinhos, embalado pelo som das folhas de Dona Figueira e protegido pela luz prateada da Lua, e adormeceu em um sono profundo e tranquilo.
+
+*Boa noite, sapinho Guga. Boa noite, Dona Figueira. Boa noite, Lua.*
+
+***
+
+**Moral da história:** Muitas vezes, ficamos olhando para o que está longe e nos esquecemos de ver quantas coisas maravilhosas já temos ao nosso redor. Apreciar o nosso próprio lar e quem nós somos é o caminho para a verdadeira paz.",inconclusivo,0.006473100000000001,79.34
+dolly_524,listagem,dolly-15k,marla,2026-11-25T14:52:13+00:00,piloto-dolly-v1,ABERTA,Liste as igrejas que atendem Mayfield Park em East Bristol de maneira separada por vírgula.,15,91,9,baixa,gemini-3.5-flash-lite,sucesso,,,22,91,0,0.0002341,1.2931,2.5049598318041494e-05,0.00010141614846966567,1.0154596090690288e-05,"Com base na localização do Mayfield Park (um grande empreendimento residencial e comunitário recente, às vezes conhecido como *Lockleaze* ou situado na área de *East Bristol* / *Fishponds*), as igrejas mais próximas e que atendem a essa comunidade específica incluem:
+
+St. Mary’s Church (Fishponds), Holy Trinity Church (Eastville), Bethel Church (Easton), St. John the Baptist Church (Frenchay)",gemini-3.6-flash,sucesso,,,22,80,739,0.00308775,4.9193,0.0035060762359834146,0.014194748497757991,0.0013733488077578451,"Aqui está a lista das igrejas que atendem a área de Mayfield Park (em East Bristol), separadas por vírgula:
+
+St John's Church (Fishponds), Crofts End Church, Fishponds Baptist Church, St Mary's Church (Fishponds), St Ambrose Church (Whitehall), Eastville Baptist Church, Bethel United Church of Jesus Christ Apostolic (Lodge Causeway).",inconclusivo,0.00285365,92.42
+dolly_525,pergunta,dolly-15k,marla,2026-11-25T14:54:25+00:00,piloto-dolly-v1,ABERTA,Quais são os três poderes do Governo Federal dos EUA?,10,53,2,baixa,gemini-3.5-flash-lite,sucesso,,,13,246,0,0.0006189,19.7689,6.657078037251155e-05,0.0002695193775278067,2.6747693895585776e-05,"Os três poderes do Governo Federal dos EUA, estabelecidos pela Constituição dos Estados Unidos, são:
+
+1. **Poder Legislativo (Legislative Branch):** O Congresso, responsável por **criar e aprovar as leis**. É bicameral, dividido em duas Casas: o **Senado** e a **Câmara dos Representantes**.
+2. **Poder Executivo (Executive Branch):** Liderado pelo **Presidente** (que também é o Comandante-in-Chefe das Forças Armadas), juntamente com o Vice-Presidente e o Gabinete de Ministros. É responsável por **executar e administrar as leis**.
+3. **Poder Judiciário (Judicial Branch):** Composto pela **Parada Suprema (Supreme Court)** e outros tribunais federais. É responsável por **interpretar as leis**, julgar casos e garantir que as leis estejam de acordo com a Constituição (constitucionalidade).
+
+Esse sistema foi desenhado com base no princípio dos **""Freios e Contrapesos"" (Checks and Balances)**, onde cada poder tem o poder de limitar as ações dos outros dois para evitar o abuso de autoridade.",gemini-3.6-flash,sucesso,,,13,458,843,0.0048885,19.7509,0.005698960880344493,0.02307289144622987,0.0022610647064466556,"Os três poderes do Governo Federal dos Estados Unidos são:
+
+1. **Poder Legislativo (*Legislative Branch*):**
+   * **Função:** Responsável por criar, debater e aprovar as leis federais.
+   * **Quem compõe:** O **Congresso dos Estados Unidos**, que é bicameral (dividido em duas casas):
+     * **O Senado (*Senate*):** Composto por 100 senadores (2 por estado).
+     * **A Câmara dos Representantes (*House of Representatives*):** Composta por 435 membros (o número de representantes de cada estado depende da sua população).
+
+2. **Poder Executivo (*Executive Branch*):**
+   * **Função:** Responsável por executar, administrar e fazer cumprir as leis aprovadas pelo Congresso.
+   * **Quem compõe:** É liderado pelo **Presidente dos Estados Unidos**, que atua como Chefe de Estado, Chefe de Governo e Comandante em Chefe das Forças Armadas. Inclui também o **Vice-Presidente**, o **Gabinete** (secretários/ministros) e os diversos departamentos e agências federais (como o FBI, a CIA, o Departamento de Estado, etc.).
+
+3. **Poder Judiciário (*Judicial Branch*):**
+   * **Função:** Responsável por interpretar as leis, julgar conflitos e avaliar a constitucionalidade das ações do governo e das leis criadas.
+   * **Quem compõe:** Liderado pela **Suprema Corte dos Estados Unidos** (*Supreme Court*), que é o tribunal mais alto do país, e composto também pelos tribunais federais de recurso e tribunais distritais inferiores.
+
+**Freios e Contrapesos (*Checks and Balances*):**
+A Constituição dos EUA foi desenhada para que nenhum desses três poderes se torne mais poderoso que os outros. Cada poder tem mecanismos para limitar os abusos dos demais (por exemplo, o Presidente pode vetar leis do Congresso, a Suprema Corte pode declarar leis inconstitucionais, e o Congresso pode aprovar o impeachment do Presidente ou de juízes).",inconclusivo,0.004269599999999999,87.34
+dolly_526,explicacao,dolly-15k,marla,2026-11-25T14:55:18+00:00,piloto-dolly-v1,ABERTA,"Durante a Páscoa judaica, quais são algumas distinções do que é e do que não é Kosher?",17,86,11,baixa,gemini-3.5-flash-lite,sucesso,,,25,1064,0,0.0026675,23.2448,0.00028173799051997876,0.0011406483055474957,0.00011188749540388775,"Durante a Páscoa judaica (**Pessach**), as leis do *Kosher* tornam-se consideravelmente mais restritas do que no resto do ano. A principal diferença está na proibição absoluta do **Chametz** (alimentos fermentados ou levedados feitos de cinco grãos específicos) e na proibição adicional (para muitas comunidades) do **Kitniot** (leguminosas e sementes).
+
+Aqui estão as principais distinções do que **é** e do que **não é** Kosher especificamente para Pessach:
+
+---
+
+### O que NÃO É KOSHER para Pessach (Proibido)
+
+#### 1. Chametz (Grãos Fermentados)
+Qualquer produto feito a partir de trigo, cevada, centeio, aveia ou espelta que tenha entrado em contato com água e começado a fermentar é estritamente proibido. Mesmo a menor quantidade contamina o alimento.
+*   ** Exemplos:** Pão tradicional, massas, bolos, biscoitos, cerveja, uísque, vodka comum e a maioria dos cereais matinais.
+*   **O Matzá:** É a única forma de trigo permitida, desde que seja feita de maneira rápida (em até 18 minutos) para evitar qualquer fermentação, resultando em um pão ázimo (plano e seco).
+
+#### 2. Kitniot (Leguminosas e Sementes) - *Distinção Asquenazita*
+Esta é uma distinção muito importante. Os judeus **Asquenazes** (de origem europeia) proíbem o consumo de *Kitniot* durante Pessach. Já os judeus **Sefaraditas** (de origem ibérica, norte-africana e do Oriente Médio) geralmente permitem.
+*   **O que inclui:** Arroz, milho, feijão, lentilha, grão-de-bico, soja, ervilha, amendoim, sementes de girassol, gergelim e mostarda.
+*   **Derivados:** Óleos feitos dessas sementes (como óleo de milho ou de soja) também são proibidos para os asquenazes.
+
+#### 3. Utensílios não Kosher para Pessach
+Não basta apenas mudar a comida; os pratos, panelas e talheres usados durante o ano todo (que absorveram sabores de *Chametz*) não podem ser usados em Pessach. As famílias costumam ter um conjunto separado de louças, panelas e talheres exclusivo para a semana da festa, ou realizam um processo complexo de purificação (*Kashering*) nos utensílios existentes.
+
+---
+
+### O que É KOSHER para Pessach (Permitido)
+
+Para garantir que um produto industrializado é adequado para a festa, ele deve ter uma certificação rabínica específica para Pessach (geralmente indicando ""Kosher L'Pessach"").
+
+#### 1. Alimentos ""In natura"" Básicos
+*   **Carnes e aves:** Desde que abatidos de acordo com as leis do *Kosher* tradicional (*Schita*).
+*   **Peixes:** Todos os peixe que têm barbatanas e escamas (exceto frutos do mar, que nunca são kosher).
+*   **Ovos:** São totalmente permitidos e muito consumidos.
+*   **Frutas e Legumes frescos:** Maçãs, batatas, cenouras, etc. (desde que não entrem em contato com grãos ou, no caso dos asquenazes, com *Kitniot*).
+
+#### 2. Laticínios Específicos
+*   Leite, queijo cottage, manteiga e iogurte natural são permitidos, desde que certificados como Kosher para Pessach (para garantir que nenhum amido ou espessante derivado de *Chametz* tenha sido adicionado).
+
+#### 3. Bebidas e Temperos
+*   **Vinho Kosher:** O vinho ou suco de uva deve ser certificado para Pessach (muitas vezes sem fermentação alcoólica indesejada ou aditivos).
+*   **Açúcar e Sal:** Sal puro e açúcar refinado (de cana, não de beterraba, que é considerado *kitniot* por alguns) são permitidos.
+*   **Óleo:** Óleo de oliva puro é o mais tradicional e amplamente aceito por todos.
+
+### Resumo
+Em Pessach, a regra de ouro é: **se tem fermento ou farinha de trigo comum, é proibido.** Para os judeus asquenazes, a restrição vai além, incluindo grãos como arroz e feijão. A limpeza da casa e a troca de utensílios são tão rigorosas quanto a seleção dos alimentos, para garantir que nenhum vestígio de *Chametz* esteja presente na dieta durante os sete ou oito dias da celebração.",gemini-3.6-flash,sucesso,,,25,1223,947,0.00815625,21.402,0.00947917659327252,0.03837752480290744,0.0037551392795881957,"Durante a Páscoa judaica (**Pesach**), as leis de alimentação kosher (*Kashrut*) tornam-se consideravelmente mais rigorosas do que no restante do ano. A principal diferença gira em torno da proibição do **Chametz** (alimentos levedados ou fermentados).
+
+Aqui estão as principais distinções entre o que é e o que não é Kosher durante a Páscoa judaica:
+
+---
+
+### 1. O que NÃO É Kosher no Pesach (**Chametz**)
+
+O *Chametz* é qualquer alimento feito a partir de um dos **cinco grãos proibidos** que entrou em contato com água e teve tempo de fermentar (crescer) por mais de 18 minutos.
+
+Os cinco grãos são: **trigo, cevada, centeio, aveia e espelta**.
+
+**Exemplos de alimentos proibidos (Não-Kosher para o Pesach):**
+*   **Pães e produtos de panificação:** Pão comum, bolos, biscoitos, torradas, tortas, croissants.
+*   **Massas:** Macarrão, lasanha, pizza.
+*   **Cereais:** Cereais matinais, aveia em flocos, muesli.
+*   **Bebidas fermentadas a base de grãos:** Cerveja, uísque, vodca de trigo ou cevada, gim.
+*   **Ingredientes processados:** Extrato de malte, fermento biológico ou químico (quando derivado de grãos), amido de trigo, molho de soja tradicional (pois contém trigo).
+
+> **Nota:** Diferente do restante do ano, onde uma pequena quantidade de algo não-kosher pode ser ""anulada"" em certas proporções, durante o Pesach **qualquer traço imperceptível de Chametz** torna o alimento totalmente proibido.
+
+---
+
+### 2. O que É Kosher no Pesach
+
+Para que um alimento seja Kosher no Pesach, ele não pode conter Chametz e deve ser preparado sob rigorosa supervisão rabínica para garantir que não houve contaminação cruzada.
+
+**Exemplos de alimentos permitidos:**
+*   **Matzá (Pão Ázimo):** É o símbolo central da festa. Um pão feito apenas de farinha de trigo e água, assado muito rapidamente (em menos de 18 minutos) para garantir que não fermentou.
+*   **Farinha de Matzá (*Matzah Meal*):** Matzá moída, usada para substituir a farinha de trigo em receitas de bolos e empanados.
+*   **Proteínas frescas:** Carnes, aves e peixes (que já sejam kosher por natureza), desde que preparados sem temperos processados que contenham Chametz.
+*   **Ovos, Frutas e Verduras frescas:** Permitidos (embora folhosos devam ser minuciosamente limpos para evitar insetos, o que é uma regra geral do Kashrut).
+*   **Laticínios e Vinho:** Apenas se tiverem o selo específico de certificação **""Kosher le Pesach""** (Kosher para a Páscoa).
+
+---
+
+### 3. A Zona Cinzenta: **Kitniyot** (Leguminosas e Grãos Secos)
+
+Existe uma categoria chamada *Kitniyot*, que inclui **arroz, milho, feijão, lentilha, grão-de-bico, soja, ervilha, gergelim e sementes de girassol**. 
+
+A regra varia dependendo da origem da tradição judaica:
+
+*   **Tradição Ashkenazi (Judeus da Europa Central e Oriental):** Historicamente **proíbe** o consumo de *Kitniyot* no Pesach. O motivo era evitar confusão, pois esses grãos eram frequentemente armazenados nos mesmos sacos que o trigo ou moídos para fazer farinhas semelhantes. (Hoje, alguns movimentos mais liberais estão reavaliando isso, mas a tradição ortodoxa Ashkenazi mantém a proibição).
+*   **Tradição Sefardita (Judeus da Península Ibérica, Oriente Médio e Norte da África):** **Permite** o consumo de *Kitniyot*, desde que os grãos sejam inspecionados cuidadosamente antes do festival para garantir que não há grãos de trigo misturados.
+
+---
+
+### 4. Utensílios e a Cozinha
+
+Para a Páscoa judaica, não basta mudar a comida; **os utensílios também contam**:
+
+*   **Pratos e Panelas:** Não se pode usar os mesmos pratos, panelas e talheres usados durante o ano com *Chametz*. As famílias costumam ter um **jogo de louças e panelas exclusivo para o Pesach**.
+*   **Kasherização:** Alguns utensílios de metal ou vidro usados no ano todo podem ser ""kasherizados"" (purificados) através de processos específicos de fervura ou fogo alto para eliminar resíduos de Chametz.
+
+### Resumo
+
+| Categoria | No resto do ano | No Pesach (Páscoa) |
+| :--- | :--- | :--- |
+| **Pão tradicional / Cerveja** | Kosher (se certificado) | **Proibido (Chametz)** |
+| **Matzá** | Kosher | **Obrigatório / Permitido** |
+| **Arroz e Feijão** | Kosher | Permitido para Sefarditas; **Proibido para Ashkenazim** |
+| **Certificação** | Precisa ser ""Kosher"" | Precisa ser **""Kosher le Pesach""** |",inconclusivo,0.005488750000000001,67.3
+dolly_527,criacao,dolly-15k,marla,2026-11-25T14:56:32+00:00,piloto-dolly-v1,ABERTA,Escreva um haicai sobre sentar na costa e observar as ondas.,11,60,8,baixa,gemini-3.5-flash-lite,sucesso,,,17,24,0,6.51e-05,0.9122,7.617583833777862e-06,3.084065473856838e-05,3.298703511598642e-06,"Mar e pés na areia,
+O vai e vem das ondas,
+Paz que o som nos traz.",gemini-3.6-flash,sucesso,,,17,20,1790,0.00680025,42.8048,0.007913149370425468,0.032037285437655515,0.003136190089333933,"Sentado na costa,
+Vejo as ondas ir e vir,
+Calma no olhar.",inconclusivo,0.00673515,99.04
+dolly_528,classificacao,dolly-15k,marla,2026-11-25T14:56:55+00:00,piloto-dolly-v1,ABERTA,"Identifique qual instrumento é de corda ou percussão: Sino de vento, Hardingfele",12,80,8,baixa,gemini-3.5-flash-lite,sucesso,,,21,116,0,0.0002963,1.5333,3.172783376450665e-05,0.00012845374440054717,1.2819406872316946e-05,"Aqui está a classificação de cada um dos instrumentos:
+
+* **Sino de vento:** É um instrumento de **percussão** (mais especificamente, um idiofófono, pois o som é produzido pela vibração do próprio corpo do material ao ser atingido pelo vento ou por um batente).
+* **Hardingfele** (Violino Hardanger): É um instrumento de **corda** (é a versão tradicional e nacional do violino na Noruega, possuindo quatro cordas principais e várias cordas simpáticas abaixo delas).",gemini-3.6-flash,sucesso,,,21,100,513,0.0023145,12.3962,0.002706108854459012,0.010955989548192862,0.0010781840317385088,"Aqui está a identificação de cada um dos instrumentos:
+
+* **Sino de vento:** Instrumento de **percussão** (mais especificamente um idiofone, pois o som é produzido pelo impacto/colisão das suas peças quando movidas pelo vento).
+* **Hardingfele:** Instrumento de **corda** (é um tipo de violino tradicional da Noruega, tocado com arco e que possui cordas friccionadas e cordas simpáticas).",inconclusivo,0.0020182000000000004,87.2
+dolly_529,planejamento_exercicio,dolly-15k,marla,2026-11-25T14:57:48+00:00,piloto-dolly-v1,ABERTA,"Roslyn tem 36 anos de idade, pesa 74 kg, tem 165 cm de altura e 35% de gordura corporal. O pai dela teve um ataque cardíaco aos 68 anos e o irmão teve uma angioplastia aos 40. Ambos estão vivos e bem. Os valores da química sanguínea dela medem o colesterol total em 195 mg% e o colesterol HDL em 42 mg%. A glicemia de jejum dela é de 105 mg%. Roslyn é sedentária e não participou de nenhum programa de treinamento de resistência desde a faculdade. Faça um brainstorming de um programa de treinamento de exercício apropriado para ajudar Roslyn a melhorar sua aptidão cardiorrespiratória (C-R). Certifique-se de calcular uma faixa de frequência cardíaca alvo com a RPE correspondente.",120,682,27,moderada,gemini-3.5-flash-lite,sucesso,,,184,1665,0,0.0042177,5.6908,0.000426495609165094,0.00172671599247143,0.0001662600531200972,"Com base no perfil de Roslyn, precisamos elaborar um programa de treinamento cardiorrespiratório seguro, eficaz e progressivo. 
+
+### 1. Análise do Perfil de Risco (ACSM)
+*   **Idade:** 36 anos.
+*   **Histórico Familiar:** Positivo para Doença Cardiovascular Prematura (Pai teve infarto aos 68 e irmão angioplastia aos 40. *Nota: o irmão teve evento antes dos 55 anos, o que conta como fator de risco familiar*).
+*   **Composição Corporal:** 35% de gordura (classificado como obesidade ou percentual de gordura elevado para mulheres).
+*   **Glicemia de jejum:** 105 mg/dL (Indica **Pré-diabetes**, já que o normal é abaixo de 100 mg/dL e o diagnóstico de diabetes é a partir de 126 mg/dL).
+*   **Perfil Lipídico:** Colesterol Total 195 mg/dL (Desejável) e HDL 42 mg/dL (Limítrofe/Baixo para mulheres, onde o ideal é > 50 mg/dL).
+*   **Estilo de Vida:** Sedentária.
+
+*Recomendação inicial:* Devido à presença de pré-diabetes (glicemia de jejum de 105 mg/dL) e ao sedentarismo combinados com o histórico familiar, é altamente recomendável que Roslyn obtenha liberação médica antes de iniciar um programa de intensidade vigorosa. No entanto, ela pode iniciar caminhadas leves imediatamente.
+
+---
+
+### 2. Cálculo da Frequência Cardíaca Alvo (FCA)
+Como não temos a Frequência Cardíaca Máxima (FCmax) medida por teste ergométrico, vamos estimar usando a fórmula tradicional de Tanaka (mais precisa para adultos que a fórmula clássica $220 - \text{idade}$):
+
+*   **FCmax estimada:** $208 - (0{,}7 \times \text{idade})$
+    *   $\text{FCmax} = 208 - (0{,}7 \times 36) = 208 - 25{,}2 = \mathbf{183\text{ bpm}}$
+
+Para uma pessoa sedentária com condicionamento cardiorrespiratório inicial baixo e pré-diabetes, a zona de intensidade recomendada pelo ACSM é **moderada** (40% a 59% da FCmax ou da Frequência Cardíaca de Reserva - FCR). Vamos usar a porcentagem da FCmax para simplificar, mas ajustada para iniciantes.
+
+*   **Limite Inferior (40% da FCmax):**
+    *   $183 \times 0{,}40 = \mathbf{73\text{ bpm}}$
+
+*   **Limite Superior (59% da FCmax):**
+    *   $183 \times 0{,}59 = \mathbf{108\text{ bpm}}$
+
+*   **Faixa de Frequência Cardíaca Alvo:** **73 a 108 bpm**.
+
+#### Escala de Percepção de Esforço (RPE - Escala de Borg de 6 a 20)
+Para a intensidade moderada (40-59% FCmax), a RPE correspondente deve estar entre **11 e 13** (""Leve"" a ""Um pouco cansativo""), o que garante que ela consiga conversar durante o exercício (teste da conversa).
+
+---
+
+### 3. Brainstorming do Programa de Exercício Cardiorrespiratório (C-R)
+
+#### A. Frequência
+*   **Fase Inicial (Semanas 1 a 4):** 3 dias por semana (ex: Terça, Quinta e Sábado), permitindo descanso adequado para as articulações e adaptação metabólica (especialmente importante devido ao seu percentual de gordura e histórico de sedentarismo).
+*   **Fase de Progressão (Semanas 5+):** Aumentar para 4 a 5 dias por semana.
+
+#### B. Intensidade
+*   Manter a faixa de **40% a 59% da FCmax** (Frequência cardíaca de 73 a 108 bpm).
+*   **RPE:** Manter entre **11 e 13** na escala de Borg.
+
+#### C. Tempo (Duração)
+*   **Fase Inicial:** 15 a 20 minutos por sessão contínua. Se 20 minutos for muito difícil inicialmente, pode-se fazer blocos de 5 a 10 minutos, totalizando 20 minutos no dia.
+*   **Fase de Progressão:** Aumentar o tempo em 10% a cada 1-2 semanas até atingir **30 a 45 minutos** por sessão (visando o gasto calórico para melhora do perfil glicêmico e perda de gordura).
+
+#### D. Tipo (Mododalidade)
+*   **Atividades de Baixo Impacto:** Caminhada ao ar livre ou em esteira, bicicleta ergométrica (ótima para preservar as articulações de quem tem 74 kg e está destreinada), elíptico (transport) ou hidroginástica/natação.
+*   *Nota:* Evitar corrida ou saltos no início para proteger os joelhos e tornozelos.
+
+---
+
+### 4. Estrutura de uma Sessão de Treino Típica (Exemplo: 30 minutos)
+
+1.  **Aquecimento (5 minutos):** 
+    *   Caminhada muito leve e mobilidade articular (círculos com os braços, rotação de tornozelos e quadris). 
+    *   *RPE:* 9 a 10.
+2.  **Fase Principal (20 a 22 minutos):** 
+    *   Caminhada ritmada ou pedalada na bicicleta ergométrica mantendo a FC entre 73-108 bpm.
+    *   *RPE:* 11 a 13.
+3.  **Desaquecimento / Volta à calma (5 minutos):** 
+    *   Redução gradual da velocidade da caminhada/pedalada até parar.
+    *   Alongamentos estáticos suaves para os principais grupos musculares (panturrilhas, quadríceps, posteriores de coxa, peitoral).
+    *   *RPE:* 6 a 8.
+
+---
+
+### 5. Considerações Especiais para Roslyn
+*   **Foco na Glicemia:** O exercício aeróbico é fundamental para melhorar a sensibilidade à insulina (auxiliando no quadro de pré-diabetes). O ideal é que ela não passe mais de 48 horas sem se exercitar, pois os efeitos benéficos do exercício no metabolismo da glicose duram cerca de 24 a 48 horas.
+*   **Treinamento de Resistência (Força):** Embora o foco seja C-R, Roslyn deve ser encorajada a adicionar **2 dias por semana de treinamento de força** (pesos livres, máquinas ou peso corporal) após as primeiras semanas de adaptação aeróbica. Isso ajudará a aumentar a massa magra, o metabolismo basal e a controlar a glicemia.
+*   **Adesão:** Como ela é sedentária desde a faculdade, o programa deve ser prazeroso. Sugira caminhar ouvindo podcasts/músicas, ou caminhar acompanhada para garantir que ela mantenha a consistência.",gemini-3.6-flash,sucesso,,,184,1569,1902,0.01315425,26.0126,0.014976468950295677,0.060633938290363634,0.005892428357201933,"Com base no perfil de Roslyn, aqui está uma análise inicial dos fatores de risco e a elaboração de um programa de treinamento cardiorrespiratório (C-R) seguro, progressivo e estruturado.
+
+---
+
+### 1. Análise do Perfil e Fatores de Risco
+* **Pontos de Atenção:**
+  * **Estilo de vida:** Sedentária (aumenta risco cardiovascular e metabólico).
+  * **Histórico Familiar:** O irmão teve uma angioplastia aos 40 anos (considerado parente de primeiro grau com evento cardiovascular prematuro — *Fator de Risco*).
+  * **Glicemia de Jejum:** 105 mg/dL (Glicemia de jejum alterada / Pré-diabetes — *Fator de Risco*).
+  * **Composição Corporal:** IMC de 27,2 kg/m² (sobrepeso) e 35% de gordura corporal.
+* **Classificação de Risco:** Risco moderado. Ela pode iniciar um programa de **intensidade leve a moderada** com segurança, mas deve progredir gradualmente.
+
+---
+
+### 2. Cálculo da Frequência Cardíaca Alvo (FCA) e PSE (RPE)
+
+Para iniciantes e sedentários, a recomendação inicial da ACSM é trabalhar em uma intensidade moderada, entre **40% e 60% da Frequência Cardíaca de Reserva (FCR)** (Fórmula de Karvonen).
+
+#### **Passo 1: Frequência Cardíaca Máxima Estada ($FC_{máx}$)**
+* $FC_{máx} = 220 - \text{Idade}$
+* $FC_{máx} = 220 - 36 = \mathbf{184 \text{ bpm}}$
+
+#### **Passo 2: Frequência Cardíaca de Repouso Estada ($FC_{repouso}$)**
+*(Como não foi informada a $FC_{repouso}$ exata, adotaremos uma média padrão para mulheres sedentárias: **72 bpm**).*
+
+#### **Passo 3: Frequência Cardíaca de Reserva ($FCR$)**
+* $FCR = FC_{máx} - FC_{repouso}$
+* $FCR = 184 - 72 = \mathbf{112 \text{ bpm}}$
+
+#### **Passo 4: Cálculo da Faixa Alvo (40% a 60% da FCR)**
+* **Limite Inferior (40%):** $(112 \times 0,40) + 72 = 44,8 + 72 = \mathbf{117 \text{ bpm}}$
+* **Limite Superior (60%):** $(112 \times 0,60) + 72 = 67,2 + 72 = \mathbf{139 \text{ bpm}}$
+
+> **Faixa de Frequência Cardíaca Alvo:** **117 a 139 bpm**
+
+#### **Correspondência com a Escala de Percepção de Esforço (PSE / RPE):**
+* **Escala de Borg (6-20):** **12 a 13** (*""Ligeiramente cansativo""*).
+* **Escala Adaptada (0-10):** **3 a 4** (*""Moderado""*).
+* **Teste da Fala (*Talk Test*):** Roslyn deve conseguir manter uma conversa sem ficar excessivamente ofegante.
+
+---
+
+### 3. Programa de Treinamento Cardiorrespiratório (Princípio FITT)
+
+#### **Frequência:**
+* **Inicial (Semanas 1–4):** 3 dias por semana (dias alternados).
+* **Progressão (Semanas 5–12):** 4 a 5 dias por semana.
+
+#### **Intensidade:**
+* **Fase de Adaptação:** 40% a 50% da FCR (117 a 128 bpm | PSE 11-12).
+* **Fase de Melhoria:** 50% a 60% da FCR (128 a 139 bpm | PSE 12-13).
+
+#### **Tempo (Duração):**
+* **Inicial:** 20 a 30 minutos por sessão (pode ser fracionado em blocos de 10-15 min se sentir desconforto).
+* **Progressão:** Aumentar 5 minutos a cada 1 ou 2 semanas até atingir 45 a 60 minutos por sessão.
+
+#### **Tipo (Modalidade):**
+Atividades aeróbicas contínuas, rítmicas e de **baixo impacto** para proteger as articulações (dado o percentual de gordura e o sedentarismo):
+1. **Caminhada na esteira ou ao ar livre** (inclinada levemente se necessário).
+2. **Bicicleta ergométrica** (excelente para controle de impacto nos joelhos).
+3. **Elíptico** (trabalha membros superiores e inferiores sem impacto).
+4. **Hidroginástica ou Natação** (opcional, boa para variação).
+
+---
+
+### 4. Estrutura Padrão de uma Sessão de Treino
+
+1. **Aquecimento (5 a 10 minutos):**
+   * Caminhada leve (FC abaixo de 110 bpm) + mobilidade articular dinâmica (quadril, tornozelos, ombros).
+2. **Fase Principal / Cardiorrespiratória (20 a 40 minutos):**
+   * Manter a FC dentro da faixa alvo (**117 – 139 bpm**).
+   * Exemplo: Alternar 10 min de esteira + 10 min de elíptico + 10 min de bicicleta.
+3. **Desaquecimento / Volta à Calma (5 a 10 minutos):**
+   * Diminuição gradual do ritmo da caminhada até a FC cair para próximo de 100 bpm.
+   * Alongamentos leves estáticos para os membros inferiores.
+
+---
+
+### 5. Recomendações e Cuidados Especiais
+
+* **Controle da Glicemia:** Como a glicemia de jejum é de 105 mg/dL, o exercício aeróbico moderado ajudará a melhorar a sensibilidade à insulina. Orientá-la a não treinar em jejum prolongado e manter-se hidratada.
+* **Progressão Segura:** Aumentar primeiro a **duração** do treino antes de aumentar a **intensidade** (regra dos 10% de aumento de volume por semana).
+* **Treinamento de Resistência (Futuro):** Embora o foco seja C-R, recomenda-se introduzir exercícios de força/resistência muscular (2x por semana) após 3 a 4 semanas de adaptação aeróbica para auxiliar na composição corporal e controle glicêmico.",inconclusivo,0.00893655,67.94
+dolly_530,duvida,dolly-15k,marla,2026-11-25T14:59:18+00:00,piloto-dolly-v1,ABERTA,Os pinguins conseguem voar?,4,27,2,baixa,gemini-3.5-flash-lite,sucesso,,,10,219,0,0.0005505,24.7152,5.946868419404991e-05,0.0002407657332044184,2.393745594849023e-05,"**Não, os pinguins não conseguem voar** no ar como a maioria das outras aves. 
+
+No entanto, há uma forma interessante de ver isso: **eles ""voam"" debaixo d'água!** 
+
+Evolutivamente, as asas dos pinguins transformaram-se em **nadadeiras** (ou barbatanas) rígidas e aerodinâmicas. Com a ajuda dos seus corpos fusiformes (em forma de torpedo) e pés com membranas, eles usam o mesmo princípio físico do voo para se deslocarem, mas num meio diferente: a água. 
+
+Enquanto no ar eles seriam presas fáceis e desajeitados, debaixo d'água eles são nadadores extremamente ágeis e rápidos, capazes de atingir velocidades superiores a 30 km/h para caçar peixes e fugir de predadores como focas e orcas. 
+
+Portanto, embora não voem no céu, são excelentes ""voadores"" subaquáticos!",gemini-3.6-flash,sucesso,,,10,302,802,0.0041475,42.1082,0.004841995983397633,0.019603371571355905,0.0019223619551130729,"**Não, os pinguins não conseguem voar no ar.**
+
+Embora sejam aves, os pinguins perderam a capacidade de voar há milhões de anos devido ao seu processo evolutivo. Em vez disso, o corpo deles adaptou-se perfeitamente para a vida aquática:
+
+* **Asas viraram nadadeiras:** As asas dos pinguins evoluíram para se tornarem nadadeiras rígidas e planas, excelentes para remar na água, mas inúteis para gerar sustentação no ar.
+* **Ossos densos:** Ao contrário das aves que voam (que possuem ossos ocos e leves para facilitar o voo), os pinguins têm ossos pesados e densos. Isso os ajuda a afundar e mergulhar com facilidade.
+* **Massa corporal e gordura:** Eles possuem uma espessa camada de gordura e penas muito densas para suportar o frio, o que os torna pesados demais para voar.
+
+### O ""Voo"" debaixo d'água
+Apesar de não voarem no céu, costuma-se dizer que os pinguins **""voam debaixo d'água""**. A física do movimento deles na água é exatamente a mesma do voo dos passarinhos no ar: eles usam as nadadeiras para se impulsionar, alcançando grandes velocidades e fazendo manobras incríveis no mar.",inconclusivo,0.0035970000000000004,86.73
+dolly_533,explicacao,dolly-15k,marla,2026-11-25T15:20:33+00:00,piloto-dolly-v1,ABERTA,Quais são alguns usos do Isopor?,6,32,2,baixa,gemini-3.5-flash-lite,sucesso,,,10,661,0,0.0016555,4.029,0.00017245503908927854,0.0006982038444913358,6.793044557897517e-05,"O **isopor** (nome comercial do **Poliestireno Expandido** ou **EPS**) é um material extremamente versátil, leve e isolante. Por causa dessas características, ele é utilizado em uma enorme variedade de setores. 
+
+Aqui estão os principais usos do isopor divididos por categorias:
+
+### 1. Construção Civil
+*   **Isolamento térmico e acústico:** É muito usado em telhados, lajes e paredes para manter a temperatura interna agradável e reduzir ruídos.
+*   **Aliviamento de peso em estruturas:** Em grandes obras (como pontes e aterros), blocos de EPS são usados para preencher espaços sem adicionar peso excessivo ao solo ou à estrutura.
+*   **Lajes e sancas:** Molduras decorativas para tetos, rodatetos e blocos para lajes pré-moldadas.
+
+### 2. Embalagens e Proteção
+*   **Proteção de eletrodomésticos e eletrônicos:** Os moldes de isopor protegem TVs, geladeiras, computadores e outros aparelhos contra impactos durante o transporte.
+*   **Caixas térmicas:** Usadas para transportar vacinas, remédios, órgãos para transplante, além de alimentos e bebidas (caixas de isopor para praia/camping).
+*   **Embalagens de alimentos:** Copos descartáveis, bandejas para frios e carnes em supermercados, e marmitas térmicas (embora seu uso esteja diminuindo devido a leis ambientais).
+
+### 3. Artesanato, Decoração e Educação
+*   **Maquetes:** Estudantes de arquitetura e engenharia usam placas de isopor para criar maquetes de edifícios e terrenos.
+*   **Festas e cenografia:** Esculturas gigantes para festas, cenários de teatro e cinema, e letras 3D são frequentemente feitas de EPS por ser fácil de cortar e pintar.
+*   **Bolas de isopor:** Muito usadas em trabalhos escolares, enfeites de Natal e artesanato em geral.
+
+### 4. Esporte e Lazer
+*   **Pranchas de surf e SUP:** Algumas pranchas, especialmente as para iniciantes ou de baixo custo, têm o núcleo de EPS.
+*   **Capacetes:** O miolo de capacetes (de bicicleta, moto, etc.) é feito de EPS, cuja principal função é absorver o impacto em caso de quedas, protegendo o crânio.
+*   **Flutuadores:** Coletes salva-vidas antigos e boias utilizavam o isopor pela sua alta capacidade de flutuação.
+
+### Curiosidade Ecológica:
+Embora o isopor demore centenas de anos para se decompor na natureza, **ele é 100% reciclável**. O grande desafio é a logística de coleta, já que ele é volumoso e leve, o que encarece o transporte para as usinas de reciclagem. Quando reciclado, pode ser transformado em solados de sapato, réguas, cabides e concreto leve.",gemini-3.6-flash,sucesso,,,10,930,1050,0.0074325,15.151,0.008550282528134133,0.034616791507842304,0.003365635313668894,"O **Isopor** (nome comercial pelo qual o **EPS – Poliestireno Expandido** é conhecido no Brasil) é um material extremamente versátil, leve, resistente e com excelentes propriedades de isolamento térmico e acústico. 
+
+Devido a essas características, ele é utilizado em diversos setores. Aqui estão os principais usos do Isopor:
+
+---
+
+### 1. Construção Civil
+É um dos setores que mais consome EPS atualmente. Ele ajuda a reduzir o peso das estruturas e melhora a eficiência energética dos edifícios.
+* **Preenchimento de lajes:** Substitui as tijolos/blocos cerâmicos tradicionais, deixando a estrutura muito mais leve e reduzindo o consumo de aço e concreto.
+* **Isolamento térmico e acústico:** Aplicado em paredes, telhados, sótãos e pisos para manter a temperatura interna agradável e abafar ruídos.
+* **Nivelamento de terrenos (Geofoam):** Blocos gigantes de EPS são usados na engenharia de solos para estabilizar encostas e construir cabeceiras de pontes sem adicionar peso excessivo ao solo.
+* **Painéis Monolíticos (Casas de Isopor):** Paredes inteiras feitas de EPS revestidas com malha de aço e concreto, permitindo obras rápidas e bem isoladas termicamente.
+* **Molduras e acabamentos:** Substitui o gesso em sancas, rodatetos e elementos decorativos de fachadas.
+
+---
+
+### 2. Embalagens e Proteção
+Por ser um excelente amortecedor de impactos, o Isopor é amplamente utilizado para proteger produtos durante o transporte.
+* **Eletroeletrônicos e eletrodomésticos:** Proteção de TVs, geladeiras, computadores, etc.
+* **Caixas térmicas:** Transporte de peixes, carnes, frutas e bebidas que precisam manter a temperatura baixa.
+* **Produtos frágeis:** Proteção para vidros, louças e peças automotivas.
+
+---
+
+### 3. Setor Alimentício
+* **Marmitex e copos descartáveis:** Mantêm a comida e o café quentes (ou bebidas geladas) por mais tempo e evitam queimaduras nas mãos.
+* **Bandejas de supermercado:** Usadas para embalar carnes, queijos, frutas e legumes.
+
+---
+
+### 4. Saúde e Farmacêutica
+* **Transporte de medicamentos e vacinas:** Caixas térmicas de EPS de alta densidade são vitais para a ""cadeia de frio"", garantindo que vacinas (como as da COVID-19), sangue e órgãos para transplante cheguem ao destino na temperatura correta.
+
+---
+
+### 5. Equipamentos de Segurança
+* **Capacetes:** A camada interna de absorção de impacto em capacetes de motociclistas, ciclistas e trabalhadores da construção civil é feita de EPS.
+* **Cadeirinhas infantis para carros:** O EPS fica escondido sob o tecido e serve para absorver a energia de uma colisão, protegendo a criança.
+
+---
+
+### 6. Artesanato, Decoração e Hobbies
+* **Bases para ""Bolo Fake"":** Muito usado em festas de aniversário e casamentos.
+* **Cenografia e esculturas:** Usado no Carnaval, no teatro e no cinema para criar cenários e esculturas gigantes leves.
+* **Aeromodelismo:** Utilizado na fabricação de aeromodelos (aviões de controle remoto) por ser extremamente leve.
+
+---
+
+### 7. Outras Aplicações
+* **Enchimento de Puffs:** Bolinhas de EPS são usadas para dar formato e conforto a puffs e almofadas.
+* **Artigos de Flutuação:** Utilizado no interior de coletes salvação, boias e pranchas de aprendizagem de natação.
+
+---
+
+### 💡 Nota sobre Sustentabilidade:
+O Isopor é composto por **98% de ar** e apenas 2% de plástico. Ele é **100% reciclável**, embora muitas pessoas não saibam disso. Quando descartado corretamente na coleta seletiva, ele pode ser transformado em novos produtos de plástico rígido, como réguas, canetas, rodapés e porta-retratos.",inconclusivo,0.005777,77.73
+dolly_506,explicacao,dolly-15k,marla,2026-11-26T12:21:26+00:00,piloto-dolly-v1,ABERTA,Qual é a melhor maneira de ensinar seus filhos a ler?,11,53,2,baixa,gemini-3.5-flash-lite,sucesso,,,13,843,0,0.0021114000000000003,4.7895,0.00021931912465436096,0.0008879384262287371,8.625406311259878e-05,"Ensinar uma criança a ler é uma das jornadas mais gratificantes da parentalidade. A ""melhor"" maneira não é um método único e rígido, mas sim uma combinação de **afeto, consistência e abordagens baseadas na ciência**.
+
+Hoje, a ciência da leitura (fônica) é amplamente reconhecida como o método mais eficaz, mas ele deve vir acompanhado do amor pelos livros. 
+
+Aqui está um passo a passo prático e eficaz para ensinar seu filho a ler:
+
+---
+
+### 1. Construa a base antes das letras (Consciência Fonológica)
+Antes de associar letras a sons, a criança precisa entender que a fala é feita de sons. Brinque com os sons das palavras:
+* **Rimas:** Recite poemas e cantigas (ex: ""A galinha do vizinho / bota ovo amarelinho"").
+* **Aliterações:** Brinque de achar palavras que começam com o mesmo som (ex: ""O **P**ato **P**edro **p**ula"").
+* **Contagem de sílabas:** Batam palmas para cada pedaço de uma palavra (ex: ma-çã = duas palmas).
+
+### 2. O Método Fônico (O segredo do sucesso)
+Em vez de ensinar o nome das letras (A, B, C), ensine o **som** que elas fazem (A faz ""ah"", B faz ""b"", S faz ""s""). 
+* Comece pelas vogais e consoantes de som contínuo (como F, M, S, V), que são mais fáceis de pronunciar.
+* Depois, junte os sons para formar pequenas palavras (ex: M + A = MA, M + A = MA $\rightarrow$ MAMÃE).
+
+### 3. Leia em voz alta **todos os dias**
+Esta é a regra de ouro. Ler para seu filho (mesmo antes de ele saber falar) desenvolve o vocabulário e mostra *para que* serve a leitura.
+* **Leitura interativa:** Não apenas leia o texto. Aponte para as figuras, faça perguntas (""O que você acha que vai acontecer agora?""), mude a voz para os personagens.
+* Deixe a criança ver você lendo. Filhos imitam o que os pais fazem.
+
+### 4. Use o ambiente a favor (Alfabetização Lúdica)
+A leitura deve ser uma diversão, nunca uma obrigação chata.
+* **Caça ao tesouro de letras:** Procure letras em placas de rua, rótulos de supermercado e embalagens.
+* **Jogos:** Jogo da memória com letras, bingo de palavras simples, quebra-cabeças do alfabeto.
+* **Leitura compartilhada:** Você lê uma frase e a criança lê a palavra mais fácil (ex: ""O gato subiu no... [a criança lê] muro"").
+
+### 5. Respeite o ritmo da criança
+Cada criança tem seu próprio tempo neurológico e emocional. Algumas aprendem aos 4 anos, outras aos 7. 
+* Se a criança demonstrar frustração, cansaço ou choro, **pare imediatamente**. 
+* Sessões curtas (10 a 15 minutos por dia) são muito mais eficazes do que uma hora de estudo cansativo.
+
+---
+
+### Resumo dos 3 Pilares:
+1. **Prazer:** Leia por amor, para criar um hábito emocional positivo.
+2. **Som:** Ensine que as letras têm sons que se misturam.
+3. **Paciência:** Celebre cada pequena conquista (uma letra nova reconhecida, uma palavra soletrada).
+
+Se sentir que a criança está tendo dificuldades extremas ou bloqueios persistentes após os 7 anos, vale a consulta com um psicopedagogo ou fonoaudiólogo para descartar dislexia ou outras questões de aprendizado.",gemini-3.6-flash,sucesso,,,13,1117,1141,0.00847725,246.6734,0.009861983247746247,0.03992736109219124,0.003906437970539238,"Não existe uma ""fórmula mágica"" única, pois cada criança aprende no seu próprio ritmo. No entanto, a **ciência da aprendizagem e da leitura (neurociência pedagógica)** aponta que a maneira mais eficaz de ensinar uma criança a ler combina o **Método Fônico** (aprender os sons das letras) com um **ambiente rico em estímulos de leitura**.
+
+Aqui está um passo a passo prático e comprovado para guiar seu filho nesse processo:
+
+---
+
+### 1. Comece Antes da Alfabetização (A Base)
+Antes de aprender a ler letras, a criança precisa aprender a **ouvir os sons** da linguagem. Isso se chama *Consciência Fonológica*.
+
+*   **Leia para ela todos os dias:** Desde bebê, leia histórias. Apavore as páginas, mude a voz dos personagens e mostre que as palavras no papel têm significado.
+*   **Brinque com rimas e aliterações:** Cante músicas infantis, brinque de encontrar palavras que rimam (*""O que rima com gato? Prato!""*) ou que começam com o mesmo som (*""Pato, pipoca, panela... todos começam com P""*).
+*   **Conte as sílabas:** Bata palmas para cada pedaço de uma palavra (ex: ""Cachorro"" = Ca-cho-rro = 3 palmas).
+
+---
+
+### 2. Ensine os Sons das Letras (Método Fônico)
+O maior erro é ensinar apenas o *nome* da letra (""eme"", ""efe"", ""gê"") em vez do **som** que ela faz. 
+
+*   **Foque no som (Fonema):** Mostre a letra **M** e diga que ela faz o som *""Mmm""*, e não apenas que o nome dela é ""eme"". Mostre a letra **S** e faça o som de cobra *""Sss""*.
+*   **Ordem sugerida:**
+    1.  Comece pelas **Vogais** (A, E, I, O, U) – são os sons mais fáceis.
+    2.  Passe para **Consonantes simples e contínuas** (sons que dá para esticar, como M, S, F, V, L, R).
+    3.  Depois, insira as **Consonantes oclusivas** (P, B, T, D, K, G).
+
+---
+
+### 3. Mostre como ""Juntar"" os Sons (Decodificação)
+Assim que a criança souber o som de algumas vogais e poucas consoantes, ensine-a a juntá-los. Não espere ela aprender o alfabeto inteiro.
+
+*   Se ela sabe o som do **M** (*mmm*) e do **A** (*ah*), mostre como juntar: *""Mmm... ahhh... MA!""*.
+*   Use letras de plástico, de madeira ou cartões para que ela possa mover as letras fisicamente e juntá-las.
+*   Passe de sílabas para palavras simples de duas sílabas (Ex: *MA-PA*, *VA-CA*, *BO-LA*).
+
+---
+
+### 4. Torne a Leitura Prática e Significativa
+A leitura não deve parecer uma ""tarefa de casa"" chata, mas uma ferramenta para descobrir o mundo.
+
+*   **Leia o mundo ao redor:** Peça para ela ler rótulos no supermercado, placas na rua, o nome do desenho na TV ou a marca do cereal.
+*   **Livros decodificáveis (nível inicial):** Use livros infantis com frases curtas, palavras simples e letras grandes (de preferência letra de imprensa maiúscula/CAIXA ALTA no início, pois é mais fácil de identificar visualmente).
+*   **Faça perguntas de compreensão:** Não basta apenas ""juntar as letras"". Pergunte: *""O que o cachorro fez na história?""*, *""Por que o menino estava triste?""*. Leitura é sobre **entendimento**.
+
+---
+
+### Dicas de Ouro para os Pais
+
+1.  **Sessões curtas e diárias:** 10 a 15 minutos por dia é MUITO melhor do que 1 hora inteira no fim de semana. O cérebro infantil se cansa rápido.
+2.  **Seja o exemplo:** Crianças imitam os pais. Se elas virem você lendo livros ou revistas, terão mais interesse pela leitura do que se virem você apenas no celular.
+3.  **Nunca force ou puncione:** Se a criança estiver frustrada ou chorando, pare. A leitura deve estar associada a momentos de afeto e prazer.
+4.  **Celebre as pequenas vitórias:** Quando ela conseguir ler a primeira palavra sozinha (mesmo que seja ""OI"" ou ""PAI""), comemore muito! Isso constrói autoconfiança.
+
+### Resumo:
+O segredo é **constância, paciência e diversão**. Ensinar os **sons das letras** de forma brincalhona e **ler junto com a criança todos os dias** é a receita de maior sucesso.",inconclusivo,0.00636585,75.09
+dolly_512,explicacao,dolly-15k,marla,2026-11-26T12:21:54+00:00,piloto-dolly-v1,ABERTA,O que é o jogo de críquete?,7,27,2,baixa,gemini-3.5-flash-lite,sucesso,,,11,983,0,0.0024608,5.2144,0.000255088509983311,0.001032754851910772,0.00010017735580472019,"O **críquete** (em inglês, *cricket*) é um esporte de taco e bola disputado entre duas equipes, geralmente com 11 jogadores cada. É extremamente popular em países da Comunidade Britânica (Commonwealth), como Índia, Paquistão, Reino Unido, Austrália, África do Sul e Nova Zelândia. Na Índia, por exemplo, o esporte é quase uma religião.
+
+Para quem é brasileiro, a melhor forma de entender o críquete é compará-lo vagamente com o **beisebol** (embora tenham regras e dinâmicas bastante diferentes).
+
+Aqui estão os pontos principais para entender como o jogo funciona:
+
+### 1. O Campo e os Equipamentos
+* **O Campo:** Geralmente é oval e gramado, com uma área central retangular chamada **pitch** (pista).
+* **Os Wickets (Gols/Alvos):** Nas duas pontas do *pitch*, ficam três estacas de madeira fincadas no chão chamadas *stumps*, com duas barrinhas em cima chamadas *bails*. Juntas, formam o *wicket*.
+* **A Bola:** É dura, feita de cortiça revestida de couro (parecida com a bola de baseball).
+* **O Taco (Bat):** É feito de madeira (salgueiro) com um cabo canelado, plano em um lado e curvo no outro.
+
+### 2. O Objetivo do Jogo
+O objetivo principal é **marcar mais corridas (pontos) que o adversário**. 
+O jogo é dividido em turnos chamados **innings**. Uma equipe rebate enquanto a outra lança e campo. Depois, os papéis se invertem.
+
+### 3. A Dinâmica Básica (Batedor x Lançador)
+* **O Lançador (Bowler):** Corre e lança a bola em direção ao *wicket* defendido pelo batedor adversário. A regra exige que a bola geralmente bata no chão antes de chegar ao batedor.
+* **O Batedor (Batter):** Fica em pé na frente do *wicket* tentando rebater a bola o mais longe possível para ter tempo de correr de uma ponta do *pitch* à outra com seu parceiro. Cada troca bem-sucedida vale 1 corrida.
+
+### 4. Como o Batedor é Eliminado (Out)?
+Um batedor pode ser eliminado de várias formas, sendo as mais comuns:
+* **Bowled:** O lançador acerta a bola diretamente no *wicket*, derrubando as barrinhas (*bails*).
+* **Caught (Pego):** O batedor rebate a bola, mas um defensor a pega no ar antes que ela toque o chão.
+* **Run Out:** Os defensores acertam o *wicket* com a bola enquanto os batedores estão correndo entre as bases e ainda não chegaram a um lugar seguro.
+* **LBW (Leg Before Wicket):** A bola iria acertar o *wicket*, mas bateu na perna (ou corpo) do batedor impedindo que o alvo fosse atingido.
+
+### 5. Pontuação Extra (Fronteiras)
+Se o batedor rebate a bola com muita força e ela sai rolando para fora dos limites do campo, a equipe ganha **4 corridas**. Se a bola sai voando direto para fora do campo (sem tocar o chão), vale **6 corridas** (o equivalente ao ""home run"" do beisebol).
+
+### 6. As Variações (Formatos)
+O críquete é famoso por sua duração. Existem três formatos principais:
+* **Test Cricket:** O formato tradicional. Pode durar **até 5 dias**, com cada equipe rebatendo duas vezes. É considerado o teste máximo de habilidade e resistência.
+* **One Day International (ODI):** Partidas limitadas a 50 *overs* (conjuntos de 6 lançamentos) por equipe. Dura cerca de um dia inteiro (cerca de 8 horas).
+* **Twenty20 (T20):** O formato mais rápido e moderno. Cada equipe tem direito a apenas 20 *overs*. O jogo dura cerca de 3 horas, tem muita música, torcida animada e é o formato usado na liga milionária da Índia (IPL).
+
+Em resumo, o críquete é um jogo estratégico, de muita técnica, paciência (nos formatos longos) e estatísticas complexas, mas que ganhou uma versão moderna muito rápida e festiva com o T20.",gemini-3.6-flash,sucesso,,,11,1103,1038,0.008037,13.3066,0.009175670546058284,0.03714874604346716,0.003596427172618246,"O **críquete** (ou *cricket*, em inglês) é um esporte de taco e bola praticado ao ar livre por duas equipes de **11 jogadores** cada. É o segundo esporte mais popular do mundo em número de fãs (atrás apenas do futebol), sendo extremamente popular em países como Índia, Paquistão, Austrália, Reino Unido, África do Sul e países do Caribe.
+
+Embora lembre o beisebol para quem não conhece, o críquete tem regras, dinâmicas e origens próprias (surgiu na Inglaterra no século XVI).
+
+Aqui está um resumo de como o jogo funciona:
+
+---
+
+### 1. O Campo e os Equipamentos
+* **O Campo:** É grande e de formato oval. No centro, há uma faixa retangular de terra batida ou grama curta chamada **pitch** (com 20 metros de comprimento).
+* **Os Wickets:** Em cada extremidade do *pitch*, existem três estacas de madeira cravadas no chão (chamadas *stumps*), com duas pequenas peças de madeira equilibradas no topo (as *bails*). Esse conjunto é o **wicket**.
+* **Equipamento:** O rebatedor usa um taco plano de madeira, luvas e proteções (canoas e capacete). A bola é dura, feita de cortiça e revestida de couro vermelho ou branco.
+
+---
+
+### 2. A Dinâmica do Jogo
+Uma equipe **ataca** (rebate) para fazer pontos, enquanto a outra **defende** (arremessa e pega a bola) para evitar pontos e eliminar os rebatedores.
+
+* **Arremessador (Bowler):** Corre e lança a bola em direção ao *wicket* do adversário, tentando derrubar as peças de madeira no topo (*bails*) ou fazer o rebatedor errar.
+* **Rebatedor (Batsman):** Fica na frente do *wicket* e tenta defender suas estacas rebatendo a bola o mais longe possível.
+* Sempre há **dois rebatedores** em campo ao mesmo tempo (um em cada ponta do *pitch*).
+
+---
+
+### 3. Como Pontuar (Fazer *Runs*)
+Os pontos no críquete são chamados de **runs** (corridas). O time que rebate pode pontuar de duas formas principais:
+
+1. **Correndo no Pitch:** Após rebater a bola para longe, os dois rebatedores correm para a extremidade oposta do *pitch*. Cada cruzada completa vale **1 run**.
+2. **Rebatendo até a borda do campo (Boundary):**
+   * Se a bola for rebatida, quicar no chão e sair do campo: o time ganha **4 runs** automaticamente.
+   * Se a bola for rebatida e sair do campo sem tocar o chão (como um *home run* no beisebol): o time ganha **6 runs** automaticamente.
+
+---
+
+### 4. Como Eliminar um Rebatedor (Wickets)
+A equipe que arremessa tenta eliminar (eliminar um *batsman*) de várias formas. As mais comuns são:
+
+* **Bowled:** O arremessador joga a bola, o rebatedor fura e a bola derruba o *wicket*.
+* **Caught (Pego no ar):** O rebatedor bate na bola e um defensor a pega no ar antes que ela toque o chão.
+* **LBW (Leg Before Wicket):** A bola atinge o corpo/perna do rebatedor quando ela iria atingir o *wicket* (o rebatedor ""bloqueou"" a bola com o corpo).
+* **Run Out:** O defensor joga a bola e derruba o *wicket* enquanto o rebatedor está correndo fora da sua zona de segurança.
+
+Quando um rebatedor é eliminado, ele sai do jogo e entra outro do seu time. Quando 10 dos 11 rebatedores forem eliminados (ou o limite de arremessos acabar), os times trocam de papel.
+
+---
+
+### 5. Os Formatos de Jogo
+O críquete é famoso por ter formatos com durações muito diferentes:
+
+* **Test Cricket:** O formato mais tradicional e prestigiado. O jogo pode durar até **5 dias**, com vários intervalos para almoço e chá. Os jogadores vestem roupas totalmente brancas.
+* **ODI (One Day International):** O jogo dura cerca de **7 a 8 horas** e é resolvido em um único dia (cada time tem direito a 50 *overs* - conjuntos de 6 arremessos).
+* **T20 (Twenty20):** O formato moderno e rápido. Dura cerca de **3 horas** (20 *overs* para cada lado), cheio de música, luzes e rebatidas agressivas. É o formato que dinamizou o esporte no mundo.
+
+---
+
+### Resumo do Objetivo
+Vence o jogo a equipe que somar o **maior número de *runs*** ao final das entradas (*innings*) estipuladas.",inconclusivo,0.005576200000000001,69.38
+dolly_518,informacao,dolly-15k,marla,2026-11-26T12:41:23+00:00,piloto-dolly-v1,ABERTA,Quantos tipos de baixo existem?,5,31,2,baixa,gemini-3.5-flash-lite,sucesso,,,8,1115,0,0.0027899,9.4089,0.0002951530610792952,0.0011949607448250071,0.00011719572263729044,"Embora exista uma imensa variedade de modelos, marcas e variações, podemos classificar os baixos em **duas grandes famílias principais**: o **Baixo Acústico** e o **Baixo Elétrico**. 
+
+Dentro dessas categorias, os baixos se dividem por número de cordas, formato, captação e função musical. Abaixo, listo os principais tipos que existem:
+
+---
+
+### 1. Baixo Acústico (Contrabaixo Acústico / Upright Bass)
+É o ancestral de todos os baixos modernos. É um instrumento grande, tocado na vertical (geralmente em pé ou com um banco alto), muito usado na **música clássica (orquestras), no Jazz tradicional e no Bluegrass**. 
+* **Como funciona:** O som é amplificado acusticamente pelo seu grande corpo de madeira. Pode ter captação piezoelétrica para uso amplificado.
+* **Curiosidade:** É o único baixo da lista que usa **cordas de tripa ou nylon/aço revestido** e é frequentemente tocado com um arco (embora o pizzicato — puxar as cordas com os dedos — seja muito comum no jazz).
+
+---
+
+### 2. Baixo Elétrico
+Criado na década de 1950 (popularizado pela Fender com o Precision Bass), revolucionou a música por ser menor, mais fácil de transportar e amplificado eletronicamente. O baixo elétrico se divide em várias subcategorias:
+
+#### A. Quanto ao Modelo do Corpo e Captação:
+* **Precision Bass (P-Bass):** O clássico absoluto. Possui um captador ""split-coil"" (dividido) que produz um som gordo, encorpado e com muita presença nos médios. É o favorito para rock, punk, pop e funk.
+* **Jazz Bass (J-Bass):** Possui dois captadores do tipo *single-coil*. Oferece um som mais versátil, brilhante e estalado, com graves profundos e médios escavados. Muito usado em funk, jazz, fusion e rock.
+* **Modernos / Boutique:** Marcas como Warwick, Ibanez, Music Man e Yamaha fazem baixos com designs ergonômicos, madeiras nobres e muita versatilidade eletrônica.
+
+#### B. Quanto à Trastes (Frets):
+* **Freted (Com trastes):** O modelo padrão, com divisões metálicas no braço, facilitando a afinação exata das notas.
+* **Fretless (Sem trastes):** O braço é liso (semelhante ao violoncelo). Produz um som aveludado, com um efeito de ""chorinho"" ou *slide* contínuo (mirliton). Muito usado no jazz e na MPB (ex: Jaco Pastorius).
+
+#### C. Quanto ao Número de Cordas:
+* **4 cordas:** O padrão da indústria (E-A-D-G). Atende a 95% dos estilos musicais.
+* **5 cordas:** Adiciona uma corda grave (Si/B), muito usada no gospel, funk, metal e sertanejo para alcançar notas mais profundas.
+* **6 cordas (ou mais):** Adiciona uma corda grave e uma aguda (Do/C). É muito usado por baixistas solistas e no jazz fusion. Existem até modelos de 7, 8, 10 ou mais cordas, mas são raros e customizados.
+
+#### D. Quanto à Escala (Tamanho do Braço):
+* **Long Scale (Escala longa):** O padrão (34 polegadas), que oferece melhor tensão nas cordas e graves mais definidos.
+* **Short Scale (Escala curta):** (30 polegadas ou menos), como o famoso *Fender Mustang*. É mais leve, tem um braço mais curto (ótimo para quem tem mãos menores ou guitarristas) e um som mais ""vintage"" e encorpado.
+
+---
+
+### 3. Outros Variações Especiais
+
+* **Baixo Acústico Elétrico:** Parece um violão gigante, mas é um baixo. Embora tenha caixa acústica, seu som natural é baixo, precisando de amplificador para tocar com outros instrumentos.
+* **Semi-Acústico (Hollowbody / Thinline):** Baixos elétricos que possuem uma câmara de ressonância interna (como uma guitarra semi-acústica, ex: Epiphone Viola ou Hofner do Paul McCartney). Têm um timbre amadeirado e quente.
+* **Baixo Piccolo:** Um baixo elétrico encordoado com uma oitava acima, soando praticamente como uma guitarra barítona ou uma guitarra mais grave.
+* **Synth Bass (Baixo Sintetizador):** Embora hoje em dia seja feito mais por pedais de efeito ou teclados, existem baixos que geram timbres eletrônicos de sintetizador diretamente das cordas.
+
+### Resumo
+Se você está começando, o **baixo elétrico de 4 cordas (modelo Precision ou Jazz Bass)** é o tipo mais comum, versátil e recomendado para aprender.",gemini-3.6-flash,sucesso,,,8,1005,1119,0.007971,264.0831,0.009279073114797622,0.037567383106236356,0.0036760513275001516,"Não existe um número único para responder a essa pergunta, pois os baixos podem ser classificados de várias formas diferentes: **pela construção, pela quantidade de cordas, pela eletrônica e pela presença de trastes.**
+
+Abaixo, dividi os tipos de baixo pelas suas categorias mais importantes para você entender claramente:
+
+---
+
+### 1. Por Tipo de Construção e Formato (Os principais ""formatos"")
+
+*   **Baixo Elétrico de Corpo Sólido:** É o mais comum do mundo (usado no Rock, Pop, Sertanejo, etc.). Precisa de um amplificador para emitir som.
+*   **Baixolão (Baixo Acústico):** Parece um violão grande. Possui caixa de ressonância e pode ser tocado desplugado (embora a maioria tenha captação para ser amplificado).
+*   **Baixo Semi-Acústico (Hollow Body):** Tem o corpo oco ou semi-oco como uma guitarra de Jazz. Tem um som mais ""vintage"", grave e aveludado (muito usado pelos Beatles, Paul McCartney).
+*   **Contrabasso Acústico (ou Baixo Vertical / Double Bass):** É o baixo gigante de orquestra, tocado em pé (com o arco ou com os dedos). Muito usado na música clássica, Jazz e Rockabilly.
+*   **Baixo Vertical Elétrico (EUB - Electric Upright Bass):** Uma versão portátil e elétrica do contrabasso acústico.
+
+---
+
+### 2. Pela Quantidade de Cordas
+
+*   **4 Cordas:** O padrão clássico (afinação Mi-Lá-Ré-Sol). Usado em 90% das músicas.
+*   **5 Cordas:** O mais popular na música moderna. Adiciona uma corda mais grave (Si), muito usado no Sertanejo, Gospel, Pop e Metal.
+*   **6 Cordas:** Adiciona uma corda grave (Si) e uma aguda (Dó). Muito usado por baixistas de Jazz, Fusion e virtuosos.
+*   **Baixos de Cordas Duplas/Múltiplas (8 ou 12 cordas):** As cordas são agrupadas em pares (como num violão de 12 cordas), afinadas em oitavas. Criam um som encorpado e com efeito de ""chorus"".
+*   **7 ou mais cordas (Extended Range):** Instrumentos exóticos, geralmente feitos sob medida para estilos muito específicos.
+
+---
+
+### 3. Pela Presença de Trastes (Escala)
+
+*   **Fretted (Com Trastes):** O padrão. Tem as divisões de metal no braço que garantem a afinação exata da nota.
+*   **Fretless (Sem Trastes):** O braço é liso como o de um violino. O som fica mais aveludado, ""choroso"" e contínuo (permite *glissandos* perfeitos). Exige muito treino de percepção auditiva.
+
+---
+
+### 4. Pela Eletrônica (Captação e Circuito)
+
+*   **Passivo:** Não usa bateria. Tem um som mais orgânico, dinâmico e vintage (ex: Fender Precision clássico).
+*   **Ativo:** Usa uma bateria de 9V (ou 18V) interna. Permite equalizar os graves, médios e agudos direto no próprio baixo. Tem um som mais moderno, pesado e com mais ""ataque"".
+
+---
+
+### 5. Pelos Modelos Clássicos (Design de Captação)
+
+Na prática do dia a dia, os músicos costumam dividir os baixos elétricos pelos seus designs lendários de captação:
+
+1.  **P-Bass (Precision Bass):** 1 captador dividido ao meio. Som encorpado, médio, perfeito para ""colar"" na mixagem.
+2.  **J-Bass (Jazz Bass):** 2 captadores individuais. Som mais estalado, definido e versátil.
+3.  **Music Man (MM):** Captador *Humbucker* grande e pesado perto da ponte. Som agressivo, estalado e com muito grave.
+4.  **PJ Bass:** Mistura um captador Precision no meio e um Jazz Bass na ponte.
+
+---
+
+### Resumo:
+Se você combinar todas as opções, existem dezenas de variações. Mas se alguém perguntar **""qual baixo comprar?""**, a resposta quase sempre estará entre um **Baixo Elétrico de 4 ou 5 cordas (Precision ou Jazz Bass)**.",inconclusivo,0.005181100000000001,65.0
+dolly_514,culinaria,dolly-15k,marla,2026-11-26T13:59:31+00:00,piloto-dolly-v1,ABERTA,Quais são receitas rápidas para fazer no jantar?,8,48,2,baixa,gemini-3.5-flash-lite,sucesso,,,12,924,0,0.0023136,8.5182,0.0002449123066316592,0.0009915553349817787,9.731589123376272e-05,"O jantar durante a semana costuma pedir pratos rápidos, práticos e que não sujem muita louça. Aqui estão várias opções divididas por categorias para você escolher o que mais combina com o que tem na geladeira:
+
+---
+
+### 1. Opções com Ovos (Rápidas e Proteicas)
+
+*   **Omelete de Forno ou Frigideira ""Limpa Geladeira"":**
+    *   **Como fazer:** Bata 2 ou 3 ovos. Adicione sal, pimenta e o que tiver na geladeira picado (tomate, cebola, queijo, presunto, frango desfiado ou espinafre). Despeje na frigideira untada com azeite em fogo baixo e tampe até cozinhar.
+*   **Ovos Shakshuka Express:**
+    *   **Como fazer:** Refogue alho, cebola e pimentão em uma frigideira. Despeje meia lata de molho de tomate pronto. Faça buraquinhos no molho e quebre os ovos dentro. Tampe e deixe cozinhar até a clara firmar. Coma com pão.
+
+---
+
+### 2. Opções com Frango (Práticas)
+
+*   **Frango Xadrez de Frigideira:**
+    *   **Como fazer:** Corte um peito de frango em cubos e doure na frigideira com azeite. Acrescente pimentão e cebola em cubos. Tempere com shoyu (molho de soja). Se quiser, jogue amendoim torrado no final.
+*   **Iscas de Frango com Lemon Pepper:**
+    *   **Como fazer:** Corte o peito de frango em tiras, tempere com sal, alho e *lemon pepper* (ou limão e pimenta-do-reino). Doure na frigideira bem quente com um fio de azeite até ficarem douradinhos.
+
+---
+
+### 3. Massas Rápidas (Até 15 minutos)
+
+*   **Macarrão Alho, Óleo e Bacon (ou Linguiça):**
+    *   **Como fazer:** Enquanto o macarrão cozinha, doure cubinhos de bacon ou linguiça calabresa em uma frigideira com alho picado e azeite. Misture o macarrão cozido direto na frigideira com um pouco da água do cozimento.
+*   **Talharim com Molho de Requeijão e Queijo:**
+    *   **Como fazer:** Cozinhe a massa. Em uma panela, derreta 2 colheres de requeijão cremoso com um pouco da água quente do macarrão, sal, pimenta e queijo ralado. Misture a massa.
+
+---
+
+### 4. Sanduíches e Wraps (Para noites com zero paciência)
+
+*   **Wrap de Frango ou Atum:**
+    *   **Como fazer:** Use pão folha ou tortilha de trigo. Recheie com atum misturado com maionese (ou frango desfiado), alface americana, tomate e cenoura ralada. Enrole e doure rapidamente na frigideira para esquentar.
+*   **Crepioca Recheada:**
+    *   **Como fazer:** Misture 1 ovo com 1 ou 2 colheres de sopa de goma de tapioca e uma pitada de sal. Despeje em uma frigideira antiaderente. Doure dos dois lados e recheie com queijo e presunto (ou frango).
+
+---
+
+### 💡 Dicas para economizar tempo no jantar:
+1.  **Tenho frango congelado?** Descongele no micro-ondas na função descongelar ou corte em cubos pequenos ainda meio congelados (eles cozinham mais rápido na frigideira).
+2.  **Molho de tomate coringa:** Tenha sempre molho de tomate sachê ou enlatado de boa qualidade na despensa; ele salva qualquer receita.
+3.  **Use vegetais congelados:** Brócolis, seleta de legumes ou milho congelado vão direto do freezer para a panela/frigideira.",gemini-3.6-flash,sucesso,,,12,1455,1188,0.00992025,22.0099,0.011453870137710898,0.04637229626160245,0.004517493994956894,"Aqui estão **5 opções de receitas rápidas, saborosas e fáceis** para o jantar, todas prontas em 15 a 25 minutos:
+
+---
+
+### 1. Macarrão Carbonara Rápido (15 minutos)
+Um clássico italiano que não leva molho de tomate nem creme de leite, apenas ovos e queijo.
+
+*   **Ingredientes:**
+    *   200g de macarrão (espaguete ou penne)
+    *   100g de bacon picado
+    *   2 ovos inteiros + 1 gema
+    *   50g de queijo ralado (parmesão ou curado)
+    *   Sal e pimenta-do-reino a gosto
+*   **Como fazer:**
+    1. Coloque o macarrão para cozinhar em água fervente com sal.
+    2. Enquanto isso, frite o bacon em uma frigideira até ficar crocante. Desligue o fogo.
+    3. Em uma tigela, bata os ovos, a gema, o queijo e bastante pimenta-do-reino.
+    4. Escorra o macarrão (reserve 1/2 xícara da água do cozimento).
+    5. Jogue o macarrão quente na frigideira com o bacon (fogo desligado).
+    6. Despeje a mistura de ovos e mexa rapidamente. Se ficar seco, adicione um pouquinho da água do cozimento reservada até virar um molho cremoso. Sirva na hora.
+
+---
+
+### 2. Strogonoff de Frango Expresso (20 minutos)
+A versão simplificada do prato queridinho dos brasileiros.
+
+*   **Ingredientes:**
+    *   500g de peito de frango em cubos
+    *   1 caixinha de creme de leite
+    *   2 colheres (sopa) de molho de tomate ou extrato
+    *   1 colher (sopa) de mostarda
+    *   1/2 cebola picada e 1 dente de alho
+    *   Azeite, sal e pimenta a gosto
+*   **Como fazer:**
+    1. Em uma panela, aqueça o azeite e doure a cebola e o alho.
+    2. Adicione o frango, tempere com sal e pimenta e refogue até dourar bem e secar a água.
+    3. Adicione o molho de tomate e a mostarda. Mexa por 1 minuto.
+    4. Abaixe o fogo, adicione o creme de leite, misture bem e desligue antes de ferver.
+    5. Sirva com arroz e batata palha.
+
+---
+
+### 3. Shakshuka / Ovos no Molho de Tomate (15 minutos)
+Nutritivo, reconfortante e feito em uma única frigideira.
+
+*   **Ingredientes:**
+    *   3 a 4 ovos
+    *   1 lata de tomate pelado (ou 1 sachê de molho de tomate pronto)
+    *   1/2 cebola picada e 1 dente de alho
+    *   1/2 pimentão picado (opcional)
+    *   Sal, pimenta, orégano e cheiro-verde a gosto
+    *   Azeite
+*   **Como fazer:**
+    1. Refogue a cebola, o alho e o pimentão no azeite até amolecerem.
+    2. Adicione o molho de tomate, tempere com sal, pimenta e orégano, e deixe ferver por 3 minutos.
+    3. Com uma colher, faça pequenos ""buracos"" no molho e quebre os ovos dentro deles.
+    4. Tampe a frigideira, abaixe o fogo e deixe cozinhar por 5 minutos (até as claras dourarem e a gema ficar no ponto desejado).
+    5. Finalize com cheiro-verde e sirva com pão.
+
+---
+
+### 4. Quesadillas Rápidas de Frango ou Queijo (10 minutos)
+Ótima ideia para aproveitar sobras de frango assado ou desfiado.
+
+*   **Ingredientes:**
+    *   2 discos de massa para wrap (tipo Rap10)
+    *   1 xícara de queijo ralado (mussarela, prato ou cheddar)
+    *   1/2 xícara de frango desfiado (ou milho, tomate picado, presunto)
+    *   Requeijão ou cream cheese
+*   **Como fazer:**
+    1. Passe uma camada fina de requeijão no disco de wrap.
+    2. Adicione o queijo e o recheio de sua preferência em metade do disco.
+    3. Dobre ao meio como um pastel.
+    4. Leve a uma frigideira antiaderente (sem óleo) em fogo baixo até dourar e o queijo derreter (cerca de 2 a 3 minutos de cada lado).
+
+---
+
+### 5. Arroz Cremoso de Frigideira ""Salva-Jantar"" (15 minutos)
+Perfeito para reaproveitar aquele arroz amanhecido que sobrou no congelador ou geladeira.
+
+*   **Ingredientes:**
+    *   2 xícaras de arroz cozido
+    *   1/2 xícara de leite
+    *   2 colheres (sopa) de requeijão
+    *   1/2 xícara de seleta de legumes (ou milho e ervilha)
+    *   1/2 xícara de queijo e presunto em cubos
+    *   Cheiro-verde picado
+*   **Como fazer:**
+    1. Em uma panela ou frigideira funda, coloque o arroz, o leite e o requeijão. Mexa em fogo médio até o leite aquecer e virar um molho cremoso.
+    2. Adicione os legumes, o presunto e o queijo.
+    3. Misture bem até o queijo derreter.
+    4. Finalize com cheiro-verde e sirva imediatamente.
+
+---
+
+💡 **Dica Bônus:** Tenha sempre no congelador vegetais picados (como brócolis ou cenoura) e proteínas de fácil descongelamento (como filé de peixe ou tiras de frango) para facilitar o preparo do seu jantar durante a semana!",inconclusivo,0.00760665,76.68
