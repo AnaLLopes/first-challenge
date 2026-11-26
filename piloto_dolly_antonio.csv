@@ -1,0 +1,1082 @@
+id,area,fonte,executor,coletado_em_utc,versao_experimento,gabarito,enunciado,qtd_palavras,qtd_caracteres,complexidade_pontuacao,complexidade_nivel,modelo_A,status_A,resposta_letra_A,acertou_A,tokens_entrada_A,tokens_saida_A,tokens_raciocinio_A,custo_usd_A,latencia_s_A,energia_kwh_A,agua_l_A,carbono_kg_A,resposta_texto_A,modelo_B,status_B,resposta_letra_B,acertou_B,tokens_entrada_B,tokens_saida_B,tokens_raciocinio_B,custo_usd_B,latencia_s_B,energia_kwh_B,agua_l_B,carbono_kg_B,resposta_texto_B,rotulo,economia_usd,pct_economia_custo
+dolly_401,explicacao,dolly-15k,antonio,2026-11-25T14:07:00+00:00,piloto-dolly-v1,ABERTA,O que é Barkers Butts RFC?,6,26,2,baixa,gemini-3.5-flash-lite,sucesso,,,10,307,0,0.0007705,4.5086,8.261625692385078e-05,0.0003344813147028691,3.3096749998283106e-05,"**Barkers Butts RFC** (Rugby Football Club) é um clube de rugby amador tradicional localizado na cidade de **Coventry**, em West Midlands, na Inglaterra. 
+
+Aqui estão alguns pontos principais sobre o clube:
+
+* **Fundação:** O clube foi fundado em **1946**, logo após o fim da Segunda Guerra Mundial, por ex-alunos da Exhall Road School e entusiastas locais do rugby. O nome incomum ""Barkers Butts"" vem da área geográfica de Coventry onde o clube se estabeleceu (historicamente conhecida por esse nome).
+* **Nível Competitivo:** A equipe principal joga nas ligas regionais de rugby da Rugby Football Union (RFU), o órgão que governa o esporte na Inglaterra.
+* **Foco Comunitário:** Como a maioria dos clubes de rugby ingleses, o Barkers Butts RFC funciona como um centro social e esportivo para a comunidade local, mantendo equipes masculinas, femininas e várias categorias de base (infantojuvenil).
+* **Curiosidade:** O clube é conhecido por suas cores tradicionais (geralmente verde e preto ou variações com branco) e tem uma forte rivalidade local com outros clubes de Coventry, como o próprio Coventry RFC (embora este último seja profissional/semiprofissional).
+
+Em resumo, é um clube histórico e respeitado dentro da pirâmide do rugby de base (grassroots rugby) na Inglaterra.",gemini-3.6-flash,sucesso,,,10,430,870,0.0048825,7.3795,0.0055554791492362175,0.022491989335145672,0.0021739522646122378,"O **Barkers Butts RFC** (Rugby Football Club) é um tradicional clube amador de *rugby union* (o rugby de 15 jogadores) localizado em Coventry, na região de West Midlands, Inglaterra. 
+
+Apesar de ser um clube comunitário e jogar nas divisões regionais do sistema de ligas inglês, o Barkers Butts RFC é amplamente conhecido no meio do rugby britânico por uma razão especial: **sua incrível capacidade de revelar talentos para o rugby profissional e para a Seleção Inglesa.**
+
+Aqui estão os principais destaques sobre o clube:
+
+### 1. Revelador de Estrelas do Rugby
+O clube é famoso por ter sido o local onde vários jogadores internacionais de elite começaram suas carreiras nas categorias de base (*juniors*). Os nomes mais notáveis incluem:
+* **Neil Back:** Um dos maiores jogadores da história do rugby inglês, campeão da Copa do Mundo de Rugby de 2003 pela Inglaterra e membro dos *British & Irish Lions*.
+* **Danny Grewcock:** Segunda-linha lendário que defendeu a seleção da Inglaterra e os *Lions*.
+* **Tom Wood:** Ex-capitão da Seleção Inglesa e ídolo do Northampton Saints.
+* **Rob Hardwick:** Ex-jogador da seleção inglesa e do London Irish.
+
+### 2. Origem do Nome
+O nome ""Barkers Butts"" vem da localização original do clube. Ele foi fundado por ex-alunos da escola *Barkers Butts School*, situada na rua *Barkers Butts Lane*, em Coventry. A palavra *butts* historicamente se referia a campos de prática de tiro com arco na Inglaterra medieval.
+
+### 3. O Clube Hoje
+Atualmente, o Barkers Butts RFC continua sendo um clube comunitário vibrante. Ele compete nas ligas regionais das Midlands (organizadas pela RFU - *Rugby Football Union*) e possui várias equipes, incluindo times masculinos, femininos e uma forte estrutura de rugby infantil e juvenil.",inconclusivo,0.004111999999999999,84.22
+dolly_404,pergunta,dolly-15k,antonio,2026-11-25T14:27:34+00:00,piloto-dolly-v1,ABERTA,Qual é o nome indígena para Dunk Island?,8,40,2,baixa,gemini-3.5-flash-lite,sucesso,,,10,59,0,0.0001505,1.2099,1.689973333899721e-05,6.842049296140177e-05,6.988083531887846e-06,"O nome indígena tradicional para Dunk Island (localizada na costa de Queensland, Austrália) é **Coonanglebah**. 
+
+Este nome é originário do povo **Jirrbal**, que são os donos tradicionais (Traditional Owners) da terra e das águas da região.",gemini-3.6-flash,sucesso,,,10,74,457,0.00199875,2.9704,0.002268180696495528,0.009182987581327618,0.0008873505510089232,"O nome indígena tradicional para a Dunk Island (localizada em Queensland, Austrália) é **Coonanglebah**. 
+
+Esse nome pertence à língua do povo **Djiru**, que são os donos tradicionais (Aborígenes) daquela região. O termo costuma ser traduzido como ""A Ilha da Paz e da Abundância"".",inconclusivo,0.00184825,92.47
+dolly_406,explicacao,dolly-15k,antonio,2026-11-25T14:38:21+00:00,piloto-dolly-v1,ABERTA,O que é o Grande Romance Americano?,7,35,2,baixa,gemini-3.5-flash-lite,sucesso,,,10,802,0,0.002008,9.9352,0.00021282135352898072,0.0008616314606316541,8.461777902836805e-05,"O **Grande Romance Americano** (em inglês, *The Great American Novel*) é um conceito crítico e cultural que se refere a um romance hipotético — ou a um grupo seleto de livros existentes — que capta a essência da experiência, da cultura, da sociedade e da identidade dos Estados Unidos.
+
+Não se trata apenas de um livro que vende muito, mas de uma obra de alta qualidade literária que consegue definir o ""espírito americano"" (*American ethos*), abordando temas fundamentais como:
+
+*   O Sonho Americano (e suas falhas/desilusões);
+*   A vastidão da geografia e a diversidade do país;
+*   Relações raciais e a escravidão;
+*   Classe social, capitalismo e industrialização;
+*   A busca pela liberdade, individualismo e inocência (ou a perda dela).
+
+### A Origem do Termo
+O termo foi cunhado pelo romancista John William De Forest em 1868, logo após a Guerra Civil Americana. Ele escreveu que a nação precisava de um romance que retratasse ""a guerra, a sociedade, a política, a província, o metropolitano, a virtude e o vício"" da vida americana com amplitude e profundidade.
+
+### Os Principais Candidatos
+Como o ""Grande Romance Americano"" é um conceito subjetivo, críticos, acadêmicos e leitores debatem há décadas sobre qual livro merece o título. Vários romances são frequentemente citados como os maiores concorrentes:
+
+1.  ***Moby-Dick*** (1851), de Herman Melville: Visto hoje como o ápice da literatura americana, aborda a obsessão, a diversidade da tripulação (uma micro-sociedade americana) e a luta do homem contra a natureza e o desconhecido.
+2.  ***As Aventuras de Huckleberry Finn*** (1884), de Mark Twain: O próprio autor parecia buscar isso, e o livro é celebrado por Ernest Hemingway (""Toda a literatura moderna americana vem de um livro de Mark Twain chamado Huckleberry Finn""). Ele explora o racismo, a moralidade e o rio Mississippi como a artéria do continente.
+3.  ***O Grande Gatsby*** (1925), de F. Scott Fitzgerald: Talvez o mais consensual na cultura popular. É a autópsia definitiva do Sonho Americano, do otimismo, da riqueza e do vazio materialista da Era do Jazz.
+4.  ***As Vinhas da Ira*** (1939), de John Steinbeck: Retrata a Grande Depressão, a migração dos agricultores para a Califórnia e a solidariedade humana em meio à tragédia econômica e ecológica.
+5.  ***A Letra Escarlate*** (1850), de Nathaniel Hawthorne: Um mergulho profundo na culpa, na religião e na fundação puritana dos EUA.
+
+Outros livros frequentemente mencionados incluem *Absalom, Absalom!* (William Faulkner), *Catcher in the Rye* (J.D. Salinger), *Beloved* (Toni Morrison) e *Patagônia* ou *Underworld* (Don DeLillo).
+
+### A Visão Moderna
+Hoje em día, muitos críticos concordam que o ""Grande Romance Americano"" **não é um único livro**, mas sim um **mosaico**. 
+
+Como os Estados Unidos são um país vasto, multicultural e complexo, é impossível que apenas uma história represente a experiência de todos. O conceito evoluiu para incluir vozes que antes eram marginalizadas, reconhecendo que a Grande Experiência Americana é formada por perspectivas indígenas, afro-americanas, latinas, imigrantes e de todas as classes sociais.",gemini-3.6-flash,sucesso,,,10,1046,1056,0.00789,9.6274,0.008930458168860584,0.036155975838662285,0.0034829991554798058,"O **""Grande Romance Americano""** (*The Great American Novel*) não é um livro específico, nem um prêmio literário oficial, mas sim um **conceito e um ideal literário**. 
+
+Ele se refere a um romance que consiga capturar com perfeição a essência, a alma, a diversidade e a complexidade da sociedade dos Estados Unidos em uma determinada época. É uma obra que examina o que significa ""ser americano"", abordando a história, os mitos, as contradições e o caráter do país.
+
+Aqui estão os principais aspectos para entender o conceito:
+
+---
+
+### 1. Origem do Termo
+O termo foi cunhado em **1868** pelo escritor e veterano da Guerra Civil Americana **John William De Forest**, em um ensaio para a revista *The Nation*. De Forest buscava uma obra de ficção que conseguisse retratar o espírito da nação recém-unificada após a guerra. Na época, ele sugeriu que a obra que mais se aproximava disso era *A Cobrela do Pai Tomás* (*Uncle Tom's Cabin*), de Harriet Beecher Stowe.
+
+### 2. Principais Características
+Para ser considerado um candidato a ""Grande Romance Americano"", o livro geralmente apresenta:
+* **Temas Nacionais:** Explora o ""Sonho Americano"" (suas promessas e fracassos), a questão racial, a luta de classes, a expansão territorial ou o individualismo.
+* **Ambição e Escopo:** Tenta abraçar uma visão ampla da sociedade americana, capturando a linguagem, os sotaques e a mentalidade do povo.
+* **Reflexão sobre a Identidade:** Questiona a moralidade, a história e as fraturas culturais dos EUA.
+* **Impacto Cultural:** Torna-se um marco na literatura e na consciência coletiva do país.
+
+---
+
+### 3. Os Principais Candidatos (Os Clássicos)
+Ao longo das décadas, a crítica literária e o público elegeram alguns livros como os mais fortes representantes desse ideal:
+
+* **'As Aventuras de Huckleberry Finn' (Mark Twain, 1884):** Frequentemente citado por Ernest Hemingway como o ponto de partida de toda a literatura americana moderna. Aborda a escravidão, o racismo e a hipocrisia social com humor e a linguagem do povo.
+* **'O Grande Gatsby' (F. Scott Fitzgerald, 1925):** A autópsia definitiva do ""Sonho Americano"" durante a Era do Jazz, focando na busca por riqueza, ilusão e a futilidade da alta sociedade.
+* **'Moby-Dick' (Herman Melville, 1851):** Uma grande alegoria da obsessão, do destino e da diversidade da tripulação americana, ambientada em um navio baleeiro.
+* **'As Vinhas da Ira' (John Steinbeck, 1939):** Retrata a tragédia da Grande Depressão e a migração de trabalhadores rurais para a Califórnia, destacando a resiliência e a injustiça social.
+* **'O Sol É Para Todos' (*To Kill a Mockingbird*, Harper Lee, 1960):** Um olhar profundo sobre o racismo e a justiça no Sul dos Estados Unidos.
+
+---
+
+### 4. A Expansão e o Século XX/XXI
+Nas últimas décadas, a definição do ""Grande Romance Americano"" expandiu-se para incluir vozes que antes eram marginalizadas, reconhecendo que a experiência americana é vasta e plural.
+
+* **'Homem Invisível' (Ralph Ellison, 1952):** Uma obra-prima sobre a identidade negra e a alienação em um país racialmente dividido.
+* **'Amada' (*Beloved*, Toni Morrison, 1987):** Um romance avassalador sobre os traumas e o legado psicológico da escravidão.
+* **'Meridiano de Sangue' (Cormac McCarthy, 1985):** Uma desconstrução violenta e poética do mito do Velho Oeste.
+* **'Submundo' (*Underworld*, Don DeLillo, 1997):** Uma obra monumental sobre a Guerra Fria e a cultura de massa americana.
+
+---
+
+### 5. O Conceito Hoje: Mito ou Realidade?
+Hoje em dia, a maioria dos críticos concorda que **é impossível existir *um único* Grande Romance Americano**. Os Estados Unidos são um país grande e diverso demais para que um só livro consiga sintetizar toda a sua experiência.
+
+Portanto, o ""Grande Romance Americano"" tornou-se uma espécie de **""Santo Graal"" da literatura**: uma busca contínua e um debate fascinante que se renova a cada geração de escritores.",inconclusivo,0.005882,74.55
+dolly_407,listagem,dolly-15k,antonio,2026-11-25T14:38:38+00:00,piloto-dolly-v1,ABERTA,Dê-me uma lista com marcadores de 3 livros que Thomas Sowell escreveu e sobre o que eles falam.,18,95,2,baixa,gemini-3.5-flash-lite,sucesso,,,26,389,0,0.0009803,2.152,0.00010110069583109379,0.0004093176684357456,3.9738171292983295e-05,"Aqui está uma lista com três livros escritos pelo economista e filósofo Thomas Sowell e uma breve descrição sobre o que cada um deles fala:
+
+*   **""Economia Básica"" (*Basic Economics*)**
+    *   **Sobre o que fala:** É a obra mais famosa de Sowell. O livro explica os princípios fundamentais da economia de forma acessível para o leitor comum, sem o uso de jargões técnicos ou gráficos complexos. Ele aborda como funcionam os mercados, preços, salários, investimentos e o papel do governo na economia, usando exemplos do mundo real para desmistificar falácias econômicas comuns.
+
+*   **""Conflito de Visões"" (*A Conflict of Visions*)**
+    *   **Sobre o que fala:** Neste livro, Sowell analisa as origens profundas dos desacordos políticos e ideológicos na sociedade. Ele argumenta que os debates públicos (como entre esquerda e direita) não ocorrem apenas por divergências de opinião, mas porque as pessoas partem de ""visões"" fundamentalmente diferentes sobre a natureza humana: a *visão restrita* (que vê o homem como falível e foca em incentivos e instituições) e a *visão não restrita* (que acredita na maleabilidade e perfectibilidade humana, focando em intenções e ideais).
+
+*   **""Fatos e Falácias"" (*Facts and Fallacies in Economics*)**
+    *   **Sobre o que fala:** O livro examina crenças amplamente aceitas (falácias) em áreas sensíveis como questões urbanas, economia, gênero, raça, academia e política internacional, confrontando-as com dados empíricos e evidências lógicas (fatos). Sowell demonstra como mitos repetidos muitas vezes acabam se transformando em políticas públicas desastrosas.",gemini-3.6-flash,sucesso,,,26,365,760,0.00423825,5.936,0.0047974093384401,0.019422857467003153,0.0018750341739984578,"Aqui está uma lista com 3 livros marcantes de Thomas Sowell e um resumo do tema de cada um:
+
+*   **Economia Básica (*Basic Economics*)**
+    *   **Sobre o que fala:** É um guia introdutório sobre economia escrito sem o uso de jargões técnicos, gráficos ou equações matemáticas. Sowell explica como os princípios econômicos funcionam no mundo real, abordando o papel dos preços, incentivos, mercados livres e as consequências não pretendidas das políticas governamentais na alocação de recursos escassos.
+*   **Conflito de Visões: Origens Ideológicas das Lutas Políticas (*A Conflict of Visions*)**
+    *   **Sobre o que fala:** O livro explora as raízes filosóficas das disputas políticas no mundo moderno. Sowell divide o pensamento político em duas categorias centrais: a ""visão restringida"" (que vê a natureza humana como falha e limitada, priorizando regras e processos) e a ""visão não restringida"" (que acredita na perfeição moral e racional do ser humano para resolver problemas sociais). O livro ajuda a entender por que os lados político-ideológicos raramente concordam sobre temas como justiça, igualdade e poder.
+*   **Discriminação e Disparidades (*Discrimination and Disparities*)**
+    *   **Sobre o que fala:** Sowell questiona a premissa de que disparidades econômicas e sociais entre diferentes grupos populacionais são causadas exclusivamente pela discriminação. Através de dados estatísticos e históricos, ele demonstra como fatores geográficos, demográficos, culturais e escolhas individuais também geram desigualdades, e critica políticas públicas de ""engenharia social"" que ignoram essas variáveis.",inconclusivo,0.00325795,76.87
+dolly_408,listagem,dolly-15k,antonio,2026-11-25T14:39:02+00:00,piloto-dolly-v1,ABERTA,Forneça uma lista de benefícios de voar na primeira classe.,10,59,23,moderada,gemini-3.5-flash-lite,sucesso,,,15,982,0,0.0024595,4.094,0.00025285048301709604,0.0010236939451368178,9.886110963376683e-05,"Voar na Primeira Classe (First Class) oferece uma experiência de viagem incomparável, focada no máximo de conforto, exclusividade, privacidade e serviço personalizado. Embora os preços sejam significativamente mais altos, os benefícios transformam uma simples viagem em uma parte memorável da experiência de férias ou negócios. 
+
+Aqui está uma lista abrangente dos principais benefícios de voar na Primeira Classe:
+
+### 1. No Aeroporto (Pré-Voo)
+* **Check-in Exclusivo:** Balcões de atendimento separados e prioritários, evitando filas longas.
+* **Franquia de Bagagem Generosa:** Direito a despachar mais malas e com maior limite de peso sem taxas extras. As bagagens da primeira classe também costumam ser as primeiras a sair na esteira no destino.
+* **Acesso a Salas VIP (Lounges) de Luxo:** Acesso aos melhores lounges do aeroporto, que muitas vezes incluem áreas de descanso privativas, buffets gourmet assinados por chefs renomados, bares com bebidas premium, chuveiros, spas e até salas de reuniões.
+* **Embarque Prioritário:** Serviço de embarque antecipado (geralmente antes de todos os outros passageiros) ou, em alguns aeroportos de elite (como a Lufthansa em Frankfurt), transporte privativo de carro de luxo (Porsche ou Mercedes) direto da sala VIP para a porta da aeronave.
+
+### 2. Espaço e Privacidade a Bordo
+* **Assentos/Suites Privativas:** Espaços muito maiores, muitas vezes chamados de ""suites"", com portas que fecham para total privacidade (como na Singapore Airlines ou Emirates).
+* **Cama Totalmente Reclinável (""Lie-flat""):** Assentos que se transformam em camas de verdade, horizontais, acompanhadas de colchões macios, travesseiros de pluma, edredons de alta qualidade e pijamas de grife.
+* **Espaço Pessoal:** Amplo espaço para esticar as pernas, armários privativos, gavetas e compartimentos para guardar pertences.
+
+### 3. Gastronomia e Bebidas
+* **Refeições Gourmet:** Menus criados por chefs premiados internacionalmente, servidos em louças de porcelana fina, com talheres de prata e copos de cristal.
+* **Serviço ""Dine on Demand"":** Em muitas companhias, você pode comer o que quiser, na hora que quiser, sem seguir o horário rígido do serviço de bordo tradicional.
+* **Bebidas Premium:** Champagne de safras prestigiadas (como Dom Pérignon ou Krug), vinhos finos selecionados por sommeliers, destilados caros e cafés especiais.
+
+### 4. Entretenimento e Conectividade
+* **Telas de Alta Definição:** Monitores individuais grandes (muitas vezes acima de 20 polegadas) com cancelamento de ruído em fones de ouvido de alta qualidade.
+* **Wi-Fi Gratuito e Ilimitado:** Acesso à internet de alta velocidade durante todo o voo (serviço que costuma ser pago ou limitado nas outras classes).
+* **Kits de Amenidades de Luxo:** Bolsas de marcas de grife (como Bvlgari, Salvatore Ferragamo, Rimowa) recheadas com produtos de skincare de alta qualidade, protetores labiais, cremes hidratantes, meias, máscaras de dormir e escovas de dente.
+
+### 5. Atendimento e Serviço ao Cliente
+* **Proporção Tripulação/Passageiro Alta:** Um número muito maior de comissários para um grupo bem menor de passageiros, garantindo atenção imediata e ultra-personalizada.
+* **Tratamento pelo Nome:** A tripulação geralmente se dirige ao passageiro pelo nome e conhece suas preferências ao longo do voo.
+
+### 6. Pós-Voo
+* **Desembarque Prioritário:** Ser um dos primeiros a sair da aeronave, economizando tempo precioso na imigração e alfândega.
+* **Serviço de Chegada (Arrival Lounge):** Em alguns aeroportos, passageiros da primeira classe têm acesso a lounges na chegada para tomar um café da manhã reforçado, banho e passar roupas antes de irem para seus compromissos.
+
+**Resumo:**
+Voar na Primeira Classe vai muito além de um meio de transporte; é um refúgio de luxo no ar que permite ao passageiro chegar ao seu destino descansado, revigorado e sem o desgaste físico comum das viagens aéreas longas.",gemini-3.6-flash,sucesso,,,15,1183,822,0.00753,10.7528,0.008554008093795376,0.03463187488424767,0.0033441571704580725,"Voar na primeira classe é uma experiência de luxo que vai muito além de apenas chegar ao seu destino. Ela transforma a viagem em parte da experiência de férias ou de descanso.
+
+Aqui está uma lista detalhada dos principais benefícios de voar na Primeira Classe, dividida por etapas da viagem:
+
+---
+
+### 1. No Aeroporto (Antes do Voo)
+*   **Check-in Exclusivo e Sem Filas:** Balcões dedicados (ou até terminais inteiros de check-in, em alguns hubs) onde o processo é feito em minutos, sem filas.
+*   **Franquia de Bagagem Ampliada:** Permissão para despachar mais malas e com limite de peso superior (geralmente de 3 a 4 malas de 32 kg cada), além de maior limite para bagagem de mão.
+*   **Fast Track (Segurança e Imigração):** Acesso a filas prioritárias nos controles de segurança e imigração, economizando um tempo precioso.
+*   **Lounges VIP Exclusivos:** Acesso a salas VIP de primeira classe (diferentes das salas da classe executiva). Elas oferecem:
+    *   Restaurantes à la carte com chefs renomados.
+    *   Tratamentos de spa e massagens gratuitos.
+    *   Suítes privadas para banho e descanso.
+    *   Champanhe e bebidas *premium* ilimitadas.
+*   **Serviço de Motorista Particular:** Algumas companhias (como Emirates e Etihad) oferecem transporte em carro de luxo com motorista de/para o aeroporto.
+*   **Embarque Prioritário:** Você é o primeiro a embarcar (ou pode optar por ser o último, esperando no lounge até o último minuto) e, em alguns aeroportos, é levado até o avião em um carro de luxo privado (como Porsche ou Mercedes).
+
+---
+
+### 2. A Bordo (A Experiência no Ar)
+*   **Espaço e Privacidade Absoluta:**
+    *   Suítes privativas com portas deslizantes ou divisórias altas.
+    *   Assentos que se convertem em camas totalmente horizontais (*lie-flat beds*) com colchão de verdade, lençóis de algodão de alta fiação, edredom e travesseiros de hotel.
+*   **Atendimento Ultra-Personalizado:** Uma proporção muito baixa de passageiros por comissário de bordo. A equipe o chama pelo nome e atende a quase todos os seus pedidos quase instantaneamente.
+*   **Gastronomia de Alta Classe (Fine Dining):**
+    *   Menu assinado por chefs com estrelas Michelin.
+    *   *Dine on Demand:* Você escolhe o que quer comer e **quando** quer comer.
+    *   Caviar servido como entrada (um clássico da primeira classe).
+    *   Pratos servidos em louça de porcelana, copos de cristal e talheres de prata.
+*   **Carta de Vinhos e Bebidas Premium:**
+    *   Champanhes extremamente caros e raros (como *Dom Pérignon*, *Krug* ou *Cristal*).
+    *   Rótulos de vinhos premiados e uísques envelhecidos.
+*   **Kits de Amenidades de Luxo:**
+    *   Bolsas de grife (como *Bulgari*, *Diptyque*, *Salvatore Ferragamo*).
+    *   Produtos de pele de alta gama, perfumes, pijamas de algodão de alta qualidade e pantufas.
+*   **Entretenimento Premium:**
+    *   Telas de alta definição gigantes (muito maiores que as da executiva).
+    *   Fones de ouvido com cancelamento de ruído de marcas renomadas (como *Bose* ou *B&O*).
+    *   Wi-Fi gratuito durante todo o voo.
+*   **Chuveiro a Bordo (Exclusivo de algumas aeronaves):** Em aviões como o Airbus A380 da Emirates ou Etihad, passageiros da primeira classe podem tomar um banho quente a 40.000 pés de altitude.
+
+---
+
+### 3. Na Chegada (Pós-Voo)
+*   **Desembarque Prioritário:** Você é o primeiro a sair da aeronave.
+*   **Restituição de Bagagem Prioritária:** Suas malas são as primeiras a sair na esteira de bagagens (devidamente etiquetadas como *First Class*).
+*   **Acesso a Lounges de Chegada:** Em alguns destinos, você pode acessar um lounge após desembarcar para tomar um café da manhã, tomar um banho ou passar a ferro suas roupas antes de ir para uma reunião ou hotel.
+
+---
+
+### 4. Programa de Fidelidade
+*   **Acúmulo Massivo de Milhas:** Passagens de Primeira Classe acumulam o maior número de milhas/pontos por trecho voado (muitas vezes 200% a 300% da distância real), facilitando a manutenção de status alto no programa de fidelidade da companhia.
+
+---
+
+### Resumo
+Enquanto a **Classe Executiva** foca na eficiência, conforto e em uma boa noite de sono (ideal para quem viaja a trabalho), a **Primeira Classe** foca no **luxo, exclusividade absoluta e mimos personalizados**.",inconclusivo,0.0050705,67.34
+dolly_409,classificacao,dolly-15k,antonio,2026-11-25T14:39:16+00:00,piloto-dolly-v1,ABERTA,"Classifique as seguintes formas como bidimensionais ou tridimensionais: cubo, círculo, esfera, triângulo, cone, losango, quadrado e pirâmide.",17,141,14,baixa,gemini-3.5-flash-lite,sucesso,,,36,99,0,0.0002583,1.1219,2.674825220094828e-05,0.00010829334195597297,1.0738275501188084e-05,"Aqui está a classificação das formas geométricas divididas em bidimensionais (2D) e tridimensionais (3D):
+
+**Formas Bidimensionais (2D - possuem largura e altura):**
+* Círculo
+* Triângulo
+* Losango
+* Quadrado
+
+**Formas Tridimensionais (3D - possuem largura, altura e profundidade/volume):**
+* Cubo
+* Esfera
+* Cone
+* Pirâmide",gemini-3.6-flash,sucesso,,,36,134,719,0.00322575,4.2068,0.003630809231143151,0.014699744218470808,0.0014175846122899659,"Aqui está a classificação das formas entre **bidimensionais (2D)** — que possuem apenas largura e comprimento (são planas) — e **tridimensionais (3D)** — que possuem largura, comprimento e profundidade (ocupam volume no espaço):
+
+### **Bidimensionais (2D)**
+*   **Círculo**
+*   **Triângulo**
+*   **Losango**
+*   **Quadrado**
+
+---
+
+### **Tridimensionais (3D)**
+*   **Cubo**
+*   **Esfera**
+*   **Cone**
+*   **Pirâmide**",inconclusivo,0.00296745,91.99
+dolly_410,pesquisa,dolly-15k,antonio,2026-11-25T14:39:44+00:00,piloto-dolly-v1,ABERTA,Quem é o dono dos biscoitos Ritz?,7,33,2,baixa,gemini-3.5-flash-lite,sucesso,,,11,123,0,0.0003108,1.2663,3.300471228565934e-05,0.0001336233323530087,1.3201578697529207e-05,"Os biscoitos Ritz pertencem atualmente à **Mondelez International**, uma das maiores empresas de alimentos e bebidas do mundo. 
+
+A marca foi originalmente criada e lançada pela **Nabisco** (National Biscuit Company) em 1934. Com o passar dos anos, a Nabisco foi integrada a conglomerados maiores: primeiro virou parte da Kraft Foods e, em 2012, a divisão de snacks (que inclui a Nabisco e a marca Ritz) foi cindida para formar a **Mondelez International**, que é a atual proprietária global da marca.",gemini-3.6-flash,sucesso,,,11,158,493,0.0024495,3.5406,0.002778490420011833,0.011249034550566602,0.0010864863799942138,"Os biscoitos Ritz pertencem à **Mondelēz International**.
+
+**Um pouco da história da marca:**
+* Os biscoitos foram criados originalmente pela **Nabisco** (National Biscuit Company) nos Estados Unidos, em 1934.
+* Em 2000, a Nabisco foi adquirida pela **Kraft Foods**.
+* Em 2012, a Kraft Foods dividiu a sua empresa em duas: a divisão de mercearia e a divisão de *snacks* globais. A divisão de *snacks* passou a se chamar **Mondelēz International**, que hoje é a dona da Ritz (além de outras marcas famosas como Oreo, Lacta, Club Social e Toblerone).",inconclusivo,0.0021387,87.31
+dolly_411,consulta,dolly-15k,antonio,2026-11-25T14:39:59+00:00,piloto-dolly-v1,ABERTA,Qual atleta criou o 'beast quake' para o Seattle Seahawks?,10,58,2,baixa,gemini-3.5-flash-lite,sucesso,,,15,173,0,0.000437,1.4004,4.574921680214082e-05,0.00018522090872152532,1.8155601125022187e-05,"O atleta que criou o famoso lance conhecido como **""Beast Quake""** para o Seattle Seahawks foi o running back **Marshawn Lynch**.
+
+O lance aconteceu em **10 de janeiro de 2011**, durante um jogo de playoff contra o New Orleans Saints. Numa jogada de corrida de 67 jardas, Lynch quebrou **nove tentativas de tackle** dos defensores adversários, culminando em um touchdown espetacular. 
+
+A comemoração e a vibração dos torcedores no estádio foramtão intensas que geraram um pequeno **abalo sísmico** (um terremoto de baixa magnitude) registrado por sismógrafos locais, o que deu origem ao apelido ""Beast Quake"" (uma referência ao apelido de Lynch, ""Beast Mode"").",gemini-3.6-flash,sucesso,,,15,205,572,0.002925,4.2902,0.0033177155019970114,0.013432148638020447,0.0012976656985613992,"O atleta que criou o **""Beast Quake""** foi o *running back* **Marshawn Lynch** (conhecido pelo apelido de ""Beast Mode"").
+
+**O que foi o ""Beast Quake""?**
+Aconteceu em 8 de janeiro de 2011, durante um jogo de playoffs da NFL entre o Seattle Seahawks e o New Orleans Saints. 
+
+Lynch fez uma corrida histórica de 67 jardas para marcar um *touchdown*, quebrando a tentativa de tackle de nove jogadores adversários no caminho. A reação da torcida no estádio foi tão espetacular e barulhenta que os comemorações e os pulos dos torcedores registraram uma atividade sísmica (um pequeno ""terremoto"") em um sismógrafo localizado perto do estádio. Daí surgiu a junção de seu apelido (*Beast*) com terremoto (*Earthquake*), formando o termo **Beast Quake**.",inconclusivo,0.002488,85.06
+dolly_412,classificacao,dolly-15k,antonio,2026-11-25T14:40:12+00:00,piloto-dolly-v1,ABERTA,Qual destas é uma espécie de peixe? Perca (Perch) ou Expurgar (Purge),12,69,3,baixa,gemini-3.5-flash-lite,sucesso,,,25,51,0,0.000135,1.0513,1.4619174569964568e-05,5.918739134525996e-05,6.047255459739911e-06,"A espécie de peixe é a **Perca** (em inglês, *Perch*). 
+
+""Expurgar"" (*Purge*) é um verbo que significa eliminar, purificar ou limpar, e não tem relação com peixes.",gemini-3.6-flash,sucesso,,,25,75,401,0.00180375,2.823,0.0020369014650555312,0.008246627302177928,0.0007976835431725564,"A resposta correta é **Perca (Perch)**.
+
+A **perca** é um nome comum dado a várias espécies de peixes de água doce. 
+
+Já **expurgar** (purge) não é um peixe, mas sim um verbo que significa limpar, purificar, eliminar ou retirar o que é considerado desnecessário ou prejudicial.",inconclusivo,0.00166875,92.52
+dolly_413,explicacao,dolly-15k,antonio,2026-11-25T14:43:19+00:00,piloto-dolly-v1,ABERTA,Qual é a Constante do Círculo Tau?,7,34,2,baixa,gemini-3.5-flash-lite,sucesso,,,12,208,0,0.0005236,1.3501,5.441200501714747e-05,0.0002202931923014831,2.1464843323561726e-05,"A constante do círculo **Tau ($\tau$)** é igual a **6,2831853...** (e continua infinitamente como um número irracional). 
+
+Na geometria, Tau representa a razão entre a **circunferência** de um círculo e o seu **raio** ($C/r$). 
+
+O seu valor exato é **$2\pi$** (o dobro do número Pi).
+
+### Por que Tau existe?
+Muitos matemáticos defendem o uso de Tau em vez de Pi ($\pi$) porque ele torna as fórmulas matemáticas mais intuitivas. Por exemplo:
+* **Fórmula da circunferência:** $C = \tau r$ (em vez de $C = 2\pi r$).
+* **Ângulos em radianos:** Uma volta completa em um círculo é exatamente $\tau$ radianos (enquanto em Pi são $2\pi$ radianos). Meia volta é $\tau/2$ (ou $\pi$).",gemini-3.6-flash,sucesso,,,12,643,1049,0.006354,8.8305,0.007213098458119047,0.02920304968036359,0.002818697947040547,"A constante do círculo **Tau ($\tau$)** é uma proposta de constante matemática definida como a razão entre a **circunferência de um círculo e o seu raio**. 
+
+Em termos simples, **Tau é igual a duas vezes o Pi ($2\pi$)**.
+
+### O valor de Tau:
+* **Fórmula:** $\tau = 2\pi$
+* **Valor aproximado:** $\tau \approx 6,283185307179586...$
+
+---
+
+### Por que alguns matemáticos defendem o uso do Tau em vez do Pi?
+
+A ideia de usar Tau em vez de Pi ($\pi$) foi popularizada pelo físico e matemático Michael Hartl no documento *""O Manifesto do Tau""* (2010), baseado em um artigo de 2001 do matemático Bob Palais intitulado *""Pi está errado!""*.
+
+Os defensores do Tau argumentam que ele torna a matemática mais intuitiva e elegante pelos seguintes motivos:
+
+1. **A definição de um círculo baseia-se no raio:** Um círculo é definido como o conjunto de pontos que estão à mesma distância (o raio) de um centro. No entanto, o Pi relaciona a circunferência com o *diâmetro*. Usar o raio faz mais sentido conceitual.
+
+2. **Medição de ângulos (Radianos):** Uma volta completa em um círculo equivale a $2\pi$ radianos. Isso costuma confundir estudantes. Com o Tau, a relação fica direta:
+   * **1 volta completa** = $1\tau$ radianos (ou $6,28...$)
+   * **Meia volta** = $\frac{1}{2}\tau$ radianos
+   * **Um quarto de volta** = $\frac{1}{4}\tau$ radianos
+
+3. **Fórmulas mais intuitivas:**
+   * **Circunferência:** Em vez de $C = 2\pi r$, fica **$C = \tau r$**.
+   * **Área do círculo:** Em vez de $A = \pi r^2$, fica **$A = \frac{1}{2}\tau r^2$**. Essa forma é analoga a outras equações fundamentais da física, como a energia cinética ($\frac{1}{2}mv^2$) ou a distância percorrida ($\frac{1}{2}at^2$).
+   * **Identidade de Euler:** Em vez de $e^{i\pi} + 1 = 0$, com Tau a fórmula se torna **$e^{i\tau} = 1$** (o que expressa que dar uma volta inteira no plano complexo retorna ao ponto de partida, 1).
+
+### O ""Dia do Tau""
+Enquanto o *Dia do Pi* é comemorado em 14 de março (3/14 na notação americana), o **Dia do Tau** é comemorado no dia **28 de junho** (6/28).",inconclusivo,0.0058304,91.76
+dolly_415,explicacao,dolly-15k,antonio,2026-11-25T14:53:20+00:00,piloto-dolly-v1,ABERTA,O que é um metaverso?,5,21,2,baixa,gemini-3.5-flash-lite,sucesso,,,8,548,0,0.0013724000000000002,3.3583,0.00014300440032894755,0.0005789695831222402,5.633660390221884e-05,"Um **metaverso** é um conceito que descreve um ambiente virtual imersivo, coletivo e hiperconectado, onde as pessoas podem interagir umas com as outras e com objetos digitais em tempo real, geralmente usando avatares tridimensionais (3D).
+
+Para entender melhor, pense no metaverso não como um único site ou jogo, mas como a **próxima evolução da internet**. Em vez de apenas *olhar* para uma tela (como fazemos hoje em sites e redes sociais), a ideia é que estejamos *dentro* da internet.
+
+Aqui estão os principais pilares que definem um metaverso:
+
+1. **Imersão:** É frequentemente acessado por meio de tecnologias de realidade virtual (RV/VR) e realidade aumentada (RA/AR), usando óculos especiais, luvas hápticas (que simulam o tato) ou até mesmo pelo celular e computador.
+2. **Persistência:** O mundo virtual continua existindo e mudando mesmo quando você sai dele. Se você construir uma casa virtual no metaverso, ela estará lá quando você voltar.
+3. **Economia própria:** Possui sua própria economia, geralmente baseada em moedas digitais e criptoativos (como NFTs), onde as pessoas podem comprar, vender e trocar terras virtuais, roupas para avatares, obras de arte e serviços.
+4. **Interoperabilidade (o objetivo ideal):** A ideia é que você possa usar o mesmo avatar, roupas e itens digitais ao transitar entre diferentes plataformas e empresas, como se estivesse andando de uma loja para outra no mundo físico.
+5. **Interação social:** Foco forte na presença social. As pessoas podem trabalhar, estudar, ir a shows, jogar, fazer reuniões de negócios e socializar juntas no mesmo espaço virtual.
+
+### Exemplos atuais
+Apesar de o metaverso completo (como visto em filmes como *Ready Player One*) ainda não existir, já temos **protótipos** em plataformas como:
+* **Roblox e Fortnite:** Jogos que hoje funcionam como plataformas sociais onde milhões de pessoas se encontram não só para jogar, mas para assistir a shows virtuais (como os do Travis Scott ou Ariana Grande) e socializar.
+* **VRChat:** Uma plataforma focada em socialização em realidade virtual.
+* **Horizon Worlds:** A aposta da Meta (antigo Facebook) para criar seu próprio espaço social de realidade virtual.
+
+Em resumo, o metaverso é a tentativa de misturar a internet, os jogos, a realidade virtual e o mundo físico em um só lugar digital.",gemini-3.6-flash,sucesso,,,8,829,984,0.00680475,9.9303,0.00773958909023702,0.03133460689884034,0.003026814345333989,"O **metaverso** é um conceito que descreve um **universo virtual 3D, imersivo e compartilhado**, onde as pessoas podem interagir umas com as outras e com objetos digitais usando avatares.
+
+A forma mais simples de entender o metaverso é pensar nele como uma **evolução da internet**: em vez de apenas *olhar* para uma tela (como fazemos hoje em sites e redes sociais), você pode *entrar* dentro do ambiente digital.
+
+---
+
+### As Principais Características do Metaverso
+
+Para que um ambiente seja considerado parte do metaverso, ele geralmente possui as seguintes características:
+
+1. **Imersão:** Uso de tecnologias como **Realidade Virtual (VR)** (com óculos especiais) e **Realidade Aumentada (RA)** (que projeta elementos digitais no mundo real, como no jogo *Pokémon GO*) para criar a sensação de ""estar lá"".
+2. **Persistência:** O mundo virtual não ""desliga"" ou ""pausa"" quando você sai. Ele continua existindo e evoluindo em tempo real, exatamente como o mundo real.
+3. **Presença Social:** Você pode encontrar outras pessoas reais (representadas por avatares), conversar, trabalhar, ir a shows ou jogar juntos, independentemente de onde estejam no mundo físico.
+4. **Economia Própria:** Possibilidade de comprar, vender e trocar bens digitais (roupas para avatares, terrenos virtuais, arte, ingressos) usando moedas virtuais, criptomoedas e NFTs.
+5. **Interoperabilidade (o objetivo final):** A ideia ideal do metaverso é que você possa usar os mesmos bens, identidade e avatar em diferentes mundos virtuais (por exemplo, comprar uma jaqueta digital em um jogo e usá-la em uma reunião virtual de trabalho).
+
+---
+
+### Exemplos Práticos de Metaverso Hoje
+
+Embora o metaverso ""definitivo"" e totalmente conectado ainda não exista, já temos ""proto-metaversos"" em funcionamento:
+
+* **Jogos Online:** Plataformas como **Roblox**, **Fortnite** e **Minecraft** não são apenas jogos, mas espaços sociais onde ocorrem shows ao vivo, eventos de marcas e onde os usuários criam seus próprios mundos.
+* **Mundos Virtuais em Blockchain:** Plataformas como **Decentraland** e **The Sandbox**, onde os usuários podem comprar terrenos virtuais como se fossem imóveis reais.
+* **Trabalho Remoto:** Ferramentas como o *Horizon Workrooms* (da Meta) ou o *Microsoft Mesh*, que criam salas de reunião virtuais em 3D para equipes corporativas.
+
+---
+
+### Quais tecnologias sustentam o Metaverso?
+
+* **Hardware:** Óculos de realidade virtual (ex: Meta Quest, Apple Vision Pro), óculos de realidade aumentada e sensores de movimento.
+* **Blockchain e Web3:** Garantem a propriedade de itens digitais (via NFTs) e transações financeiras seguras.
+* **Inteligência Artificial (IA):** Ajuda a criar mundos 3D rapidamente, traduzir idiomas em tempo real e controlar personagens não-jogáveis (NPCs).
+* **Conectividade (5G/6G):** Necessária para transmitir grandes volumes de dados em tempo real e sem travamentos (*lag*).
+
+---
+
+### O Metaverso já é uma realidade completa?
+
+**Ainda não.** Hoje, o que temos são vários ""mundos virtuais isolados"" (ou ""jardins murados""). O metaverso completo — uma rede totalmente integrada, contínua e acessível a todos, parecida com o que se vê no filme *Jogador Nº 1* — ainda é uma visão de futuro que pode levar anos (ou décadas) para se consolidar, devido a desafios de tecnologia, custo de aparelhos e falta de padrões comuns entre as empresas de tecnologia.",inconclusivo,0.00543235,79.83
+dolly_416,explicacao,dolly-15k,antonio,2026-11-25T15:00:09+00:00,piloto-dolly-v1,ABERTA,Quais fatores eu devo considerar antes de me tornar um dono de cachorro?,13,72,3,baixa,gemini-3.5-flash-lite,sucesso,,,16,913,0,0.0022873000000000004,4.5544,0.0002364110025420931,0.0009571368382543383,9.272911320693298e-05,"Ter um cachorro é uma das experiências mais gratificantes do mundo, mas também é um compromisso de longo prazo que altera significativamente a sua rotina e finanças. 
+
+Antes de tomar essa decisão, você deve avaliar cuidadosamente os seguintes fatores:
+
+### 1. Tempo e Rotina
+* **Disponibilidade diária:** Cachorros não podem ficar sozinhos o dia todo. Eles precisam de atenção, passeios (pelo menos 1 a 2 vezes ao dia), alimentação em horários regulares e brincadeiras.
+* **Sua rotina atual:** Você trabalha fora o dia todo? Viaja com frequência? Quem cuidará do cão nas suas férias ou em emergências?
+* **Expectativa de vida:** Um cachorro vive, em média, de 10 a 15 anos. Você está disposto a adaptar sua vida a ele durante toda essa década?
+
+### 2. Custos Financeiros (O orçamento)
+Um cachorro custa muito mais do que apenas a ração. Você precisará arcar com:
+* **Alimentação:** Ração de boa qualidade e petiscos.
+* **Saúde:** Vacinas anuais, antipulgas, vermífugos, castração e consultas veterinárias de rotina. Além disso, **emergências veterinárias** podem ser extremamente caras (considere um plano de saúde pet).
+* **Manutenção:** Banho e tosa (se necessário), acessórios (cama, coleira, guias, brinquedos), caixas de transporte e produtos de limpeza.
+* **Serviços extras:** Se você passa muito tempo fora, pode precisar de um *dog walker* (passeador) ou creche para cães (*daycare*).
+
+### 3. Espaço e Moradia
+* **Sua casa é adequada?** Você mora em apartamento ou casa? Tem quintal? 
+* **Regras do condomínio:** Se você mora em apartamento, o regimento interno permite animais? O espaço é suficiente para o porte do cão que você deseja?
+* **Mudanças futuras:** E se você precisar se mudar? Encontrar imóveis que aceitem pets pode ser mais difícil e custoso.
+
+### 4. Estilo de Vida e Personalidade do Cão
+* **Nível de energia:** Você é uma pessoa ativa que quer um cachorro para correr e fazer trilhas, ou prefere alguém mais tranquilo para assistir TV no sofá? Raças como Border Collies e Huskies exigem horas de exercício diário, enquanto Buldogs ou Pugs são muito mais calmos.
+* **Temperamento:** Pesquise sobre as raças (ou características de SRD - Sem Raça Definida) antes de escolher. Alguns cães são mais independentes, outros são extremamente carentes e propensos à **ansiedade de separação**.
+
+### 5. Responsabilidade com a Educação (Adestramento)
+* **Paciência:** Filhotes fazem xixi e cocô no lugar errado, destroem sapatos e choram à noite. Você terá paciência para educá-lo com reforço positivo?
+* **Socialização:** O cão precisará ser treinado para conviver bem com pessoas, outros animais e barulhos da rua. Isso exige consistência e tempo.
+
+### 6. Alergias e Saúde da Família
+* Alguém na casa tem alergia a pelos ou saliva de cachorro? 
+* Há crianças pequenas, idosos ou pessoas com mobilidade reduzida que podem se machucar com um cachorro muito eufórico?
+
+---
+
+### Dica de ouro antes de decidir:
+Faça um ""teste de realidade"". 
+1. Acorde 30 minutos mais cedo durante uma semana para simular o passeio matinal (fa chuva ou faça sol).
+2. Separe uma quantia em dinheiro todo mês, equivalente ao custo estimado de um cão, para ver como isso afeta seu orçamento.
+3. Se possível, **adote temporariamente** ou seja voluntário em um abrigo de animais. Isso dará a você uma visão real do trabalho que é cuidar de um cão. 
+
+Se, após analisar tudo isso, você ainda quiser seguir em frente, parabéns! O amor, a lealdade e a alegria que um cachorro traz para a casa compensam cada esforço.",gemini-3.6-flash,sucesso,,,16,1020,1040,0.007737,12.9974,0.0088329249387739,0.03576110146113293,0.0034630621350896862,"Tornar-se dono de um cachorro é uma das experiências mais gratificantes da vida, mas também é um **compromisso de longo prazo que exige tempo, dinheiro e energia**. 
+
+Antes de tomar essa decisão, é fundamental analisar criticamente os seguintes fatores:
+
+---
+
+### 1. Tempo e Disponibilidade
+Cães são animais sociais e dependentes. Eles precisam de atenção diária.
+* **Passeios e Exercícios:** Seu cão precisará passear pelo menos 1 a 2 vezes por dia (dependendo da raça e da idade). Você tem tempo para isso, mesmo na chuva ou no frio?
+* **Tempo a sós:** Quantas horas o cão ficará sozinho por dia? Cães que passam mais de 8 horas sozinhos podem desenvolver ansiedade de separação e comportamentos destrutivos.
+* **Atenção e Brincadeiras:** Além dos passeios, eles precisam de estímulo mental, brincadeiras e carinho todos os dias.
+
+### 2. Impacto Financeiro
+Ter um cachorro é caro. Os custos vão muito além da compra ou adoção.
+* **Custos Iniciais:** Vacinas, vermífugos, castração, cinto de segurança/caixa de transporte, cama, coleira, guias e recipientes de água/comida.
+* **Custos Recorrentes:** Ração de boa qualidade, remédios contra pulgas/crapatos, banho e tosa, brinquedos e sacos higiênicos.
+* **Veterinário e Emergências:** Consultas de rotina, exames e eventuais emergências médicas. (Vale a pena pesquisar o custo de um *plano de saúde pet*).
+
+### 3. Estilo de Vida e Espaço
+O cachorro precisa se adaptar ao seu estilo de vida (e vice-versa).
+* **Sua rotina:** Você viaja muito a trabalho ou lazer? Quem cuidará do cão quando você ausentar? (Hotéis para pets e *pet sitters* custam dinheiro).
+* **Sua casa:** Você mora em apartamento ou casa? Se for alugado, o proprietário ou o condomínio permitem animais? Há espaço suficiente para o porte do cão que você deseja?
+* **Nível de atividade:** Você é uma pessoa ativa que gosta de corridas ou prefere passar o fim de semana no sofá? A energia do cão deve ser compatível com a sua.
+
+### 4. Compromisso a Longo Prazo (10 a 15+ anos)
+Um cão vive, em média, de 10 a 18 anos.
+* Você consegue se imaginar com esse pet quando mudar de emprego, de casa, tiver filhos ou quando ele ficar idoso e precisar de cuidados especiais?
+* Desistir do animal quando ele envelhecer ou quando a vida complicar **não deve ser uma opção**.
+
+### 5. Paciência e Limpeza
+Cães (especialmente filhotes) dão trabalho e fazem sujeira.
+* **Fase de filhote:** Eles vão chorar à noite, morder móveis/sapatos e fazer xixi e cocô no lugar errado até serem treinados.
+* **Pelos e Sujeira:** A menos que você escolha uma raça que não solta pelo, sua casa terá pelos. Você também terá que limpar patinhas sujas e recolher fezes diariamente.
+* **Barulho:** Cães latem. Isso pode ser um problema se você tiver vizinhos sensíveis.
+
+### 6. Dinâmica Familiar
+* **Todos concordam?** Todos na casa estão entusiasmados e dispostos a ajudar nos cuidados?
+* **Alergias:** Alguém na casa tem alergia a pelos de animais? (É bom fazer um teste antes).
+* **Outros animais:** Se você já tem pets, como eles reagirão à chegada de um novo integrante?
+
+---
+
+### Dica Final: Escolhendo o Cão Certo
+Se após considerar tudo isso você decidir seguir em frente:
+1. **Considere a adoção:** Há milhares de cães (filhotes e adultos) em ONGs esperando por um lar. Cães adultos têm a vantagem de já terem o tamanho e a personalidade definidos.
+2. **Escolha pelo temperamento, não pela aparência:** Não escolha uma raça apenas porque acha bonita. Um *Border Collie* em um apartamento pequeno com um dono sedentário é uma receita para o estresse. Pesquise sobre as necessidades da raça ou o histórico do vira-lata.
+
+**Resumo:** Se você tem tempo, estabilidade financeira, paciência e amor para oferecer pelos próximos 15 anos, você está pronto para ter um grande amigo!",inconclusivo,0.0054497,70.44
+dolly_417,duvida,dolly-15k,antonio,2026-11-25T15:07:55+00:00,piloto-dolly-v1,ABERTA,Como posso saber se o meu fermento natural de pão (sourdough starter) está pronto para uso?,16,91,8,baixa,gemini-3.5-flash-lite,sucesso,,,24,645,0,0.0016197,16.3847,0.00017152397945422235,0.0006944343436401001,6.827676578044213e-05,"Saber o momento exato em que o fermento natural (*sourdough starter*) está pronto para ir para a massa é o segredo para um pão com boa fermentação e alvéolos bonitos. 
+
+Existem vários testes práticos que você pode fazer. Aqui estão os principais indicadores de que o seu fermento está no ponto máximo (o chamado *peak*):
+
+### 1. O Teste do Volume (O mais confiável)
+O fermento deve **dobrar ou até triplicar de volume** após ser alimentado. 
+* **Como saber:** Marque o nível do fermento no pote com um elástico ou caneta logo após alimentá-lo. Quando ele atingir o ponto mais alto (geralmente entre 4 a 8 horas após a alimentação, dependendo da temperatura ambiente) e começar a levemente curvar-se para baixo no centro, ele está no pico.
+
+### 2. O Teste da Água (Teste de Flutuação)
+Este é um teste clássico e muito visual.
+* **Como saber:** Encha um pequeno recipiente com água em temperatura ambiente. Com uma colher, pegue delicadamente uma pequena porção do fermento e solte na água.
+* **Resultado:** Se o fermento **boiar**, significa que ele está cheio de gás e pronto para assar. Se afundar, ele ainda não desenvolveu gás suficiente (ou já passou do ponto e perdeu o gás).
+* *Nota:* Este teste não é 100% infalível (se a hidratação do seu fermento for muito alta, ele pode afundar mesmo pronto), mas ajuda muito.
+
+### 3. Aparência e Textura
+* **Bolhas:** A superfície e as laterais do vidro devem estar cheias de bolhas de ar visíveis.
+* **Textura:** Ao mexer levemente com uma espátula, ele deve parecer aerado, esponjoso e leve (como uma musse ou espuma), em vez de denso e pegajoso.
+* **Topo:** No pico, o topo do fermento geralmente fica levemente abaulado (como uma cúpula). Se o topo começar a afundar muito, significa que ele já passou do pico e está ficando faminto de novo.
+
+### 4. Cheiro
+* O fermento pronto tem um cheiro agradável, levemente ácido, que lembra iogurte, vinagre de maçã ou frutas fermentadas. 
+* **Evite usar se:** O cheiro estiver extremamente forte a acetona (lembrando removedor de esmalte) ou álcool forte. Isso indica que ele passou do ponto há muito tempo e está ""faminto"".
+
+---
+
+### Resumo: Qual é a rotina ideal?
+Para garantir que ele esteja sempre pronto, o ideal é alimentá-lo **4 a 8 horas antes** de começar a fazer a receita do pão. Quando ele atingir o dobro do tamanho e estiver cheio de bolhas, use-o imediatamente.",gemini-3.6-flash,sucesso,,,24,761,912,0.00629175,14.3352,0.007259354846493288,0.029390323930891343,0.002865149367143062,"Saber se o seu fermento natural (*sourdough starter* ou *levain*) está pronto para fazer pão é uma das etapas mais importantes da panificação artesanal. 
+
+Para ter certeza de que ele está ativo e forte o suficiente para fazer a massa crescer, observe os seguintes **5 sinais principais**:
+
+---
+
+### 1. O Teste do Crescimento (Dobrou ou Triplicou de Tamanho)
+Esse é o sinal mais confiável. 
+* **O que observar:** Após ser alimentado (refrescado), o fermento deve **dobrar ou triplicar de volume** dentro de **4 a 8 horas** (a uma temperatura ambiente de cerca de 24°C a 26°C).
+* **Dica prática:** Coloque um elástico no pote de vidro na altura exata onde o fermento ficou logo após a alimentação. Assim, você saberá exatamente o quanto ele subiu.
+
+### 2. Muitas Bolhas e Textura Aerada
+* **Por fora:** Você deve ver muitas bolhas de ar grandes e pequenas através do vidro do pote, do topo até o fundo.
+* **Por dentro:** Se você puxar um pouco com uma colher, verá uma estrutura tecida, parecida com uma teia de aranha ou uma esponja, cheia de ar.
+
+### 3. O Formato do Topo (O ""Pico"")
+O fermento está no seu ponto ideal de uso quando chega ao **pico de fermentação**:
+* **Pronto (Pico):** O topo fica levemente abobadado (curvado para cima), mostrando que o gás ainda está empurrando a massa para cima.
+* **Passou do ponto:** Se o topo ficou reto ou começou a afundar (côncavo), significa que ele atingiu o pico e começou a ""famintos"" e a cair. *(Ainda dá para usar, mas o pão pode ficar mais ácido e menos aerado).*
+
+### 4. O Cheiro (Aroma)
+* O fermento pronto deve ter um cheiro agradável: **levemente ácido, frutado, lembrando iogurte, cerveja ou massa de pão fresca**.
+* Se estiver com um cheiro muito forte de acetona, vinagre puro ou álcool, ele passou do ponto e precisa de mais uma alimentação antes de ir para o pão.
+
+### 5. O Teste da Água (*Float Test*)
+Este é um teste clássico e muito divertido de fazer:
+1. Pegue um copo com água em temperatura ambiente.
+2. Com cuidado, retire uma colher de chá do seu fermento (sem desinflar as bolhas).
+3. Solte o fermento na água.
+* **Resultado:** Se **boiar**, significa que ele retém gás suficiente e está pronto para uso. Se **afundar**, ele precisa de mais tempo ou de mais alinhamento nas alimentações.
+* *Nota:* Esse teste é 90% confiável para farinhas brancas. Fermentos feitos puramente com farinha de centeio ou integral podem afundar por serem mais densos, mesmo estando prontos.
+
+---
+
+### Resumo: Quando misturar na massa?
+Use o fermento **exatamente no pico** (quando ele atingiu o topo do crescimento e está prestes a começar a cair). É nesse momento que os levedos e bactérias estão mais ativos e cheios de energia para fazer o seu pão crescer lindo e macio!",inconclusivo,0.00467205,74.26
+dolly_418,pesquisa,dolly-15k,antonio,2026-11-25T15:14:14+00:00,piloto-dolly-v1,ABERTA,Quais são as maiores economias do mundo?,7,40,2,baixa,gemini-3.5-flash-lite,sucesso,,,11,989,0,0.0024758000000000002,3.6093,0.0002537402785561134,0.0010272963836009763,9.900570626015656e-05,"As maiores economias do mundo são geralmente medidas pelo **Produto Interno Bruto (PIB)**, que representa o valor total de todos os bens e serviços finais produzidos por um país em um determinado período (geralmente um ano). 
+
+O ranking pode variar dependendo se é medido em **Valores Nominais** (taxas de câmbio atuais do mercado) ou em **Paridade do Poder de Compra (PPC)** (que leva em conta o custo de vida local e a inflação).
+
+Aqui estão as **maiores economias do mundo em termos nominais** (estimativas do Fundo Monetário Internacional - FMI):
+
+### 1. Estados Unidos
+* **PIB:** Aprox. US$ 28 trilhões
+* **Por que é líder?** Os EUA possuem a economia mais desenvolvida e inovadora do mundo, impulsionadas pelo consumo interno forte, o dólar como principal moeda de reserva global e gigantes tecnológicos e financeiros.
+
+### 2. China
+* **PIB:** Aprox. US$ 18 trilhões
+* **Por que é a segunda?** Conhecida como a ""fábrica do mundo"", a China cresceu exponencialmente nas últimas décadas devido à industrialização, exportações em massa e uma classe média em expansão. *(Nota: Em termos de Poder de Compra - PPC, a China já é a maior economia do mundo).*
+
+### 3. Alemanha
+* **PIB:** Aprox. US$ 4,5 trilhões
+* **Por que está no topo?** É a maior economia da Europa, fortemente baseada em manufatura avançada, engenharia, exportações de alta qualidade (como carros e maquinário) e estabilidade industrial.
+
+### 4. Japão
+* **PIB:** Aprox. US$ 4,1 trilhões
+* **Por que se destaca?** Apesar de enfrentar desafios demográficos (envelhecimento da população), o Japão continua sendo uma potência tecnológica, automotiva e financeira global.
+
+### 5. Índia
+* **PIB:** Aprox. US$ 3,9 trilhões
+* **O crescimento:** A Índia tem sido a grande economia de crescimento mais rápido nos últimos anos. Impulsionada por uma população jovem, avanço no setor de tecnologia, serviços e um mercado interno gigante, ultrapassou recentemente o Reino Unido.
+
+### 6. Reino Unido
+* **PIB:** Aprox. US$ 3,5 trilhões
+* **Destaque:** Mesmo após o Brexit, o Reino Unido mantém uma economia forte, altamente globalizada, com forte ênfase no setor de serviços financeiros (Londres é um dos maiores centros do mundo), tecnologia e indústrias criativas.
+
+### 7. França
+* **PIB:** Aprox. US$ 3,1 trilhões
+* **Destaque:** A segunda maior economia da União Europeia, famosa pelo turismo de massa, indústrias aeroespacial, agrícola, de luxo e energia nuclear.
+
+### 8. Brasil
+* **PIB:** Aprox. US$ 2,3 trilhões
+* **Destaque:** O Brasil retorna ao Top 10 global. É uma das maiores potências do agronegócio mundial, rica em recursos naturais, com um setor industrial diversificado e um mercado consumidor interno expressivo.
+
+### 9. Canadá
+* **PIB:** Aprox. US$ 2,2 trilhões
+* **Destaque:** Economia altamente desenvolvida, rica em recursos naturais (petróleo, madeira, minerais), com forte integração comercial com os Estados Unidos.
+
+### 10. Itália
+* **PIB:** Aprox. US$ 2,3 trilhões (disputando posições próximas com o Canadá)
+* **Destaque:** Terceira maior economia da Zona do Euro, forte em manufatura de médio e alto padrão, moda, design e gastronomia.
+
+---
+
+### Uma nota importante: Nominal vs. PPC
+* **PIB Nominal:** Converte a moeda local para o dólar americano usando a taxa de câmbio do mercado. É o método mais tradicional para medir o tamanho ""bruto"" da economia no cenário internacional.
+* **PIB por Paridade do Poder de Compra (PPC):** Ajusta o PIB com base no custo de vida de cada país. Sob essa ótica, **a China é a 1ª**, os **Estados Unidos são a 2ª** e a **Índia ocupa o 3º lugar**, refletindo que o dinheiro rende mais nesses países em termos de bens locais.",gemini-3.6-flash,sucesso,,,11,718,1025,0.0065445,8.5977,0.007419195084426388,0.030037455317823595,0.0028967112927087103,"As maiores economias do mundo são habitualmente medidas pelo **Produto Interno Bruto (PIB) Nominal**, que representa a soma de todos os bens e serviços finais produzidos por um país durante um ano, convertidos para dólares americanos.
+
+Com base nos dados e projeções mais recentes do **Fundo Monetário Internacional (FMI)** para 2024, aqui estão as 10 maiores economias do mundo:
+
+### Ranking do PIB Nominal (2024)
+
+1. **Estados Unidos** – ~US$ 28,7 trilhões
+   * Continua sendo a maior economia do mundo, impulsionada pelos setores de tecnologia, finanças, inovação e consumo interno.
+2. **China** – ~US$ 18,5 trilhões
+   * A segunda maior economia, com forte base industrial, exportadora e um mercado consumidor gigante.
+3. **Alemanha** – ~US$ 4,6 trilhões
+   * A maior economia da Europa, fortemente baseada na indústria automotiva, de máquinas e exportação (ultrapassou o Japão recentemente devido à desvalorização do iene).
+4. **Japão** – ~US$ 4,1 trilhões
+   * Uma economia altamente avançada e tecnológica, embora enfrente desafios demográficos com o envelhecimento da população.
+5. **Índia** – ~US$ 3,9 trilhões
+   * A economia de grande porte que mais cresce no mundo atualmente. Projeta-se que suba para a 3ª posição nos próximos anos.
+6. **Reino Unido** – ~US$ 3,5 trilhões
+   * Destaca-se fortemente pelo setor de serviços, especialmente finanças (Londres) e turismo.
+7. **França** – ~US$ 3,1 trilhões
+   * Economia diversificada com forte presença no turismo, agricultura, luxo e indústria aeroespacial.
+8. **Brasil** – ~US$ 2,3 trilhões
+   * O Brasil retornou ao Top 10 impulsionado pelo forte desempenho do agronegócio, setor de serviços e crescimento do consumo.
+9. **Itália** – ~US$ 2,3 trilhões
+   * Conhecida por suas indústrias de manufatura de alta qualidade, moda, automotiva e turismo.
+10. **Canadá** – ~US$ 2,2 trilhões
+    * Possui abundância de recursos naturais (energia, mineração) e um setor de serviços altamente desenvolvido.
+
+---
+
+### Outra forma de medir: Paridade de Poder de Compra (PPC)
+
+Se medirmos o PIB pela **Paridade de Poder de Compra (PPC)** — um indicador que ajusta o PIB considerando o custo de vida local em cada país —, o ranking muda significativamente. Por essa métrica, as 5 maiores economias são:
+
+1. **China**
+2. **Estados Unidos**
+3. **Índia**
+4. **Rússia**
+5. **Japão**
+*(O Brasil ocupa a 8ª posição também neste critério).*
+
+*Nota: Os valores do PIB nominal flutuam ao longo do ano de acordo com taxas de câmbio, inflação e revisões estatísticas dos países.*",inconclusivo,0.0040687,62.17
+dolly_420,classificacao,dolly-15k,antonio,2026-11-25T15:21:28+00:00,piloto-dolly-v1,ABERTA,"Classifique estes filmes com base no ano de lançamento deles
+Kedarnath, Bala, Raazi, Kaashi, Article 15",16,103,14,baixa,gemini-3.5-flash-lite,sucesso,,,28,141,0,0.0003609,1.7255,3.8321680621523925e-05,0.00015514968352687907,1.5432423499093803e-05,"Aqui está a classificação dos filmes indianos mencionados com base no ano de lançamento, do mais antigo para o mais recente:
+
+1. **Raazi** – 2018
+2. **Kedarnath** – 2018
+3. **Kaashi in Search of Ganga** – 2018
+4. **Article 15** – 2019
+5. **Bala** – 2019
+
+*(Nota: O ano de 2018 foi particularmente prolífico para três dos filmes da lista: ""Raazi"" foi lançado em maio, ""Kedarnath"" em dezembro e ""Kaashi"" em outubro).*",gemini-3.6-flash,sucesso,,,28,139,572,0.00268725,5.3116,0.0030673821916055123,0.012418645752615611,0.001206760585984408,"Aqui está a classificação dos filmes listados por ano de lançamento:
+
+### **2018**
+* **Raazi** — *Lançamento:* Maio de 2018
+* **Kaashi** (Kaashi - In Search of Ganga) — *Lançamento:* Outubro de 2018
+* **Kedarnath** — *Lançamento:* Dezembro de 2018
+
+### **2019**
+* **Article 15** — *Lançamento:* Junho de 2019
+* **Bala** — *Lançamento:* Novembro de 2019",inconclusivo,0.00232635,86.57
+dolly_422,explicacao,dolly-15k,antonio,2026-11-25T15:33:34+00:00,piloto-dolly-v1,ABERTA,O que é o videogame Diablo,6,26,1,baixa,gemini-3.5-flash-lite,sucesso,,,7,736,0,0.0018421,14.1496,0.00019546067398163006,0.0007913447745078161,7.774830849102339e-05,"**Diablo** é uma das franquias de videogames mais famosas e influentes da história, criada pela desenvolvedora **Blizzard Entertainment**. 
+
+Trata-se de um jogo eletrônico do gênero **RPG de ação (Action RPG)** e **""hack and slash""** (onde o foco principal é derrotar hordas de inimigos usando combate corpo a corpo ou magia).
+
+Aqui estão os principais pontos para você entender o que é o Diablo:
+
+### 1. A Ambientação e a História (Dark Fantasy)
+O universo de Diablo é famoso por sua atmosfera sombria, gótica e horripilante. O enredo gira em torno do conflito eterno entre os Anjos (liderados pelo Conselho Angélico) e os Demônios (liderados pelos Males Supremos). 
+O principal antagonista é **Diablo, o Senhor do Medo**, um dos Lordes do Inferno. O objetivo dos jogadores é geralmente impedir que Diablo e seus irmãos demônios destruam o mundo dos mortais (chamado de Santuário).
+
+### 2. Mecânica de Jogo (Como se joga?)
+* **Visão Isométrica:** Você controla seu personagem a partir de uma perspectiva aérea (geralmente de cima para os lados).
+* **Foco em Combate e Loot (Tesouros):** Você passa a maior parte do tempo explorando calabouços (dungeons), matando centenas de monstros por minuto e coletando itens melhores (armas, armaduras, poções) que caem dos inimigos. A busca pelo ""item perfeito"" é o grande vício do jogo.
+* **Classes de Personagem:** No início, você escolhe uma classe (como Bárbaro, Mago, Necromante, Paladino, Caçador de Demônios, etc.), cada uma com habilidades únicas.
+* **Evolução:** Conforme você derrota monstros, ganha pontos de experiência, sobe de nível e desbloqueia habilidades cada vez mais poderosas.
+* **Multijogador:** O jogo popularizou a jogatina cooperativa online, onde você pode se juntar a amigos para enfrentar os monstros mais difícil juntos.
+
+### 3. Principais Jogos da Franquia
+* **Diablo (1996):** O pioneiro, que definiu as bases do gênero com sua atmosfera assustadora e jogabilidade viciante.
+* **Diablo II (2000):** Considerado por muitos fãs e críticos como uma obra-prima absoluta e um dos melhores jogos de PC de todos os tempos. Ele expandiu o mundo e aperfeiçoou a mecânica de itens.
+* **Diablo III (2012):** Modernizou a franquia, trouxe gráficos em 3D e foi lançado para computadores e, posteriormente, para consoles (PlayStation, Xbox e Nintendo Switch), alcançando um público ainda maior.
+* **Diablo Immortal (2022):** Um jogo gratuito voltado para dispositivos móveis ( celulares) e PC.
+* **Diablo IV (2023):** O lançamento mais recente, que retornou às origens com uma atmosfera mais sombria e um mundo aberto massivo, recebendo elogios e atualizações constantes.
+
+Em resumo, **Diablo** é o jogo definitivo para quem gosta de matar monstros, evoluir personagens e colecionar equipamentos raros em um universo sombrio e desafiador.",gemini-3.6-flash,sucesso,,,7,990,1098,0.00783525,17.5117,0.009051486502798689,0.03664597281697163,0.003570589492618524,"**Diablo** é uma das franquias de videogames mais famosas, influentes e bem-sucedidas da história. Criada pela **Blizzard Entertainment** em 1996, a série definiu e popularizou o gênero **ARPG (Action Role-Playing Game / RPG de Ação)** com visão isométrica (vista por cima).
+
+Aqui está um resumo completo do que é o jogo, como ele funciona e sua história:
+
+---
+
+### 1. Como funciona a Jogabilidade (Gameplay)
+O ciclo principal de *Diablo* é extremamente viciante e simples de entender, baseado no conceito de **""matar monstros e pegar tesouros"" (Loot)**:
+
+* **Escolha de Classe:** Você cria um personagem escolhendo entre várias classes clássicas de fantasia medieval/sombria, como **Bárbaro** (força bruta), **Maga/Feiticeiro** (magia elementar), **Necromante** (invoca mortos-vivos), **Rogue/Ladino** (ataques rápidos e arcos) ou **Druida** (transformação em feras e magia da natureza).
+* **Combate Frenético (*Hack and Slash*):** O jogador explora masmorras, cavernas e cenários abertos enfrentando centenas de demônios, monstros e chefes em tempo real.
+* **O Sistema de *Loot* (Saque):** Ao derrotar inimigos, eles soltam equipamentos (armas, armaduras, anéis). Esses itens têm raridades diferentes (comuns, mágicos, raros, lendários). A busca constante por itens melhores para deixar seu personagem mais forte é o ""coração"" do jogo.
+* **Evolução:** Conforme ganha experiência, você sobe de nível, libera novas habilidades e personaliza sua ""build"" (a combinação de poderes do seu personagem).
+
+---
+
+### 2. A História e o Universo
+O jogo se passa em um mundo de fantasia sombria (*Dark Fantasy*) chamado **Santuário**.
+
+* **O Conflito Eterno:** Santuário foi criado no meio de uma guerra milenar entre o **Paraíso Celestial** (anjos) e o **Inferno Ardente** (demônios).
+* **O Vilão Principal:** O grande antagonista que dá nome ao jogo é **Diablo, o Senhor do Terror**, um dos Três Males Supremos do Inferno (junto com seus irmãos, Mephisto, o Senhor da Ódio, e Baal, o Senhor da Destruição).
+* **O Papel do Jogador:** Você joga como um ""Nephalem"" (um mortal com sangue de anjos e demônios) ou um herói que tenta impedir que Diablo e suas forças malignas destruam ou escravizem a humanidade.
+
+---
+
+### 3. Os Principais Jogos da Franquia
+
+1. **Diablo (1996):** O jogo original. Revolucionou a indústria com sua atmosfera gótica, trilha sonora marcante e masmorras geradas aleatoriamente.
+2. **Diablo II (2000):** Considerado por muitos uma obra-prima e um dos melhores jogos de todos os tempos. Expandiu o mundo, adicionou árvores de habilidades complexas e o modo multijogador online via Battle.net. Ganhou uma remasterização em 2021 (*Diablo II: Resurrected*).
+3. **Diablo III (2012):** Trouxe um combate mais rápido e fluido. Apesar de críticas iniciais pelo estilo visual mais colorido, vendeu dezenas de milhões de cópias e se tornou um enorme sucesso após suas expansões.
+4. **Diablo Immortal (2022):** Versão focada em dispositivos móveis (iOS/Android) e PC, com elementos de MMO gratuito.
+5. **Diablo IV (2023):** O capítulo mais recente. Retornou ao tom sombrio e sangrento dos primeiros jogos, introduzindo um mapa de mundo aberto gigante, gráficos modernos e um sistema de jogo como serviço (com temporadas constantes).
+
+---
+
+### Por que Diablo é tão importante?
+*Diablo* praticamente inventou a fórmula moderna dos RPGs de ação. Jogos como *Path of Exile*, *Torchlight*, *Grim Dawn* e até elementos de jogos modernos de tiro (como *Destiny* e *Borderlands*, que usam o sistema de cores para raridade de armas) herdaram suas mecânicas diretamente do que a Blizzard criou em *Diablo*.",inconclusivo,0.00599315,76.49
+dolly_426,classificacao,dolly-15k,antonio,2026-11-25T15:55:03+00:00,piloto-dolly-v1,ABERTA,"Quais dos seguintes são equipamentos de exercício: bicicleta, livro, haltere, esteira, colher, televisão",13,104,2,baixa,gemini-3.5-flash-lite,sucesso,,,24,59,0,0.0001547,1.0248,1.657037010403441e-05,6.708702843580982e-05,6.785934278000532e-06,"Dessa lista, os equipamentos de exercício são:
+
+* **Bicicleta** (geralmente a bicicleta ergométrica)
+* **Haltere**
+* **Esteira**
+
+Os outros itens (livro, colher e televisão) não são equipamentos de exercício.",gemini-3.6-flash,sucesso,,,24,50,297,0.00131925,1.8388,0.0014798829187820542,0.005991474350342292,0.0005784351157246135,"Os equipamentos de exercício da lista são:
+
+* **Bicicleta** (ergométrica ou tradicional)
+* **Haltere**
+* **Esteira**
+
+*(Livro, colher e televisão não são equipamentos de exercício).*",inconclusivo,0.0011645499999999999,88.27
+dolly_427,explicacao,dolly-15k,antonio,2026-11-25T15:58:22+00:00,piloto-dolly-v1,ABERTA,Na língua inglesa o que é aliteração?,7,37,2,baixa,gemini-3.5-flash-lite,sucesso,,,11,504,0,0.0012633,3.035,0.00013142713144280796,0.0005320976929896014,5.175481945275459e-05,"Na língua inglesa, **aliteração** (ou *alliteration* em inglês) é uma figura de linguagem que consiste na **repetição do mesmo som consonantal inicial** em palavras que estão próximas umas das outras em uma frase ou verso.
+
+Aqui estão os pontos principais para entender a aliteração em inglês:
+
+### 1. Foco no som, não na letra
+O mais importante na aliteração é o **som** que se repete, e não necessariamente a letra escrita.
+* *Exemplo com a mesma letra:* ""**B**ig **b**ad **b**ear"" (som de /b/).
+* *Exemplo com letras diferentes, mas mesmo som:* ""**C**at"" e ""**k**ite"" (ambas começam com o som de /k/).
+
+### 2. Exemplos clássicos e trava-línguas
+A aliteração é muito usada em trava-línguas (*tongue twisters*), poesias e slogans publicitários porque cria um ritmo musical e chama a atenção.
+* **Peter Piper** **p**icked a **p**eck of **p**ickled **p**eppers. (Som de /p/)
+* **S**ally **s**ells **s**ea **s**hells by the **s**ea**sh**ore. (Som de /s/)
+
+### 3. Onde é usada?
+* **Literatura e Poesia:** Para criar atmosfera, musicalidade ou imitar sons da natureza. Edgar Allan Poe usava muito (""*And the sil**s**ad, un**s**ertain ru**s**tling of each purple curtain...*"").
+* **Publicidade e Marcas:** Para ser fácil de memorizar. Exemplos: *Best Buy*, *PayPal*, *Coca-Cola*, *Dunkin' Donuts*.
+* **Histórias em Quadrinhos e Personagens:** Nomes de super-heróis costumam usar aliteração para ficarem marcantes: **P**eter **P**arker, **B**ruce **B**anner, **L**ois **L**ane, **W**onder **W**oman.
+
+### Resumo
+Em suma, a aliteração em inglês é a repetição de sons de consoantes no início de palavras próximas, usada para dar ritmo, ênfase e sonoridade ao texto.",gemini-3.6-flash,sucesso,,,11,872,1035,0.0071595,9.0163,0.008108401424034756,0.032827785588852944,0.003163820375675002,"Na língua inglesa, a **aliteração** (*alliteration*) é um recurso estilístico (ou figura de linguagem) que consiste na **repetição do mesmo som consonantal no início de palavras** que estão próximas ou em sequência numa mesma frase ou verso.
+
+É um recurso muito comum na poesia, na literatura, em trava-línguas, em nomes de marcas e no marketing em geral.
+
+---
+
+### O detalhe mais importante: É sobre o SOM, não a letra!
+
+A aliteração depende da **fonética** (do som) e não da ortografia (de como a palavra é escrita).
+
+*   **É aliteração:** ""**K**ick the **c**an"" (As letras *K* e *C* têm o mesmo som de /k/).
+*   **NÃO é aliteração:** ""**C**ity **c**at"" (A letra *C* tem som de /s/ em *city* e som de /k/ em *cat*).
+
+---
+
+### Exemplos de Aliteração em Inglês
+
+#### 1. No dia a dia e em nomes de marcas (para ser marcante)
+Muitas empresas usam a aliteração para que seus nomes sejam fáceis de lembrar:
+*   **C**oca-**C**ola
+*   **D**unkin' **D**onuts
+*   **P**ay**P**al
+*   **B**est **B**uy
+*   **M**ickey **M**ouse
+
+#### 2. Em trava-línguas (*Tongue Twisters*)
+Os trava-línguas em inglês são construídos quase inteiramente com aliterações:
+*   ""**P**eter **P**iper **p**icked a **p**ack of **p**ickled **p**eppers."" (Repetição do som de /p/)
+*   ""**S**he **s**ells **s**ea**s**hells by the **s**ea**s**hore."" (Repetição do som de /s/ e /ʃ/)
+
+#### 3. Na Literatura e Poesia
+Os escritores usam a aliteração para criar ritmo, musicalidade ou um clima específico.
+*   *“**F**air is **f**oul, and **f**oul is **f**air...”* (Shakespeare, na peça *Macbeth*)
+*   *“The **f**air **b**reeze **b**lew, the **w**hite **f**oam **f**lew, / The **f**urrow **f**ollowed **f**ree...”* (Samuel Taylor Coleridge, no poema *The Rime of the Ancient Mariner*)
+
+---
+
+### Para que serve a Aliteração?
+
+1.  **Criar Ritmo e Musicalidade:** Faz o texto ""fluir"" de forma mais agradável quando lido em voz alta.
+2.  **Aumentar a Memorização:** Ajuda o leitor/ouvinte a gravar uma frase ou nome mais facilmente.
+3.  **Destacar Ideias:** Chama a atenção para palavras específicas na frase.
+4.  **Criar Atmosfera:** O som de /s/ pode lembrar o sussurro do vento ou o deslizar de uma cobra; o som de /b/ ou /p/ pode soar agressivo ou pesado.
+
+---
+
+### Diferença rápida: Aliteração vs. Assonância vs. Consonância
+
+*   **Aliteração:** Repetição de sons *consonantais* no **início** das palavras (*""**B**ig **b**ad **b**ear""*).
+*   **Consonância:** Repetição de sons *consonantais* no **meio ou fim** das palavras (*""a**ll**'s we**ll** intended""*).
+*   **Assonância:** Repetição de sons de *vogais* (*""h**o**w n**o**w br**o**wn c**o**w""*).",inconclusivo,0.0058962,82.35
+dolly_429,reclamacao,dolly-15k,antonio,2026-11-25T16:07:54+00:00,piloto-dolly-v1,ABERTA,"Eu comprei duas garrafas de 2L de coca-cola quando elas estavam em promoção, mas quando eu conferi meu recibo, me cobraram o preço cheio! Por favor me contate no 0410787999 ou iratecustomer@hotmail.com para discutir um reembolso!",38,229,4,baixa,gemini-3.5-flash-lite,sucesso,,,68,178,0,0.0004654,2.0207,4.809801705915889e-05,0.00019473029376502796,1.931039393877447e-05,"Olá! Sinto muito pelo transtorno com a cobrança incorreta das garrafas de Coca-Cola. 
+
+No entanto, é importante lembrar que **eu sou uma inteligência artificial** (um modelo de linguagem desenvolvido pelo Google) e não tenho qualquer vínculo com o estabelecimento ou supermercado onde você realizou a compra. 
+
+Por isso, **não poderei entrar em contato** por telefone ou e-mail. 
+
+Para resolver isso, recomendo que você:
+1. Volte ao estabelecimento onde fez a compra levando o produto, o recibo e, se possível, a etiqueta ou anúncio da promoção.
+2. Procure o gerente ou o setor de atendimento ao cliente (SAC) do local.
+3. Solicite a diferença de preço ou o reembolso, conforme o direito do consumidor.
+
+Espero que consiga resolver isso rapidamente!",gemini-3.6-flash,sucesso,,,68,290,850,0.004326,5.7284,0.004854852308311988,0.01965542186532606,0.0018960314017943017,"Entendo perfeitamente a sua frustração com a cobrança incorreta. No entanto, **eu sou uma Inteligência Artificial e não estou vinculado a nenhum supermercado, loja ou marca específica**. Por esse motivo, não tenho acesso a sistemas de caixa, não posso fazer ligações, enviar e-mails ou processar reembolsos.
+
+Para que você consiga o seu dinheiro de volta, recomendo seguir estes passos o quanto antes:
+
+1. **Vá até a loja onde fez a compra:** Leve a sua nota/recibo fiscal e, se possível, tire uma foto da etiqueta de promoção na prateleira. A maioria dos supermercados resolve isso rapidamente no balcão de **Atendimento ao Cliente** ou **SAC**.
+2. **Entre em contato pelo canal oficial da loja:** Procure um telefone de SAC, e-mail ou formulário de contato no próprio recibo ou no site oficial do estabelecimento onde você comprou as garrafas.
+3. **Verifique os Direitos do Consumidor:** Na maioria das legislações (como o Código de Defesa do Consumidor no Brasil), quando há divergência entre o preço anunciado na prateleira e o preço cobrado no caixa, o consumidor tem o direito de pagar o **menor valor**.
+
+Espero que você consiga resolver o problema e obter a diferença do valor com o estabelecimento o mais rápido possível!",inconclusivo,0.0038606,89.24
+dolly_430,pesquisa,dolly-15k,antonio,2026-11-25T16:08:11+00:00,piloto-dolly-v1,ABERTA,Quem foram os membros fundadores da id Software?,8,48,2,baixa,gemini-3.5-flash-lite,sucesso,,,11,261,0,0.0006558,1.8348,6.852765357114564e-05,0.00027744200128924435,2.70883351002933e-05,"A **id Software** foi fundada em fevereiro de 1991 por quatro amigos que anteriormente trabalham na empresa Softdisk. Os quatro membros fundadores foram:
+
+1. **John Carmack** – Programador genial, responsável por inovações tecnológicas revolucionárias nos motores gráficos dos jogos (como *Doom* e *Quake*).
+2. **John Romero** – Designer de jogos e programador, amplamente creditado por moldar a visão de design, a velocidade e a atmosfera dos primeiros sucessos da empresa.
+3. **Tom Hall** – Designer de jogos, criativo e roteirista, responsável por ajudar a conceituar jogos como *Commander Keen* e *Wolfenstein 3D*.
+4. **Adrian Carmack** (sem parentesco com John Carmack) – Artista gráfico, responsável pelo estilo visual sombrio e marcante dos primeiros títulos da id.
+
+Mais tarde, outro nome importante, **Jay Wilbur** (que cuidava dos negócios e operações), também se juntou ao grupo inicial como cofundador/sócio principal nos primeiros anos. 
+
+O grupo ficou mundialmente famoso por criar marcos na história dos videogames, como *Wolfenstein 3D*, *Doom* e *Quake*.",gemini-3.6-flash,sucesso,,,11,334,748,0.00406575,5.2222,0.004602972941109066,0.01863565959303849,0.0017965726685727377,"A **id Software** foi fundada em 1º de fevereiro de 1991 por **quatro membros principais**, que anteriormente trabalhavam juntos na empresa de software Softdisk. 
+
+Os quatro fundadores oficiais foram:
+
+1. **John Carmack:** O mestre da programação e génio técnico da equipe. Foi o responsável por desenvolver os motores gráficos revolucionários que permitiram o surgimento de jogos como *Wolfenstein 3D*, *DOOM* e *Quake*.
+2. **John Romero:** Designer de jogos e programador. Foi a ""cara"" da id Software nos anos 90, responsável pelo design de níveis icónicos, pela jogabilidade acelerada e pela visão criativa de vários jogos da empresa.
+3. **Tom Hall:** Designer de jogos e diretor criativo. Foi o criador da série *Commander Keen* (o primeiro grande sucesso da id) e trabalhou na bíblia conceitual original de *DOOM* antes de deixar a empresa devido a diferenças criativas.
+4. **Adrian Carmack:** Artista principal (não tem parentesco com John Carmack). Foi o responsável pelo estilo visual marcante, visceral e sombrio da id Software, criando a arte e as animações de *DOOM* e *Quake*.
+
+### Menção Honrosa:
+* **Jay Wilbur:** Embora não seja tecnicamente considerado um dos quatro fundadores criativos originais, Wilbur juntou-se a eles quase imediatamente como diretor de negócios e CEO. Ele desempenhou um papel crucial na gestão da empresa e na distribuição revolucionária via *shareware*.",inconclusivo,0.00340995,83.87
+dolly_432,ideias,dolly-15k,antonio,2026-11-25T16:19:30+00:00,piloto-dolly-v1,ABERTA,Dê-me três maneiras diferentes de reaproveitar um saco de papel de supermercado.,12,80,1,baixa,gemini-3.5-flash-lite,sucesso,,,20,301,0,0.0007585,2.2033,7.918318350360713e-05,0.000320582126409541,3.133383640732491e-05,"Aqui estão três maneiras criativas e úteis de reaproveitar um saco de papel de supermercado:
+
+1. **Forro para lixeiras ou composteira:**
+   Você pode usar o saco de papel como um forro ecológico para a lixeira de materiais secos ou até mesmo para a lixeira de restos orgânicos (se for colocar no composteiro depois). O papel ajuda a absorver a umidade e evita que odores fortes se espalhem, além de substituir os saquinhos plásticos.
+
+2. **Embalagem de presente personalizada:**
+   Abra o saco cortando-o pelas dobras para transformá-lo em uma folha grande de papel pardo. Você pode usar esse papel para embrulhar presentes de forma sustentável e dar um toque rústico. Para decorar, use carimbos, deixe as crianças desenharem por cima ou amarre com um barbante de juta e um ramo de folhagem.
+
+3. **Proteção para o chão durante reformas ou pinturas:**
+   Se você vai pintar uma parede, fazer artesanato com cola e tinta ou mexer com produtos que possam sujar o chão, corte os sacos de papel ao meio e abra-os. Use-os para cobrir superfícies pequenas, rodapés ou móveis. Eles funcionam muito bem como proteção temporária, substituindo jornais velhos ou lonas plásticas.",gemini-3.6-flash,sucesso,,,20,466,741,0.00454125,8.2904,0.005190724391107208,0.02101523820182367,0.00203848601345203,"Aqui estão três maneiras diferentes e práticas de reaproveitar um saco de papel de supermercado:
+
+### 1. Embrulho de Presente Rústico e Personalizado
+Os sacos de papel costumam ter uma cor parda (estilo papel *kraft*) no interior ou em ambos os lados.
+* **Como fazer:** Desmonte o saco cortando as colagens laterais para obter uma folha grande e plana. Use o lado sem impressões para embrulhar presentes.
+* **Dica criativa:** Você pode personalizar o papel fazendo desenhos à mão, usando carimbos, colando folhas secas ou finalizando o embrulho com um laço de fita de cetim ou cordão de sisal.
+
+### 2. Barreira contra Ervas Daninhas ou Compostagem na Horta
+O papel dos sacos é biodegradável e uma excelente fonte de ""carbono"" para o solo.
+* **Para a horta:** Abra o saco e coloque-o diretamente sobre a terra nos canteiros antes de adicionar uma camada de palha ou terra por cima. O papel impede que a luz solar chegue às ervas daninhas, evitando que elas cresçam, e com o tempo vai se decompor enriquecendo o solo.
+* **Para a composteira:** Pique o saco em pedaços pequenos e use-o como ""matéria seca"" (folhas secas/papel) para equilibrar a umidade dos restos de alimentos (matéria úmida).
+
+### 3. Cestos Organizadores Dobráveis
+Com apenas algumas dobras, o saco de papel se transforma em um organizador rígido para gavetas ou armários.
+* **Como fazer:** Corte a parte superior do saco (onde ficam as alças, se houver). Em seguida, dobre a borda superior para fora, enrolando-a para baixo em duas ou três voltas. Isso dará estrutura e firmeza às paredes do saco.
+* **Uso:** Use esses cestos para organizar meias ou roupas íntimas nas gavetas, guardar brinquedos pequenos, ou até mesmo para armazenar batatas e cebolas na despensa (pois o papel permite que os alimentos respirem).",inconclusivo,0.00378275,83.3
+dolly_433,consulta,dolly-15k,antonio,2026-11-25T16:20:12+00:00,piloto-dolly-v1,ABERTA,Quais são as palavras da Casa Waxley?,7,37,2,baixa,gemini-3.5-flash-lite,sucesso,,,11,116,0,0.00029330000000000003,7.3657,3.237550247621479e-05,0.00013107590485964094,1.3216918594755386e-05,"As palavras oficiais da **Casa Waxley** (uma casa nobre do Vale de Arryn nos livros de *As Crônicas de Gelo e Fogo* / *Game of Thrones*) **nunca foram reveladas** por George R. R. Martin nos livros ou em materiais complementares oficiais. 
+
+Embora a Casa Waxley seja uma casa estabelecida (com sede em Wickenden e tendo membros notáveis como Sor Hosteen Waxley), o autor ainda não criou um lema para eles, assim como para muitas outras casas menores de Westeros.",gemini-3.6-flash,sucesso,,,11,156,726,0.00331575,25.3573,0.0038762791959752836,0.015693557296117218,0.0015406766211229442,"As palavras (lema) da **Casa Waxley** de Wickenden **não foram reveladas** nos livros de *As Crônicas de Gelo e Fogo* de George R.R. Martin e nem nas adaptações da HBO.
+
+Embora o seu lema seja desconhecido, aqui estão alguns detalhes conhecidos sobre a casa:
+
+*   **Região:** O Vale de Arryn.
+*   **Sede:** Wickenden (conhecida pela produção e comércio de velas de cera de abelha perfumadas).
+*   **Brasão:** Seis velas acesas dispostas em pirâmide (3, 2, 1) sobre um campo branco, cercado por uma borda preta.",inconclusivo,0.0030224500000000003,91.15
+dolly_434,exemplo,dolly-15k,antonio,2026-11-25T16:25:11+00:00,piloto-dolly-v1,ABERTA,Dê um exemplo de lugares onde os astronautas são treinados?,10,59,2,baixa,gemini-3.5-flash-lite,sucesso,,,15,622,0,0.0015595,3.8466,0.00016237772430971567,0.0006574046891961538,6.398246799898738e-05,"O principal exemplo de lugar onde os astronautas são treinados é o **Centro Espacial Johnson (Johnson Space Center - JSC)** da NASA, localizado em **Houston, Texas, nos Estados Unidos**. 
+
+Este é o quartel-general para o treinamento de astronautas dos EUA e de seus parceiros internacionais. No entanto, como a exploração espacial moderna envolve várias agências e países, os astronautas treinam em vários lugares ao redor do mundo. 
+
+Aqui estão os principais exemplos de centros de treinamento de astronautas:
+
+1. **Centro Espacial Johnson (NASA) - Houston, EUA:**
+   * **O que tem lá:** É onde fica o famoso laboratório de flutuação neutra (*Neutral Buoyancy Laboratory*), que é uma piscina gigantesca (com cerca de 12 metros de profundidade) que abriga réplicas em tamanho real de módulos da Estação Espacial Internacional (ISS). Os astronautas passam horas debaixo d'água para simular a sensação de falta de gravidade (microgravidade) e praticar caminhadas espaciais. Também abriga simuladores de voo dos módulos da ISS e da espaçonave Orion.
+
+2. **Centro de Cosmonautas Gagarin (Roscosmos) - Estrela (Star City), Rússia:**
+   * **O que tem lá:** Historicamente, todos os astronautas que voavam para a ISS em foguetes Soyuz precisavam treinar aqui. O local possui centrífugas gigantes para simular a força G extrema do lançamento e do retorno à Terra, além de simuladores da nave Soyuz e instalações para sobrevivência na natureza (caso a cápsula caia em uma floresta ou no gelo).
+
+3. **Centro Europeu de Astronautas (ESA) - Colônia, Alemanha:**
+   * **O que tem lá:** É o centro onde a Agência Espacial Europeia treina seus astronautas para missões na ISS. Eles aprendem sobre sistemas europeus, robótica e medicina espacial, além de fazerem parte do treinamento básico.
+
+4. **Centro de Treinamento e Pesquisa Espacial de Gagarin / Agência Espacial Chinesa - Pequim, China:**
+   * **O que tem lá:** Utilizado pelo programa espacial chinês (missões Shenzhou e estação espacial Tiangong). Possui instalações de treinamento de última geração, incluindo simuladores de órbita e tanques de água para simulação de gravidade zero.
+
+5. **Laboratório Submarino Aquarius - Flórida, EUA:**
+   * **O que tem lá:** Embora não seja um centro espacial tradicional, a NASA usa este laboratório subaquático (a 20 metros de profundidade no oceano) para a missão **NEEMO**. Astronautas, engenheiros e cientistas moram e trabalham lá por até duas semanas para simular a vida e a realização de pesquisas em ambientes isolados e extremos, como Marte ou a Lua.",gemini-3.6-flash,sucesso,,,15,542,749,0.0048525,9.3813,0.005563636446306574,0.0225250150803211,0.002187514175048794,"Um dos exemplos mais famosos e importantes do mundo é o **Laboratório de Flutuabilidade Neutra (NBL)**, localizado no **Johnson Space Center da NASA**, em Houston, Texas (EUA).
+
+Aqui estão os detalhes sobre este e outros locais principais de treinamento:
+
+### 1. Laboratório de Flutuabilidade Neutra (NBL) - NASA (Houston, EUA)
+* **O que é:** É uma piscina gigante (com 62 metros de comprimento, 31 metros de largura e 12 metros de profundidade) que contém mais de 22 milhões de litros de água.
+* **Para que serve:** Dentro dessa piscina existem réplicas em tamanho real de partes da Estação Espacial Internacional (EEI). Os astronautas vestem trajes espaciais adaptados e afundam na água para simular a **microgravidade** (sensação de flutuar no espaço). É lá que eles treinam as ""caminhadas espaciais"" (atividades extraveiculares) para fazer reparos ou instalar novos equipamentos na estação.
+
+---
+
+### Outros exemplos importantes pelo mundo:
+
+* **Cidade das Estrelas (Star City) / Centro Gagarin – Rússia:** 
+  Fica perto de Moscou. É o centro histórico onde os cosmonautas russos (e astronautas de outros países) treinam. Lá eles usam centrífugas gigantes para suportar a força G da decolagem e réplicas das naves *Soyuz*.
+
+* **Centro Europeu de Astronautas (EAC) – Alemanha:**
+  Localizado em Colônia, pertence à Agência Espacial Europeia (ESA). É focado no treinamento de sistemas europeus da Estação Espacial e experimentos científicos.
+
+* **Base de Pesquisa Aquarius (NEEMO) – Flórida, EUA:**
+  É um laboratório subaquático localizado no fundo do oceano. A NASA envia astronautas para viverem lá submersos por até duas semanas (missões NEEMO). O isolamento e o ambiente extremo simulam a vida em uma base na Lua ou em Marte.
+
+* **Desertos e Cavernas (Treinamento de Sobrevivência):**
+  Os astronautas também são levados para lugares extremos, como o **deserto do Arizona (EUA)**, **cavernas na Sardenha (Itália)** ou florestas congeladas na **Rússia**. O objetivo é treinar a sobrevivência em equipe caso a cápsula espacial pouse no lugar errado no retorno à Terra.",inconclusivo,0.003293,67.86
+dolly_403,explicacao,dolly-15k,antonio,2026-11-26T12:21:24+00:00,piloto-dolly-v1,ABERTA,Como você cuida de um animal de estimação?,8,42,2,baixa,gemini-3.5-flash-lite,sucesso,,,12,652,0,0.0016335999999999998,7.3346,0.0001733652636486383,0.000701888992168386,6.900534598894837e-05,"Cuidar de um animal de estimação é uma responsabilidade maravilhosa, mas que exige dedicação, tempo e recursos financeiros. Embora as necessidades específicas variem dependendo do animal (cão, gato, pássaro, coelho, peixe, etc.), existem **cinco pilares fundamentais** para o cuidado de qualquer pet:
+
+### 1. Alimentação e Hidratação Adequadas
+* **Nutrição de qualidade:** Ofereça uma ração adequada para a espécie, idade e porte do animal. Evite dar comida humana (especialmente chocolate, cebola, alho, uva e abacate, que são tóxicos).
+* **Água fresca sempre:** O bebedouro deve ser lavado diariamente e reabastecido com água limpa e fresca.
+
+### 2. Saúde e Bem-Estar Veterinário
+* **Visitas regulares:** Leve o pet ao veterinário pelo menos uma vez por ano para um check-up.
+* **Vacinação e Vermifugação:** Mantenha a carteirinha de vacinação em dia e siga o calendário de antipulgas, carrapatos e vermífugos recomendado pelo veterinário.
+* **Castração:** Se possível, castre seu animal. Isso ajuda a controlar a população de pets, previne doenças graves e pode melhorar o comportamento.
+
+### 3. Higiene e Conforto
+* **Ambiente seguro:** Crie um espaço limpo, seco e protegido de temperaturas extremas para ele dormir e descansar.
+* **Limpeza:** 
+  * Cães precisam de banhos periódicos e escovação de pelos.
+  * Gatos fazem sua própria higiene, mas precisam de uma caixa de areia limpa diariamente.
+  * Escovar os dentes do pet (especialmente cães e gatos) previne doenças periodontais.
+
+### 4. Exercício e Estímulo Mental
+* **Atividade física:** Cães precisam de passeios diários e brincadeiras para gastar energia. Gatos adoram caçar ""presas"" de brinquedo e escalar.
+* **Enriquecimento ambiental:** Use brinquedos interativos, arranhadores, comedouros lentos ou petiscos escondidos para evitar o tédio, a ansiedade e comportamentos destrutivos.
+
+### 5. Amor, Atenção e Socialização
+* **Carinho e paciência:** Os animais são seres sensíveis. Eles precisam de atenção, carinho e paciência, nunca de castigos físicos.
+* **Socialização:** Desde filhotes, acostume o pet a interagir com outras pessoas, barulhos e, se for o caso, outros animais, para que ele cresça sociável e confiante.
+
+---
+
+**Dica de ouro:** Antes de adotar ou comprar qualquer animal, pesquise detalhadamente sobre as necessidades específicas daquela espécie/raça para garantir que você pode oferecer a vida que ele merece! 
+
+Você tem algum animal específico em mente (como um cachorro ou gato) sobre o qual gostaria de saber mais detalhes?",gemini-3.6-flash,sucesso,,,12,945,877,0.0068415,58.2576,0.007965350277853701,0.032248626749830575,0.003156821729009075,"Cuidar de um animal de estimação requer compromisso, tempo, carinho e responsabilidade financeira. Embora os cuidados específicos variem de acordo com a espécie (cachorro, gato, passarinho, peixe, etc.), existem **pilares fundamentais** para garantir a saúde e a felicidade de qualquer pet.
+
+Aqui está um guia geral de como cuidar bem de um animal de estimação:
+
+---
+
+### 1. Alimentação Adequada e Hidratação
+* **Água fresca sempre:** Deixe água limpa e fresca à disposição 24 horas por dia. Troque a água e lave a tigela diariamente.
+* **Ração de qualidade:** Ofereça alimento apropriado para a espécie, raça, idade e porte do animal. Evite dar comida humana, pois muitos alimentos (como chocolate, cebola, alho, uvas e xilitol) são tóxicos para os pets.
+* **Controle de porções:** Siga as recomendações do veterinário ou da embalagem da ração para evitar a obesidade.
+
+### 2. Saúde e Cuidados Veterinários
+* **Vacinação em dia:** Mantenha as vacinas essenciais atualizadas para prevenir doenças graves.
+* **Vermifugação e antipulgas:** Aplique vermífugos e remédios contra pulgas e carrapatos periodicamente, conforme a orientação médica.
+* **Consultas de rotina:** Leve o pet ao veterinário pelo menos uma vez por ano para um check-up (ou com mais frequência se ele for idoso ou filhote).
+* **Castração:** É recomendada por veterinários para prevenir diversas doenças (como câncer de mama ou próstata) e evitar a superpopulação de animais abandonados.
+
+### 3. Higiene e Conforto
+* **Espaço limpo e seguro:** Mantenha o local onde o pet dorme e come sempre limpo. 
+* **Higiene corporal:** 
+  * **Cães:** Banhos regulares, escovação do pelo e corte de unhas.
+  * **Gatos:** Limpeza diária da caixa de areia. Gatos se banham sozinhos, mas precisam de escovação de pelos para evitar bolas de pelo no estômago.
+* **Saúde bucal:** Escove os dentes do animal com produtos específicos para pet para evitar o tártaro e infecções.
+
+### 4. Exercício Físico e Estímulo Mental
+* **Passeios e Atividades:** Cães precisam passear diariamente para gastar energia e socializar. Gatos precisam de brinquedos que estimulem seu instinto de caça (bolinhas, varinhas com penas) e arranhadores.
+* **Enriquecimento ambiental:** Deixe brinquedos cognitivos (como morderias ou brinquedos que escondem petiscos) para evitar o tédio e a ansiedade, especialmente quando o pet fica sozinho.
+
+### 5. Afeto, Socialização e Adestramento
+* **Atenção e carinho:** Dedique tempo diário para brincar e fazer carinho no seu pet. Animais precisam de interação interpessoal para não desenvolverem depressão ou ansiedade.
+* **Socialização:** Desde filhote, acostume o animal com diferentes pessoas, barulhos e outros animais de forma gradual e positiva.
+* **Reforço positivo:** Ao treinar seu pet, use recompensas (petiscos, elogios) quando ele fizer algo certo. **Nunca use violência física ou gritos**, pois isso gera medo e agressividade.
+
+### 6. Segurança
+* **Identificação:** Use sempre uma coleira com placa de identificação (com seu nome e telefone) e considere colocar um microchip no animal.
+* **Casa segura:** Se tiver gatos, **instale redes de proteção** nas janelas e varandas. Em casas com cães, verifique se não há rotas de fuga no portão.
+* **Plantas tóxicas:** Mantenha plantas como comigo-ninguém-pode, copo-de-leite e samambaias fora do alcance dos animais.
+
+---
+
+**Você está pensando em adotar algum animal específico ou já tem um?** Se me disser qual é o pet (ex: filhote de cachorro, gato adulto, calopsita), posso te dar dicas bem mais específicas!",inconclusivo,0.0052079000000000005,76.12
+dolly_405,conceito,dolly-15k,antonio,2026-11-26T12:41:22+00:00,piloto-dolly-v1,ABERTA,O que é liberdade?,4,18,2,baixa,gemini-3.5-flash-lite,sucesso,,,6,673,0,0.0016843,4.4927,0.00017627890388329344,0.0007136851961183773,6.958904843065136e-05,"A **liberdade** é um dos conceitos mais complexos, preciosos e debatidos da história da humanidade. Em sua essência mais simples, liberdade é a **capacidade de agir, pensar e falar sem restrições externas ou opressão**. No entanto, o significado exato da liberdade muda dependendo do ponto de vista filosófico, político, jurídico e pessoal.
+
+Para entender a liberdade a fundo, podemos explorá-la sob diferentes dimensões:
+
+---
+
+### 1. Dimensões da Liberdade
+
+*   **Liberdade Física (ou de movimento):** O direito de ir e vir, de não estar fisicamente aprisionado ou impedido de se deslocar.
+*   **Liberdade de Pensamento e Consciência:** A faculdade de formar suas próprias opiniões, crenças, valores e visão de mundo, sem interferência de terceiros.
+*   **Liberdade de Expressão:** O direito de manifestar seus pensamentos, ideias e opiniões (por meio da fala, da escrita, da arte, etc.) sem censura prévia, desde que não viole os direitos dos outros.
+*   **Liberdade Política:** O direito de participar da vida política da sociedade, votar, ser votado e influenciar as decisões do Estado.
+*   **Livre-Arbítrio (Dimensão Filosófica/Espiritual):** A capacidade da vontade humana de fazer escolhas autônomas, não totalmente determinadas pelo destino, genética ou ambiente.
+
+---
+
+### 2. A Visão Filosófica: O Limite da Liberdade
+
+Uma das frases mais famosas sobre o tema é a do filósofo Jean-Paul Sartre: *""O homem está condenado a ser livre""*. Para ele, como não existe um criador definindo nosso destino, somos totalmente responsáveis por cada escolha que fazemos.
+
+No entanto, a liberdade absoluta na prática é impossível em sociedade. É por isso que existe o famoso ditado: **""A minha liberdade termina onde começa a do outro""**. 
+
+O filósofo Isaiah Berlin dividiu a liberdade em dois conceitos fundamentais:
+1.  **Liberdade Negativa:** É a ausência de obstáculos, barreiras ou interferências externas. É o ""fazer o que eu quiser, desde que ninguém me impeça"".
+2.  **Liberdade Positiva:** É a capacidade de agir para realizar o seu potencial, ter autonomia e controle sobre a própria vida. Não basta não ter correntes; é preciso ter condições (saúde, educação, oportunidades) para aproveitar a vida.
+
+---
+
+### 3. Liberdade vs. Responsabilidade
+
+Ser livre não significa fazer o que quiser sem consequências. A verdadeira liberdade vem de mãos dadas com a **responsabilidade**. Cada escolha que fazemos gera um resultado, e um indivíduo livre é aquele que assume a responsabilidade pelas consequências de seus atos.
+
+---
+
+### Resumo
+
+A liberdade não é apenas um estado de direito garantido por leis, mas também uma conquista interior. Ela é tanto o direito de ser quem você é, quanto a coragem de assumir o controle da sua própria jornada, respeitando sempre a dignidade e a liberdade do próximo.",gemini-3.6-flash,sucesso,,,6,737,910,0.00618075,262.4654,0.007204087044525274,0.029166565947277557,0.0028559436504132533,"A **liberdade** é um dos conceitos mais complexos, debatidos e valiosos da história da humanidade. Em seu sentido mais básico, a liberdade é a **capacidade do indivíduo de agir, pensar e fazer escolhas de acordo com sua própria vontade, sem ser impedido por coerções externas.**
+
+No entanto, a liberdade não é um conceito simples ou absoluto. Ela é estudada sob diversas perspectivas:
+
+---
+
+### 1. A Perspectiva Filosofica
+* **Livre-Arbítrio:** É a ideia de que os seres humanos têm o poder de escolher verdadeiramente suas ações, em oposição ao determinismo (a ideia de que tudo é pré-determinado pelo destino, pela biologia ou pela física).
+* **Existencialismo (Jean-Paul Sartre):** Sartre afirmava que *""o homem está condenado a ser livre""*. Para ele, não há um destino pré-definido; nós nos construímos através de nossas escolhas e somos totalmente responsáveis pelas consequências delas.
+* **Autonomia (Immanuel Kant):** Para Kant, liberdade não é fazer qualquer coisa que se quer (o que seria apenas seguir impulsos animais), mas sim ter a capacidade de agir de acordo com leis morais que nós mesmos estabelecemos racionalmente.
+
+---
+
+### 2. A Perspectiva Política e Social
+O filósofo Isaiah Berlin dividiu a liberdade política em dois conceitos fundamentais:
+
+* **Liberdade Negativa (""Liberdade de...""):** É a ausência de barreiras, interferências ou coerção. Você é livre negativamente se o Estado ou a sociedade não o impedem de ir e vir, de falar o que pensa ou de praticar sua religião.
+* **Liberdade Positiva (""Liberdade para...""):** É a presença de meios e oportunidades para que você possa realizar seu potencial. Não basta ter o direito de ir à faculdade (liberdade negativa); é preciso ter condições econômicas e sociais para acessá-la (liberdade positiva).
+
+---
+
+### 3. A Perspectiva Psicológica e Interna
+A liberdade também é um estado de espírito. Uma pessoa pode estar livre fisicamente, mas ""presa"" por vícios, traumas, medos, preconceitos ou pressões sociais. A verdadeira liberdade interna envolve o autoconhecimento, o autocontrole e a capacidade de pensar criticamente por conta própria.
+
+---
+
+### Os Limites da Liberdade
+A liberdade humana **não é absoluta**. O exercício da liberdade individual encontra dois limites principais:
+
+1. **A liberdade do outro:** Como diz o ditado popular, *""A minha liberdade termina onde começa a do outro""*. Para podermos viver em sociedade, precisamos limitar nossa liberdade para não violar os direitos alheios.
+2. **A Responsabilidade:** Liberdade e responsabilidade são duas faces da mesma moeda. Escolher livremente significa assumir as consequências de tais escolhas.
+
+### Diferença entre Liberdade e Libertinagem
+* **Liberdade:** É o uso consciente da autonomia, respeitando os limites éticos e o direito dos outros.
+* **Libertinagem:** É o abuso da liberdade, o agir irresponsável sem consideração pelas consequências ou pelo bem-estar alheio.
+
+---
+
+### Em resumo:
+Ser livre não é fazer tudo o que se quer, mas sim **poder escolher conscientemente o próprio caminho, assumindo a responsabilidade por ele e respeitando o direito dos outros de fazerem o mesmo.**",inconclusivo,0.00449645,72.75
+dolly_402,explicacao,dolly-15k,antonio,2026-11-26T13:43:26+00:00,piloto-dolly-v1,ABERTA,O que é VCF?,4,12,2,baixa,gemini-3.5-flash-lite,sucesso,,,7,366,0,0.0009171,7.1126,9.813565227678546e-05,0.0003973133522984212,3.923764032712152e-05,"**VCF** pode significar várias coisas dependendo do contexto, mas o significado mais comum na tecnologia é **vCard File** (Arquivo de Contato). 
+
+Aqui estão os três significados mais comuns:
+
+### 1. VCF (vCard File) — *O mais comum*
+É o formato de arquivo padrão usado para **armazenar e trocar contatos de agenda** (nome, telefone, e-mail, endereço, foto, etc.). 
+* **Para que serve:** Se você quer transferir todos os contatos do seu celular antigo para o novo, ou enviar o seu contato para outra pessoa, geralmente você usa um arquivo `.vcf`. 
+* **Como abrir:** Qualquer smartphone (Android ou iPhone) ou gerenciador de e-mail (como Outlook ou Gmail) reconhece esse arquivo e importa os contatos automaticamente.
+
+### 2. VCF (Variant Call Format) — *Em Biologia/Genética*
+Na área de bioinformática e genética, VCF significa *Variant Call Format*.
+* **Para que serve:** É um formato de arquivo de texto usado para armazenar variações genéticas (mutações, polimorfismos de DNA) encontradas em sequenciamento genômico. É muito usado em pesquisas médicas e de ancestralidade.
+
+### 3. VCF (VirtualDub Video Filter) — *Em Edição de Vídeo*
+Antigamente, no software de edição de vídeo VirtualDub, VCF era a extensão usada para salvar **filtros de vídeo**.
+
+---
+
+**Resumo:** Se você recebeu um arquivo no celular ou viu essa sigla ao mexer em agenda/contatos, trata-se de um **cartão de visitas digital (vCard)**.",gemini-3.6-flash,sucesso,,,7,480,817,0.004869,6.9501,0.005533311715507941,0.022402241957896946,0.002163198597878757,"A sigla **VCF** pode ter diferentes significados dependendo do contexto. Os três usos mais comuns são:
+
+---
+
+### 1. **vCard File (Arquivo de Contatos Digital)** — *O mais comum no dia a dia*
+No contexto da tecnologia e telefonia, **VCF** significa **Virtual Contact File** (ou *vCard*). 
+* **O que é:** É o formato padrão de arquivo usado para exportar e importar contatos de uma agenda telefônica ou de e-mail (extensão `.vcf`).
+* **Conteúdo:** Ele armazena nomes, números de telefone, endereços de e-mail, fotos e outras informações de contato.
+* **Onde é usado:** WhatsApp (ao compartilhar um contato), Google Contatos, Apple Contacts, Microsoft Outlook, etc.
+
+---
+
+### 2. **Variant Call Format (Genética e Bioinformática)** — *Contexto Científico*
+Na biologia e genética, VCF é um formato de arquivo de texto usado em sequenciamento de DNA.
+* **O que é:** Um formato padronizado para armazenar variações na sequência de genes (como SNPs, inserções e deleções).
+* **Para que serve:** Permite que cientistas e médicos analisem mutações genéticas e diferenças entre o DNA de um indivíduo e um genoma de referência.
+
+---
+
+### 3. **Voltage-Controlled Filter (Música e Áudio)** — *Sintetizadores*
+Na produção musical e síntese de som, VCF significa **Filtro Controlado por Tensão** (*Voltage-Controlled Filter*).
+* **O que é:** Um filtro eletrônico usado em sintetizadores para alterar o timbre de um som, cortando ou amplificando certas frequências (graves ou agudos) com base em uma tensão elétrica.
+
+---
+
+### Outros significados possíveis:
+* **Venture Capital Fund (Finanças):** Fundo de Capital de Risco (investimento em startups).
+* **VMware Cloud Foundation (TI):** Plataforma de nuvem híbrida da empresa VMware.
+
+---
+
+**Qual desses contextos é o que você está procurando?** Se precisar de mais detalhes sobre um deles, é só avisar!",inconclusivo,0.0039519,81.16
