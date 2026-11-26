@@ -1401,3 +1401,367 @@ No entanto, vale notar que esse foi o álbum de estreia dele (gravado com a sua 
 4. **Petula Clark** (*Memphis*): Lançado em **1970**.
 
 Se você se refere ao álbum de outro artista específico, por favor me avise!",inconclusivo,0.0039093999999999995,91.42
+dolly_29,listagem,dolly-15k,gabriel,2026-11-26T12:05:52+00:00,piloto-dolly-v1,ABERTA,Me dê uma lista dos seis principais clubes de futebol da premier league,13,71,2,baixa,gemini-3.5-flash-lite,sucesso,,,14,498,0,0.0012492,6.8585,0.00013285701137148677,0.0005378867245460973,5.297658140181083e-05,"Os ""seis principais"" clubes da Premier League (frequentemente chamados de **""Big Six""**) são os times que, historicamente, têm maior torcida, maior poder financeiro, faturam mais e costumam dominar o topo da tabela do Campeonato Inglês. 
+
+Aqui está a lista dos seis clubes:
+
+1. **Manchester United**
+   * **Cidade:** Manchester
+   * **Estádio:** Old Trafford
+   * **Destaque:** É o clube mais vitorioso da história da Premier League (em termos de títulos totais do campeonato inglês), com uma enorme base de fãs global.
+
+2. **Liverpool**
+   * **Cidade:** Liverpool
+   * **Estádio:** Anfield
+   * **Destaque:** Um dos clubes mais tradicionais e bem-sucedidos da Inglaterra e da Europa, famoso por sua atmosfera apaixonada e grande rivalidade com o Manchester United.
+
+3. **Manchester City**
+   * **Cidade:** Manchester
+   * **Estádio:** Etihad Stadium
+   * **Destaque:** O time dominante da era recente da Premier League, especialmente após receber investimentos milionários que transformaram o clube em uma potência global sob o comando de Pep Guardiola.
+
+4. **Arsenal**
+   * **Cidade:** Londres
+   * **Estádio:** Emirates Stadium
+   * **Destaque:** Conhecido por seu estilo de jogo vistoso e por ser o único clube a vencer a Premier League de forma invicta (na temporada 2003/04, sendo chamados de ""Os Invencíveis"").
+
+5. **Chelsea**
+   * **Cidade:** Londres
+   * **Estádio:** Stamford Bridge
+   * **Destaque:** Outro clube londrino que cresceu exponencialmente nas últimas duas décadas, conquistando múltiplos títulos nacionais e internacionais.
+
+6. **Tottenham Hotspur**
+   * **Cidade:** Londres
+   * **Estádio:** Tottenham Hotspur Stadium
+   * **Destaque:** Conhecido por jogar um futebol ofensivo e por fazer parte de grandes rivalidades locais em Londres (especialmente contra o Arsenal). 
+
+*(Nota: Nos últimos anos, clubes como o Newcastle United e o Aston Villa têm investido muito e desafiado essa hegemonia, mas o grupo tradicionalmente conhecido e midiaticamente chamado de ""Big Six"" ainda permanece sendo este).*",gemini-3.6-flash,sucesso,,,14,551,848,0.00525675,57.3281,0.006125268291008415,0.024798845495659562,0.0024295564304603165,"Os seis principais clubes de futebol da Premier League são conhecidos mundialmente como o **""Big Six""** (Os Seis Grandes). Eles dominam o futebol inglês em termos de poder financeiro, tamanho de torcida global e conquistas de títulos nas últimas décadas. 
+
+Aqui está a lista dos seis clubes:
+
+1. **Manchester United**
+   * **Cidade:** Manchester
+   * **Destaque:** É o maior campeão da história do campeonato inglês, com 20 títulos. É uma das marcas esportivas mais valiosas e populares do planeta, famosa pela era vitoriosa sob o comando do técnico Sir Alex Ferguson.
+
+2. **Liverpool**
+   * **Cidade:** Liverpool
+   * **Destaque:** Um dos clubes mais vitoriosos da Europa, com 6 títulos da Liga dos Campeões e 19 títulos ingleses. É conhecido por sua torcida apaixonada e pelo histórico estádio de Anfield.
+
+3. **Manchester City**
+   * **Cidade:** Manchester
+   * **Destaque:** O clube mais dominante da era recente da Premier League. Após a compra por um grupo dos Emirados Árabes e sob o comando de Pep Guardiola, o City empilhou títulos nacionais e conquistou sua primeira Liga dos Campeões.
+
+4. **Arsenal**
+   * **Cidade:** Londres
+   * **Destaque:** Um dos clubes mais tradicionais e vitoriosos da Inglaterra (13 títulos ingleses). É o único clube a ter vencido a Premier League de forma invicta (na temporada 2003/04, time que ficou conhecido como ""Os Invencíveis"").
+
+5. **Chelsea**
+   * **Cidade:** Londres
+   * **Destaque:** Mudou de patamar nos anos 2000 ao ser adquirido pelo bilionário Roman Abramovich. Desde então, tornou-se uma potência europeia, conquistando duas Ligas dos Campeões e múltiplos títulos da Premier League.
+
+6. **Tottenham Hotspur**
+   * **Cidade:** Londres
+   * **Destaque:** Embora tenha conquistado menos títulos recentes do que os outros cinco, o Tottenham se consolidou no ""Big Six"" devido à sua consistência no topo da tabela, poder financeiro, elenco com estrelas mundiais e uma das arenas mais modernas do mundo (o Tottenham Hotspur Stadium).
+
+---
+*Nota: Nos últimos anos, clubes como o **Newcastle United** (após ser comprado por um fundo da Arábia Saudita) e o **Aston Villa** têm investido pesado para tentar quebrar a hegemonia desse ""Big Six"".*",inconclusivo,0.00400755,76.24
+dolly_30,classificacao,dolly-15k,gabriel,2026-11-26T12:06:16+00:00,piloto-dolly-v1,ABERTA,"Diga-me se estas bebidas são ácidas: Suco de Laranja, Suco de Toranja, Coca-Cola, Leite de Soja, Água de Coco, Suco de Cenoura",22,126,7,baixa,gemini-3.5-flash-lite,sucesso,,,44,477,0,0.0012057,6.5466,0.00012733315878823883,0.0005155227789612397,5.0790840776292074e-05,"**Sim, todas essas bebidas são ácidas**, com exceção de uma que pode ser considerada neutra ou ligeiramente alcalina dependendo do processamento, mas na prática, no contexto de pH, quase todas entram na faixa de acidez.
+
+Aqui está a classificação detalhada de cada uma delas com base na escala de pH (onde o pH 7 é neutro, abaixo de 7 é ácido e acima de 7 é alcalino/básico):
+
+1. **Suco de Laranja:** **Muito Ácido** (pH em torno de 3,3 a 4,2). Contém ácido cítrico e ascórbico (vitamina C).
+2. **Suco de Toranja (Grapefruit):** **Muito Ácido** (pH em torno de 3,0 a 3,3). É uma das frutas cítricas mais ácidas.
+3. **Coca-Cola:** **Muito Ácida** (pH em torno de 2,5 a 2,7). Contém ácido fosfórico e ácido carbônico (responsável pelo gás). É a mais ácida desta lista.
+4. **Leite de Soja:** **Ligeiramente Ácido** (pH em torno de 6,5 a 6,8). Fica muito próximo da neutralidade (pH 7), mas tecnicamente ainda está na faixa ácida.
+5. **Água de Coco:** **Ligeiramente Ácida** (pH em torno de 5,0 a 5,4). Embora pareça neutra ao paladar, ela contém ácidos orgânicos naturais.
+6. **Suco de Cenoura:** **Ligeiramente Ácido** (pH em torno de 5,8 a 6,4). Assim como o leite de soja, aproxima-se da neutralidade, mas ainda mantém um caráter ácido.
+
+**Resumo:** Se considerarmos a definição rigorosa de química (pH abaixo de 7), **todas** são ácidas. No entanto, o suco de laranja, a toranja e a Coca-Cola são **fortemente ácidos**, enquanto o leite de soja, a água de coco e o suco de cenoura são **levemente ácidos** (próximos ao neutro).",gemini-3.6-flash,sucesso,,,44,546,1069,0.00608925,8.3982,0.0068841578912013915,0.027871296374435722,0.0026900035025809736,"Sim, **todas as bebidas da sua lista são tecnicamente ácidas** (ou seja, têm um pH abaixo de 7, que é o ponto neutro). No entanto, **o nível de acidez varia drasticamente** entre elas. 
+
+Para facilitar, podemos dividi-las em três categorias: **Muito Ácidas**, **Moderadamente Ácidas** e **Ligeiramente Ácidas (Quase Neutras)**.
+
+---
+
+### 1. Muito Ácidas (pH entre 2,5 e 3,5)
+Estas bebidas têm alta acidez e podem desgastar o esmalte dos dentes ou causar refluxo/azia com facilidade:
+
+*   **Coca-Cola (pH ~2,5):** É a **mais ácida** da lista. Contém ácido fosfórico e ácido carbônico.
+*   **Suco de Toranja / Grapefruit (pH ~3,0 a 3,3):** Muito ácido devido à alta concentração de ácido cítrico.
+
+### 2. Moderadamente Ácidas (pH entre 3,3 e 4,5)
+*   **Suco de Laranja (pH ~3,3 a 4,2):** Bastante ácido por conta do ácido cítrico e da vitamina C (ácido ascórbico).
+
+### 3. Ligeiramente Ácidas / Quase Neutras (pH entre 4,7 e 7,0)
+Estas bebidas têm acidez muito baixa e costumam ser suaves para o estômago:
+
+*   **Água de Coco (pH ~4,7 a 5,5):** É levemente ácida, mas tem propriedades alcalinizantes no organismo devido aos seus minerais (potássio, magnésio).
+*   **Suco de Cenoura (pH ~5,8 a 6,4):** Acidez muito baixa. É uma das opções de suco mais fáceis de digerir para quem tem gastrite.
+*   **Leite de Soja (pH ~6,5 a 7,0):** É a bebida **menos ácida** da lista, estando muito próxima do pH neutro (7,0).
+
+---
+
+### Resumo prático:
+Se você está buscando evitar acidez (por conta de refluxo, gastrite ou sensibilidade dentária), **evite a Coca-Cola, a Toranja e a Laranja**. As melhores opções para você seriam o **Leite de Soja**, o **Suco de Cenoura** e a **Água de Coco**.",inconclusivo,0.00488355,80.2
+dolly_31,classificacao,dolly-15k,gabriel,2026-11-26T12:08:09+00:00,piloto-dolly-v1,ABERTA,"Identifique qual animal é domesticado ou selvagem: Bicho-da-seda, Caracol-romano",9,80,8,baixa,gemini-3.5-flash-lite,sucesso,,,25,202,0,0.0005125,4.3925,5.4996994007611105e-05,0.00022266158677858137,2.2168046870689335e-05,"Aqui está a classificação de cada um dos animais citados:
+
+*   **Bicho-da-seda:** **Domesticado**. 
+    *   *Explicação:* O bicho-da-seda (*Bombyx mori*) foi totalmente domesticado pelo ser humano há milhares de anos (originário da China) para a produção de seda. Ele depende inteiramente do cuidado humano para sobreviver e se reproduzir, tendo perdido a capacidade de voar e de viver na natureza.
+
+*   **Caracol-romano:** **Selvagem** (mas pode ser criado).
+    *   *Explicação:* O caracol-romano (*Helix pomatia*) é um molusco terrestre de origem silvestre. Embora seja criado em cativeiro para consumo humano (prática conhecida como helicicultura), ele não passou pelo processo genético de domesticação que altera permanentemente o comportamento e a biologia da espécie, sendo considerado um animal selvagem.",gemini-3.6-flash,sucesso,,,25,157,573,0.00275625,100.3375,0.0032150677018843044,0.013016567341899737,0.001279342518571144,"Aqui está a classificação para cada um dos animais:
+
+* **Bicho-da-seda:** **Domesticado.** 
+  *(O bicho-da-seda tradicional, Bombyx mori, foi totalmente domesticado pelos humanos há milhares de anos para a produção de seda. Hoje em dia, ele depende completamente da intervenção humana para se reproduzir e sobreviver, não existindo mais na forma selvagem).*
+
+* **Caracol-romano:** **Selvagem.** 
+  *(Embora seja frequentemente criado em cativeiro para consumo humano na gastronomia — prática chamada de helicicultura —, o caracol-romano é uma espécie selvagem que vive naturalmente na natureza e não passou por um processo evolutivo de domesticação).*",inconclusivo,0.00224375,81.41
+dolly_32,resumo,dolly-15k,gabriel,2026-11-26T12:08:51+00:00,piloto-dolly-v1,ABERTA,Me dê um resumo do parágrafo com suas próprias palavras e ele deve ser curto,15,76,9,baixa,gemini-3.5-flash-lite,sucesso,,,18,39,0,0.00010290000000000001,5.349,1.2121376337639025e-05,4.90747710484966e-05,5.202536301186617e-06,"Parece que você esqueceu de enviar o texto! 
+
+Por favor, cole o parágrafo aqui para que eu possa resumi-lo de forma curta e com minhas próprias palavras.",gemini-3.6-flash,sucesso,,,18,41,356,0.00150225,27.2383,0.0017664925207507795,0.007151845929041706,0.0007068145175859511,"Claro! Mas você esqueceu de enviar o texto. 
+
+Por favor, **cole o parágrafo aqui** e eu farei um resumo bem curto e com minhas próprias palavras para você.",inconclusivo,0.00139935,93.15
+dolly_33,explicacao,dolly-15k,gabriel,2026-11-26T12:09:17+00:00,piloto-dolly-v1,ABERTA,O que é uma vírgula serial (Oxford comma) e por que os editores têm sentimentos tão fortes sobre o uso dela?,21,108,11,baixa,gemini-3.5-flash-lite,sucesso,,,29,861,0,0.0021612,4.1074,0.00022261325143798727,0.0009012750732569467,8.724337313702467e-05,"A **vírgula serial** (ou *Oxford comma*, em inglês) é o nome dado à vírgula que é colocada **antes da conjunção ""e"" (ou ""ou"") no final de uma enumeração de três ou mais itens**.
+
+Para entender visualmente, veja a diferença:
+
+*   **Sem vírgula serial:** ""Comprei maçãs, bananas e laranjas.""
+*   **Com vírgula serial (Oxford):** ""Comprei maçãs, bananas**,** e laranjas.""
+
+Em português, o uso dessa vírgula não é a regra padrão (muitos gramáticos a consideram desnecessária), mas no inglês ela é objeto de debates intensos. 
+
+---
+
+### Por que os editores têm sentimentos TÃO fortes sobre isso?
+
+O debate sobre a vírgula serial nos círculos editoriais é quase uma questão de guerra cultural e profissional. Os editores dividem-se em dois campos apaixonados:
+
+#### 1. Os Defensores (Amantes da Clareza)
+Para quem defende a vírgula serial, o principal argumento é **evitar ambiguidades** e garantir que o leitor entenda exatamente a separação entre os elementos. 
+
+O exemplo clássico em inglês que ilustra o perigo de não usar a vírgula serial é:
+*   *“I’d like to thank my parents, Ayn Rand and God.”* (Sem a vírgula, a frase sugere fortemente que os pais do autor são a escritora Ayn Rand e Deus).
+*   *“I’d like to thank my parents, Ayn Rand, and God.”* (Com a vírgula, fica claro que são três entidades separadas: os pais, Ayn Rand e Deus).
+
+Outro exemplo famoso de processo judicial resolvido por causa da ausência da vírgula serial envolveu motoristas de entrega de leite no Maine (EUA). A lei isentava o pagamento de horas extras para o transporte de:
+*   *""The canning, processing, preserving, freezing, drying, marketing, storing, packing for shipment or distribution of...""*
+
+Como não havia vírgula antes do ""or distribution"", os motoristas argumentaram que a ""distribuição"" não era uma atividade separada, mas sim parte de ""empacotar para envio"" (*packing for shipment*). Eles ganharam o processo e a empresa teve que pagar milhões em atrasados. Uma única vírgula teria evitado a confusão.
+
+#### 2. Os Opositores (Amantes da Economia e do Fluxo)
+Por outro lado, muitos editores detestam a vírgula serial e a proíbem em seus guias de estilo (como o *Associated Press Stylebook*). Os argumentos contra incluem:
+
+*   **Redundância:** A conjunção ""e"" (ou ""ou"") já tem a função de separar o último item. Portanto, a vírgula seria um sinal gráfico duplicado e desnecessário.
+*   **Ritmo de leitura:** Opositores argumentam que a vírgula serial introduz uma pausa artificial e desajeitada que quebra o fluxo natural da frase.
+*   **Poluição visual:** Em textos longos, o acúmulo de vírgulas pode deixar a página visualmente cansativa. Na maioria das vezes, o contexto já é suficiente para esclarecer o significado sem precisar dela.
+
+### Resumo
+
+No **português**, a norma culta geralmente orienta **não** usar a vírgula antes do ""e"" em enumerações (a menos que haja uma mudança de sujeito ou uma explicação intercalada). 
+
+No **inglês**, o uso depende do manual de estilo adotado (o *Chicago Manual of Style* exige; o *AP Style* proíbe). É por isso que editores levam o assunto tão a sério: para eles, trata-se de precisão cirúrgica na comunicação — ou de uma paquidermes desnecessária que estraga o ritmo da escrita.",gemini-3.6-flash,sucesso,,,29,958,1276,0.00839925,12.7202,0.009547782499532493,0.03865528361910953,0.003736408959794194,"A **vírgula serial** (conhecida em inglês como *Oxford comma* ou *Harvard comma*) é a vírgula colocada imediatamente antes da conjunção final (geralmente ""e"" ou ""ou"") em uma lista de três ou mais itens.
+
+### Exemplo prático:
+
+* **Sem a vírgula de Oxford:** ""Eu comprei maçãs, laranjas **e** bananas.""
+* **Com a vírgula de Oxford:** ""Eu comprei maçãs, laranjas**, e** bananas.""
+
+O nome ""Oxford"" vem do fato de ser tradicionalmente usada por editores e revisores da *Oxford University Press*.
+
+---
+
+### Por que os editores têm sentimentos tão fortes sobre ela?
+
+O uso da vírgula de Oxford é o equivalente gramatical a uma guerra religiosa no mundo editorial. De um lado, estão os **defensores ferrenhos**; do outro, os **abolicionistas convictos**. A paixão por esse tema se deve a quatro fatores principais:
+
+#### 1. A busca pela clareza (O argumento a favor)
+Os defensores argumentam que a vírgula de Oxford elimina a **ambiguidade**. Sem ela, os últimos itens da lista podem ser interpretados como um *aposto* (uma explicação do item anterior), mudando completamente o sentido da frase.
+
+* **Frase sem a vírgula:** ""Nós convidamos os palhaços, o JFK **e** o Stalin.""
+  * *Interpretação ambígua:* Parece que os palhaços *são* o JFK e o Stalin.
+* **Frase com a vírgula de Oxford:** ""Nós convidamos os palhaços, o JFK**, e** o Stalin.""
+  * *Interpretação clara:* São três entidades distintas: 1. Os palhaços; 2. JFK; 3. Stalin.
+
+#### 2. Economia e estética (O argumento contra)
+Os críticos (geralmente jornalistas e editores de jornais) argumentam que a vírgula é **redundante**, pois a própria palavra ""e"" já cumpre o papel de conectar o último item.
+* **Economia de espaço:** No jornalismo tradicional (impresso), cada milímetro conta. Remover vírgulas desnecessárias economiza espaço.
+* **Fluidez visual:** Para os opositores, a vírgula extra ""polui"" o texto e interrompe a leitura de forma não natural.
+
+#### 3. Guerras de Manual de Estilo (A ""Guerra das Tribos"")
+A preferência pela vírgula costuma definir a qual ""tribo"" editorial você pertence:
+* **Pró-Oxford:** O *Chicago Manual of Style* (usado no mercado de livros), a *Oxford University Press* e a maioria dos guias acadêmicos exigem o seu uso para garantir a consistência.
+* **Anti-Oxford:** O *Associated Press (AP) Stylebook* (o guia definitivo do jornalismo em língua inglesa) orienta a **não** usar a vírgula, a menos que seja estritamente necessária para evitar confusão.
+
+Editores costumam defender o manual de estilo da sua indústria com unhas e dentes.
+
+#### 4. Consequências no mundo real (Processos milionários)
+Os sentimentos são fortes porque a ausência dessa vírgula pode custar milhões. 
+
+Em 2018, uma empresa de laticínios nos EUA (Oakhurst Dairy) teve que pagar **5 milhões de dólares** a seus motoristas por causa da falta de uma vírgula serial na lei trabalhista do estado do Maine. A lei listava atividades isentas de hora extra. Sem a vírgula final, não ficou claro se ""embalar para transporte ou distribuição"" eram duas atividades separadas ou uma só. O tribunal deu razão aos trabalhadores.
+
+---
+
+### E no Português?
+
+É importante notar que essa discussão é **muito mais intensa na língua inglesa**. 
+
+Na gramática normativa da língua portuguesa, a regra geral é **não colocar vírgula antes do ""e""** em enumerações simples (ex: *""Comprei arroz, feijão e carne""*). No entanto, a gramática do português **permite e recomenda** o uso da vírgula antes do ""e"" em casos de ambiguidade ou quando os sujeitos da oração são diferentes.",inconclusivo,0.00623805,74.27
+dolly_34,receita,dolly-15k,gabriel,2026-11-26T12:09:59+00:00,piloto-dolly-v1,ABERTA,Quais ingredientes eu preciso para fazer pão de fermentação natural,10,67,1,baixa,gemini-3.5-flash-lite,sucesso,,,14,525,0,0.0013167,2.2426,0.0001352732987096861,0.0005476693387151915,5.291086763248423e-05,"Para fazer um pão de fermentação natural básico (também conhecido como *sourdough*), você precisa de surpreendentemente poucos ingredientes. Na verdade, são necessários apenas **três ingredientes principais**, além de tempo e paciência!
+
+Aqui está a lista:
+
+### 1. Ingredientes Principais
+*   **Farinha de Trigo:** A base do pão. O ideal é usar uma mistura de **Farinha de Trigo Branca Tipo 00 ou Especial para Pães** (que tem mais proteína/glúten e ajuda o pão a crescer) e, opcionalmente, um pouco de **Farinha Integral** ou Centeio (que dão mais sabor e ajudam a nutrir o fermento).
+*   **Água:** De preferência filtrada ou mineral, em temperatura ambiente. A água é responsável por hidratar a farinha e ativar o glúten.
+*   **Sal:** Sal refinado comum ou sal marinho. O sal não serve apenas para dar sabor, mas também para controlar a velocidade da fermentação e dar força à estrutura do pão.
+
+### 2. O Ingrediente Secreto (A Alma do Pão)
+*   **Levain (Mãe ou Massa Madre):** É o seu fermento natural, feito apenas com farinha e água, cultivado com leveduras selvagens e bactérias do bem. 
+    *   *Nota:* Se você ainda não tem um levain, precisará criá-lo do zero (levando cerca de 5 a 7 dias misturando farinha e água diariamente) ou conseguir um pedaço de ""mãe"" com algum padeiro ou amigo.
+
+---
+
+### Proporções Básicas (A Hidratação Comum)
+Para uma receita padrão de um pão médio, as proporções costumam ser:
+*   **500g** de farinha
+*   **350g a 380g** de água (cerca de 70% a 76% de hidratação)
+*   **100g** de levain ativo e borbulhante
+*   **10g** de sal
+
+Com esses ingredientes e os utensílios certos (como uma tigela, uma lâmina para cortar a casca e uma panela de ferro pesada para assar), você consegue fazer um pão com casca crocante e miolo aerado incrível!",gemini-3.6-flash,sucesso,,,14,753,933,0.006333,31.3196,0.007373739993667038,0.029853425211846515,0.002922996479357465,"Para fazer um pão de fermentação natural (conhecido também como *sourdough*), a beleza está na simplicidade: você precisa de apenas **3 ingredientes básicos**, além do próprio fermento.
+
+Aqui está a lista detalhada do que você vai precisar:
+
+---
+
+### 1. Os Ingredientes Básicos
+
+1. **Fermento Natural (Levain / Starter / Massa Madre):**
+   * É a base do pão. Ele precisa estar **ativo e alimentado** (com bolhas e tendo dobrado de tamanho nas últimas horas).
+   * *Nota:* O fermento natural em si é feito apenas da mistura de farinha e água cultivada por alguns dias.
+
+2. **Farinha de Trigo:**
+   * **Farinha Branca:** De preferência uma farinha de boa qualidade, com alto teor de proteína (acima de 10% ou 11% de proteína, geralmente rotuladas como farinhas para pão ou tipo 1 de alta qualidade/importadas como as italianas tipo 00).
+   * **Farinha Integral ou de Centeio (Opcional):** É muito comum misturar uma porcentagem (ex: 10% a 20%) de farinha integral ou centeio para dar mais sabor, cor e ajudar na fermentação.
+
+3. **Água:**
+   * De preferência **filtrada, mineral ou sem cloro** (o cloro da água da torneira pode inibir a ação dos leveduras e bactérias do fermento).
+   * Em temperatura ambiente (ou levemente morna em dias frios).
+
+4. **Sal:**
+   * Sal refinado, sal marinho ou sal rosa (moído fino). O sal dá sabor e fortalece a rede de glúten.
+
+---
+
+### Exemplo de Receita Base (Proporção Clássica)
+
+Para um pão de tamanho médio (cerca de 750g), você usará:
+
+* **400g** de Farinha de Trigo Branca
+* **100g** de Farinha de Trigo Integral (ou centeio)
+* **350g** de Água (70% de hidratação)
+* **100g** de Fermento Natural ativo (20%)
+* **10g** de Sal (2%)
+
+---
+
+### 2. Ingredientes Opcionais (Para variar o pão)
+
+Depois que dominar a receita básica, você pode adicionar:
+* **Sementes:** Gergelim, semente de girassol, linhaça, abóbora ou chia.
+* **Ervas e Especiarias:** Alecrim, tomilho, alho assado.
+* **Recheios:** Queijo (como gouda ou parmesão em cubos), azeitonas, nozes, castanhas ou frutas secas (como damasco ou uva-passa).
+* **Azeite ou Mel:** Em pequenas quantidades, se quiser uma casca mais macia ou um toque levemente adocicado.
+
+---
+
+### Dica Bônus (Equipamentos Utilitários)
+Além dos ingredientes, ajuda muito ter:
+* Uma **balança de cozinha digital** (a precisão nos gramas é fundamental na fermentação natural).
+* Uma **panela de ferro com tampa** (como uma holandesa/Dutch Oven) para assar e conseguir aquela casca crocante perfeita.",inconclusivo,0.0050163,79.21
+dolly_36,pergunta,dolly-15k,gabriel,2026-11-26T12:19:53+00:00,piloto-dolly-v1,ABERTA,Em que anos aconteceu a Segunda Guerra Mundial?,8,47,2,baixa,gemini-3.5-flash-lite,sucesso,,,10,77,0,0.0001955,1.0981,2.1202217158738675e-05,8.583958816250002e-05,8.596280550564094e-06,"A Segunda Guerra Mundial aconteceu entre os anos de **1939 e 1945**. 
+
+O conflito teve início oficialmente em **1° de setembro de 1939**, com a invasão da Polônia pela Alemanha nazista, e terminou em **2 de setembro de 1945**, com a rendição formal do Japão.",gemini-3.6-flash,sucesso,,,10,77,358,0.00163875,93.8574,0.0019317953942735238,0.007821093417596075,0.0007721480432239009,"A Segunda Guerra Mundial aconteceu entre os anos de **1939 e 1945**.
+
+* **Início:** 1º de setembro de 1939 (com a invasão da Polônia pela Alemanha).
+* **Fim:** 2 de setembro de 1945 (com a assinatura da rendição formal do Japão).",inconclusivo,0.00144325,88.07
+dolly_37,explicacao,dolly-15k,gabriel,2026-11-26T12:21:57+00:00,piloto-dolly-v1,ABERTA,Por que alguém escolheria se mudar para Seattle?,8,48,15,baixa,gemini-3.5-flash-lite,sucesso,,,11,945,0,0.0023658000000000004,5.2241,0.00024560110256345054,0.0009943440036700724,9.653407813487979e-05,"Seattle é uma das cidades mais dinâmicas e desejadas dos Estados Unidos, atraindo milhares de novos residentes todos os anos. As pessoas geralmente escolhem se mudar para lá por uma combinação de **oportunidades econômicas, estilo de vida ao ar livre, diversidade cultural e qualidade de vida**. 
+
+Aqui estão os principais motivos pelos quais alguém escolheria Seattle:
+
+### 1. Oportunidades de Emprego e Economia Forte
+Seattle é um dos maiores hubs tecnológicos e de inovação do mundo. É a sede de gigantes como **Amazon e Microsoft** (cuja sede fica na vizinha Redmond), além de abrigar escritórios importantes do Google, Meta, Apple e Boeing. O mercado de trabalho na área de tecnologia, engenharia, aeroespacial e biotecnologia oferece salários altos e muitas oportunidades de crescimento.
+
+### 2. Natureza Deslumbrante e Estilo de Vida *Outdoor*
+Para quem ama a natureza, Seattle é quase um paraíso. A cidade é cercada por água (o Lago Washington e a Baía de Puget Sound) e montanhas impressionantes:
+*   **Montanhas:** A vista dominante do Monte Rainier é espetacular. As cordilheiras *Cascades* e *Olympic* ficam a poucas horas de distância, oferecendo esqui, snowboarding e trilhas de nível mundial.
+*   **Água:** Caiaque, vela, paddleboard e passeios de balsa fazem parte do cotidiano dos moradores.
+*   Parques urbanos extensos, como o Discovery Park e o Green Lake, tornam fácil se conectar com a natureza sem sair da cidade.
+
+### 3. Cultura do Café e Gastronomia
+*   **Café:** Seattle é a capital mundial do café (é o berço da Starbucks, além de ter centenas de cafeterias artesanais excelentes). A cultura do café é levada muito a sério lá.
+*   **Comida:** Por estar no Noroeste Pacífico (*Pacific Northwest*), a culinária é fortemente influenciada por frutos do mar frescos (especialmente salmão e ostras) e pela culinária asiática, devido à forte proximidade cultural com a bacia do Pacífico.
+
+### 4. Vibe Cultural e Progressista
+Seattle tem uma reputação histórica de ser uma cidade culturalmente vibrante, inclusiva e com pensamento progressista. 
+*   **Música:** É a terra natal do movimento *grunge* (Nirvana, Pearl Jam, Soundgarden) e tem uma cena musical independente muito rica.
+*   **Artes e Literatura:** A cidade tem uma das maiores taxas de leitura per capita dos EUA, muitas livrarias independentes (como a famosa Elliott Bay Book Company), teatros e museus.
+*   **Diversidade:** É uma cidade acolledora para a comunidade LGBTQ+ e abriga uma população multicultural crescente.
+
+### 5. Qualidade de Vida e Cidadania Ecológica
+Os moradores de Seattle valorizam muito a sustentabilidade, a reciclagem e a energia limpa. A cidade é muito voltada para pedestres e ciclistas em vários bairros, e há um forte incentivo para a preservação ambiental. O ar costuma ser limpo e fresco devido à brisa do oceano.
+
+---
+
+### Mas nem tudo é perfeito: por que alguns hesitam?
+Apesar de tantas qualidades, quem pensa em se mudar para Seattle precisa estar ciente de alguns desafios:
+*   **O clima cinzento e chuvoso:** Embora chova menos em volume do que em cidades como Nova York ou Atlanta, o céu fica nublado e cinza por muitos meses consecutivos (entre outubro e maio), o que pode afetar o humor de algumas pessoas (o chamado *Seattle Freeze* e a falta de vitamina D).
+*   **Custo de vida elevado:** Devido ao boom tecnológico, os preços dos imóveis (aluguel e compra) dispararam, tornando-se uma das cidades mais caras dos EUA.
+*   **O ""Seattle Freeze"":** Há um estereótipo de que os moradores locais são educados, mas difícele de fazer amizades profundas rapidamente.
+
+Em resumo, quem escolhe Seattle geralmente busca um **equilíbrio entre uma carreira de alto nível em tecnologia/inovação e um estilo de vida focado na natureza, cultura urbana rica e ativismo ambiental**, aceitando o cinza do céu em troca da beleza verde da região.",gemini-3.6-flash,sucesso,,,11,1028,1084,0.00792825,108.9525,0.009226872207369384,0.03735604179406129,0.003655419687825009,"Se mudar para Seattle, no estado de Washington (EUA), é uma escolha muito popular, especialmente para jovens profissionais, amantes da natureza e trabalhadores do setor de tecnologia. Conhecida como a ""Cidade Esmeralda"" devido à sua vegetação abundante, Seattle oferece uma combinação única de prosperidade econômica e qualidade de vida.
+
+Aqui estão os principais motivos pelos quais as pessoas escolhem se mudar para Seattle:
+
+---
+
+### 1. Mercado de Trabalho Aquecido e Polo de Tecnologia
+Seattle é um dos maiores hubs de tecnologia e inovação do mundo. 
+* **Gigantes da Tecnologia:** É a sede da **Amazon** e da **Microsoft** (na vizinha Redmond), além de abrigar grandes escritórios do Google, Meta, Apple e Nintendo.
+* **Outras Grandes Empresas:** A região também é o berço da **Starbucks**, **Boeing** (origem), **Costco** e **Nordstrom**.
+* **Altos Salários:** O setor corporativo e de tecnologia oferece salários extremamente competitivos e ótimos planos de carreira.
+
+### 2. Isenção de Imposto de Renda Estadual
+O estado de Washington é um dos poucos nos EUA que **não cobra imposto de renda estadual** (*State Income Tax*). Para quem ganha bons salários, isso significa uma economia significativa no final do mês em comparação com estados como a Califórnia ou Nova York.
+
+### 3. Natureza Excepcional e Estilo de Vida *Outdoor*
+Para quem gosta de atividades ao ar livre, Seattle é um paraíso cercado por água, montanhas e florestas temperadas:
+* **Montanhas e Vulcões:** O imponente Monte Rainier e as cadeias de montanhas Cascades e Olympic emolduram a cidade.
+* **Água por todos os lados:** A cidade fica entre o Lago Washington e o Puget Sound (oceano Pacífico).
+* **Atividades:** É perfeito para caminhadas (*hiking*), acampamentos, caiaque, esqui e snowboard no inverno.
+
+### 4. Cultura do Café e Gastronomia
+* **Capital do Café:** Além de ser o berço do Starbucks, Seattle tem uma das culturas de cafés artesanais mais fortes do mundo. Há uma cafeteria independente em quase cada esquina.
+* **Culinária de Frutos do Mar e Fusão Asiática:** Devido à sua localização costeira e forte presença da comunidade asiática, a cidade oferece frutos do mar frescos (como o famoso salmão do *Pike Place Market*) e uma gastronomia asiática de altíssimo nível (comida japonesa, vietnamita, chinesa, etc.).
+
+### 5. Clima (Sim, o clima pode ser uma vantagem!)
+Embora Seattle seja famosa pela chuva, o clima tem pontos positivos muito atraentes:
+* **Verões Perfeitos:** Os verões em Seattle (de junho a setembro) são considerados por muitos os melhores dos EUA: dias ensolarados, secos, com temperaturas agradáveis (ao redor de 25°C) e sol até quase 22h.
+* **Invernos Moderados:** Ao contrário do nordeste dos EUA ou do meio-oeste, raramente faz um frio extremo ou cai neve pesada na cidade, graças à influência do Oceano Pacífico.
+
+### 6. Mentalidade Progressista e Sustentabilidade
+Seattle é uma cidade extremamente progressista, inclusiva e focada no meio ambiente. Há um forte incentivo à reciclagem, ao uso de transportes públicos, bicicletas e à preservação dos parques urbanos.
+
+### 7. Localização Estratégica
+* Fica a apenas 2,5 horas de carro de **Vancouver**, no Canadá.
+* O Aeroporto Internacional de Seattle-Tacoma (Sea-Tac) é um excelente ponto de partida para voos diretos para a Ásia, Havaí e Alasca.
+
+---
+
+### O outro lado da moeda (O que considerar):
+Para ter uma visão realista, quem se muda para lá também leva em conta os desafios:
+* **Custo de Vida Alto:** A moradia é bastante cara (embora ainda um pouco mais barata que São Francisco ou Nova York).
+* **O Inverno Cinzento:** Não chove em tempestades, mas o céu fica cinzento e com uma garoa constante (*drizzle*) de outubro a maio, com dias muito curtos no inverno.
+* **""Seattle Freeze"":** O termo usado para descrever a fama de que os moradores locais são educados, mas difíceis de fazer amizades profundas rapidamente.
+
+### Resumo
+Alguém escolhe Seattle para **alavancar a carreira** (especialmente em tecnologia), **ganhar bem**, **pagar menos impostos** e passar os finais de semana **em contato direto com uma natureza espetacular**.",inconclusivo,0.005562449999999999,70.16
