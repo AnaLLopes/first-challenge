@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plano Técnico de ML — Consumo Hídrico em The Dalles (OR)</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --accent: #0284c7;
+      --accent-soft: #e0f2fe;
+      --border: #e2e8f0;
+      --code-bg: #f1f5f9;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 32px 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--bg);
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 40px 48px;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+    }
+
+    header {
+      border-bottom: 2px solid var(--accent-soft);
+      padding-bottom: 20px;
+      margin-bottom: 28px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.8rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.85rem;
+      line-height: 1.25;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+      color: var(--text);
+      border-left: 4px solid var(--accent);
+      padding-left: 12px;
+    }
+
+    h3 {
+      margin-top: 20px;
+      margin-bottom: 8px;
+      font-size: 1.05rem;
+      color: var(--accent);
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul, ol {
+      margin: 0 0 16px;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      background: var(--code-bg);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+
+    .callout {
+      background: var(--accent-soft);
+      border-left: 4px solid var(--accent);
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin: 18px 0;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin: 16px 0 24px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.94rem;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--code-bg);
+      font-weight: 600;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        padding: 0;
+      }
+      .container {
+        box-shadow: none;
+        border: none;
+        padding: 16px;
+        max-width: 100%;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding: 24px 18px;
+      }
+      h1 {
+        font-size: 1.45rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <span class="badge">Arquitetura de Dados &amp; Machine Learning</span>
+      <h1>Análise de Impacto Hídrico e Projeção de Demanda — City of The Dalles (OR)</h1>
+      <p class="subtitle">
+        Estrutura para avaliar o impacto histórico dos data centers e projetar o consumo de água em horizontes de 5 anos (2031) e 10 anos (2036), integrando capacidade operacional e crescimento populacional.
+      </p>
+    </header>
+
+    <section>
+      <h2>1. Contexto e Premissas Históricas</h2>
+      <ul>
+        <li><strong>Marco Inicial Real:</strong> O primeiro complexo de data centers em The Dalles (<em>Google Project 02</em>) iniciou operações em <strong>2006</strong>, com expansões relevantes aprovadas entre <strong>2016 e 2021</strong>.</li>
+        <li><strong>Janela Pré-2017:</strong> Incluir dados anteriores a 2017 ajuda o modelo a estabelecer a linha de base residencial e comercial antes dos maiores saltos de demanda industrial.</li>
+        <li><strong>Unidades de Medida:</strong> Nos EUA, relatórios hídricos costumam usar <strong>MGD</strong> (<em>Million Gallons per Day</em>), <strong>MG/ano</strong> ou <strong>Acre-Feet</strong> (1 acre-foot ≈ 325.851 galões). Padronize tudo na mesma unidade temporal e volumétrica antes do treino.</li>
+      </ul>
+      <div class="callout">
+        <strong>Boas práticas de padronização:</strong> Converta toda a série para uma base única (por exemplo, milhões de galões por mês ou MGD médio mensal) e mantenha a capacidade de captação e distribuição na mesma unidade.
+      </div>
+    </section>
+
+    <section>
+      <h2>2. Fontes Oficiais de Dados</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Eixo</th>
+              <th>Fonte Oficial</th>
+              <th>O que Coletar</th>
+              <th>Granularidade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Consumo Municipal e Capacidade</strong></td>
+              <td>City of The Dalles — Public Works</td>
+              <td><em>Water Management and Conservation Plan (WMCP)</em> e <em>Consumer Confidence Reports (CCR)</em>: produção total, perdas, capacidade de captação e limites de distribuição.</td>
+              <td>Mensal / Anual</td>
+            </tr>
+            <tr>
+              <td><strong>Consumo dos Data Centers</strong></td>
+              <td>Oregon Water Resources Department (OWRD) &amp; City of The Dalles</td>
+              <td>Registros de uso hídrico (<em>Water Use Reporting</em>) e <em>Enterprise Zone Agreements</em>, incluindo históricos divulgados de 2016 a 2021.</td>
+              <td>Anual / Mensal</td>
+            </tr>
+            <tr>
+              <td><strong>Crescimento Populacional</strong></td>
+              <td>Portland State University (PSU) &amp; U.S. Census Bureau</td>
+              <td>Estimativas anuais do <em>Population Research Center (PRC)</em> da PSU e projeções demográficas para Wasco County / The Dalles.</td>
+              <td>Anual</td>
+            </tr>
+            <tr>
+              <td><strong>Variáveis Climáticas</strong></td>
+              <td>NOAA (NCEI)</td>
+              <td>Estação <em>The Dalles Municipal Airport (KDLS)</em>: temperatura máxima média e precipitação para isolar sazonalidade e seca.</td>
+              <td>Diária / Mensal</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>3. Schema Sugerido para o Dataset (CSV)</h2>
+      <ul>
+        <li><code>ano_mes</code>: Data de referência (<code>YYYY-MM</code>).</li>
+        <li><code>consumo_total_mg</code>: Volume total produzido/distribuído pelo sistema municipal.</li>
+        <li><code>consumo_dc_mg</code>: Volume atribuído aos data centers no período.</li>
+        <li><code>consumo_base_mg</code>: <code>consumo_total_mg - consumo_dc_mg</code> (uso urbano/residencial/comercial e perdas).</li>
+        <li><code>capacidade_captacao_mg</code>: Limite máximo de captação do período.</li>
+        <li><code>capacidade_distribuicao_mg</code>: Limite máximo de tratamento e distribuição do período.</li>
+        <li><code>taxa_utilizacao_pct</code>: <code>consumo_total_mg / capacidade_distribuicao_mg</code>.</li>
+        <li><code>populacao_estimada</code>: População estimada do município no ano.</li>
+        <li><code>temp_max_media_c</code> e <code>precipitacao_mm</code>: Variáveis climáticas de controle.</li>
+        <li><code>fase_expansao_dc</code>: Indicador de degraus/expansões de capacidade ou novos prédios.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Abordagem de Machine Learning</h2>
+      <h3>Etapa 1 — Medição de Impacto Histórico</h3>
+      <p>
+        Use modelos de inferência causal para séries temporais (como <code>CausalImpact</code>) treinados no período anterior às grandes expansões, controlando população e clima, para estimar o cenário contrafactual sem as expansões e calcular a diferença acumulada e média.
+      </p>
+
+      <h3>Etapa 2 — Projeção de 5 Anos (2031) e 10 Anos (2036)</h3>
+      <p>
+        Adote uma estrutura híbrida separando a curva contínua (população e clima via <code>SARIMAX</code> ou <code>Prophet</code>) da curva em degraus (expansões e limites contratuais/operacionais dos data centers), somando ambas para comparar com os tetos de captação e distribuição.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Cenários de Projeção (5 e 10 Anos)</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Cenário</th>
+              <th>População</th>
+              <th>Data Centers</th>
+              <th>Clima</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Conservador</strong></td>
+              <td>Crescimento vegetativo moderado (PSU).</td>
+              <td>Estabilização + maior eficiência hídrica no resfriamento.</td>
+              <td>Médias históricas mantidas.</td>
+            </tr>
+            <tr>
+              <td><strong>Base</strong></td>
+              <td>Projeção oficial da PSU para a região.</td>
+              <td>Uso gradual até os limites previstos nos acordos vigentes.</td>
+              <td>Aquecimento leve no verão.</td>
+            </tr>
+            <tr>
+              <td><strong>Estresse</strong></td>
+              <td>Crescimento acima da média histórica.</td>
+              <td>Novas expansões além das cotas atuais.</td>
+              <td>Verões mais quentes e secos, elevando picos de demanda.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
